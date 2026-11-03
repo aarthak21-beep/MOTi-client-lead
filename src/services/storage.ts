@@ -4633,6 +4633,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: '123Coimbatore — Newspaper Offices directory', notes: '260A-6, Nethaji Road, behind Gandhi Mandapam, Pappanaickenpalayam. Paper Advertisement Agency; print advertising service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dhinamalar-coimbatore-178a', businessName: 'Dinamalar — Coimbatore Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919842250123', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: '264, 5th Street, opposite Sridevi Textiles Car Parking, Gandhipuram. Publicly listed publisher/edition office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-makkalkural-coimbatore-178b', businessName: 'Makkal Kural Office — Coimbatore', contactName: '',
+        businessType: 'Distributor', whatsapp: '919442951115', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: 'No. 1, SIDCO Industrial Estate, behind Sitarc Building. Newspaper publisher/office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thinkcept-guwahati-178c', businessName: 'Thinkcept — Newspaper Advertising & Inserts', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919401160000', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Thinkcept official website', notes: '24, Seuji Path, Wireless, Dispur. Explicitly offers newspaper advertising, local newspaper placements and inserts; advertising agency, not a confirmed newspaper delivery vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
