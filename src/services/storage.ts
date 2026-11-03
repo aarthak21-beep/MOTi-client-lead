@@ -4783,6 +4783,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Kashmir Images official website', notes: 'J-38, Government Quarters, Jawahar Nagar, Srinagar. Official circulation contacts 9622830768 and 9149477163 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-samaja-circulation-cuttack-185a', businessName: 'The Samaja — Circulation Office (Cuttack)', contactName: '',
+        businessType: 'Distributor', whatsapp: '917008921791', city: 'Cuttack', district: 'Cuttack', state: 'Odisha',
+        source: 'The Samaja official ePaper contact page', notes: 'Gopabandhu Bhawan, Buxi Bazar. Deputy Manager Circulation mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samaja-circulation-odisha-185b', businessName: 'The Samaja — Circulation Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '917205353906', city: 'Cuttack', district: 'Cuttack', state: 'Odisha',
+        source: 'The Samaja official Samaja Live contact page', notes: 'Deputy Manager Circulation mobile contact published by The Samaja; local circulation responsibility to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pratidin-circulation-bhubaneswar-185c', businessName: 'Pratidin Daily — Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '917789930532', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Pratidin Daily official contact page', notes: 'TS 3/193, Mancheswar Industrial Estate. Official circulation contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krantiodisha-cuttack-185d', businessName: 'Kranti Odisha News', contactName: '',
+        businessType: 'Distributor', whatsapp: '917325943686', city: 'Cuttack', district: 'Cuttack', state: 'Odisha',
+        source: 'Kranti Odisha News official website', notes: 'Manik Ghosh Bazar, Cuttack. Newspaper publisher; official website publishes WhatsApp contact 7325943686 and mobile contacts 9437118648 / 6371120368.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
