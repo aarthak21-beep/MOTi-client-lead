@@ -4339,6 +4339,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'The Tribune official Contact Us page', notes: '38, Van Vihar Colony, Tonk Road. Listed as Tribune\'s Jaipur regional contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tribune-kolkata-162a', businessName: 'Shibhadra Sen — Tribune Kolkata Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919830808393', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'The Tribune official Contact Us page', notes: 'Panchwati Flat, GG 2B, Bediadanga 1st Lane, Kasba. Listed as Tribune\'s Kolkata regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-lucknow-162b', businessName: 'Shekhar Tandon — Tribune Lucknow Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919936249866', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'The Tribune official Contact Us page', notes: 'D-8/1, 9th Street, Rajendra Nagar. Listed as Tribune\'s Lucknow regional contact; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hindustan-samachar-bhopal-162c', businessName: 'Hindusthan Samachar — Bhopal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425601264', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Grotal Bhopal Newspaper Distributors directory', notes: 'Plot No. 8, Zone 1, Press Complex, MP Nagar. Listed as Hindustan Samachar News Agency and Newspaper Publisher.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vnm-indore-162d', businessName: 'VNM News', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919879572606', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'AskLaila — Indore Newspaper Agency directory', notes: 'Listed under Newspaper Agency in the Indore directory; address snippet indicates Vadodara/Indore and requires verification.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
