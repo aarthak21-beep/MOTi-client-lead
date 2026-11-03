@@ -5467,6 +5467,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Bagalkot Kannada daily edition listed on the official government panel; mobile contact shared with other Vijay Karnataka editions.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-prajajyothi-adilabad-216a', businessName: 'Praja Jyothi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919440231967', city: 'Adilabad', district: 'Adilabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Adilabad Telugu weekly listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-netiprabha-hyderabad-216b', businessName: 'Netiprabha', contactName: '',
+        businessType: 'Distributor', whatsapp: '919912312376', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sahithikiranam-hyderabad-216c', businessName: 'Sahithi Kiranam', contactName: '',
+        businessType: 'Distributor', whatsapp: '919490751681', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu monthly listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prajabalam-hyderabad-216d', businessName: 'Praja Balam', contactName: '',
+        businessType: 'Distributor', whatsapp: '919292104449', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
