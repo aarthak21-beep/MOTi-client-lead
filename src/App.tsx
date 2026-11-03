@@ -50,6 +50,7 @@ import { TasksView } from './views/TasksView';
 import { ReportsView } from './views/ReportsView';
 import { SettingsView } from './views/SettingsView';
 import { NewspaperProspectsView } from './views/NewspaperProspectsView';
+import { WebsiteProspectsView } from './views/WebsiteProspectsView';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
@@ -284,6 +285,7 @@ export default function App() {
           )}
 
           {activeTab === 'newspaper-prospects' && <NewspaperProspectsView />}
+          {activeTab === 'website-prospects' && <WebsiteProspectsView />}
 
           {activeTab === 'whatsapp' && (
             <WhatsAppCentreView
