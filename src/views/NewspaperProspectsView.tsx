@@ -3,7 +3,7 @@ import { MessageCircle, Plus, Search, Trash2, Edit2, MapPin, Building2 } from 'l
 import { NewspaperProspect, ProspectBusinessType, ProspectStatus, ContactPermission, WhatsAppAvailability } from '../types';
 import { deleteNewspaperProspect, getNewspaperProspects, saveNewspaperProspect, subscribeToStorage } from '../services/storage';
 
-const BUSINESS_TYPES: ProspectBusinessType[] = ['Newspaper Vendor', 'Newspaper Agency', 'Distributor'];
+const BUSINESS_TYPES: ProspectBusinessType[] = ['Newspaper Vendor', 'Newspaper Agency', 'Distributor', 'Newspaper Publisher', 'Printing Press'];
 const STATUSES: ProspectStatus[] = ['New', 'Contacted', 'Interested', 'Demo Given', 'Converted', 'Not Interested'];
 const PERMISSIONS: ContactPermission[] = ['Not Asked', 'Opted In', 'Opted Out'];
 const WHATSAPP_AVAILABILITY: WhatsAppAvailability[] = ['Unknown', 'Available', 'Not Available'];
@@ -49,7 +49,7 @@ export const NewspaperProspectsView: React.FC = () => {
   const handleSave = (event: React.FormEvent) => {
     event.preventDefault();
     const digits = cleanPhone(form.whatsapp);
-    if (digits.length < 10 || digits.length > 15) {
+    if (digits && (digits.length < 10 || digits.length > 15)) {
       alert('कृपया योग्य WhatsApp नंबर टाका (country code सहित).');
       return;
     }
@@ -71,7 +71,7 @@ export const NewspaperProspectsView: React.FC = () => {
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-emerald-400">Prospecting • Maharashtra</p>
           <h1 className="mt-1 text-2xl font-bold text-white">Newspaper Business Leads</h1>
-          <p className="mt-1 text-sm text-slate-400">WhatsApp contact असलेले Newspaper Vendors, Agencies आणि Distributors व्यवस्थापित करा.</p>
+          <p className="mt-1 text-sm text-slate-400">Newspaper Vendors, Agencies, Distributors, Publishers आणि Printing Press contacts व्यवस्थापित करा.</p>
         </div>
         <button onClick={openNew} className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-500 px-4 py-2.5 text-sm font-bold text-slate-950 hover:bg-cyan-400">
           <Plus className="h-4 w-4" /> Add Newspaper Lead
@@ -95,7 +95,7 @@ export const NewspaperProspectsView: React.FC = () => {
           <div className="px-6 py-14 text-center">
             <Building2 className="mx-auto h-9 w-9 text-slate-600" />
             <h3 className="mt-3 text-sm font-semibold text-white">{prospects.length ? 'No matching leads' : 'No newspaper leads added yet'}</h3>
-            <p className="mt-1 text-xs text-slate-500">फक्त WhatsApp नंबर असलेले व्यवसाय Add करा किंवा पुढे verified list import करा.</p>
+            <p className="mt-1 text-xs text-slate-500">व्यवसायाची सार्वजनिक संपर्क माहिती उपलब्ध असल्यास Lead Add करा; WhatsApp नंबर नसेल तरी नोंद ठेवता येईल.</p>
             {!prospects.length && <button onClick={openNew} className="mt-4 rounded-lg bg-cyan-500 px-4 py-2 text-xs font-bold text-slate-950">Add First Lead</button>}
           </div>
         ) : (
@@ -107,7 +107,7 @@ export const NewspaperProspectsView: React.FC = () => {
                   <tr key={p.id} className="hover:bg-slate-800/30">
                     <td className="px-4 py-3"><p className="font-semibold text-white">{p.businessName}</p><p className="mt-1 text-slate-500">{p.contactName || 'Contact name not added'}</p></td>
                     <td className="px-4 py-3"><p className="text-slate-200">{p.businessType}</p><p className="mt-1 flex items-center gap-1 text-slate-500"><MapPin className="h-3 w-3" />{[p.city, p.district, p.state].filter(Boolean).join(', ')}</p></td>
-                    <td className="px-4 py-3 font-mono text-slate-200">+{p.whatsapp}</td>
+                    <td className="px-4 py-3 font-mono text-slate-200">{p.whatsapp ? `+${p.whatsapp}` : 'Not provided'}</td>
                     <td className="px-4 py-3"><select value={p.whatsappAvailability || 'Unknown'} onChange={e => saveNewspaperProspect({...p, whatsappAvailability: e.target.value as WhatsAppAvailability})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200">{WHATSAPP_AVAILABILITY.map(v => <option key={v} value={v}>{v === 'Available' ? 'WhatsApp आहे' : v === 'Not Available' ? 'WhatsApp नाही' : 'तपासायचे आहे'}</option>)}</select></td>
                     <td className="px-4 py-3"><select value={p.contactPermission} onChange={e => saveNewspaperProspect({...p, contactPermission: e.target.value as ContactPermission})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200">{PERMISSIONS.map(v => <option key={v}>{v}</option>)}</select></td>
                     <td className="px-4 py-3"><select value={p.status} onChange={e => saveNewspaperProspect({...p, status: e.target.value as ProspectStatus})} className={`rounded-lg border-0 px-2 py-1.5 text-xs ${statusClass(p.status)}`}>{STATUSES.map(v => <option key={v}>{v}</option>)}</select></td>
