@@ -1752,6 +1752,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: '11, Laxmi Complex, near Daily Pudhari, opposite ST Stand. Listed as newspaper publisher and newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-nishpaksh-barabanki-206', businessName: 'Nishpaksh Jan Avlokan', contactName: '',
+        businessType: 'Distributor', whatsapp: '917080909054', city: 'Barabanki', district: 'Barabanki', state: 'Uttar Pradesh',
+        source: 'Bharatibiz public business listing', notes: 'AN/703, Azad Nagar, Barabanki. Listed as newspaper publisher, newsstand and newspaper distribution service; additional mobile 8127779290 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhagwan-bahadurgarh-207', businessName: 'Bhagwan News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919541221222', city: 'Bahadurgarh', district: 'Jhajjar', state: 'Haryana',
+        source: 'Bharatibiz public business listing', notes: 'National Highway 9, near Civil Police Station/Railway Station Road, Chhotu Ram Market. Explicitly listed as newspaper distribution service; alternate mobile 9416390706 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sanjay-sardarshahar-208', businessName: 'Sanjay News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919983991493', city: 'Sardarshahar', district: 'Churu', state: 'Rajasthan',
+        source: 'Bharatibiz public business listing', notes: 'Kissan Hostel, near Ram Mandir, Janhit Pranyas Colony. Listed as magazine store and newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shreeji-tharad-209', businessName: 'Shreeji News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919408545835', city: 'Tharad', district: 'Banaskantha', state: 'Gujarat',
+        source: 'Bharatibiz public business listing', notes: 'Highway Road, near Bus Station, Bhaktinagar, Tharad. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
