@@ -3859,6 +3859,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jaipur; mobile 9414070382 and landline 0141-2466131 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hamaritaquat-jaipur-558', businessName: 'Hamari Taquat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829327864', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Urdu publication, Jaipur; mobile 9829327864 and landline 0141-4032864 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahagyan-jaisalmer-559', businessName: 'Mahagyan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414365362', city: 'Jaisalmer', district: 'Jaisalmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Jaisalmer; mobile 9414365362 and landline 02992-253134 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthandeep-jalore-560', businessName: 'Rajasthan Deep', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828103059', city: 'Jalore', district: 'Jalore', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jalore; mobile 9828103059 and landline 02973-223183 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kesariyakranti-jhalawar-561', businessName: 'Kesariya Kranti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414256405', city: 'Jhalawar', district: 'Jhalawar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jhalawar; mobile 9414256405 and landline 07432-240405 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
