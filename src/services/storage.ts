@@ -810,6 +810,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Anna Nagar, Chennai. Books/periodicals agent; newspaper distribution role to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-cheran-coimbatore-046', businessName: 'Cheran Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919488986623', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Big Bazaar Street, Coimbatore. Periodicals listing; newspaper distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anand-hyderabad-047', businessName: 'Anand Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919246826191', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Bagh Lingampally, Hyderabad. Listed among agents/sales emporiums; newspaper role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-agarwal-jaipur-050', businessName: 'Agarwal News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919950107143', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Mayapuri, Jagatpura, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chandraprakash-jaipur-051', businessName: 'Chandra Prakash Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919929589788', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Chandpole Bazar, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
