@@ -2112,6 +2112,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-distributor directory', notes: '198/46-A, 2nd Floor, Ramesh Market, East of Kailash. Newspaper and magazine distributor; also handles newspaper flyers and insert distribution in Delhi/NCR.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ramesh-delhi-266', businessName: 'Ramesh News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919818205927', city: 'New Delhi', district: 'South West Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'RZ-364D, Raj Nagar, Palam. Listed as Newspaper Distributor and magazine supplier.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-maurya-delhi-267', businessName: 'Maurya News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919818560684', city: 'New Delhi', district: 'South West Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'RZ-C-2/23-C, Vijay Enclave, Vinod Puri, Palam. Listed as Newspaper Distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ravi-delhi-268', businessName: 'Ravi News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919899536956', city: 'New Delhi', district: 'North Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'D-222, First Floor, Gandhi Vihar. Listed as Newspaper Distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-saisumiran-delhi-269', businessName: 'Shri Sai Sumiran Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818023070', city: 'New Delhi', district: 'West Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'F-44/D, MIG Flats, G-8 Area, Hari Nagar. Listed under newspaper distributors and advertising.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
