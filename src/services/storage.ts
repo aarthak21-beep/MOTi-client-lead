@@ -4717,6 +4717,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; second number 9946108325 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kaumudi-kozhikode-182a', businessName: 'Kerala Kaumudi — Kozhikode Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919946108594', city: 'Kozhikode', district: 'Kozhikode', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-kannur-182b', businessName: 'Kerala Kaumudi — Kannur Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919946100420', city: 'Kannur', district: 'Kannur', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-siraj-kozhikode-182c', businessName: 'Siraj Daily — Kozhikode Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919447936949', city: 'Kozhikode', district: 'Kozhikode', state: 'Kerala',
+        source: 'Siraj Daily — public branch contacts directory', notes: 'East Nadakkavu, Kozhikode. Official circulation contact; advertisement contact 9847888637 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-siraj-kochi-182d', businessName: 'Siraj Daily — Ernakulam Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '916238748665', city: 'Kochi', district: 'Ernakulam', state: 'Kerala',
+        source: 'Siraj Daily — public branch contacts directory', notes: '41/3724, Banerjee Road, Amulya Street, Ernakulam North. Official circulation mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
