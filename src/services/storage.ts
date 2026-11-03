@@ -5125,6 +5125,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dainik Janambhumi official Contact Us page', notes: 'Kailash Arora, F-10/5A, Krishna Nagar. Official representative contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-janambhumi-mumbai-201a', businessName: 'Dainik Janambhumi — Mumbai Representative', contactName: '',
+        businessType: 'Distributor', whatsapp: '919987085810', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Dainik Janambhumi official Contact Us page', notes: 'Ajay Sheth, Teamwork Associates, 010 Bhagirath, Lower Parel West. Official representative contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janambhumi-bengaluru-201b', businessName: 'Dainik Janambhumi — Bengaluru Representative', contactName: '',
+        businessType: 'Distributor', whatsapp: '919448496811', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Dainik Janambhumi official Contact Us page', notes: 'Manohar Naidu, 40, 1st Floor, Maruthi Complex, 2nd Cross, Gokul Road. Official representative contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-abichar-silchar-201c', businessName: 'Dainik Abichar', contactName: '',
+        businessType: 'Distributor', whatsapp: '917002716018', city: 'Silchar', district: 'Cachar', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Silchar edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-easternchronicle-silchar-201d', businessName: 'Eastern Chronicle', contactName: '',
+        businessType: 'Distributor', whatsapp: '919864079834', city: 'Silchar', district: 'Cachar', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Silchar edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
