@@ -213,7 +213,7 @@ export interface MessageTemplate {
 }
 
 
-export type ProspectBusinessType = 'Newspaper Vendor' | 'Newspaper Agency' | 'Distributor';
+export type ProspectBusinessType = 'Newspaper Vendor' | 'Newspaper Agency' | 'Distributor' | 'Newspaper Publisher' | 'Printing Press';
 export type ProspectStatus = 'New' | 'Contacted' | 'Interested' | 'Demo Given' | 'Converted' | 'Not Interested';
 export type ContactPermission = 'Not Asked' | 'Opted In' | 'Opted Out';
 
