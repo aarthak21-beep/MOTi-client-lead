@@ -5989,6 +5989,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public local business listing', notes: '7th Cross Road, Mukundapur Colony, Mukundapur. Marketing agency focused on leaflet/pamphlet distribution and newspaper insert campaigns; not a daily-paper circulation vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-adline-thane-240a', businessName: 'The Adline Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919773771000', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Public local business listing', notes: 'Hari Nirmal Niwas, Madrecha Road, Thane West. Newspaper/classified print-media advertising booking agency; not a newspaper home-delivery vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-plusads-chennai-240b', businessName: 'Plus Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919444482582', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Public local business listing', notes: '79, Arcot Road, Porur. Advertising agency focused on newspaper advertising and ad-release/booking support; not a daily newspaper distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
