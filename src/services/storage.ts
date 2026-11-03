@@ -4345,6 +4345,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Google Business public listing', notes: 'Subash Nagar, Airport Road, Yerawada. Categorized as advertising agency and newspaper distribution service; public listing describes newspaper advertising and pamphlet distribution.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-manohar-malpura-164a', businessName: 'Manohar News Paper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919413285025', city: 'Malpura', district: 'Tonk', state: 'Rajasthan',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Manohar Singh Tak, Malpura via Jaipur. Explicitly listed as Newspaper Agent; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahajan-ghumarwin-164b', businessName: 'Mahajan News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919418087020', city: 'Ghumarwin', district: 'Bilaspur', state: 'Himachal Pradesh',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Near Bus Stand, Ghumarwin. Explicitly listed as Newspaper Agency; mobile number published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kumarajay-chirawa-164c', businessName: 'Kumar Ajay News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919460275982', city: 'Chirawa', district: 'Jhunjhunu', state: 'Rajasthan',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Near Gugaji Mandir, Chirawa. Explicitly listed as News Agency; mobile number published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
