@@ -4651,6 +4651,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Thinkcept official website', notes: '24, Seuji Path, Wireless, Dispur. Explicitly offers newspaper advertising, local newspaper placements and inserts; advertising agency, not a confirmed newspaper delivery vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-rsmedia-ranchi-179a', businessName: 'RS Media Consultancy OPC Pvt Ltd', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919431781412', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'RS Media Consultancy official website', notes: 'Lilawati Kunj, 1st Floor, behind Dreams Complex, Court Compound-55, Circular Road. Explicitly offers newspaper advertisement placement across national and regional publications; advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-azadsipahi-ranchi-179b', businessName: 'Azad Sipahi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919234567999', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Cybo — Ranchi Newspapers directory', notes: '176, Kokar Chowk, Old HB Road. Listed as newspaper publisher; distribution/vendor contact to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samridhjharkhand-ranchi-179c', businessName: 'Samridh Jharkhand', contactName: '',
+        businessType: 'Distributor', whatsapp: '919430759648', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Cybo — Ranchi Newspapers directory', notes: 'Q. No./LS-48, 1st Floor, near Kartik Oraon Chowk, Harmu Housing Colony. Listed as newspaper publisher; distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
