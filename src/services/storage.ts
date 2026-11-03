@@ -1431,7 +1431,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       {
         id: 'news-kiran-indore-152', businessName: 'Kiran News Agency', contactName: '',
         businessType: 'Newspaper Agency', whatsapp: '', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
-        source: 'Public business listing', notes: 'Sai Market, Patel Bridge, Jawari Bagh Nasiya. Listed as newspaper distribution service; public listing did not provide a phone number.',
+        source: 'Public business listing', notes: 'Sai Market, Patel Bridge, Jawari Bagh Nasiya. Listed as newspaper distribution service; Bharatibiz lists landline 0731-4050553 and website knaeshop.com; no mobile number verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
