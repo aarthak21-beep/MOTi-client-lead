@@ -2515,6 +2515,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine-publisher directory', notes: '5-4-23/A, opposite RK Theater, Abids. Magazine and competition-book publisher; periodical distribution lead, newspaper circulation not confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-daarads-patna-334', businessName: 'Daar Advertisement Solutions', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919835417906', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public newspaper-advertising directory', notes: 'MIG 61, near Anandnath Shiv Mandir, Kankarbagh. Newspaper advertisement solutions and ad booking services; alternate mobile 8102708541.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-galaxy-patna-335', businessName: 'Galaxy Consultancy', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919006921560', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Shri Awas Property, Boring Road. Listed for newspaper advertisements; advertising agency, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sagarmedia-patna-336', businessName: 'Sagar Media Service', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919304890737', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Goraiyatoli, Chiraiya Tand Bridge, near Nisha Hotel, Station Road. Media/advertising service; newspaper advertising scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-adslive-patna-337', businessName: 'ADS Live', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919939432786', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Shop G-25, Abu Fakhruddin Plaza, Langertoli, Bari Path. Advertising service; mobile 9939432786 and 9122132786 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
