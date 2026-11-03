@@ -4807,6 +4807,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Kranti Odisha News official website', notes: 'Manik Ghosh Bazar, Cuttack. Newspaper publisher; official website publishes WhatsApp contact 7325943686 and mobile contacts 9437118648 / 6371120368.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-odishasamachar-bhubaneswar-186a', businessName: 'Odisha Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919937844332', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Odisha Samachar official website', notes: 'Parijat Buildings, Sri Ram Nagar, Uttara Sasan, Kauslyaganga. Publisher/editor contact; alternate mobile 6371211875 and WhatsApp 9178222262 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sakala-bhubaneswar-186b', businessName: 'Sakala Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '919827182547', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Sakala ePaper official Contact Us page', notes: 'Plot 90–91, Industrial Estate, Kalinga Vihar, Bhagabanpur. Official publisher head-office mobile; ad contact 9437068922 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nishkarsha-cuttack-186c', businessName: 'Nishkarsha Media Entertainment & Publication', contactName: '',
+        businessType: 'Distributor', whatsapp: '918895134289', city: 'Cuttack', district: 'Cuttack', state: 'Odisha',
+        source: 'Nishkarsha official website', notes: 'Badachanchoo, Nakhara, via Choudwar. Official registered media house and newspaper publisher; website explicitly lists this as WhatsApp number.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-odishaexpress-bhubaneswar-186d', businessName: 'Odisha Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919437033633', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Odisha Express official website', notes: 'Room 211, 2nd Floor, Block A, Bharati Tower, Forest Park. Odia daily newspaper publisher; additional contacts 9439541832 and 9583706460 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
