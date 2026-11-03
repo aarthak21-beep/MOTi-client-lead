@@ -4879,6 +4879,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'The News Now official website', notes: '38, Phase III, Industrial Estate, Gangyal. English daily newspaper published from Jammu; official contact mobile published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pudhari-ratnagiri-189a', businessName: 'Pudhari — Ratnagiri Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '917385980159', city: 'Ratnagiri', district: 'Ratnagiri', state: 'Maharashtra',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Pudhari Bhavan, Swami Swaroopanand Complex, Kolhapur Road, Shivajinagar. Official regional office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-sindhudurg-189b', businessName: 'Pudhari — Sindhudurg Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919922396727', city: 'Kankavli', district: 'Sindhudurg', state: 'Maharashtra',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Pudhari Bhavan, behind Hotel Sahyadri, Mumbai–Goa Highway, Kankavli. Official regional office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-indore-189c', businessName: 'Pudhari — Indore Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826012229', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Narayan Joshi, Indore regional contact; public directory lists this mobile for Pudhari.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-kolhapur-189d', businessName: 'Navbharat Media — Kolhapur Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919823207860', city: 'Kolhapur', district: 'Kolhapur', state: 'Maharashtra',
+        source: 'Navbharat Media official Contact Us page', notes: 'UGC, Office No. 6, Empire Tower, Dasara Chowk. Official regional office contact; second mobile 9403107860 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
