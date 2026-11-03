@@ -4118,33 +4118,15 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
-        id: 'news-rina-portblair-130', businessName: 'Rina Services', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919434293672', city: 'Port Blair', district: 'South Andaman', state: 'Andaman and Nicobar Islands',
-        source: 'Employment News — List of Existing Agents PDF', notes: 'Shadipur Junction, Port Blair. Listed in government agent directory; newspaper supply role not explicit.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
         id: 'news-standard-pathankot-131', businessName: 'Standard Book Depot', contactName: '',
         businessType: 'Newspaper Agency', whatsapp: '919888786502', city: 'Pathankot', district: 'Pathankot', state: 'Punjab',
         source: 'Employment News — List of Existing Agents PDF', notes: 'Railway Road, Pathankot. Explicitly listed as Newspaper Agent; also book depot.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
-        id: 'news-sheila-jammu-132', businessName: 'Sheila Book Center', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919419146803', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
-        source: 'Employment News — List of Existing Agents PDF', notes: 'Kachi Chowni, Jammu. Explicitly listed as Newspaper Agent; book centre.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
         id: 'news-kamal-muzaffarnagar-133', businessName: 'Kamal Book Depot', contactName: '',
         businessType: 'Newspaper Agency', whatsapp: '919719245866', city: 'Muzaffarnagar', district: 'Muzaffarnagar', state: 'Uttar Pradesh',
         source: 'Employment News — List of Existing Agents PDF', notes: 'District Hospital Tiraha, Sarvat Road. Listed in government agent directory; newspaper supply fit.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-rajeshmanish-jaipur-134', businessName: 'Rajesh Manish Agencies', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919461070071', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
-        source: 'Employment News — List of Existing Agents PDF', notes: 'Anaj Mandi, Johari Bazar. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
@@ -4169,12 +4151,6 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         id: 'news-rajendra-jamshedpur-138', businessName: 'Rajendra Prasad Book Sellers', contactName: '',
         businessType: 'Newspaper Agency', whatsapp: '', city: 'Jamshedpur', district: 'East Singhbhum', state: 'Jharkhand',
         source: 'Employment News — List of Existing Agents PDF', notes: '03, Sakchi Bazar, Tata Nagar. Listed as book seller in the agent directory; contact number missing/garbled, so no phone added.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-artsletters-hyderabad-139', businessName: 'Arts and Letters', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919492922764', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
-        source: 'Publications Division — Agents of Books directory', notes: 'C/o Hyderabad Study Circle, Domalguda. Listed as an official agent sales emporium; newspaper distribution role to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
