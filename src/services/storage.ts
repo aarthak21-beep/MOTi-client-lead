@@ -3597,8 +3597,26 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-tisariankh-patna-514', businessName: 'Tisari Ankh', contactName: '',
-        businessType: 'Distributor', whatsapp: '91919365342', city: 'Patna', district: 'Patna', state: 'Bihar',
+        businessType: 'Distributor', whatsapp: '919199365342', city: 'Patna', district: 'Patna', state: 'Bihar',
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Monthly Hindi publication, Patna; mobile 9199365342 and landline 0612-3208042 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amritvarsha-patna-515', businessName: 'Amrit Varsha', contactName: '',
+        businessType: 'Distributor', whatsapp: '919868608231', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9868608231 and landline 0612-2210714 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sattakikhoj-patna-516', businessName: 'Satta Ki Khoj', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431427289', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9431427289 and landline 0612-2527857 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mediadarshan-sasaram-517', businessName: 'Media Darshan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919971898328', city: 'Sasaram', district: 'Rohtas', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Sasaram; mobile 9971898328 and landline 06184-230150 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
     ];
