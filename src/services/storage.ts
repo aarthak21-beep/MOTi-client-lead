@@ -5677,6 +5677,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-shivsamadhi-jaipur-225a', businessName: 'Shiv Samadhi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414716709', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kotakiadalat-kota-225b', businessName: 'Kota Ki Adalat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919314910758', city: 'Kota', district: 'Kota', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Kota fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hadotikiran-kota-225c', businessName: 'Hadoti Kiran', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829830785', city: 'Kota', district: 'Kota', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Kota fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthankadarpan-nagaur-225d', businessName: 'Rajasthan Ka Darpan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413412693', city: 'Nagaur', district: 'Nagaur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nagaur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
