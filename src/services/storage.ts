@@ -4831,6 +4831,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Odisha Express official website', notes: 'Room 211, 2nd Floor, Block A, Bharati Tower, Forest Park. Odia daily newspaper publisher; additional contacts 9439541832 and 9583706460 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-gujaratsamachar-ahmedabad-187a', businessName: 'Gujarat Samachar — Regional Media Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919898988044', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Official newspaper panel lists this mobile contact for Gujarat Samachar across Ahmedabad, Rajkot and Surat editions; confirm local circulation/advertising role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandesh-ahmedabad-187b', businessName: 'Sandesh — Regional Media Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818128560', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Official newspaper panel lists this mobile contact for Sandesh across Ahmedabad, Rajkot, Surat and Vadodara editions; confirm local circulation/advertising role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-standardherald-ahmedabad-187c', businessName: 'Standard Herald', contactName: '',
+        businessType: 'Distributor', whatsapp: '919426014148', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Ahmedabad edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-oheraldo-goa-187d', businessName: 'O Heraldo — Advertising Contact', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919763718546', city: 'Panaji', district: 'North Goa', state: 'Goa',
+        source: 'O Heraldo official Contact Us page', notes: 'Herald Publications Pvt Ltd, Rua Sao Tome, behind Main Post Office, Panaji. Official advertising mobile contact; newspaper advertising, not confirmed circulation distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
