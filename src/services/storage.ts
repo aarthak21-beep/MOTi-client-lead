@@ -5605,6 +5605,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Alwar Hindi daily listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-andarkikhabar-banswara-222a', businessName: 'Andar Ki Khabar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414645764', city: 'Banswara', district: 'Banswara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Banswara weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dishadhwaj-baran-222b', businessName: 'Disha Dhwaj', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414190429', city: 'Baran', district: 'Baran', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Baran Hindi daily listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kotatiger-baran-222c', businessName: 'Kota Tiger', contactName: '',
+        businessType: 'Distributor', whatsapp: '919460173446', city: 'Baran', district: 'Baran', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Baran weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hirdaydesh-barmer-222d', businessName: 'Hirday Desh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413291324', city: 'Barmer', district: 'Barmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Barmer weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
