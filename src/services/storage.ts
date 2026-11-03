@@ -3883,6 +3883,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jhalawar; mobile 9414256405 and landline 07432-240405 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-aandhi-jhalawar-562', businessName: 'Aandhi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919887990790', city: 'Jhalawar', district: 'Jhalawar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jhalawar; mobile 9887990790 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-garvitbharat-jodhpur-563', businessName: 'Garvit Bharat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919982219000', city: 'Jodhpur', district: 'Jodhpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jodhpur; mobile 9982219000 and landline 0291-2755009 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rashtrapremi-jodhpur-564', businessName: 'Rashtra Premi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413575491', city: 'Jodhpur', district: 'Jodhpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jodhpur; mobile 9413575491 and landline 0291-6538751 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-churuexpress-churu-565', businessName: 'Churu Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919460928610', city: 'Churu', district: 'Churu', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Churu; mobile 9460928610 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
