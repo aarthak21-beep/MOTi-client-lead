@@ -2088,6 +2088,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public news-publisher directory', notes: 'Sector 17, Chandigarh. Listed as English online newspaper publisher/news portal; publisher lead, print circulation not confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hariom-delhi-262', businessName: 'Hariom and Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919811555181', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: '10/22, Ground Floor, East Patel Nagar, opposite Yes Bank. Listed as Newspaper Distributor and Newspaper Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thakur-delhi-263', businessName: 'Thakur News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919212080742', city: 'New Delhi', district: 'South West Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Plot G-54/B, Palam Extension, near DAV School. Listed as newspaper and magazine distributor; alternate mobile 9212210742 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-khabronversha-delhi-264', businessName: 'Khabron Ki Versha', contactName: '',
+        businessType: 'Distributor', whatsapp: '919350175678', city: 'New Delhi', district: 'North East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Office 959, Gali No. 16, Moujpur, Vijay Nagar. Listed as newspaper distributor and newspaper advertising service; alternate mobile 9353736394 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lakshya-delhi-265', businessName: 'Lakshya News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919891862759', city: 'New Delhi', district: 'South East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: '198/46-A, 2nd Floor, Ramesh Market, East of Kailash. Newspaper and magazine distributor; also handles newspaper flyers and insert distribution in Delhi/NCR.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
