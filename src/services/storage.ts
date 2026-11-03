@@ -4051,6 +4051,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9460647602 and landline 0154-227335 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-khelroma-hanumangarh-590', businessName: 'Khelroma', contactName: '',
+        businessType: 'Distributor', whatsapp: '919461556698', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9461556698 and landline 0154-231448 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-naiimarat-hanumangarh-591', businessName: 'Nai Imarat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919799497160', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9799497160 and landline 0154-269111 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-uttaranchalsandesh-hanumangarh-592', businessName: 'Uttaranchal Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414091355', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Hanumangarh; mobile 9414091355 and landline 0154-226932 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhadraparikarma-hanumangarh-593', businessName: 'Bhadra Parikarma', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413536851', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Hanumangarh; mobile 9413536851 and landline 0154-225399 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
