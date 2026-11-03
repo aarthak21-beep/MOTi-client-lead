@@ -5227,6 +5227,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Diphu edition listed on the official newspaper panel; mobile contact published for newspaper office.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dalerkhalsa-amritsar-206a', businessName: 'Daler Khalsa', contactName: '',
+        businessType: 'Distributor', whatsapp: '919417276834', city: 'Amritsar', district: 'Amritsar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Amritsar weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-malwanews-faridkot-206b', businessName: 'Malwa News', contactName: '',
+        businessType: 'Distributor', whatsapp: '919872021629', city: 'Faridkot', district: 'Faridkot', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Faridkot monthly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vikassandesh-faridkot-206c', businessName: 'Vikas Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814442950', city: 'Faridkot', district: 'Faridkot', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Faridkot fortnightly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-malwasandesh-faridkot-206d', businessName: 'Malwa Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919888327257', city: 'Faridkot', district: 'Faridkot', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Faridkot weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
