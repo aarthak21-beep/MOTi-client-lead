@@ -7626,7 +7626,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         id: 'web-navi-jjs-intimates-071',
         businessName: "JJs Women's Intimates",
         contactName: '',
-        businessType: 'Women's Clothing & Intimates Store',
+        businessType: "Women's Clothing & Intimates Store",
         phone: '917738396533',
         whatsapp: '917738396533',
         city: 'Kamothe, Panvel',
