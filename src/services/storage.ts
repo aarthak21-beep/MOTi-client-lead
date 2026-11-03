@@ -1374,6 +1374,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: '12th Main Road, Anna Nagar. Official Agents Sales Emporium listing; published contact includes two consecutive mobile numbers, first entered.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kbp-bengaluru-143', businessName: 'KBP News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919886686101', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Public business listing', notes: 'No. 05, Kousalyamm Nilaya, Pipeline Road, Malleshwaram. Listed as newspaper distribution service and local newspaper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-suresh-chennai-144', businessName: 'Suresh News Mart', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919710196297', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Public business listing', notes: 'No. 67, 2nd Main Road, Perungudi. Listed for newspaper and magazine distribution, subscriptions and retail.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sairam-bengaluru-145', businessName: 'Sai Ram News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919986939753', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Public business listing', notes: 'Shop 1, Seegehalli Bus Stop, Whitefield-Hoskote Road. Newspaper distribution and home delivery service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-adp-chennai-146', businessName: 'ADP Enterprises', contactName: '',
+        businessType: 'Distributor', whatsapp: '919094806563', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Public business listing', notes: 'TNHB Building, Anna Nagar West. Newspaper distribution and pamphlet/leaflet insertion service; advertising-distribution segment, not a daily paper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
