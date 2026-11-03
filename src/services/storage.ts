@@ -5443,6 +5443,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Davangere Kannada daily edition listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-deccanherald-davangere-215a', businessName: 'Deccan Herald — Davangere Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919008764785', city: 'Davanagere', district: 'Davanagere', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Davangere English daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sudin-bagalkot-215b', businessName: 'Sudin', contactName: '',
+        businessType: 'Distributor', whatsapp: '919448408097', city: 'Bagalkot', district: 'Bagalkot', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Bagalkot Kannada daily listed on the official government panel; published mobile contact. Panel marks regularity as blocked.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kolaravani-bengaluru-215c', businessName: 'Kolaravani', contactName: '',
+        businessType: 'Distributor', whatsapp: '919342291145', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Bengaluru Kannada daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vijaykarnataka-bagalkot-215d', businessName: 'Vijay Karnataka — Bagalkot Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818598485', city: 'Bagalkot', district: 'Bagalkot', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Bagalkot Kannada daily edition listed on the official government panel; mobile contact shared with other Vijay Karnataka editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
