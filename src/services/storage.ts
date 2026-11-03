@@ -1704,6 +1704,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: 'Sadar Bazar, Cantt, Jhansi. Listed as book store/newsstand and news agency; delivery option is mentioned. Other directories show alternate contacts, so confirm the active number.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-spoorthi-bengaluru-198', businessName: 'Spoorthi News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919886075919', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Bharatibiz public business listing', notes: '5, Sri Venkateshwara Nilayam, 7th B Cross, Kaveri Nagar, R.T. Nagar. Explicitly listed as newspaper distribution service and advertising service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sagar-bengaluru-199', businessName: 'Sagar Newspaper And Pamphlet Agency', contactName: '',
+        businessType: 'Distributor', whatsapp: '918147135076', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Bharatibiz public business listing', notes: '503-621, 80 Feet Road, Hosakerehalli Layout, Banashankari 3rd Stage. Explicitly listed as newspaper distribution and advertising service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhiwani-distribution-200', businessName: 'Newspaper Distribution Agencies', contactName: '',
+        businessType: 'Distributor', whatsapp: '919991771273', city: 'Bhiwani', district: 'Bhiwani', state: 'Haryana',
+        source: 'Bharatibiz public business listing', notes: 'Bus Stand, near Civil Police Station, Old Bhiwani. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-balaji-kashipur-201', businessName: 'Balaji Hindustan News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919927026108', city: 'Kashipur', district: 'Udham Singh Nagar', state: 'Uttarakhand',
+        source: 'Bharatibiz public business listing', notes: 'Kashipur, Uttarakhand 244713. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
