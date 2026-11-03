@@ -2136,6 +2136,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-distributor directory', notes: 'F-44/D, MIG Flats, G-8 Area, Hari Nagar. Listed under newspaper distributors and advertising.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-newspapermag-delhi-270', businessName: 'News Paper and Magazine', contactName: '',
+        businessType: 'Distributor', whatsapp: '919891666531', city: 'New Delhi', district: 'East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-distributor directory', notes: '12/340, Kalyanpuri. Listed as Newspaper Distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-awaz-delhi-271', businessName: 'Awaz Samaj Ki Buraiyon Ke Khilaaf', contactName: '',
+        businessType: 'Distributor', whatsapp: '919753840005', city: 'New Delhi', district: 'East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-publisher directory', notes: 'D-131, Second Floor, Street No. 7, Laxmi Nagar. Hindi newspaper publisher; distribution/publisher contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dayafter-delhi-272', businessName: 'The Day After', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810010421', city: 'New Delhi', district: 'South East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-publisher directory', notes: 'B-101, Second Floor, Lajpat Nagar. Newspaper publisher/distributor listing; landline 011-29810450 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-perfact-delhi-273', businessName: 'The Perfact News International', contactName: '',
+        businessType: 'Distributor', whatsapp: '918447712079', city: 'New Delhi', district: 'South West Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-publisher directory', notes: '4th Floor, Plot 5, Tockes Complex, Sector 19, Dwarka. Newspaper publisher and newspaper advertising listing.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
