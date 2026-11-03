@@ -1068,6 +1068,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Badambadi, Cuttack. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-central-bengaluru-092', businessName: 'Central News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919341968394', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Employment News — published existing agents PDF', notes: 'Basaveshwar Nagar. Listed as Central News Agency in government agent directory; newspaper distribution fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anand-dhanbad-093', businessName: 'Anand Kumar Singh — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919431123219', city: 'Dhanbad', district: 'Dhanbad', state: 'Jharkhand',
+        source: 'Employment News — published existing agents PDF', notes: 'VPP Colony, Polytechnic Road. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-motilal-delhi-094', businessName: 'Moti Lal & Sons', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919868090583', city: 'New Delhi', district: 'New Delhi', state: 'Delhi',
+        source: 'Employment News — published existing agents PDF', notes: 'Shivaji Stadium, Gate No. 7, near Clock Tower. Listed in government agent directory; newspaper distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-telang-bhopal-095', businessName: 'Telang Brothers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919827058587', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Under Bharat Bridge, near Bharat Talkies. Listed in government agent directory; newspaper agency fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
