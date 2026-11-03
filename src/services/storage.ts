@@ -3025,6 +3025,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'Gandhi Nagar, Urrhat, Rewa. Official Jagran publishing centre; landline 07662-256450.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-varanasi-419', businessName: 'Dainik Jagran — Varanasi Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05423061000', city: 'Varanasi', district: 'Varanasi', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Plot 321, Purana G.T. Road, Nadesar. Official Jagran publishing centre; landlines 0542-3061000 / 6660201.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-shimla-420', businessName: 'Dainik Jagran — Shimla Contact Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '01772652664', city: 'Shimla', district: 'Shimla', state: 'Himachal Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Harish Tiwari, Dainik Jagran, Haridwar Road, Dehradun Tiraha, Rishikesh; directory entry also references Lakkar Bazaar, Shimla. Published landline 0177-2652664; confirm exact office location.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
