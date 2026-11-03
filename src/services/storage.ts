@@ -2256,6 +2256,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'Office 10, 5th Floor, Windsor Commerce, Baner. Newspaper and magazine advertising services; advertising only, not circulation.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pamm-pune-290', businessName: 'PAMM Advertising and Marketing — Pune', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919970944289', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Grotal public magazine/newspaper advertising directory', notes: '61-A/9, Saiprasad Apartment, Erandawada. Newspaper and magazine advertising service; separate Pune contact from Bhopal branch.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-malayalamanorama-pune-291', businessName: 'Malayala Manorama — Pune', contactName: '',
+        businessType: 'Distributor', whatsapp: '919860070511', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Grotal public newspaper directory', notes: 'Trupti Business Center, Darekar Heights A, Karve Road. Newspaper publisher contact; listing also shows advertising and outdoor promotion services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hitendra-pune-292', businessName: 'Hitendra Advertising and Marketing Limited', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919890234569', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Grotal public newspaper-advertising directory', notes: '135, Akshay Complex, Dhole Patil Road. Advertising agency with print/newspaper advertising services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sachomaarg-surat-293', businessName: 'Sacho Maarg', contactName: '',
+        businessType: 'Distributor', whatsapp: '918460617844', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper directory', notes: '209, Shyam Chamber, opposite Sub Jail, Ring Road. Gujarati newspaper publisher; additional landline 0261-2310087 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
