@@ -1728,6 +1728,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: 'Kashipur, Uttarakhand 244713. Explicitly listed as newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hanuman-pune-202', businessName: 'Hanuman Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919922344535', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Bharatibiz public business listing', notes: 'Near Tambole Kirana Shop, Hanuman Temple, Gaonthan, Chikhali. Listed as newspaper publisher; daily morning newspaper service category to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagdish-mumbai-203', businessName: 'Jagdish Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919594756773', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Bharatibiz public business listing', notes: 'Jawahar Nehru Road, near Vakola Masjid and New Model High School, Santacruz East. Listed as newspaper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aagaz-varanasi-204', businessName: 'Aagaz India News', contactName: '',
+        businessType: 'Distributor', whatsapp: '918112333133', city: 'Varanasi', district: 'Varanasi', state: 'Uttar Pradesh',
+        source: 'Bharatibiz public business listing', notes: 'N10/72 E4, New Colony Kakarmatta, Sundarpur, Nagwa. Listed as newspaper distribution service, publisher, newsstand and magazine store.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sindhudurg-kankavli-205', businessName: 'Sindhudurg Today', contactName: '',
+        businessType: 'Distributor', whatsapp: '919420276093', city: 'Kankavli', district: 'Sindhudurg', state: 'Maharashtra',
+        source: 'Bharatibiz public business listing', notes: '11, Laxmi Complex, near Daily Pudhari, opposite ST Stand. Listed as newspaper publisher and newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
