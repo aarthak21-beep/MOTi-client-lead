@@ -2040,6 +2040,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'MM-33, Block C, Mansarover Complex, near Habibganj Railway Station. Advertising and media planning; newspaper ad service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hitech-chandigarh-254', businessName: 'Hitech Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919888136488', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Sector 41-A, Chandigarh. Listed under newspaper distributors and newspaper advertising agencies.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-empire-chandigarh-255', businessName: 'Empire Enterprises', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814006606', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'SCO 406, Sector 44-D. Listed under newspaper distributors; also stationery and book-binding services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sunnytimes-chandigarh-256', businessName: 'Sunny Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814361244', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-distributor directory', notes: '202/1, Badheri Market, Sector 41-D. Listed as a newspaper publisher; circulation/distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-angelads-chandigarh-257', businessName: 'Angel Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919779298900', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Booth No. 179, Sector 35-D. Newspaper advertising and classified booking centre; advertising only, not a circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
