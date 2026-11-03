@@ -972,6 +972,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Sitabuldi Commercial Complex, Ramdaspeth. Listed as newspaper distribution service; only landline 0712-2458518 published, WhatsApp/mobile not available.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ashok-sahu-jabalpur-076', businessName: 'Ashok Kumar Sahu — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919425865222', city: 'Jabalpur', district: 'Jabalpur', state: 'Madhya Pradesh',
+        source: 'Publications Division — Agents & Journals directory', notes: '3/4 Satna Building, Jabalpur. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-manoj-patna-077', businessName: 'Manoj News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919905271351', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Sahitya Bhawan public dealer directory', notes: 'Listed in Patna dealer directory as Manoj News Agency; newspaper distribution fit indicated by business name.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mehta-patiala-078', businessName: 'Mehta News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919888254325', city: 'Patiala', district: 'Patiala', state: 'Punjab',
+        source: 'Publications Division — Employment News agents list', notes: 'Tiripury Town, Patiala. Explicitly listed as Newspaper Agent; mobile number in published agent list.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-eastern-patna-079', businessName: 'Eastern News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919334115121', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division — Employment News agents list', notes: 'New Market, Patna. Explicitly listed as Newspaper Agent; mobile number published in agent list.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
