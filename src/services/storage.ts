@@ -5251,6 +5251,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Faridkot weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sarhadkesri-ferozpur-207a', businessName: 'Sarhad Kesri', contactName: '',
+        businessType: 'Distributor', whatsapp: '918385800000', city: 'Firozpur', district: 'Firozpur', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Firozpur Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagatwani-jalandhar-207b', businessName: 'Jagat Wani', contactName: '',
+        businessType: 'Distributor', whatsapp: '919815775297', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar weekly Hindi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amarujala-jalandhar-207c', businessName: 'Amar Ujala — Jalandhar Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919958909601', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar Hindi daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samralatimes-ludhiana-207d', businessName: 'Samrala Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919417336443', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
