@@ -2467,6 +2467,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine/book directory', notes: 'Shop G3, Redhills Road, 200 Feet Road, Kolathur. Magazine and book supplier; periodical distribution scope to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tempest-hyderabad-326', businessName: 'Tempest Advertising Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918008556135', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public newspaper-advertising directory', notes: '102, Saisagar Heights, opposite Begumpet Airport, Prakash Nagar. Advertising agency; newspaper advertising and media placement.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nikhilesh-hyderabad-327', businessName: 'Nikhilesh Ads Media Advertisers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919948728284', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public newspaper-advertising directory', notes: '3-4-539, Reddy College Lane, YMCA, Narayanaguda. Outdoor advertising and media agency; newspaper advertising scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mediavision-hyderabad-328', businessName: 'Media Vision Ads', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919704142434', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public newspaper-advertising directory', notes: 'EWS 1311, KPHB Colony, Kukatpally. Newspaper, radio, TV and magazine advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-alamads-hyderabad-329', businessName: 'Alam Ads Digital Media', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919849383884', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public advertising directory', notes: '3-5-780/11/D, Sajid Majestic Height, King Koti. Digital and outdoor advertising agency; newspaper advertising scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
