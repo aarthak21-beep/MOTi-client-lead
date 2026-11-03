@@ -1,14 +1,15 @@
 import React, { useEffect, useMemo, useState } from 'react';
 import { MessageCircle, Plus, Search, Trash2, Edit2, MapPin, Building2 } from 'lucide-react';
-import { NewspaperProspect, ProspectBusinessType, ProspectStatus, ContactPermission } from '../types';
+import { NewspaperProspect, ProspectBusinessType, ProspectStatus, ContactPermission, WhatsAppAvailability } from '../types';
 import { deleteNewspaperProspect, getNewspaperProspects, saveNewspaperProspect, subscribeToStorage } from '../services/storage';
 
 const BUSINESS_TYPES: ProspectBusinessType[] = ['Newspaper Vendor', 'Newspaper Agency', 'Distributor'];
 const STATUSES: ProspectStatus[] = ['New', 'Contacted', 'Interested', 'Demo Given', 'Converted', 'Not Interested'];
 const PERMISSIONS: ContactPermission[] = ['Not Asked', 'Opted In', 'Opted Out'];
+const WHATSAPP_AVAILABILITY: WhatsAppAvailability[] = ['Unknown', 'Available', 'Not Available'];
 const emptyForm = (): NewspaperProspect => ({
   id: '', businessName: '', contactName: '', businessType: 'Newspaper Vendor',
-  whatsapp: '', city: '', district: '', state: 'Maharashtra',
+  whatsapp: '', whatsappAvailability: 'Unknown', city: '', district: '', state: 'Maharashtra',
   status: 'New', contactPermission: 'Not Asked',
   createdAt: '', updatedAt: '',
 });
@@ -100,17 +101,18 @@ export const NewspaperProspectsView: React.FC = () => {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full min-w-[900px] text-left text-xs">
-              <thead className="bg-slate-800/70 text-[10px] uppercase tracking-wider text-slate-400"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Type / Location</th><th className="px-4 py-3">WhatsApp</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead>
+              <thead className="bg-slate-800/70 text-[10px] uppercase tracking-wider text-slate-400"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Type / Location</th><th className="px-4 py-3">WhatsApp</th><th className="px-4 py-3">WhatsApp Check</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead>
               <tbody className="divide-y divide-slate-800/80">
                 {filtered.map(p => (
                   <tr key={p.id} className="hover:bg-slate-800/30">
                     <td className="px-4 py-3"><p className="font-semibold text-white">{p.businessName}</p><p className="mt-1 text-slate-500">{p.contactName || 'Contact name not added'}</p></td>
                     <td className="px-4 py-3"><p className="text-slate-200">{p.businessType}</p><p className="mt-1 flex items-center gap-1 text-slate-500"><MapPin className="h-3 w-3" />{[p.city, p.district, p.state].filter(Boolean).join(', ')}</p></td>
-                    <td className="px-4 py-3 font-mono text-emerald-300">+{p.whatsapp}</td>
+                    <td className="px-4 py-3 font-mono text-slate-200">+{p.whatsapp}</td>
+                    <td className="px-4 py-3"><select value={p.whatsappAvailability || 'Unknown'} onChange={e => saveNewspaperProspect({...p, whatsappAvailability: e.target.value as WhatsAppAvailability})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200">{WHATSAPP_AVAILABILITY.map(v => <option key={v} value={v}>{v === 'Available' ? 'WhatsApp आहे' : v === 'Not Available' ? 'WhatsApp नाही' : 'तपासायचे आहे'}</option>)}</select></td>
                     <td className="px-4 py-3"><select value={p.contactPermission} onChange={e => saveNewspaperProspect({...p, contactPermission: e.target.value as ContactPermission})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200">{PERMISSIONS.map(v => <option key={v}>{v}</option>)}</select></td>
                     <td className="px-4 py-3"><select value={p.status} onChange={e => saveNewspaperProspect({...p, status: e.target.value as ProspectStatus})} className={`rounded-lg border-0 px-2 py-1.5 text-xs ${statusClass(p.status)}`}>{STATUSES.map(v => <option key={v}>{v}</option>)}</select></td>
                     <td className="px-4 py-3"><div className="flex justify-end gap-2">
-                      <a href={whatsappUrl(p)} target="_blank" rel="noreferrer" onClick={e => { if (p.contactPermission === 'Opted Out') { e.preventDefault(); alert('या संपर्काने WhatsApp संदेश नको असल्याचे नोंदवले आहे.'); } }} className="inline-flex items-center gap-1 rounded-lg bg-emerald-600 px-3 py-2 font-bold text-white hover:bg-emerald-500"><MessageCircle className="h-3.5 w-3.5" /> WhatsApp</a>
+                      {p.whatsappAvailability === 'Available' ? <a href={whatsappUrl(p)} target="_blank" rel="noreferrer" onClick={e => { if (p.contactPermission === 'Opted Out') { e.preventDefault(); alert('या संपर्काने WhatsApp संदेश नको असल्याचे नोंदवले आहे.'); } }} className="inline-flex items-center gap-1 rounded-lg bg-emerald-600 px-3 py-2 font-bold text-white hover:bg-emerald-500"><MessageCircle className="h-3.5 w-3.5" /> WhatsApp</a> : <span className="rounded-lg border border-slate-700 px-3 py-2 text-slate-400">{p.whatsappAvailability === 'Not Available' ? 'WhatsApp नाही' : 'तपासायचे आहे'}</span>}
                       <button onClick={() => openEdit(p)} className="rounded-lg border border-slate-700 p-2 text-slate-300 hover:text-white" title="Edit"><Edit2 className="h-3.5 w-3.5" /></button>
                       <button onClick={() => { if (confirm('हा lead delete करायचा?')) deleteNewspaperProspect(p.id); }} className="rounded-lg border border-rose-500/30 p-2 text-rose-300 hover:bg-rose-500/10" title="Delete"><Trash2 className="h-3.5 w-3.5" /></button>
                     </div></td>
@@ -124,12 +126,13 @@ export const NewspaperProspectsView: React.FC = () => {
 
       {showForm && <div className="fixed inset-0 z-[70] flex items-center justify-center overflow-y-auto bg-black/70 p-4">
         <form onSubmit={handleSave} className="my-6 w-full max-w-2xl space-y-4 rounded-2xl border border-slate-700 bg-[#0b1220] p-5 shadow-2xl">
-          <div className="flex items-start justify-between"><div><h2 className="text-lg font-bold text-white">{editing ? 'Edit Newspaper Lead' : 'Add Newspaper Lead'}</h2><p className="mt-1 text-xs text-slate-400">WhatsApp नंबर आवश्यक आहे.</p></div><button type="button" onClick={() => setShowForm(false)} className="text-slate-400 hover:text-white">✕</button></div>
+          <div className="flex items-start justify-between"><div><h2 className="text-lg font-bold text-white">{editing ? 'Edit Newspaper Lead' : 'Add Newspaper Lead'}</h2><p className="mt-1 text-xs text-slate-400">नंबर टाका आणि WhatsApp उपलब्धता तपासून खाली निवडा.</p></div><button type="button" onClick={() => setShowForm(false)} className="text-slate-400 hover:text-white">✕</button></div>
           <div className="grid gap-3 sm:grid-cols-2">
             <label className="text-xs text-slate-300">Business / Agency Name *<input required value={form.businessName} onChange={e => update('businessName', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">Contact Person<input value={form.contactName} onChange={e => update('contactName', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">Business Type<select value={form.businessType} onChange={e => update('businessType', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white">{BUSINESS_TYPES.map(v => <option key={v}>{v}</option>)}</select></label>
             <label className="text-xs text-slate-300">WhatsApp Number *<input required type="tel" value={form.whatsapp} onChange={e => update('whatsapp', e.target.value)} placeholder="91XXXXXXXXXX" className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
+            <label className="text-xs text-slate-300">WhatsApp Availability<select value={form.whatsappAvailability || 'Unknown'} onChange={e => update('whatsappAvailability', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white">{WHATSAPP_AVAILABILITY.map(v => <option key={v} value={v}>{v === 'Available' ? 'WhatsApp आहे' : v === 'Not Available' ? 'WhatsApp नाही' : 'तपासायचे आहे'}</option>)}</select></label>
             <label className="text-xs text-slate-300">City<input value={form.city} onChange={e => update('city', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">District<input value={form.district} onChange={e => update('district', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">State<input value={form.state} onChange={e => update('state', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
