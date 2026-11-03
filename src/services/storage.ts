@@ -5869,6 +5869,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact. Same phone also appears against Garibon Ka Sitara.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-agrasenshakti-jaipur-233a', businessName: 'Agrasen Shakti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919649999154', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jaltedeep-jaipur-233b', businessName: 'Jaltedeep', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828036900', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-globaltenders-jaipur-233c', businessName: 'Global Tenders & Auctions', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829210833', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur weekly Hindi publication listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-khabarsamrat-rajasamand-233d', businessName: 'Khabar Samrat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414172390', city: 'Rajsamand', district: 'Rajsamand', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Rajsamand Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
