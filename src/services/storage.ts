@@ -1698,6 +1698,12 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: '41, 23rd Cross, 3rd Main Road, Banashankari 3rd Stage. Explicitly listed as newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dewan-jhansi-197', businessName: 'Dewan Books & News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919453908349', city: 'Jhansi', district: 'Jhansi', state: 'Uttar Pradesh',
+        source: 'Bharatibiz public business listing', notes: 'Sadar Bazar, Cantt, Jhansi. Listed as book store/newsstand and news agency; delivery option is mentioned. Other directories show alternate contacts, so confirm the active number.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
