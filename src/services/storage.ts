@@ -5630,51 +5630,9 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
-        id: 'news-muslimaawaz-churu-223a', businessName: 'Muslim Aawaz', contactName: '',
-        businessType: 'Distributor', whatsapp: '919414285718', city: 'Churu', district: 'Churu', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Churu fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-navsurya-dausa-223b', businessName: 'Nav Surya', contactName: '',
-        businessType: 'Distributor', whatsapp: '918290160881', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa Hindi daily except Sunday listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-faceofrajasthan-dausa-223c', businessName: 'Face of Rajasthan', contactName: '',
-        businessType: 'Distributor', whatsapp: '919414271351', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-dhakadsamachar-dausa-223d', businessName: 'Dhakad Samachar', contactName: '',
-        businessType: 'Distributor', whatsapp: '919928152044', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
         id: 'news-jaipurkiawaz-jaipur-224a', businessName: 'Jaipur Ki Awaz', contactName: '',
         businessType: 'Distributor', whatsapp: '919929955515', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-janhira-jaipur-224b', businessName: 'Jan Hira', contactName: '',
-        businessType: 'Distributor', whatsapp: '919468768681', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-pinkcitydotcom-jaipur-224c', businessName: 'Pinkcity Dot Com', contactName: '',
-        businessType: 'Distributor', whatsapp: '918003100100', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi publication listed as Regular on the official government panel; mobile contact published.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-rajasthanjagatkesari-jaipur-224d', businessName: 'Rajasthan Jagat Kesari', contactName: '',
-        businessType: 'Distributor', whatsapp: '919351574072', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
@@ -5837,12 +5795,6 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         id: 'news-kamyabkalam-bikaner-231c', businessName: 'Kamyab Kalam', contactName: '',
         businessType: 'Distributor', whatsapp: '919785553799', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily listed as Regular on the official government panel; published mobile contact.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
-      {
-        id: 'news-rajasthanichirag-bikaner-231d', businessName: 'Rajasthani Chirag', contactName: '',
-        businessType: 'Distributor', whatsapp: '919351200122', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
-        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily edition listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
