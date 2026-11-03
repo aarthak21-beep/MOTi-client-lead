@@ -5701,6 +5701,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nagaur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-panchayatprabhat-nagaur-226a', businessName: 'Panchayat Prabhat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919929635488', city: 'Nagaur', district: 'Nagaur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nagaur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vrandjyoti-nagaur-226b', businessName: 'Vrand Jyoti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414398808', city: 'Nagaur', district: 'Nagaur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nagaur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-maruparikrama-nohar-226c', businessName: 'Maru Parikrama', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413514518', city: 'Nohar', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nohar Hindi daily except Sunday listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aapnicity-sadulshahar-226d', businessName: 'Aapni City', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413783646', city: 'Sadulshahar', district: 'Sri Ganganagar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sadulshahar fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
