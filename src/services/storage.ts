@@ -3931,6 +3931,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Bhilwara; mobile 9829028100 and landline 01482-250700 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tharadhikar-bikaner-570', businessName: 'Thar Adhikar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828154057', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Bikaner; mobile 9828154057 and landline 0151-2661331 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-choksi-bikaner-571', businessName: 'Choksi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919929621586', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Bikaner; mobile 9929621586 and landline 0151-2528743 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krantibigul-bikaner-572', businessName: 'Kranti Bigul', contactName: '',
+        businessType: 'Distributor', whatsapp: '919351200122', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bikaner; mobile 9351200122 and landline 0151-2210077 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bikanerexpress-bikaner-573', businessName: 'Bikaner Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414325179', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bikaner; mobile 9414325179 and landline 0151-2240758 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
