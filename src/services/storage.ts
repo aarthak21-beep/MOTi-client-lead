@@ -7624,7 +7624,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-navi-jjs-intimates-071',
-        businessName: 'JJs Women's Intimates',
+        businessName: "JJs Women's Intimates",
         contactName: '',
         businessType: 'Women's Clothing & Intimates Store',
         phone: '917738396533',
