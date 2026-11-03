@@ -2160,6 +2160,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-publisher directory', notes: '4th Floor, Plot 5, Tockes Complex, Sector 19, Dwarka. Newspaper publisher and newspaper advertising listing.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hindusthan-delhi-274', businessName: 'Hindusthan Samachar — Delhi', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919810776750', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-agency directory', notes: '1st Floor, Prachin Shiv Mandir, 10-A, Aarambag, Paharganj. Listed as Hindustan Samachar News Agency and newspaper advertising service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-newsline-delhi-275', businessName: 'Newsline Publication Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810030533', city: 'New Delhi', district: 'East Delhi', state: 'Delhi',
+        source: 'Grotal public media-directory listing', notes: '4C, Pocket IV, Mayur Vihar Phase 1. Magazine publisher/media advertising services; newspaper distribution not independently confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-adcorp-delhi-276', businessName: 'The Advertising Corporation of India', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919968677283', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-advertising directory', notes: '1701, Nirmal Tower, 26 Barakhamba Road, Connaught Place. Advertising agency with newspaper/print advertising services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-meenaads-delhi-277', businessName: 'Meena Advertising Agency and Advertising Solution', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919213240870', city: 'New Delhi', district: 'East Delhi', state: 'Delhi',
+        source: 'Grotal public newspaper-advertising directory', notes: 'E-11, Radhey Puri. Newspaper, radio, TV and magazine advertising services; ad placement, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
