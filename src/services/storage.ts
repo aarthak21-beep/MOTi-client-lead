@@ -2280,6 +2280,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper directory', notes: '209, Shyam Chamber, opposite Sub Jail, Ring Road. Gujarati newspaper publisher; additional landline 0261-2310087 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-foursquare-surat-294', businessName: 'Four Square Media Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '919998167934', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: '03, Shree Raj, Sambhavnath Apartment, B/72, Ram Krishna Society, LH Road. Listed as newspaper and business newspaper publisher.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krishnaads-surat-295', businessName: 'Krishna Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919924568283', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '201, Radhe Complex, Katargam Singanpor Road. Newspaper advertising agency for Divya Bhaskar and Gujarati newspapers; alternate mobile 8487958888.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mediaconcept-surat-296', businessName: 'Media Concept', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919687608043', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '212, Mirambika Complex, opposite Gandhi Baug, Gopipura. Newspaper advertisement and media agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shraddha-surat-297', businessName: 'Shraddha Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919960702424', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '404, Abhisek Complex, near LIC Office, Railway Station. Advertising agency; newspaper placement and outdoor promotion services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
