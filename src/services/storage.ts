@@ -5149,6 +5149,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Silchar edition listed on the official newspaper panel; mobile contact published for newspaper office.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-simanterprahari-silchar-202a', businessName: 'Simanter Prahari', contactName: '',
+        businessType: 'Distributor', whatsapp: '919435627579', city: 'Silchar', district: 'Cachar', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Silchar edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hamropraja-tezpur-202b', businessName: 'Hamro Prajashakti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919401138976', city: 'Tezpur', district: 'Sonitpur', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Tezpur edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-asomiyapratidin-guwahati-202c', businessName: 'Asomiya Pratidin — Guwahati', contactName: '',
+        businessType: 'Distributor', whatsapp: '919864101661', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Guwahati edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
