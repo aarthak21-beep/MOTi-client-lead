@@ -4003,6 +4003,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Dholpur; mobile 9460480429 and landline 05642-221609 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ajaybharat-dholpur-582', businessName: 'Ajay Bharat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425126037', city: 'Dholpur', district: 'Dholpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Dholpur; mobile 9425126037 and landline 05642-222242 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mashhoor-dholpur-583', businessName: 'Mashhoor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919660934542', city: 'Dholpur', district: 'Dholpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Dholpur; mobile 9660934542 and landline 05642-229590 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dholpurteekshna-dholpur-584', businessName: 'Dholpur Teekshna', contactName: '',
+        businessType: 'Distributor', whatsapp: '919929980500', city: 'Dholpur', district: 'Dholpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Dholpur; mobile 9929980500 and landline 05642-223459 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chamblekesari-dholpur-585', businessName: 'Chamble Kesari', contactName: '',
+        businessType: 'Distributor', whatsapp: '919460182466', city: 'Dholpur', district: 'Dholpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Dholpur; mobile 9460182466 and landline 05642-220021 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
