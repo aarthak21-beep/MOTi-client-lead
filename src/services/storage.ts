@@ -1140,6 +1140,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Kalibari Road. Explicitly listed as Booksellers & Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-centralbook-agartala-104', businessName: 'Central Book House Distributor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919436450785', city: 'Agartala', district: 'West Tripura', state: 'Tripura',
+        source: 'Employment News — published existing agents PDF', notes: 'Netajee Chowmuhani. Explicitly listed as Newspaper & Magazines distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-variety-kohima-105', businessName: 'Variety Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919612156813', city: 'Kohima', district: 'Kohima', state: 'Nagaland',
+        source: 'Employment News — published existing agents PDF', notes: 'Near NST Bus Stand. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-akdas-tinsukia-106', businessName: 'A.K. Das News Paper & Magazine Agent', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919435134347', city: 'Tinsukia', district: 'Tinsukia', state: 'Assam',
+        source: 'Employment News — published existing agents PDF', notes: 'R.G. Road, Tinsukia. Explicitly listed as Newspaper & Magazine Agent; second mobile number also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aditya-dehradun-107', businessName: 'Aditya News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919412349259', city: 'Dehradun', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'Employment News — published existing agents PDF', notes: '30, Paltan Bazar. Listed in government agent directory as news agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
