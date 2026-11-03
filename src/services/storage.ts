@@ -1164,6 +1164,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: '30, Paltan Bazar. Listed in government agent directory as news agency.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-op-udaipur-108', businessName: 'O.P. Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919887955068', city: 'Udaipur', district: 'Udaipur', state: 'Rajasthan',
+        source: 'Employment News — published existing agents PDF', notes: '15, A Jawahar Nagar. Explicitly listed as Newspaper Agent; second mobile number also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-goyal-malout-109', businessName: 'Goyal News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919815963721', city: 'Malout', district: 'Sri Muktsar Sahib', state: 'Punjab',
+        source: 'Employment News — published existing agents PDF', notes: 'Malout, PIN 152107. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prasad-gorakhpur-110', businessName: 'Prasad News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919838883666', city: 'Gorakhpur', district: 'Gorakhpur', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Narayan Complex, Dharamshala Bazar. Listed in government agent directory as news agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-verma-etah-111', businessName: 'Verma News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919837637580', city: 'Etah', district: 'Etah', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Railway Road, Neelam Market. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
