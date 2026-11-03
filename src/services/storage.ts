@@ -4291,6 +4291,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'VasthuRengan public business listing', notes: 'Nagar Road, near Shivaji Statue, Wagholi. Listed as Newspaper & Magazine Delivery Services.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-darandale-nevasa-160a', businessName: 'Darandale News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917588169290', city: 'Nevasa', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'MyAhmednagar public business listing', notes: '55 kms, Newasa Phata, Nagar–Aurangabad Highway, opposite Maharashtra Gramin Bank. Listed as Newspaper Vendor and Advertising Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-suhane-jabalpur-160b', businessName: 'Suhane News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425150521', city: 'Jabalpur', district: 'Jabalpur', state: 'Madhya Pradesh',
+        source: 'Jabalpur Helpline — Print Media directory', notes: 'Shop No. 2, George Town Market, Malviya Chowk. Listed under Print Media; newspaper agency role indicated.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kkcid-nagpur-160c', businessName: 'KKcid News', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919049166164', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'KKcid News official public website', notes: 'Sonegaon Road, Nagpur. Describes itself as a newsstand supplying newspapers, magazines and journals with delivery/subscription services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lasurkar-aurangabad-160d', businessName: 'B.D. Lasurkar Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919823352850', city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        source: 'B.D. Lasurkar official website', notes: 'Plot No. 4, Shram Safalya, behind Telephone Bhawan, Ajab Nagar, near Kranti Chowk. Official site offers newspaper advertisement booking; advertising agency, not a confirmed newspaper delivery vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
