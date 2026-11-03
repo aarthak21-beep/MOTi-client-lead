@@ -4375,6 +4375,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents of Books directory', notes: '92-B, Ground Floor, Shyam Lal Road, opposite Hindi Park, Darya Ganj. Listed in official agent directory; book/periodical supply fit to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dharitri-ahmedabad-166a', businessName: 'P. Vinod Naidu — Dharitri Ahmedabad Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919327074332', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'B-314, Nandan Apartment, Ramdev Nagar, Satellite. Listed as Dharitri\'s Ahmedabad regional contact; circulation/distribution role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-kolkata-166b', businessName: 'Adesh Singh — Dharitri Kolkata Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919830590980', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Centre Point, Room 303, 28/2 Shakespeare Sarani. Listed as Dharitri\'s Kolkata regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-jaipur-166c', businessName: 'Suresh Kaushik — Dharitri Jaipur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829103129', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Satt-Niwas, 37, Ayodhya Colony, Heerapur, Ajmer Road. Listed as Dharitri\'s Jaipur regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-nagpur-166d', businessName: 'S.M. Khisti — Dharitri Nagpur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919822202082', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: '107, Laxmi Nagar Square. Listed as Dharitri\'s Nagpur regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
