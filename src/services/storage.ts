@@ -3001,6 +3001,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'D-210/211, Sector 63, Noida. Official Jagran publishing centre; landline 0120-3915800.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-panipat-415', businessName: 'Dainik Jagran — Panipat Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01802670991', city: 'Panipat', district: 'Panipat', state: 'Haryana',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Plot 75, Sector 29, HUDA Industrial Area, Phase II. Official Jagran publishing centre; landlines 0180-2670991 to 2670994.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-patna-416', businessName: 'Dainik Jagran — Patna Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '06123918900', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'C-5, C-6 & 15, Industrial Area, Patliputra. Official Jagran publishing centre; landline 0612-3918900.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-ranchi-417', businessName: 'Dainik Jagran — Ranchi Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '06512547680', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '62, Kokar Industrial Area, Urrahat. Official Jagran publishing centre; landlines 0651-2547680 / 2547681 / 2547682.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-rewa-418', businessName: 'Dainik Jagran — Rewa Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '07662256450', city: 'Rewa', district: 'Rewa', state: 'Madhya Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Gandhi Nagar, Urrhat, Rewa. Official Jagran publishing centre; landline 07662-256450.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
