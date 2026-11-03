@@ -2677,6 +2677,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: 38, Van Vihar Colony, Tonk Road, Jaipur. Published mobile 9829038811; exact circulation vs advertising role to confirm.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tribune-kolkata-361', businessName: 'Shibhadra Sen — Tribune Kolkata Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919830808393', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: Panchwati Flat, GG-2, Bediadanga 1st Lane, Kasba, Kolkata. Published mobile 9830808393; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-lucknow-362', businessName: 'Shekhar Tandon — Tribune Lucknow Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919936249866', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: D-8/1, 9th Street, Rajendra Nagar, Lucknow. Published mobile 9936249866 and landline 0522-2693362; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
