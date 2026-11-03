@@ -41,6 +41,7 @@ const STORAGE_KEYS = {
   MESSAGE_TEMPLATES: 'moti_msg_templates_v1',
   SETTINGS: 'moti_settings_v1',
   IS_INITIALIZED: 'moti_initialized_v1',
+  MAHARASHTRA_WHATSAPP_LEADS_IMPORTED: 'moti_mh_whatsapp_leads_imported_v1',
   OWNER_AUTH: 'moti_owner_auth_v1',
   NEWSPAPER_PROSPECTS: 'moti_newspaper_prospects_v1',
   WEBSITE_PROSPECTS: 'moti_website_prospects_v1',
@@ -82,6 +83,20 @@ export function initializeStorageIfNeeded(): void {
     localStorage.setItem(STORAGE_KEYS.MESSAGE_TEMPLATES, JSON.stringify(DEFAULT_MESSAGE_TEMPLATES));
     localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(DEFAULT_SETTINGS));
     localStorage.setItem(STORAGE_KEYS.IS_INITIALIZED, 'true');
+  }
+
+  // One-time additive migration: add the new Maharashtra WhatsApp leads
+  // to existing browsers without overwriting or deleting the user's CRM data.
+  if (!localStorage.getItem(STORAGE_KEYS.MAHARASHTRA_WHATSAPP_LEADS_IMPORTED)) {
+    const existingLeads = getLeads();
+    const existingIds = new Set(existingLeads.map((lead) => lead.id));
+    const newLeads = INITIAL_LEADS.filter(
+      (lead) => lead.id.startsWith('mh-wa-') && !existingIds.has(lead.id)
+    );
+    if (newLeads.length > 0) {
+      localStorage.setItem(STORAGE_KEYS.LEADS, JSON.stringify([...newLeads, ...existingLeads]));
+    }
+    localStorage.setItem(STORAGE_KEYS.MAHARASHTRA_WHATSAPP_LEADS_IMPORTED, 'true');
   }
 }
 
