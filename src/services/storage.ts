@@ -5491,6 +5491,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-citytimes-hyderabad-217a', businessName: 'City Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919966405785', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anudinavaarta-hyderabad-217b', businessName: 'Anudina Vaarta Viseshalalo', contactName: '',
+        businessType: 'Distributor', whatsapp: '919000238999', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Central Bureau of Communication — Telangana newspaper panel', notes: 'Hyderabad Telugu monthly listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rayalaseema-anantapur-217c', businessName: 'Rayalaseema Samayam', contactName: '',
+        businessType: 'Distributor', whatsapp: '919966788222', city: 'Anantapur', district: 'Anantapur', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-teljdp-vaartha-anantapur-217d', businessName: 'Telugu J.D. Patrika Vaartha', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818309408', city: 'Anantapur', district: 'Anantapur', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
