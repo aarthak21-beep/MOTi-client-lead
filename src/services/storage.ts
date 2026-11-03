@@ -6263,6 +6263,20 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Indian Newspaper Society — Executive Committee 2026–2027 (official)',
         notes: 'Sudharma, M.I. Road, Jaipur. Office: 0141-4103333. No mobile published in INS listing.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pimplapure-nagpur-280', businessName: 'Pimplapure Book Distributors', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Publications Division, Government of India — Agents for Journals (official)',
+        notes: 'Listed as Maharashtra Headquarter Agent at 206 Ram Mandir Gali, Tilak Putla Mahal, Nagpur 440032. Office landline: 0712-2724318. No mobile number published; WhatsApp not verified. Confirm newspaper distribution scope before pitching.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sterling-book-house-mumbai-281', businessName: 'Sterling Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Publications Division, Government of India — Agents for Journals (official)',
+        notes: 'Listed under Maharashtra Agent Sales Emporium at 181 Dr. D.N. Road, Fort, Mumbai. Office landlines: 022-22612521 / 22659599. No mobile number published; WhatsApp not verified. Confirm newspaper distribution scope before pitching.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       }
     ];
     if (raw) {
