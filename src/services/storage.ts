@@ -1188,6 +1188,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Railway Road, Neelam Market. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-rai-jhansi-112', businessName: 'Rai News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919889698132', city: 'Jhansi', district: 'Jhansi', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Swagat Book Center, Elite Crossing, Mewati Pura. Listed as Newspaper Agent; second mobile number also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krishna-sirhind-113', businessName: 'Krishna News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919815033075', city: 'Sirhind', district: 'Fatehgarh Sahib', state: 'Punjab',
+        source: 'Employment News — published existing agents PDF', notes: 'Street Bawa Mangal Nath. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ramkumar-bathinda-114', businessName: 'Ram Kumar Agarwal — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919417235192', city: 'Maur Mandi', district: 'Bathinda', state: 'Punjab',
+        source: 'Employment News — published existing agents PDF', notes: 'Maur Mandi, Bathinda district. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-deepbook-narsinghpur-115', businessName: 'Deep Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425468464', city: 'Narsinghpur', district: 'Narsinghpur', state: 'Madhya Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Bus Stand, Kandeli. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
