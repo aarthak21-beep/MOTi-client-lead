@@ -2857,6 +2857,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: '29-42-18, SBI Colony, Visakhapatnam. Official Jagran office; landlines 0891-2569232 / 2573573.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-agra-391', businessName: 'Dainik Jagran — Agra Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05623001234', city: 'Agra', district: 'Agra', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'B-1, Site A, UPSIDC Industrial Area, Sikandara. Official Jagran publishing centre; landline 0562-3001234.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-aligarh-392', businessName: 'Dainik Jagran — Aligarh Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05713081700', city: 'Aligarh', district: 'Aligarh', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'A-32, Sector 2, Tala Nagri Industrial Area. Official Jagran publishing centre; landline 0571-3081700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-allahabad-393', businessName: 'Dainik Jagran — Prayagraj Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05323912700', city: 'Prayagraj', district: 'Prayagraj', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '7, P.D. Tandon Road, Civil Lines, opposite Boys High School. Official Jagran publishing centre; landlines 0532-3912700 / 6662333.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-ayodhya-394', businessName: 'Dainik Jagran — Ayodhya Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '919415004001', city: 'Ayodhya', district: 'Ayodhya', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'B-Civil Lines, Faizabad. Official Jagran publishing centre; published mobile 9415004001.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
