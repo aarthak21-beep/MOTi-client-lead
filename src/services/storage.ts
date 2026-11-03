@@ -5065,6 +5065,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Surat edition listed in the official newspaper panel; same mobile also listed for Surat Samana and other local editions.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sonvarsha-aurangabad-198a', businessName: 'Son Varsha Vani — Aurangabad Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919234221360', city: 'Aurangabad', district: 'Aurangabad', state: 'Bihar',
+        source: 'Son Varsha Vani official website', notes: 'Registered head office, Club Road, Aurangabad, Bihar. Official regional office contact for newspaper edition.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonvarsha-gaya-198b', businessName: 'Son Varsha Vani — Gaya Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '918521101910', city: 'Gaya', district: 'Gaya', state: 'Bihar',
+        source: 'Son Varsha Vani official website', notes: 'Official Gaya edition office contact published by the newspaper.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonvarsha-dehri-198c', businessName: 'Son Varsha Vani — Dehri Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919546870788', city: 'Dehri-on-Sone', district: 'Rohtas', state: 'Bihar',
+        source: 'Son Varsha Vani official website', notes: 'Kamranganj, BMP, Dehri-on-Son. Official Dehri edition office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonvarsha-patna-198d', businessName: 'Son Varsha Vani — Patna Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '917488212062', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Son Varsha Vani official website', notes: 'Ghar Aangan, Birju Ji Ka Hata, Choti Badalpura, Khagaul. Official Patna edition office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
