@@ -2581,6 +2581,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: '1, Nather Began Street, Beniatola. Advertising agency listed in newspaper ad booking directory; published contact is landline 033-22399692.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-phoenix-kolkata-345', businessName: 'Phoenix Advertising Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322172947', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '18, Chowringhee Mansions, Chowringhee Road. Advertising agency listed in newspaper ad booking category; landline 033-22172947.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indianads-kolkata-346', businessName: 'Indian Advertising Service', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03324647421', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '2/1-A, Hindustan Park. Advertising agency listed in newspaper ad booking category; landline 033-24647421.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indianpublicity-kolkata-347', businessName: 'Indian Publicity Bureau Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322126583', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '6/2, Madan Street, Chandni Market. Publicity and newspaper advertising agency; landline 033-22126583.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jjcommunication-kolkata-348', businessName: 'JJ Communication Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03324640915', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '48, Room F/2, Gariahat Road. Communication/advertising agency listed in newspaper ad booking directory; landline 033-24640915.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
