@@ -2881,6 +2881,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'B-Civil Lines, Faizabad. Official Jagran publishing centre; published mobile 9415004001.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-amritsar-395', businessName: 'Dainik Jagran — Amritsar Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '0183500155', city: 'Amritsar', district: 'Amritsar', state: 'Punjab',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'SCO-52, Ranjeet Avenue, B-Block. Official Jagran publishing centre; landline 0183-500155.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bhagalpur-396', businessName: 'Dainik Jagran — Bhagalpur Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '06413941300', city: 'Bhagalpur', district: 'Bhagalpur', state: 'Bihar',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Mahatma Gandhi Road, Katchhehri Chowk. Official Jagran publishing centre; landline 0641-3941300.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bathinda-397', businessName: 'Dainik Jagran — Bathinda Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01642241148', city: 'Bathinda', district: 'Bathinda', state: 'Punjab',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Shop 5/6, Ground Floor, Devraj Tower, 100 Ft Road, near Ghodawala Chowk. Official Jagran publishing centre; landline 0164-2241148.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bhopal-398', businessName: 'Dainik Jagran — Bhopal Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '07554292000', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '33, Press Complex, Zone 1, MP Nagar. Official Jagran publishing centre; landline 0755-4292000.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
