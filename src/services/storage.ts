@@ -2653,6 +2653,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper/magazine distributor directory', notes: 'Shanti Sadan Estate, Mirzapur. Listed as newspaper agent, newspaper distributor and magazine dealer; published contact is landline 079-25354847.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tribune-bhopal-357', businessName: 'M/s Imprint Media Consultants Pvt. Ltd. — Tribune Bhopal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425017188', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: Mr. Rahul / Sweety Bichpuriya, Bhopal. Published mobiles 9425017188 and 9425006237; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-chennai-358', businessName: 'M/s CNR Enterprises — Tribune Chennai', contactName: '',
+        businessType: 'Distributor', whatsapp: '919884492122', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: Mr. Archit K, B/16, Maduran Apartments, Mogappair. Published mobile 9884492122; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-dehradun-359', businessName: 'Preeti — Tribune Dehradun Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919837789993', city: 'Dehradun', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: Ms. Preeti, 28 Idgah, Chakrata Road, Dehradun. Published mobile 9837789993; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-jaipur-360', businessName: 'Yogesh Joshi — Tribune Jaipur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829038811', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: 38, Van Vihar Colony, Tonk Road, Jaipur. Published mobile 9829038811; exact circulation vs advertising role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
