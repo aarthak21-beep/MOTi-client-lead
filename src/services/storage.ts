@@ -5821,6 +5821,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Alwar Hindi daily listed as Regular on the official government panel; mobile contact also appears for other Rajasthan editions.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-marumanch-barmer-231a', businessName: 'Maru Manch', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413306885', city: 'Balotra', district: 'Barmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Balotra daily Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nayaindia-bhilwara-231b', businessName: 'Naya India', contactName: '',
+        businessType: 'Distributor', whatsapp: '919717273481', city: 'Bhilwara', district: 'Bhilwara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bhilwara Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kamyabkalam-bikaner-231c', businessName: 'Kamyab Kalam', contactName: '',
+        businessType: 'Distributor', whatsapp: '919785553799', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthanichirag-bikaner-231d', businessName: 'Rajasthani Chirag', contactName: '',
+        businessType: 'Distributor', whatsapp: '919351200122', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily edition listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
