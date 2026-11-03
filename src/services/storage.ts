@@ -1992,6 +1992,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'AskLaila public newspaper-distributor directory', notes: 'Sector 11, Noida. Listed under Newspaper Agency; landline 0120-4226541 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagrukta-chandigarh-246', businessName: 'Jagrukta News Paper', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919988814680', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-distributor directory', notes: '2542, Mariwala Town, Manimajra. Listed as Newspaper Agency and Newspaper Distributor; alternate published contact 6283624033.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vijaychand-chandigarh-247', businessName: 'Vijay Chand — Newspaper Distributor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919815471521', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'House No. 1448, Mauli Complex, Manimajra. Listed for newspaper home delivery and magazine home delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-panchkula-chandigarh-248', businessName: 'Panchkula Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919417600117', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper directory', notes: 'SCO 58-59, Cabin 117, First Floor, Sector 17-D, Chandigarh. Listed as newspaper business; publisher/distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prabhat-ahmedabad-249', businessName: 'Prabhat News Papers Services', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919879191019', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Prabhat House, JP Complex, near Old Police Station, Naroda Main Bazaar. Newspaper advertisement services; advertising agency rather than confirmed circulation distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
