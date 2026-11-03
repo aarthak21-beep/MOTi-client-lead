@@ -876,6 +876,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Agra Road, Green Park, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-chetwanijaipur-060', businessName: 'Chetwani Newspaper', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919351462005', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Malviya Nagar, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jaipurpatrika-061', businessName: 'Jaipur Patrika', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829253099', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Vaishali Nagar, Jaipur. Publisher/listing appears under newspaper vendors; local distribution contact not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainiksavera-ludhiana-062', businessName: 'Dainik Savera', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919646500233', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Mera Ludhiana public newspaper-vendors directory', notes: 'Surya Arcade, National Road, Ghumar Mandi, Ludhiana. Newspaper listing; vendor/distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-gulati-ludhiana-063', businessName: 'Gulati Ad Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919779925100', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Mera Ludhiana public newspaper-vendors directory', notes: 'Shyam Nagar, Ludhiana. Advertising agency listed in newspaper-vendors directory; circulation distribution not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
