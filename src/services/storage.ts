@@ -3667,6 +3667,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9414405471 listed by CBC. Publisher contact; verify current status.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navsurya-jaipur-526', businessName: 'Nav Surya — Jaipur', contactName: '',
+        businessType: 'Distributor', whatsapp: '918290160881', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jaipur; mobile 8290160881 listed by CBC. Same publisher contact also appears for other Rajasthan editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-niralivijay-jaipur-527', businessName: 'Nirali Vijay', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413206514', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Jaipur; mobile 9413206514 and landline 0141-3935070 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shramikrajasthan-jaipur-528', businessName: 'Shramik Rajasthan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919214009484', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9214009484 and landline 0141-6542666 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-apradhexpress-jaipur-529', businessName: 'Apradh Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829054369', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9829054369 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
