@@ -4951,6 +4951,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Raipur.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-jaipur-192a', businessName: 'Navbharat Media — Jaipur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828198296', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Jaipur.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-guwahati-192b', businessName: 'Navbharat Media — Guwahati Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919864055347', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Guwahati.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-cochin-192c', businessName: 'Navbharat Media — Cochin Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919895022027', city: 'Kochi', district: 'Ernakulam', state: 'Kerala',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Cochin.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-chennai-192d', businessName: 'Navbharat Media — Chennai Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '917299071866', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Chennai.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
