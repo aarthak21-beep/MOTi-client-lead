@@ -1686,6 +1686,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: '110, Bangla Sahib Marg, near Gole Market. Listed as magazine distributor; periodical distribution segment, newspaper circulation not confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-rina-portblair-195', businessName: 'Rina Services', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919434293672', city: 'Port Blair', district: 'South Andaman', state: 'Andaman and Nicobar Islands',
+        source: 'Employment News — official existing agents PDF', notes: '35, M.G. Road, Middle Point, Port Blair. Listed as existing Employment News agent; newspaper/periodical agency role is not explicit in the PDF, so confirm business fit. Additional mobile 8900906585 and landline 03192-238009 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-paperdistributor-bengaluru-196', businessName: 'News Paper & Magazine Distributor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919980548315', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Bharatibiz public business listing', notes: '41, 23rd Cross, 3rd Main Road, Banashankari 3rd Stage. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
