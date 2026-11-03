@@ -5047,6 +5047,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'The Samaja official ePaper contact page', notes: 'Sadashiv Mohapatra, Assistant Branch Manager; The Samaja branch at D-21, Bareipally Industrial Estate, Sambalpur. Public mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-damangangatimes-vapi-197a', businessName: 'Daman Ganga Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919825122505', city: 'Vapi', district: 'Valsad', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Vapi edition listed in the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-gujaratvaibhav-ahmedabad-197b', businessName: 'Gujarat Vaibhav', contactName: '',
+        businessType: 'Distributor', whatsapp: '919825153552', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Ahmedabad edition listed in the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samana-surat-197c', businessName: 'Samana — Surat Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919824962678', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Central Bureau of Communication — Gujarat newspaper panel', notes: 'Surat edition listed in the official newspaper panel; same mobile also listed for Surat Samana and other local editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
