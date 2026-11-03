@@ -1590,6 +1590,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: 'Plot No. 15, Shreeniwas Basement, Sahakar Nagar, Ganjmal. Listed as an existing Employment News agent; newspaper agency fit.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pawan-najibabad-179', businessName: 'Pawan Kumar Jain — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919837555565', city: 'Najibabad', district: 'Bijnor', state: 'Uttar Pradesh',
+        source: 'Employment News — official existing agents PDF', notes: 'Mohalla Shamli, Najibabad. Explicitly listed as Newspaper Agent; landline 01341-222028 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shiela-jammu-180', businessName: 'Shiela Book Center', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919419146803', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'Employment News — official existing agents PDF', notes: 'Kachi Chowni, Jammu. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajeshmanish-jaipur-181', businessName: 'Rajesh Manish Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919461070071', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Employment News — official existing agents PDF', notes: 'G-3B, Mayur Tower, Nehru Bazar. Listed as existing Employment News agent; newspaper distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chhabra-sonipat-182', businessName: 'Chhabra News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919253199131', city: 'Sonipat', district: 'Sonipat', state: 'Haryana',
+        source: 'Employment News — official existing agents PDF', notes: 'Fajha Bazar, Sonipat. Listed as existing Employment News agent; landline numbers 0130-2241578 / 2250170 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
