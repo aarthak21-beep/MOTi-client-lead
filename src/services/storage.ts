@@ -3061,6 +3061,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'PinkBazaar public business directory', notes: 'F-139, near Gurudwara Street, Moti Nagar. Newspaper and advertising agency listing; circulation and ad services to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-janta-jabalpur-425', businessName: 'Janta News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917614006237', city: 'Jabalpur', district: 'Jabalpur', state: 'Madhya Pradesh',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: '10, Malviya Chowk, Jabalpur. Listed as news agency; contact is historical and must be verified before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dewangan-bilaspur-426', businessName: 'Dewangan Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919827158655', city: 'Bilaspur', district: 'Bilaspur', state: 'Chhattisgarh',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'New Bus Stand, Bilaspur. Listed in publication availability/agent directory; mobile 9827158655; verify current operation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dulichand-indore-427', businessName: 'M/s. Dulichand Jain', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919826045130', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: '410, M.G. Road, Khajuri Bazar, Indore. Explicitly listed as Newspaper Agent; mobile 9826045130; historical contact, verify current.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kasthuri-coimbatore-428', businessName: 'Kasthuri News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '04222301083', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'Desika Dharshan, 20-A, Hazur Road. Listed as news agency; landlines 0422-2301083 / 2301085; historical contact, verify current.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
