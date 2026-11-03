@@ -5011,6 +5011,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Bhopal.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pudhari-bengaluru-195a', businessName: 'Pudhari — Bengaluru Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919844035256', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Surendra Deshpande, Bengaluru regional contact listed by Pudhari; circulation/advertising responsibility to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-chandigarh-195b', businessName: 'Pudhari — Chandigarh Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919781300172', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Gunjan Gupta, Chandigarh regional contact listed by Pudhari.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-chennai-195c', businessName: 'Pudhari — Chennai Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919841023010', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Sathish Anand, Chennai regional contact listed by Pudhari.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-hyderabad-195d', businessName: 'Pudhari — Hyderabad Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919603461500', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Ram Babu, Hyderabad regional contact listed by Pudhari.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
