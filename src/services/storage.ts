@@ -4459,6 +4459,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Malviya Nagar. Listed as Newspaper Agency; landline also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-chhayalok-jaipur-170a', businessName: 'Chhayalok Newspaper', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919828110839', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Sodala. Listed as Newspaper Agency; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-seemasandesh-jaipur-170b', businessName: 'Seema Sandesh', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919414088881', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Jhalana Institutional Area. Listed as Newspaper Agency; a second mobile 9413376076 is also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mandichetna-jaipur-170c', businessName: 'Mandi Chetna Newspaper', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919928262828', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Nahargarh Road. Listed as Newspaper Agency; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samacharjagat-jaipur-170d', businessName: 'Samachar Jagat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919529259007', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Jawahar Lal Nehru Marg. Listed as Newspaper Agency; also appears as a newspaper publisher in public directories.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
