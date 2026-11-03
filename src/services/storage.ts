@@ -1350,6 +1350,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: '1-10-233/1/3, Ashok Nagar. Official Agents Sales Emporium listing; newspaper/periodical distribution scope to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-mkbooks-trivandrum-139', businessName: 'M.K. Books', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919447324977', city: 'Thiruvananthapuram', district: 'Thiruvananthapuram', state: 'Kerala',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Statue Junction. Official Agents Sales Emporium listing; book/periodical supply, newspaper circulation to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sarvodaya-madurai-140', businessName: 'Sarvodaya Ilakkiya Pannai', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919894642007', city: 'Madurai', district: 'Madurai', state: 'Tamil Nadu',
+        source: 'Publications Division — Agents & Journals directory', notes: '31/1, West Veli Street. Official Agents Sales Emporium listing; publications/book distribution, newspaper supply not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-srisiva-madurai-141', businessName: 'Sri Siva Books', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919444816231', city: 'Madurai', district: 'Madurai', state: 'Tamil Nadu',
+        source: 'Publications Division — Agents & Journals directory', notes: '316/215A, Kamaraj Salai, near Munichalai ICICI Bank. Official Agents Sales Emporium listing; book/periodical supply, newspaper circulation to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-success-chennai-142', businessName: 'Success Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919884912274', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Publications Division — Agents & Journals directory', notes: '12th Main Road, Anna Nagar. Official Agents Sales Emporium listing; published contact includes two consecutive mobile numbers, first entered.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
