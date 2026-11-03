@@ -4693,6 +4693,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kaumudi-kottayam-181a', businessName: 'Kerala Kaumudi — Kottayam Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919946108305', city: 'Kottayam', district: 'Kottayam', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-ernakulam-181b', businessName: 'Kerala Kaumudi — Ernakulam Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '918304867973', city: 'Kochi', district: 'Ernakulam', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-thrissur-181c', businessName: 'Kerala Kaumudi — Thrissur Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919747697166', city: 'Thrissur', district: 'Thrissur', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-malappuram-181d', businessName: 'Kerala Kaumudi — Malappuram Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919497351595', city: 'Malappuram', district: 'Malappuram', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; second number 9946108325 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
