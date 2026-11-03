@@ -7515,6 +7515,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
 
     ];
+    if (raw) {
       const existing: WebsiteProspect[] = JSON.parse(raw);
       const knownIds = new Set(existing.map((item) => item.id));
       const merged = [...existing, ...starterLeads.filter((item) => !knownIds.has(item.id))];
