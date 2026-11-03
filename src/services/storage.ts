@@ -3241,6 +3241,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'PinkBazaar public business listing', notes: 'Shop 15, Basement, Block N, 23 Cloth Market, Sanjay Palace, Sanjay Place, Civil Lines. Listed under newspaper delivery; advertising agency.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-nirmanbharti-muzaffarpur-455', businessName: 'Nirman Bharti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919835223288', city: 'Muzaffarpur', district: 'Muzaffarpur', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Fortnightly Hindi publication listed on CBC panel; mobile 9835223288. Publisher contact; confirm current circulation and role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-siyasipaigham-nalanda-456', businessName: 'Siyasi Paigham', contactName: '',
+        businessType: 'Distributor', whatsapp: '917779984786', city: 'Nalanda', district: 'Nalanda', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu publication, Nalanda edition; mobile 7779984786. Publisher contact; confirm current circulation and role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ghargharaawaz-patna-457', businessName: 'Ghar Ghar Ki Aawaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919470092706', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9470092706 and landline 0612-2651763 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jasaratbihar-patna-458', businessName: 'Jasarat-e-Bihar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919852071786', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9852071786 listed by CBC. Publisher contact; confirm current circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
