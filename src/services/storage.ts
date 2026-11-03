@@ -5797,6 +5797,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sri Ganganagar fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-rajyadesh-ajmer-230a', businessName: 'Rajyadesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414007822', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer Sindhi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hindu-ajmer-230b', businessName: 'Hindu — Sindhi Daily', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928000222', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer Sindhi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bharatbhoomi-ajmer-230c', businessName: 'Bharat Bhoomi', contactName: '',
+        businessType: 'Distributor', whatsapp: '918209750012', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer Sindhi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandhyajyotidarpan-alwar-230d', businessName: 'Sandhya Jyoti Darpan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414030571', city: 'Alwar', district: 'Alwar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Alwar Hindi daily listed as Regular on the official government panel; mobile contact also appears for other Rajasthan editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
