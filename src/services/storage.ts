@@ -2833,6 +2833,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: 'Unit 4A, 13 Lala Lajpat Rai Sarani. Official Jagran office; landlines 033-22838807 / 22838810.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-mumbai-387', businessName: 'Jagran Prakashan — Mumbai Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '02239413000', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '409/410, Trade World, B-Wing, Kamala Mills Compound, Senapati Bapat Marg, Lower Parel. Official Jagran office; landlines 022-39413000 / 30454700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-pune-388', businessName: 'Dainik Jagran — Pune Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '02066052400', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '301, Sai Gaurav, 2040 S.K. Jaan Mohd. Street, near Baba Jaan Chowk, Camp. Official Jagran office; published telefax 020-660524.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-raipur-389', businessName: 'Dainik Jagran — Raipur Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '07712422112', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '2, Prem Kunj, 1st Floor, Civil Lines. Official Jagran office; landline 0771-2422112.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-vizag-390', businessName: 'Dainik Jagran — Visakhapatnam Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '08912569232', city: 'Visakhapatnam', district: 'Visakhapatnam', state: 'Andhra Pradesh',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '29-42-18, SBI Colony, Visakhapatnam. Official Jagran office; landlines 0891-2569232 / 2573573.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
