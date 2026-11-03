@@ -2323,6 +2323,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: '549, Poddar Arcade, Khan Bazar, Varachha Road. Newspaper advertising, radio and banner advertising agency.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ajitshelar-mumbai-302', businessName: 'Ajit Shelar Book Stall', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919892759777', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Opposite Mehboob Studio, Bandra West. Listed as Newspaper Distributor and Newspaper Supplier; also book stall.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-snyadav-mumbai-303', businessName: 'S.N. Yadav', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919819931188', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Chapel Road, Bandra West. Listed as Newspaper Distributor and Newspaper Supplier; individual vendor listing.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prism-mumbai-304', businessName: 'Prism Publications', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public magazine/newspaper distributor directory', notes: 'Shivpuri Building No. 15, V.N. Purav Marg, Chembur. Listed as newspaper and magazine distributor/publisher; published contact is landline 022-25272829.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shreerang-mumbai-305', businessName: 'Shreerang Mercantile India Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public magazine/newspaper distributor directory', notes: '501, Lotus House, Sir Vithaldas Thackersey Road, Marine Lines. Listed as newspaper and magazine distributor/publisher; published contact is landline 022-22015692.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
