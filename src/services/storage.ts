@@ -1530,6 +1530,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Justdial public listing — newspaper vendors', notes: 'Nanak Chand Basti, Kotla Mubarakpur. Listed as pamphlet distributor and newspaper advertising agency; verify whether it also handles newspaper circulation.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dolphin-pune-169', businessName: 'Dolphin Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919011722323', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Official business website — Dolphin Advertising', notes: '541 Sadashiv Peth, Jondhale Chowk. Newspaper advertising specialists and official partner of leading dailies; ad booking only, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shubindia-pune-170', businessName: 'Shubindia Ad Works', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919850219850', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Official business website — Shubindia Ad Works', notes: 'Shop No. 66, Vastushree Complex, Market Yard. Website publishes a dedicated mobile contact for newspaper ads; advertising only, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
