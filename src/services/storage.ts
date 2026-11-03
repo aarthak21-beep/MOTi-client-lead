@@ -4741,6 +4741,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Siraj Daily — public branch contacts directory', notes: '41/3724, Banerjee Road, Amulya Street, Ernakulam North. Official circulation mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-siraj-kannur-183a', businessName: 'Siraj Daily — Kannur Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919349331741', city: 'Kannur', district: 'Kannur', state: 'Kerala',
+        source: 'Siraj Daily — public branch contacts directory', notes: 'Caltex, P.O. Civil Station, Kannur. Official circulation mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-siraj-tvm-183b', businessName: 'Siraj Daily — Thiruvananthapuram Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919847931296', city: 'Thiruvananthapuram', district: 'Thiruvananthapuram', state: 'Kerala',
+        source: 'Siraj Daily — public branch contacts directory', notes: 'Press Road, Thiruvananthapuram. Official circulation mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dailysach-jammu-183c', businessName: 'Daily Sach — Jammu', contactName: '',
+        businessType: 'Distributor', whatsapp: '919070027777', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'Daily Sach official website', notes: '24–25, Sarwal Colony, Jammu. Urdu daily newspaper publisher; official site explicitly lists this number for WhatsApp news sharing and business enquiries.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kip-jammu-183d', businessName: 'Kashmir Independent Press', contactName: '',
+        businessType: 'Distributor', whatsapp: '918419191026', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'Kashmir Independent Press official website', notes: 'Chamber 22, 2nd Floor, TRG Gouri Complex, Bahu Plaza, Rail Head. Publisher/news agency contact; alternate mobile 9419191026 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
