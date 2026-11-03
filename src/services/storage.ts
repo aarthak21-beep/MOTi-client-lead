@@ -6278,6 +6278,42 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         notes: 'Listed under Maharashtra Agent Sales Emporium at 181 Dr. D.N. Road, Fort, Mumbai. Office landlines: 022-22612521 / 22659599. No mobile number published; WhatsApp not verified. Confirm newspaper distribution scope before pitching.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       }
+,
+      {
+        id: 'news-india-directory-282', businessName: 'Mahendra Kumar Arora', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Kanpur', district: 'Kanpur Nagar', state: 'Uttar Pradesh',
+        source: 'Publications Division, Government of India — English Newspaper Agents directory (official)',
+        notes: 'Distributionship No. 5; B-31, Triveni Nagar, Cantt, Kanpur 208004. Listed as Book Seller & News Agent. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-directory-283', businessName: 'A.K. Naik — Bus Stand Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Publications Division, Government of India — English Newspaper Agents directory (official)',
+        notes: 'Distributionship No. 14; Bhubaneswar 751009. Explicitly listed as News Paper Agent. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-directory-284', businessName: 'K.K. Puri News Distributors Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Publications Division, Government of India — English Newspaper Agents directory (official)',
+        notes: 'Distributionship No. 17; 6/1A, Palam Avenue, Kolkata 700019. Listed as News Distributors Pvt. Ltd. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-directory-285', businessName: 'Bright News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Publications Division, Government of India — English Newspaper Agents directory (official)',
+        notes: 'Distributionship No. 25; 146 D.N. Road, Mahindra Chambers, Mumbai 400001. Explicitly listed as News Paper Agency. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-directory-286', businessName: 'Chhajer News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Publications Division, Government of India — English Newspaper Agents directory (official)',
+        notes: 'Distributionship No. 70; Joshiwara, inside Kote Gate, Bikaner 334005. Listed as a newspaper agency. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      }
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
