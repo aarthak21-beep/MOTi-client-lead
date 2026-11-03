@@ -5917,6 +5917,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Kurukshetra Hindi daily listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jaatratan-rohtak-237a', businessName: 'Jaat Ratan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919355675622', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Rohtak monthly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-palpal-sirsa-237b', businessName: 'Pal Pal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919215622300', city: 'Sirsa', district: 'Sirsa', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Sirsa Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aalmijung-sonipat-237c', businessName: 'Aalmi Jung', contactName: '',
+        businessType: 'Distributor', whatsapp: '919968563682', city: 'Sonipat', district: 'Sonipat', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Sonipat Urdu daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-haritilak-sonipat-237d', businessName: 'Hari Tilak', contactName: '',
+        businessType: 'Distributor', whatsapp: '919996114015', city: 'Sonipat', district: 'Sonipat', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Sonipat fortnightly Hindi newspaper listed as Regular on the official government panel; same mobile also appears for Swarn Prastha.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
