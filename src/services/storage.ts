@@ -3979,6 +3979,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Dausa; mobile 9414771336 and landline 01431-220797 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-faceofrajasthan-dausa-578', businessName: 'Face of Rajasthan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414271351', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Dausa; mobile 9414271351 and landline 01427-220228 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dhakadsamachar-dausa-579', businessName: 'Dhakad Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928152044', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Dausa; mobile 9928152044 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dausagazette-dausa-580', businessName: 'Dausa Gazette', contactName: '',
+        businessType: 'Distributor', whatsapp: '917597922515', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Dausa; mobile 7597922515 and landline 01431-231066 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-publicinsaf-dholpur-581', businessName: 'Public Insaf Diary', contactName: '',
+        businessType: 'Distributor', whatsapp: '919460480429', city: 'Dholpur', district: 'Dholpur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Dholpur; mobile 9460480429 and landline 05642-221609 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
