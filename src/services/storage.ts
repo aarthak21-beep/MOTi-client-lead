@@ -469,7 +469,27 @@ export function importAllData(jsonString: string): boolean {
 export function getNewspaperProspects(): NewspaperProspect[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS);
-    return raw ? JSON.parse(raw) : [];
+    if (raw) return JSON.parse(raw);
+    const starterLeads: NewspaperProspect[] = [
+      {
+        id: 'news-santosh-mumbai-001',
+        businessName: 'Santosh Newspaper Suppliers',
+        contactName: '',
+        businessType: 'Newspaper Vendor',
+        whatsapp: '918904010582',
+        city: 'Mumbai',
+        district: 'Mumbai Suburban',
+        state: 'Maharashtra',
+        source: 'Justdial listing — WhatsApp option displayed',
+        notes: 'Directory listing shows a WhatsApp contact option. Confirm the account is active and business contact is correct before messaging.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+    ];
+    localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(starterLeads));
+    return starterLeads;
   } catch {
     return [];
   }
