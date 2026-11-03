@@ -4321,6 +4321,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'AskLaila — Indore Newspaper Agency directory', notes: 'Listed under Newspaper Agency in the Indore directory; address snippet indicates Vadodara/Indore and requires verification.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sidra-bhopal-163a', businessName: 'Sidra Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919893886293', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Google Business public listing', notes: 'House No. 20, Street No. 2, near Bethlehem Church, Barkhadi, Jahangirabad. Newspaper advertisement agency; print ad placement, not confirmed newspaper delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-activeads-bhopal-163b', businessName: 'Active Advertising and Marketing', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917898712648', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Google Business public listing', notes: 'Plot No. 07, Parikrama Parishar, Indira Press Complex, Zone I, MP Nagar. Newspaper advertising and campaign placement agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhopalsamachar-163c', businessName: 'Bhopal Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425137664', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'BharatiBiz public business listing', notes: '2nd Floor, Jyoti Cineplex Building, Jyoti Cinema Square, MP Nagar. Listed as newspaper publisher; distribution/vendor relationship to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-maharajads-pune-163d', businessName: 'Maharaj Advertising — Newspaper Inserts & Distribution', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918657708337', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Google Business public listing', notes: 'Subash Nagar, Airport Road, Yerawada. Categorized as advertising agency and newspaper distribution service; public listing describes newspaper advertising and pamphlet distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
