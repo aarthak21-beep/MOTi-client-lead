@@ -1782,12 +1782,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: '24, Haridwar Road, Manvendera Nagar, Rishikesh. Explicitly listed as newspaper distribution service; alternate mobile 8191012982 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
-      {
-        id: 'news-paperdist-kalkaji-211', businessName: 'Newspaper And Magazine Distributor', contactName: '',
-        businessType: 'Distributor', whatsapp: '919313039246', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
-        source: 'Bharatibiz public business listing', notes: '1/10, DDA Flats, Kalkaji, Alaknanda. Explicitly listed as newspaper distribution service; historical website reference is Prakash News Agency.',
-        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },
+
       {
         id: 'news-dainikbharatpur-212', businessName: 'Dainik Bhaskar — Bharatpur Office', contactName: '',
         businessType: 'Distributor', whatsapp: '', city: 'Bharatpur', district: 'Bharatpur', state: 'Rajasthan',
