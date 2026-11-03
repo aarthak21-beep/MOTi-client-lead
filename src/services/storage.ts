@@ -4315,6 +4315,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'B.D. Lasurkar official website', notes: 'Plot No. 4, Shram Safalya, behind Telephone Bhawan, Ajab Nagar, near Kranti Chowk. Official site offers newspaper advertisement booking; advertising agency, not a confirmed newspaper delivery vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tribune-imprint-bhopal-161a', businessName: 'M/s Imprint Media Consultants Pvt Ltd — Tribune Bhopal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425017188', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'The Tribune official Contact Us page', notes: '74–75, Indus Empire, near Shahpura Thana, Trilanga. Listed as Tribune\'s Bhopal regional contact; second mobile 9425006237 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-cnr-tribune-chennai-161b', businessName: 'M/s CNR Enterprises — Tribune Chennai', contactName: '',
+        businessType: 'Distributor', whatsapp: '919884492122', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'The Tribune official Contact Us page', notes: 'B/16, Maduran Apartments, 147, Mohan Ram Nagar, Mogappaire. Listed as Tribune\'s Chennai regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-preeti-dehradun-161c', businessName: 'Preeti — Tribune Dehradun Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919837789993', city: 'Dehradun', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'The Tribune official Contact Us page', notes: '28, Idgah, Chakrata Road. Listed as Tribune\'s Dehradun regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tribune-jaipur-161d', businessName: 'Yogesh Joshi — Tribune Jaipur Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829038811', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'The Tribune official Contact Us page', notes: '38, Van Vihar Colony, Tonk Road. Listed as Tribune\'s Jaipur regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
