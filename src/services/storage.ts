@@ -1020,6 +1020,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: '26, Budhwar Peth, Appa Balwant Chowk. Official agent sales emporium listing; newspaper/periodical fit to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-devshanker-agra-084', businessName: 'Dev Shanker — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919899568421', city: 'Agra', district: 'Agra', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'C/o Prakash News Agency, Kamla Nagar. Listed as Newspaper Agent; same published contact also appears against other Dev Shanker agency locations.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-timeagency-tirupati-085', businessName: 'The Time Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919849116363', city: 'Tirupati', district: 'Tirupati', state: 'Andhra Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: '271-A, Nethaji Road. Listed in government agent directory.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahendra-kanpur-086', businessName: 'Mahendra Kumar Arora — Book Seller & News Agent', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919935535333', city: 'Kanpur', district: 'Kanpur Nagar', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'B-31, Triveni Nagar, Cantt. Explicitly listed as Book Seller & News Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-arora-lucknow-087', businessName: 'Arora News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919335911140', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Janpath Market, Hazratganj. Explicitly listed as Newspaper Agent; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
