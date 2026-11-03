@@ -1044,6 +1044,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Janpath Market, Hazratganj. Explicitly listed as Newspaper Agent; landline also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-chaman-kota-088', businessName: 'Chaman Book Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829036318', city: 'Kota', district: 'Kota', state: 'Rajasthan',
+        source: 'Employment News — published existing agents PDF', notes: 'Chaman Hotel Building, Nayapura. Explicitly listed as Newspaper Agent; also book agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-students-gorakhpur-089', businessName: 'Students Corner — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919415210262', city: 'Gorakhpur', district: 'Gorakhpur', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Cinema Road, Golghar. Explicitly listed as Newspaper Agent; separate from Students Corner in Patna.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-murari-patna-090', businessName: 'Murari Prasad — Book Sellers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919430890211', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Employment News — published existing agents PDF', notes: 'New Market, Patna. Listed in government agent directory as book seller; newspaper supply role not explicit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-madhab-cuttack-091', businessName: 'Madhab Book Store', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919437026311', city: 'Cuttack', district: 'Cuttack', state: 'Odisha',
+        source: 'Employment News — published existing agents PDF', notes: 'Badambadi, Cuttack. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
