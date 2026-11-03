@@ -5893,6 +5893,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Rajsamand Hindi daily listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-deshkidharti-sawaimadhopur-234a', businessName: 'Desh Ki Dharti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829221551', city: 'Sawai Madhopur', district: 'Sawai Madhopur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sawai Madhopur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-udyogaaspaas-sikar-234b', businessName: 'Udyog Aas Paas', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829219445', city: 'Sikar', district: 'Sikar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sikar Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthanstatement-sikar-234c', businessName: 'Rajasthan Statement', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829223237', city: 'Sikar', district: 'Sikar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sikar Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-morningnews-sikar-234d', businessName: 'Morning News', contactName: '',
+        businessType: 'Distributor', whatsapp: '917976273676', city: 'Sikar', district: 'Sikar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sikar Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
