@@ -5035,6 +5035,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Ram Babu, Hyderabad regional contact listed by Pudhari.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pudhari-nagpur-196a', businessName: 'Pudhari — Nagpur Regional Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919130089957', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Pudhari Publications — public regional contact directory', notes: 'Mr. Sunil Adekar, Nagpur regional contact listed by Pudhari.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samaja-sambalpur-196b', businessName: 'The Samaja — Sambalpur Branch', contactName: '',
+        businessType: 'Distributor', whatsapp: '919437121498', city: 'Sambalpur', district: 'Sambalpur', state: 'Odisha',
+        source: 'The Samaja official ePaper contact page', notes: 'Sadashiv Mohapatra, Assistant Branch Manager; The Samaja branch at D-21, Bareipally Industrial Estate, Sambalpur. Public mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
