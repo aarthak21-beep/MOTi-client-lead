@@ -996,6 +996,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Employment News agents list', notes: 'New Market, Patna. Explicitly listed as Newspaper Agent; mobile number published in agent list.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-durga-guwahati-080', businessName: 'M/S Durga News Agency', contactName: '',
+        businessType: 'Distributor', whatsapp: '919435049511', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Publications Division — Agents & Journals directory', notes: '21, Motilal Nehru Road, Pan Bazar. Explicitly listed as Newspapers Distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandesh-pune-081', businessName: 'Sandesh Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919422008348', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Publications Division — Agents & Journals directory', notes: '658, Narayan Peth, Appa Balwant Chowk. Listed as agent sales emporium; newspaper/periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-unique-pune-082', businessName: 'Unique Book Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919221982227', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Shirol Road, opposite Fergusson College. Official agent directory listing; book/periodical supplier, newspaper circulation not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shivtej-pune-083', businessName: 'Shivtej Book Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919850602149', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Publications Division — Agents & Journals directory', notes: '26, Budhwar Peth, Appa Balwant Chowk. Official agent sales emporium listing; newspaper/periodical fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
