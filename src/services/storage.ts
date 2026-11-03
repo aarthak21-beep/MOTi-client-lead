@@ -2016,6 +2016,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'Prabhat House, JP Complex, near Old Police Station, Naroda Main Bazaar. Newspaper advertisement services; advertising agency rather than confirmed circulation distributor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hindusthan-bhopal-250', businessName: 'Hindusthan Samachar — Bhopal', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425601264', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Plot No. 8, Zone 1, Press Complex, MP Nagar. Listed as Hindustan Samachar News Agency and newspaper publisher.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-agniban-bhopal-251', businessName: 'Agniban — Bhopal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919827010709', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Grotal public newspaper-publisher directory', notes: '11, Press Complex, Zone 1, MP Nagar. Newspaper publisher; mobile 9827010709 and landline 0755-2576231 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pamm-bhopal-252', businessName: 'PAMM Advertising and Marketing', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919826939385', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Grotal public newspaper-advertising directory', notes: '10-B, Press Complex, Zone 1, MP Nagar. Newspaper advertising agency; ad placement, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prudential-bhopal-253', businessName: 'Prudential Advertiser and Media Planner', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425301760', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Grotal public newspaper-advertising directory', notes: 'MM-33, Block C, Mansarover Complex, near Habibganj Railway Station. Advertising and media planning; newspaper ad service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
