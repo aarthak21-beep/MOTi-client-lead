@@ -1776,6 +1776,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: 'Highway Road, near Bus Station, Bhaktinagar, Tharad. Explicitly listed as newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-azad-rishikesh-210', businessName: 'Azad News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919837229222', city: 'Rishikesh', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'Bharatibiz public business listing', notes: '24, Haridwar Road, Manvendera Nagar, Rishikesh. Explicitly listed as newspaper distribution service; alternate mobile 8191012982 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-paperdist-kalkaji-211', businessName: 'Newspaper And Magazine Distributor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919313039246', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
+        source: 'Bharatibiz public business listing', notes: '1/10, DDA Flats, Kalkaji, Alaknanda. Explicitly listed as newspaper distribution service; historical website reference is Prakash News Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikbharatpur-212', businessName: 'Dainik Bhaskar — Bharatpur Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Bharatpur', district: 'Bharatpur', state: 'Rajasthan',
+        source: 'Bharatibiz public business listing', notes: 'D.R. Industries Campus, Ekta Vihar Colony, Sonkh Road. Listed as newspaper publisher and newspaper distribution service; published contact is landline 05644-236084.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lokmat-jalgaon-213', businessName: 'Lokmat — Jalgaon', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Jalgaon', district: 'Jalgaon', state: 'Maharashtra',
+        source: 'Bharatibiz public business listing', notes: '87, Bank Street, Navi Peth, Jaikisan Wadi. Listed as newspaper publisher and newspaper distribution service; published contact is landline 0257-2236022.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
