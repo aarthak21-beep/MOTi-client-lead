@@ -3097,6 +3097,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'Near Town Hall, Nagar Palika Link Road, Udaipur. Listed as news agency; landline 0294-2561145; historical contact, verify current.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-agniban-booking-indore-431', businessName: 'Agniban/Dainik Bhaskar/Prabhat Kiran/Naidunia Ad Booking Point', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918989798468', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'PinkBazaar public business listing', notes: 'Railway Station, 39, opposite Lokmanya Nagar, Badri Baug Colony. Multi-publication newspaper advertisement booking point.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indoresamachar-indore-432', businessName: 'Indore Samachar Press', contactName: '',
+        businessType: 'Distributor', whatsapp: '919926000706', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: '17, Sanjay Gandhi Marg, New Dewas Road, near SBI. Registered daily newspaper publisher; mobile 9926000706 listed by CBC. Landline 0731-2434701.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-freepress-indore-433', businessName: 'Free Press — Indore', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425082195', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: '3/54, Press Complex, AB Road, Indore. English newspaper publisher; mobile 9425082195 listed by CBC; landline 0731-2555111.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dopahar-indore-434', businessName: 'Dainik Dopahar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826667063', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: '127, Devi Ahilya Marg, Chiman Bagh Main Road. Daily Hindi newspaper publisher; mobile 9826667063 listed by CBC; landline 0731-2544776.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
