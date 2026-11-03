@@ -1422,6 +1422,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Jhowtala Road, Park Circus. Newspaper classified/display ad booking agency; advertising only, not newspaper circulation vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-mukund-raipur-151', businessName: 'Mukund Parekh News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917712225851', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Public business listing', notes: 'Shop No. 1, Old Bus Stand, near Raj Talkies. Book/newsstand wholesaler with newspapers and magazines; newspaper agency/distribution fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kiran-indore-152', businessName: 'Kiran News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: 'Sai Market, Patel Bridge, Jawari Bagh Nasiya. Listed as newspaper distribution service; public listing did not provide a phone number.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-choudhary-indore-153', businessName: 'Choudhary News Agency & Stationery', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919907008623', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: 'Shop No. 3, Bus Stand, Ahilyapur, Navlakha. Explicitly listed as newspaper distribution service; also classified/ad-related categories.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nagpur-insertion-154', businessName: 'Nagpur Newspaper Leaflet & Pamphlet Insertion', contactName: '',
+        businessType: 'Distributor', whatsapp: '919730803192', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Ajay Nagar, Ambazari Road, Ram Nagar. Explicit newspaper leaflet insertion and pamphlet distribution service; advertising distribution segment.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
