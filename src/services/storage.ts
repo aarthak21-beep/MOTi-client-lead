@@ -4903,6 +4903,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'UGC, Office No. 6, Empire Tower, Dasara Chowk. Official regional office contact; second mobile 9403107860 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-manmad-190a', businessName: 'Navbharat Media — Manmad Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919422258496', city: 'Manmad', district: 'Nashik', state: 'Maharashtra',
+        source: 'Navbharat Media official Contact Us page', notes: '52, N. Gaikwad Chowk, Manmad. Official regional contact; second mobile 7020049297 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-jalgaon-190b', businessName: 'Navbharat Media — Jalgaon Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919422795922', city: 'Jalgaon', district: 'Jalgaon', state: 'Maharashtra',
+        source: 'Navbharat Media official Contact Us page', notes: '2nd Floor, C/8, Golani Market, Jalgaon. Official regional office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-aurangabad-190c', businessName: 'Navbharat Media — Chhatrapati Sambhajinagar Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919422713209', city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        source: 'Navbharat Media official Contact Us page', notes: 'Rehan Apartment, Yunus Colony, Roshan Gate. Official regional office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-ahmednagar-190d', businessName: 'Navbharat Media — Ahmednagar Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919860035933', city: 'Ahmednagar', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Ahmednagar.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
