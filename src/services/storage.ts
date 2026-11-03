@@ -1662,6 +1662,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: 'Near Post Office, Main Bazar, Radaur. Listed in existing agent directory; book seller/periodical supplier, newspaper circulation fit to verify. Alternate mobile 9255481949 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-national-dehradun-191', businessName: 'National News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919837638773', city: 'Dehradun', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'Employment News — official existing agents PDF', notes: 'Paltan Bazar, Dehradun. Explicitly listed as Newspaper Agent; landline 0135-2716161 / 2717280 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagdishpatel-ahmedabad-192', businessName: 'Jagdish I. Patel — Liberty Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919725062019', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Employment News — official existing agents PDF', notes: 'C/o Liberty Agencies, Ravi Estate, Dudheshwar Road. Listed as an existing Employment News agent; published mobile alternatives 9825060848 and 9825108673.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sarvodaya-jodhpur-193', businessName: 'Sarvodaya Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919414877100', city: 'Jodhpur', district: 'Jodhpur', state: 'Rajasthan',
+        source: 'Employment News — official existing agents PDF', notes: '70, Jaswant Building, Station Road. Explicitly listed as Newspaper Agent; other mobiles 81075891417, 9829781548 and 9314985001 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-delhimagazines-delhi-194', businessName: 'Delhi Magazines Distributors Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '919871199263', city: 'New Delhi', district: 'New Delhi', state: 'Delhi',
+        source: 'Employment News — official existing agents PDF', notes: '110, Bangla Sahib Marg, near Gole Market. Listed as magazine distributor; periodical distribution segment, newspaper circulation not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
