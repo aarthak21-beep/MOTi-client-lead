@@ -5275,6 +5275,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kalamdijuban-ludhiana-208a', businessName: 'Kalam Di Juban', contactName: '',
+        businessType: 'Distributor', whatsapp: '919855177999', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tajamasale-ludhiana-208b', businessName: 'Taja Masale', contactName: '',
+        businessType: 'Distributor', whatsapp: '919888168223', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-justicenews-ludhiana-208c', businessName: 'Justice News', contactName: '',
+        businessType: 'Distributor', whatsapp: '919417944183', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-punjabtimes-jalandhar-208d', businessName: 'Punjab Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919817400023', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
