@@ -1236,6 +1236,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Listed as Newspaper Agent at Thana Bhawan. Contact published under Kapil Verma.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pcjain-imphal-120', businessName: 'P.C. Jain & Co.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919436027526', city: 'Imphal', district: 'Imphal West', state: 'Manipur',
+        source: 'Employment News — published existing agents PDF', notes: 'Thangal Bazar, Imphal. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prakash-leh-121', businessName: 'Prakash Sales Corporation', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919878878880', city: 'Leh', district: 'Leh', state: 'Ladakh',
+        source: 'Employment News — published existing agents PDF', notes: 'P.O. Leh. Listed as Newspaper Agent & Stationer.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-patwal-haldwani-122', businessName: 'Patwal News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919690109581', city: 'Haldwani', district: 'Nainital', state: 'Uttarakhand',
+        source: 'Employment News — published existing agents PDF', notes: 'Opposite Degree College, Haldwani. Explicitly listed as Newspaper Agent; second mobile number also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ahmad-rampur-123', businessName: 'Ahmad Ali Khan — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919412717926', city: 'Rampur', district: 'Rampur', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Shop No. 4, New Market Station Road, Civil Lines. Explicitly listed as Newspaper Agent; second mobile number also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
