@@ -1968,6 +1968,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'First Floor, Kaushik Tower, Sector 51. Advertising agency with newspaper advertising, publishing and newspaper distribution categories; verify circulation role.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-suresh-dadri-242', businessName: 'Suresh News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919350190110', city: 'Dadri', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'Aggarsain Bazar, Dadri, Greater Noida. Listed under Hindustan, Times of India, Hindustan Times and Dainik Jagran newspaper distributors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shivam-greaternoida-243', businessName: 'Shivam News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919310045777', city: 'Greater Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'AskLaila public newspaper-distributor directory', notes: 'Greater Noida. Listed as Newspaper Agency; landline 0120-4294776 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jyoti-greaternoida-244', businessName: 'Jyoti News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919818044203', city: 'Greater Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'AskLaila public newspaper-distributor directory', notes: 'Greater Noida. Listed as Newspaper Agency; landline 0120-2326528 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rashtriya-noida-245', businessName: 'Rashtriya Hindi Samachar Patra', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810967541', city: 'Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'AskLaila public newspaper-distributor directory', notes: 'Sector 11, Noida. Listed under Newspaper Agency; landline 0120-4226541 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
