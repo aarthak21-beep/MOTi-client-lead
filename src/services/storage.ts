@@ -948,6 +948,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: 'Sainpura, Chetganj. Official directory lists as Headquarter Agent; contact listing shows three adjacent mobile numbers, primary number entered.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-raju-pustak-allahabad-072', businessName: 'M/S Raju Pustak Kendra', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919453460552', city: 'Prayagraj', district: 'Prayagraj', state: 'Uttar Pradesh',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Allahpur, Labour Chauraha. Listed as Headquarter Agent; book/newspaper distribution role needs confirmation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aknayak-bhubaneswar-073', businessName: 'M/S A.K. Nayak', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Bus Stand Book Stall, Old Bus Stand. Magazine & Newspaper Agent; published contacts are landlines 0674-2531702 / 2530810, so mobile/WhatsApp unavailable.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-parash-kolkata-074', businessName: 'Parash Keshri', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919475742578', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Publications Division — Agents & Journals directory', notes: '1, Deckers Lane, Esplanade East. Listed in official Agents Sales Emporium directory; periodical/newspaper agent fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-saaidutt-nagpur-075', businessName: 'Saaidutt Distributors', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Sitabuldi Commercial Complex, Ramdaspeth. Listed as newspaper distribution service; only landline 0712-2458518 published, WhatsApp/mobile not available.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
