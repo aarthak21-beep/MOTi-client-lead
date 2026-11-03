@@ -3217,6 +3217,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Cybo public newspaper directory', notes: 'Teen Nal Chowk, Gandhi Bagh. Newspaper publisher; published landline 0712-2548000.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-vishalstores-indore-451', businessName: 'Vishal Stores', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919111111270', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: '588, Mahatma Gandhi Road, Kunwar Mandli, Khajuri Bazar. Listed as newspaper delivery service; mobile 9111111270.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-cityblast-indore-452', businessName: 'City Blast', contactName: '',
+        businessType: 'Distributor', whatsapp: '919300701501', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Bharatibiz public business listing / official City Blast e-paper', notes: '242, Jawahar Marg, S. Rajmohalla. Active Hindi afternoon daily newspaper publisher and newspaper distribution service; mobile 9300701501.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-saiadvertisement-navi-453', businessName: 'SAI Advertisement', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918433594448', city: 'Navi Mumbai', district: 'Thane', state: 'Maharashtra',
+        source: 'PinkBazaar public business directory', notes: 'Shop 1, Plot 34, Navi Mumbai. Listed under newspaper delivery; advertising service and newspaper-ad booking/distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sanvi-agra-454', businessName: 'SANVI Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919997094077', city: 'Agra', district: 'Agra', state: 'Uttar Pradesh',
+        source: 'PinkBazaar public business listing', notes: 'Shop 15, Basement, Block N, 23 Cloth Market, Sanjay Palace, Sanjay Place, Civil Lines. Listed under newspaper delivery; advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
