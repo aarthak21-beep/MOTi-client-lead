@@ -2737,6 +2737,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: 'C/o Arvinda Bhai C. Patel, 121-A, Moti Nagar-11, Sussen Ring Road, Tarsali. Official regional contact mobile 9825741504.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-meerut-371', businessName: 'Dainik Jagran — Meerut Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919837310824', city: 'Meerut', district: 'Meerut', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '86/8, Mohkampur, Delhi Road, Meerut. Official Jagran Prakashan office; mobile 9837310824.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-patiala-372', businessName: 'Dainik Jagran — Patiala Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918284865100', city: 'Patiala', district: 'Patiala', state: 'Punjab',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '#45, Bachhittar Nagar, near 22 No. Phatak. Official Jagran office; mobile 8284865100.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-raebareli-373', businessName: 'Dainik Jagran — Rae Bareilly Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919415034700', city: 'Rae Bareli', district: 'Rae Bareli', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Durga Market, First Floor, Kachehri Road. Official Jagran office; mobile 9415034700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bookads-374', businessName: 'Jagran BookAds — Newspaper Ad Booking', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919311850250', city: 'New Delhi', district: 'South East Delhi', state: 'Delhi',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Central support for newspaper ad booking and rate enquiries; published mobile 9311850250, Monday to Friday.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
