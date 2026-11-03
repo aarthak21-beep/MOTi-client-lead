@@ -1278,6 +1278,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: '26/2082, Sandhya Tutors Lane, Statue. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-surabhi-thane-127', businessName: 'Surabhi NewsPaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919323873068', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Shop No. 1, Swastik Park, Kiran Mill Colony, Thane West. Listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janki-patna-128', businessName: 'Janki Prakashan', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919430246278', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Chauhatta, Patna. Listed as an Agents Sales Emporium; publisher/book distribution contact, newspaper delivery scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pitara-bokaro-129', businessName: 'Pitara', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918935829712', city: 'Bokaro Steel City', district: 'Bokaro', state: 'Jharkhand',
+        source: 'Publications Division — Agents & Journals directory', notes: 'KB-7, City Centre, Sector 4. Listed as an Agents Sales Emporium; book/periodical supply rather than confirmed daily newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ksagar-pune-130', businessName: 'K. Sagar House of Books', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918551049955', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Durga Chambers, 39/1, Budhwar Peth, Appa Balwant Chowk. Official agent sales emporium listing; book/periodical distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
