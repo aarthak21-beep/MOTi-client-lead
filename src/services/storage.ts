@@ -1848,6 +1848,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Niwaru Road, Nangal Jaisabohra. Newspaper classified/display advertising office; advertising service, not a circulation vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ads2publish-hyderabad-222', businessName: 'Ads2Publish', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918121003003', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Official Ads2Publish website', notes: 'Ahuja Estate, Abids. Official newspaper advertisement booking agency with partner offices across India; ad booking/placement, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhavesads-hyderabad-223', businessName: 'Bhaves Advertisers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918121004004', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Official Bhaves Advertisers website', notes: 'Ahuja Estate, Abids. Newspaper advertising agency; mobile contact published for ad booking, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-suryaa-hyderabad-224', businessName: 'SPR Publications — Suryaa News', contactName: '',
+        businessType: 'Distributor', whatsapp: '919603461234', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Official Suryaa Epaper contact page', notes: 'Plot No. 164, Siddhivinayak Nagar, Madhapur. Newspaper publisher; business enquiries contact. Newsroom phone 8919840785 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-arekay-chennai-225', businessName: 'Are Kay Books Distributors / R.K. News Agency', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Official R.K. News Agency website', notes: 'No. 20, Narayana Dasari Street, Egmore, near Aradhana Hotel. Website identifies it as newspaper and magazine distributor; published telephone is landline 044-45552477.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
