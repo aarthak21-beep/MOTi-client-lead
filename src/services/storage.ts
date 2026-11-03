@@ -2713,6 +2713,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Advertisement India contact page', notes: '21-B, near Kwality Restaurant, New Market, TT Nagar. Newspaper advertising/ad-booking agency; Bhopal branch.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-hyderabad-367', businessName: 'Dainik Jagran — Hyderabad Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919849273753', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Flat 403/404, GNR Heights, 1-7-387, Bakaram, Musheerabad. Official Jagran office; mobile 9849273753 for newspaper ad booking.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-kochi-368', businessName: 'Dainik Jagran — Kochi Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919895169603', city: 'Kochi', district: 'Ernakulam', state: 'Kerala',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Dileep K, Jagran Prakashan Ltd., 1st Floor, Vykundam, PRA-98, Kalavath Cross Road, Palarivattom. Official regional contact mobile 9895169603.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-rajkot-369', businessName: 'Dainik Jagran — Rajkot Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918128080880', city: 'Rajkot', district: 'Rajkot', state: 'Gujarat',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Rajesh C. Jani, Flat 201, Om Apartment, 2/3 Subash Nagar, Raiya Road. Official regional contact mobile 8128080880.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-vadodara-370', businessName: 'Dainik Jagran — Vadodara Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919825741504', city: 'Vadodara', district: 'Vadodara', state: 'Gujarat',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'C/o Arvinda Bhai C. Patel, 121-A, Moti Nagar-11, Sussen Ring Road, Tarsali. Official regional contact mobile 9825741504.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
