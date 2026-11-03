@@ -4765,6 +4765,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Kashmir Independent Press official website', notes: 'Chamber 22, 2nd Floor, TRG Gouri Complex, Bahu Plaza, Rail Head. Publisher/news agency contact; alternate mobile 9419191026 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kashmirdespatch-srinagar-184a', businessName: 'The Kashmir Despatch', contactName: '',
+        businessType: 'Distributor', whatsapp: '917006406066', city: 'Srinagar', district: 'Srinagar', state: 'Jammu and Kashmir',
+        source: 'Kashmir Despatch official website', notes: 'Chand Villah, Aram Wari, Old Zero Bridge, Rajbagh. English daily newspaper; public contact numbers 7006406066 and 9419000130.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kashmirobserver-srinagar-184b', businessName: 'Kashmir Observer', contactName: '',
+        businessType: 'Distributor', whatsapp: '919419004782', city: 'Srinagar', district: 'Srinagar', state: 'Jammu and Kashmir',
+        source: 'Kashmir Observer official website', notes: 'No. 1, Dal Lake Boulevard, Srinagar. Publisher/editor-in-chief mobile publicly listed; circulation office landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kashmirimages-srinagar-184c', businessName: 'Kashmir Images — Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919622830768', city: 'Srinagar', district: 'Srinagar', state: 'Jammu and Kashmir',
+        source: 'Kashmir Images official website', notes: 'J-38, Government Quarters, Jawahar Nagar, Srinagar. Official circulation contacts 9622830768 and 9149477163 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
