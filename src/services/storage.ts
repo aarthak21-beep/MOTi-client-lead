@@ -1800,6 +1800,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: '87, Bank Street, Navi Peth, Jaikisan Wadi. Listed as newspaper publisher and newspaper distribution service; published contact is landline 0257-2236022.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-raghu-hyderabad-214', businessName: 'Raghu Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918801720706', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: 'Lingampally Road, Bapu Nagar, Nallagandla. Listed as newspaper delivery service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prajapati-lucknow-215', businessName: 'Prajapati Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919936509614', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Public business listing', notes: '4/125, Sector 4, Vikas Nagar. Listed as newspaper distribution service; customer reviews indicate local delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ali-pamphlets-hyderabad-216', businessName: 'Ali Pamphlets Insertion & Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '917386632938', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Public business listing', notes: 'LIG-65/1, Road No. 2, KPHB Phase 1, Kukatpally. Advertising agency focused on pamphlet insertion and newspaper distribution campaigns.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-laxmi-jaipur-217', businessName: 'Laxmi News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917014352962', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Public business listing', notes: 'Jyoti Vihar, Plot No. 16, Mansarovar/Manyawas area. Listed as newspaper distribution service and classified ad publisher.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
