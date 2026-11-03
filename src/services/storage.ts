@@ -2232,6 +2232,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public news-agency directory', notes: '1569, Ghat Gate, Jaipur. Listed as Arun News Agency; published contact is landline 0141-2563701, newspaper distribution role to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-newspaperdealing-mumbai-286', businessName: 'Newspaper Dealing Agency', contactName: '',
+        businessType: 'Distributor', whatsapp: '919967476508', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public pamphlet/newspaper distributor directory', notes: 'G-4, 30-B, Harmony House, Chuime Village, Danpada, Khar West. Listed as newspaper distributor, pamphlet and flyer distributor; alternate mobile 9004800843.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pamphletinsertion-mumbai-287', businessName: 'Pamphlet Insertion', contactName: '',
+        businessType: 'Distributor', whatsapp: '918828814629', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public flyer-distributor directory', notes: '1, Gandhi Mansion, 3rd Floor, Bomanji Street, Kalbadevi. Newspaper insertion, pamphlet and leaflet distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-adplanet-airoli-288', businessName: 'Ad Planet', contactName: '',
+        businessType: 'Distributor', whatsapp: '919987082465', city: 'Navi Mumbai', district: 'Thane', state: 'Maharashtra',
+        source: 'Grotal public pamphlet-distributor directory', notes: 'Shop 6, Plot C-17/18, Sector 9, Airoli. Pamphlet distribution, newspaper insertion and advertising service; alternate mobile 9867382465.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-seagull-pune-289', businessName: 'Seagull Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919545552750', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Office 10, 5th Floor, Windsor Commerce, Baner. Newspaper and magazine advertising services; advertising only, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
