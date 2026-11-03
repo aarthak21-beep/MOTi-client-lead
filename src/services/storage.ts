@@ -900,6 +900,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Ludhiana public newspaper-vendors directory', notes: 'Shyam Nagar, Ludhiana. Advertising agency listed in newspaper-vendors directory; circulation distribution not confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-mehta-thane-064', businessName: 'Mehta Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919821680048', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Naupada, Thane West. Listed as newspaper agency/stationery shop; newspaper subscription/distribution role indicated; confirm scope.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhagwat-pune-065', businessName: 'Bhagwat & Sons Newspaper & Magazine Agent', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917769985192', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Fatima Nagar/Wanowrie. Listed as newspaper and magazine agent; directory category also advertising agency; confirm distribution coverage.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-risingsun-hyderabad-066', businessName: 'Rising Sun News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919666680857', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Public business listing', notes: 'Abids. Listed as news service and magazine store; periodical distribution fit, daily newspaper circulation to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sankalp-nagpur-067', businessName: 'Sankalp Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919423404695', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Public business listing', notes: 'Ladikar Layout, Ayodhya Nagar. Newspaper distribution service with delivery reviews.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
