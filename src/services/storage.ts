@@ -4561,6 +4561,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dinamalar Newspaper — public office directory', notes: '204, INS Building, Rafi Marg. Official New Delhi office contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-savithri-coimbatore-175a', businessName: 'Savithri Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919944111311', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: 'No. 4, Athulya Apartments, Ansari Street, behind Alangar Hotel, Ram Nagar. Listed in local newspaper office directory; agency/distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-afternoon-coimbatore-175b', businessName: 'Afternoon Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '919894095096', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'BharatiBiz public business listing', notes: '125, 8th Street, opposite Lakshmi Complex, Gandhipuram. Newspaper publisher; manager contact publicly listed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ganaadhikar-guwahati-175c', businessName: 'Gana Adhikar — Guwahati', contactName: '',
+        businessType: 'Distributor', whatsapp: '917636909063', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Gana Adhikar official website', notes: 'Official newspaper ePaper contact; the website explicitly publishes the same number for phone and WhatsApp support. Publisher/distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-reporterpost-ranchi-175d', businessName: 'Reporter Post', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431169656', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Reporter Post official website', notes: 'B/4 Mukul Kunj, near BSV School, Niwaranpur. English daily newspaper publisher; official publisher contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
