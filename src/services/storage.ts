@@ -5515,6 +5515,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-andhrabhoomi-anantapur-218a', businessName: 'Andhra Bhoomi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919849998026', city: 'Anantapur', district: 'Anantapur', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact. Panel marks regularity as blocked.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-andhrajyothi-anantapur-218b', businessName: 'Andhra Jyothi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919985404545', city: 'Anantapur', district: 'Anantapur', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-andhraprabha-anantapur-218c', businessName: 'Andhra Prabha', contactName: '',
+        businessType: 'Distributor', whatsapp: '917893929883', city: 'Anantapur', district: 'Anantapur', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Anantapur Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samchalana-visakhapatnam-218d', businessName: 'Samchalana V.P. Leader', contactName: '',
+        businessType: 'Distributor', whatsapp: '919348550909', city: 'Visakhapatnam', district: 'Visakhapatnam', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam Telugu daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
