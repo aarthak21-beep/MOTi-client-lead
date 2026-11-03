@@ -2371,6 +2371,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper directory', notes: 'Near Sahityik Naka, Dhanashri Building, Gokhale Road, Naupada. Listed as newspaper/book stall; published contact is landline 022-25407695.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sachitanand-mumbai-310', businessName: 'Sachitanand Enterprises', contactName: '',
+        businessType: 'Distributor', whatsapp: '02222075041', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public newspaper/magazine distributor directory', notes: 'Shanti Niwas, 4, Gazdhar Street, Kalbadevi. Listed for newspaper and magazine distribution/supply; published contact is landline 022-22075041.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pioneerbook-mumbai-311', businessName: 'Pioneer Book Company Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02224138723', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public newspaper/magazine distributor directory', notes: 'C-14, Royal Industrial Estate, 5-B, Naigaum Cross Road, Wadala. Listed as newspaper and magazine distributor/publisher; published contact is landline 022-24138723.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-puja-magazines-mumbai-312', businessName: 'Puja Magazine Distributors Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02266311168', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public magazine-distributor directory', notes: '231, Commissariat Building, D.N. Road, Fort. Magazine/periodical distributor; published contact is landline 022-66311168.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-murugan-magazines-mumbai-313', businessName: 'Murugan Magazine Distributors Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02266776777', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public magazine-distributor directory', notes: '204, Raylon Arcade, Kondivita Road, Andheri East. Magazine distributor; periodical distribution segment, published contact is landline 022-66776777.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
