@@ -2953,6 +2953,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: '77 A/D, opposite Police Lines, Gandhi Nagar, Jammu Tawi. Official Jagran city office; landline 0191-2457172.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-jhansi-407', businessName: 'Dainik Jagran — Jhansi Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05102330022', city: 'Jhansi', district: 'Jhansi', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '362, Civil Lines, Jhansi. Official Jagran publishing centre; landlines 0510-2330022 / 2330656.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-kanpur-408', businessName: 'Dainik Jagran — Kanpur Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05122216161', city: 'Kanpur', district: 'Kanpur Nagar', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '2, Sarvodaya Nagar, Kanpur. Official Jagran publishing centre; landlines 0512-2216161 to 2216164.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-lucknow-409', businessName: 'Dainik Jagran — Lucknow Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05222209483', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '57 A-3, Meerabai Marg, Lucknow. Official Jagran publishing centre; landline 0522-2209483.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-ludhiana-410', businessName: 'Dainik Jagran — Ludhiana Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01613066100', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'BXX-630, Second Floor, Gurdev Nagar, Ferozpur Road, near Park Plaza Hotel. Official Jagran publishing centre; landline 0161-3066100.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
