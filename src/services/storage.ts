@@ -648,6 +648,66 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         notes: 'Meera Marg, Bani Park, Jaipur. Advertising service listed in newspaper-vendor search; verify newspaper distribution fit.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dangat-mumbai-017', businessName: 'The Dangat Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '912222017494', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Fort, Mumbai. Listed as newspaper distribution service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pnmuthu-mumbai-018', businessName: 'P. N. Muthu Newspaper', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919867971853', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Chembur East. Listed as newspaper distribution service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pankaj-delhi-019', businessName: 'Newspaper Service Pankaj', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '918587079978', city: 'New Delhi', district: 'West Delhi', state: 'Delhi',
+        source: 'Google Maps public business listing', notes: 'West Patel Nagar. Listed as newspaper distribution/home-delivery service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anilphalke-navi-mumbai-020', businessName: 'Anil Phalke Newspaper Stall', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919930321781', city: 'Navi Mumbai', district: 'Thane', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Seawoods, Sector 48. Newsstand listing. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandeep-bkc-021', businessName: 'Sandeep Singh Newspaper Vendor', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '918087993380', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'BKC, Bandra East. Listed as newspaper distribution service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ganeshmule-mumbai-022', businessName: 'Ganesh Mule Newspaper Stall', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919967371701', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Kurla East. Listed as neighborhood newspaper stall/vendor. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vikram-mulund-023', businessName: 'Vikram Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '91', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Mulund West. Listing identifies a newspaper distribution agency; phone number not available in returned listing.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shreedatta-pune-024', businessName: 'Shree Datta Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919595222124', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Wakad, Pimpri-Chinchwad. Listed as newspaper distribution service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mangat-ludhiana-025', businessName: 'Mangat News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919872875489', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Mera Ludhiana public directory', notes: 'Doraha, Ludhiana. Listed under news agencies. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mittal-ludhiana-026', businessName: 'Mittal Communication', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919876944603', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Mera Ludhiana public directory', notes: 'Rajpura Road, Ludhiana. Listed under news agencies. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
