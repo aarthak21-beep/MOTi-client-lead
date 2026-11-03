@@ -5209,6 +5209,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Taasir Urdu Daily official Contact page', notes: '711, Jagat Trade Centre, Fraser Road. Official correspondent contact; additional Patna contacts 9835438345 and 9708887666 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-asomspandan-dibrugarh-205a', businessName: 'Asom Spandan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919435330121', city: 'Dibrugarh', district: 'Dibrugarh', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Dibrugarh edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-solangdo-diphu-205b', businessName: 'Solangdo', contactName: '',
+        businessType: 'Distributor', whatsapp: '919954007814', city: 'Diphu', district: 'Karbi Anglong', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Diphu edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thekar-diphu-205c', businessName: 'Thekar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919401378308', city: 'Diphu', district: 'Karbi Anglong', state: 'Assam',
+        source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Diphu edition listed on the official newspaper panel; mobile contact published for newspaper office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
