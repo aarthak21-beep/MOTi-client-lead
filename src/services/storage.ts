@@ -2184,6 +2184,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'E-11, Radhey Puri. Newspaper, radio, TV and magazine advertising services; ad placement, not newspaper circulation.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dreamfly-kolkata-278', businessName: 'Dream Fly Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918961876926', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: 'A.P.C. Road, Kolkata. Newspaper advertisement booking/classified agency; advertising only, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bookallads-kolkata-279', businessName: 'Book All Ads', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918335824700', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '207, AJC Bose Road, Ultadanga. Newspaper and online advertisement booking agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hindusthan-jaipur-280', businessName: 'Hindusthan Samachar — Jaipur', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917597892495', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Grotal public news-publisher directory', notes: 'C-29A, Bajaj Nagar. Listed as Hindustan Samachar News Agency, newspaper publisher and advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandesh-jaipur-281', businessName: 'The Sandesh Limited — Jaipur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414071609', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Grotal public newspaper-publisher directory', notes: '7, Chha-6, Jawahar Nagar. Gujarati newspaper publisher/distributor contact for Sandesh publications.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
