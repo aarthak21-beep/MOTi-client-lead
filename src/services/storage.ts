@@ -3715,6 +3715,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Jaipur; mobile 9782044444 and landline 0141-5143401 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-medicine-jaipur-534', businessName: 'Medicine Ki Duniya', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928466488', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi medical publication, Jaipur; mobile 9928466488 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vichaar-jaipur-535', businessName: 'Vichaaron Ka Nirnaya', contactName: '',
+        businessType: 'Distributor', whatsapp: '917665488355', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 7665488355 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-eximexpress-jaipur-536', businessName: 'Exim Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828152383', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi business publication, Jaipur; mobile 9828152383 and landline 0141-2741454 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajvaibhav-jaipur-537', businessName: 'Raj Vaibhav', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928530322', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Jaipur; mobile 9928530322 and landline 0141-2369819 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
