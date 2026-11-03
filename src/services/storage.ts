@@ -1212,6 +1212,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Bus Stand, Kandeli. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-versha-satna-116', businessName: 'Versha News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425841819', city: 'Satna', district: 'Satna', state: 'Madhya Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: '41, Martand Complex, near Railway Station. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anita-rewa-117', businessName: 'Anita Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919425874823', city: 'Rewa', district: 'Rewa', state: 'Madhya Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Shop No. 60, Rewanchal Bus Stand. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rameshchander-udaipur-118', businessName: 'Ramesh Chander Manihar — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919001009003', city: 'Deogarh Madaria', district: 'Rajsamand', state: 'Rajasthan',
+        source: 'Employment News — published existing agents PDF', notes: 'Deogarh Madaria, Udaipur district as shown in published list. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-verma-thana-bhawan-119', businessName: 'M.S. Verma Book Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919410620039', city: 'Thana Bhawan', district: 'Shamli', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Listed as Newspaper Agent at Thana Bhawan. Contact published under Kapil Verma.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
