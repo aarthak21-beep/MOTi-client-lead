@@ -2064,6 +2064,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'Booth No. 179, Sector 35-D. Newspaper advertising and classified booking centre; advertising only, not a circulation vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tribune-chandigarh-258', businessName: 'The Tribune — Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919888488823', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Official Dainik Tribune contact page', notes: 'The Tribune Trust, Sector 29-C, Chandigarh. Official circulation contact mobile 9888488823; office numbers 0172-2670280 / 2670419.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pushpak-chandigarh-259', businessName: 'Pushpak Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919646622000', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-advertising directory', notes: 'House No. 27, Sector 18-A, Chandigarh. Newspaper advertising and booking service; advertising only, not circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ascent-chandigarh-260', businessName: 'Ascent Media Solution Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919316614111', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Shop No. 2570, 3rd Floor, Sector 22-C. Media/advertising agency and newspaper advertisement booking centre.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-newznew-chandigarh-261', businessName: 'NewZNew', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814122794', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Grotal public news-publisher directory', notes: 'Sector 17, Chandigarh. Listed as English online newspaper publisher/news portal; publisher lead, print circulation not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
