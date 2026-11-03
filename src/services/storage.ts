@@ -1896,6 +1896,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'PinkBazaar public newspaper-delivery listing', notes: '303/304, Narayan Peth. Newspaper publisher and newspaper-delivery listing; official website also publishes head-office landlines 020-24455631 / 24456626.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navakal-mumbai-230', businessName: 'Navakal', contactName: '',
+        businessType: 'Distributor', whatsapp: '02223880981', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: '13, Navakal Path, off Khadilkar Road, Charni Road East, Girgaon. Newspaper publisher/delivery listing; published contact is landline 022-2388-0981, not WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-deshonnati-nagpur-231', businessName: 'Deshonnati — Nagpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '07122462481', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: 'W Park Road, opposite Yashwant Stadium, Dhantoli. Newspaper publisher/delivery listing; published contact is landline 0712-2462481, not WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sakal-nagpur-232', businessName: 'Sakal Media Pvt. Ltd. — Nagpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '07122428052', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: 'Wardha House, 274/1, Central Bazar Road, New Ramdaspeth. Newspaper publisher/delivery listing; published contact is landline 0712-2428052, not WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-group5-lucknow-233', businessName: 'Group 5 Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '05222206872', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Public business listing', notes: '55-B, Wazir Hasan Road, Gokhale Vihar, Butler Colony. News service/newspaper with local distribution and insert services; published contact is landline 0522-2206872, not WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
