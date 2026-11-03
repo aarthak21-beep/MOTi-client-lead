@@ -8232,6 +8232,24 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03',
       },
+      {
+        id: 'web-mira-road-jeets-art-studio-104',
+        businessName: 'Jeets Art Studio',
+        contactName: '',
+        businessType: 'Art Studio / Creative Services',
+        phone: '918451054341',
+        whatsapp: '918451054341',
+        city: 'Mira Road East',
+        district: 'Thane',
+        state: 'Maharashtra',
+        websiteStatus: 'No Website',
+        source: 'Jain Business Organization public directory — Mira Road East business address; WhatsApp click-through listed',
+        notes: 'Directory lists firm as Jeets Art Studio, business address Beverly Park, Mira Road East, and WhatsApp number 8451054341. Website field is blank in the directory (not independently confirmed); verify website status and WhatsApp account before outreach.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: WebsiteProspect[] = JSON.parse(raw);
