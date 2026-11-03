@@ -5395,6 +5395,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Faridabad Hindi daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-gurgaonmail-gurgaon-213a', businessName: 'Gurgaon Mail', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810560875', city: 'Gurugram', district: 'Gurugram', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Gurgaon Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-newindianexpress-belgaum-213b', businessName: 'The New Indian Express — Belgaum Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919663215430', city: 'Belagavi', district: 'Belagavi', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum English daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hasirukranti-belgaum-213c', businessName: 'Hasiru Kranti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818060338', city: 'Belagavi', district: 'Belagavi', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum Kannada daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kannadaprabha-belgaum-213d', businessName: 'Kannada Prabha — Belgaum Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919740638755', city: 'Belagavi', district: 'Belagavi', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum Kannada daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
