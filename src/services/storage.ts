@@ -5629,6 +5629,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Barmer weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-muslimaawaz-churu-223a', businessName: 'Muslim Aawaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414285718', city: 'Churu', district: 'Churu', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Churu fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navsurya-dausa-223b', businessName: 'Nav Surya', contactName: '',
+        businessType: 'Distributor', whatsapp: '918290160881', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa Hindi daily except Sunday listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-faceofrajasthan-dausa-223c', businessName: 'Face of Rajasthan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414271351', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dhakadsamachar-dausa-223d', businessName: 'Dhakad Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928152044', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
