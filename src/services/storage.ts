@@ -4975,6 +4975,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Chennai.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-patna-193a', businessName: 'Navbharat Media — Patna Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431495493', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Patna.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-ranchi-193b', businessName: 'Navbharat Media — Ranchi Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919386367092', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Ranchi.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-odisha-193c', businessName: 'Navbharat Media — Odisha Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919437102023', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Odisha.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-kolkata-193d', businessName: 'Navbharat Media — Kolkata Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '918272906455', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Kolkata.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
