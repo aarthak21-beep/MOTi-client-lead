@@ -1260,6 +1260,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Shop No. 4, New Market Station Road, Civil Lines. Explicitly listed as Newspaper Agent; second mobile number also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sunrise-aurangabad-124', businessName: 'Sunrise Newspaper & Magazine Distributors', contactName: '',
+        businessType: 'Distributor', whatsapp: '919765754143', city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        source: 'Employment News — published existing agents PDF', notes: 'Railway Station Bhaji Mandi Road. Explicitly listed as Newspaper & Magazine Distributors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ramesh-gurdaspur-125', businessName: 'Ramesh Kumar — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919872032357', city: 'Gurdaspur', district: 'Gurdaspur', state: 'Punjab',
+        source: 'Employment News — published existing agents PDF', notes: 'Listed as Newspaper Agent in Gurdaspur; contact number published in government agent list.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ideal-trivandrum-126', businessName: 'Ideal Books', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919526014411', city: 'Thiruvananthapuram', district: 'Thiruvananthapuram', state: 'Kerala',
+        source: 'Employment News — published existing agents PDF', notes: '26/2082, Sandhya Tutors Lane, Statue. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
