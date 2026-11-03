@@ -4099,6 +4099,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9251741442 and landline 0154-268973 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-abdullah-srinagar-127', businessName: 'Abdulla News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919417074859', city: 'Srinagar', district: 'Srinagar', state: 'Jammu and Kashmir',
+        source: 'Employment News — List of Existing Agents PDF', notes: '1st Bridge, Lal Chowk. Explicitly listed as Newspaper Agent; PDF also lists second mobile 9906586620.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-suravi-dibrugarh-128', businessName: 'Suravi Sahitya Kutir', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919435031727', city: 'Dibrugarh', district: 'Dibrugarh', state: 'Assam',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Thana Chariali, Dibrugarh. Listed in the government agents directory; newspaper agency role indicated.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thenalil-portblair-129', businessName: 'Thenalil Enterprises', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919434288461', city: 'Port Blair', district: 'South Andaman', state: 'Andaman and Nicobar Islands',
+        source: 'Employment News — List of Existing Agents PDF', notes: '4, Mar Thoma Church Complex, Goalghar. Listed in government agent directory; newspaper distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rina-portblair-130', businessName: 'Rina Services', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919434293672', city: 'Port Blair', district: 'South Andaman', state: 'Andaman and Nicobar Islands',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Shadipur Junction, Port Blair. Listed in government agent directory; newspaper supply role not explicit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
