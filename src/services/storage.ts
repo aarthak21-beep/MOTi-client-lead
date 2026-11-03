@@ -4507,6 +4507,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Jaipur — Newspaper Vendors directory', notes: '318, Vijay Path, Raja Park, Tilak Nagar. Listed in Newspaper Vendors directory; exact newspaper service scope to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-divyatarang-jaipur-172a', businessName: 'Divya Tarang', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919001861585', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur — Newspaper Vendors directory', notes: '71, Sodala, New Sanganer Road, near Laiziz Restaurant. Listed in Newspaper Vendors directory; precise circulation role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nayigunjaesh-jaipur-172b', businessName: 'Nayi Gunjaesh', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919079674622', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur — Newspaper Vendors directory', notes: '57/3, Pancholi Vihar, New Sanganer Road, Sodala, near Ram Nagar Metro Station. Listed as Newspaper Vendor; business scope to verify. Second mobile 9649918181 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
