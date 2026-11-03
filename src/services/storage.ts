@@ -5101,6 +5101,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Son Varsha Vani official website', notes: 'Jai Hindi Colony, Nalapar, Aara. Official Aara edition office contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-assamtribune-guwahati-200a', businessName: 'Assam Tribune — Circulation Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919864122304', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Audit Bureau of Circulations — member publishers directory', notes: 'Assam Tribune Pvt Ltd, Tribune Buildings, M.R.D. Road, Chandmari. Publisher directory lists circulation contacts 9864122304 and 9706045502.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sentinel-guwahati-200b', businessName: 'The Sentinel Assam', contactName: '',
+        businessType: 'Distributor', whatsapp: '919874598745', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'The Sentinel official Contact Us page', notes: 'Saraswati Market, G.S. Road, Six Mile. Official customer care/newsroom mobile published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janambhumi-kolkata-200c', businessName: 'Dainik Janambhumi — Kolkata Branch', contactName: '',
+        businessType: 'Distributor', whatsapp: '919830475528', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Dainik Janambhumi official Contact Us page', notes: '56 Lenin Sarani, Kolkata. Official branch contact; second mobile 9830381292 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janambhumi-delhi-200d', businessName: 'Dainik Janambhumi — Delhi Representative', contactName: '',
+        businessType: 'Distributor', whatsapp: '919811098861', city: 'New Delhi', district: 'East Delhi', state: 'Delhi',
+        source: 'Dainik Janambhumi official Contact Us page', notes: 'Kailash Arora, F-10/5A, Krishna Nagar. Official representative contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
