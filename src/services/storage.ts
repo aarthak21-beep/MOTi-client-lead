@@ -437,6 +437,7 @@ export function exportAllData(): string {
     pricingPlans: getPricingPlans(),
     messageTemplates: getMessageTemplates(),
     settings: getSettings(),
+    newspaperProspects: getNewspaperProspects(),
   };
   return JSON.stringify(data, null, 2);
 }
@@ -455,6 +456,7 @@ export function importAllData(jsonString: string): boolean {
     if (Array.isArray(parsed.pricingPlans)) localStorage.setItem(STORAGE_KEYS.PRICING_PLANS, JSON.stringify(parsed.pricingPlans));
     if (Array.isArray(parsed.messageTemplates)) localStorage.setItem(STORAGE_KEYS.MESSAGE_TEMPLATES, JSON.stringify(parsed.messageTemplates));
     if (parsed.settings) localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(parsed.settings));
+    if (Array.isArray(parsed.newspaperProspects)) localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(parsed.newspaperProspects));
 
     notifyListeners();
     return true;
@@ -6000,7 +6002,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         businessType: 'Newspaper Agency', whatsapp: '919444482582', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
         source: 'Public local business listing', notes: '79, Arcot Road, Porur. Advertising agency focused on newspaper advertising and ad-release/booking support; not a daily newspaper distributor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
-      },,
+      },
       {
         id: 'news-eastern-sentinel-itanagar-241', businessName: 'Eastern Sentinel', contactName: '',
         businessType: 'Newspaper Publisher', whatsapp: '919402772257', city: 'Itanagar', district: 'Papum Pare', state: 'Arunachal Pradesh',
