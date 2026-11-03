@@ -2395,6 +2395,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine-distributor directory', notes: '204, Raylon Arcade, Kondivita Road, Andheri East. Magazine distributor; periodical distribution segment, published contact is landline 022-66776777.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-apexsubscription-mumbai-314', businessName: 'Apex Subscription Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02228413114', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public magazine-distributor directory', notes: 'G-116, Shagun Arcade, Gen. A.K. Vaidya Marg, Dindoshi, Malad East. Magazine subscription and book distribution company; landline 022-28413114.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ibhbooks-mumbai-315', businessName: 'IBH Books and Magazines Distributors Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02240497474', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public magazine-distributor directory', notes: 'Gala No. 29, West Approach, below Mahalaxmi Station Bridge. Book and magazine distributor; landline 022-40497474. Another Lower Parel office number 022-66296999.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-foreignmag-mumbai-316', businessName: 'Foreign Books and Magazine Subscription Agency', contactName: '',
+        businessType: 'Distributor', whatsapp: '919820180602', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Grotal public magazine-distributor directory', notes: '203, Shri Ram, Kandivali West. Magazine subscription agency; periodical distribution, not confirmed daily newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-divyamedia-thane-317', businessName: 'Divya Media Publications Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '919820551279', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Grotal public magazine-publisher directory', notes: '303, 3rd Floor, Harmony Tower, Netaji Subhash Road, Court Naka, Thane West. Magazine publisher/media house; periodical publishing and distribution lead.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
