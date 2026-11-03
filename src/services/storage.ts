@@ -4399,6 +4399,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dharitri Newspaper — public regional contact directory', notes: '107, Laxmi Nagar Square. Listed as Dharitri\'s Nagpur regional contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dharitri-indore-167a', businessName: 'Naveen Jain — Dharitri Indore Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919893518228', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: '917, Sudama Nagar, Shivam Building, Post Office Road. Listed as Dharitri\'s Indore regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-kanpur-167b', businessName: 'Ram Babu Gupta — Dharitri Kanpur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '917408177311', city: 'Kanpur', district: 'Kanpur Nagar', state: 'Uttar Pradesh',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Nitya Process, B-567, Avas Vikas Colony, Hamirpur Road. Listed as Dharitri\'s Kanpur regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-delhi-167c', businessName: 'Krishna Mohan — Dharitri Delhi Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919871333607', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Dharitri, F-1153, C.R. Park, basement. Listed as Dharitri\'s New Delhi regional contact; a second mobile 9910296290 is also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-mumbai-167d', businessName: 'Sailesh Malape — Dharitri Mumbai Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919702569273', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Office 306, 3rd Floor, INS Tower, Plot C-63, G Block, Bandra Kurla Complex. Listed as Dharitri\'s Mumbai regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
