@@ -3037,6 +3037,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'Harish Tiwari, Dainik Jagran, Haridwar Road, Dehradun Tiraha, Rishikesh; directory entry also references Lakkar Bazaar, Shimla. Published landline 0177-2652664; confirm exact office location.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-puneri-pune-421', businessName: 'Puneri News', contactName: '',
+        businessType: 'Distributor', whatsapp: '917758809699', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'PinkBazaar public business directory', notes: 'Pune Nagar Road, Ramwadi, Viman Nagar. Listed as newspaper delivery service; local publisher/distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anuradha-pune-422', businessName: 'Anuradha Daily Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919922739711', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'PinkBazaar public business directory', notes: 'Shop 11, near PCMC School, Sharda Colony, Pimpri. Listed as newspaper delivery service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sanjeev-delhi-423', businessName: 'Sanjeev Newspaper Supplier', contactName: '',
+        businessType: 'Distributor', whatsapp: '919911700628', city: 'New Delhi', district: 'South West Delhi', state: 'Delhi',
+        source: 'PinkBazaar public business directory', notes: 'A234Q, Gali No. 1A, Part-Mahaveer Enclave, Delhi. Listed as newspaper delivery/supplier service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-devnewspaper-delhi-424', businessName: 'Dev Newspaper & Ads Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919069424243', city: 'New Delhi', district: 'West Delhi', state: 'Delhi',
+        source: 'PinkBazaar public business directory', notes: 'F-139, near Gurudwara Street, Moti Nagar. Newspaper and advertising agency listing; circulation and ad services to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
