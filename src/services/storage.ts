@@ -2785,6 +2785,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: 'No. 9, 2nd Floor, Sindur Plaza, Egmore, 42 Montieth Road. Official Jagran office; landlines 044-28554047 / 28554555.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-ahmedabad-379', businessName: 'Dainik Jagran — Ahmedabad Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '07926460135', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '206, Anand Mangal-2, behind Femina Town, CG Road, Navrangpura. Official Jagran office; landline 079-26460135.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-chandigarh-380', businessName: 'Dainik Jagran — Chandigarh Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '01722784756', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'SCO 43-44, 2nd Floor, Sector 8-C, Madhya Marg. Official Jagran office; landlines 0172-2784756 / 2784757.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-coimbatore-381', businessName: 'Dainik Jagran — Coimbatore Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '04222496161', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '297, Rajeshwari Complex, 7th Street, Gandhipuram. Official Jagran office; landline 0422-2496161.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-faridabad-382', businessName: 'Dainik Jagran — Faridabad Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '01292411681', city: 'Faridabad', district: 'Faridabad', state: 'Haryana',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'E/7, B.P. Railway Road, NIT Chowk. Official Jagran office; landlines 0129-2411681 / 3051000.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
