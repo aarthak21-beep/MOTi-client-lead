@@ -5371,6 +5371,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Patiala Punjabi daily and monthly editions listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-khulasandesh-bhiwani-212a', businessName: 'Khula Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919355646455', city: 'Bhiwani', district: 'Bhiwani', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Bhiwani fortnightly Hindi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-purvipunjab-bhiwani-212b', businessName: 'Purvi Punjab', contactName: '',
+        businessType: 'Distributor', whatsapp: '919812255075', city: 'Bhiwani', district: 'Bhiwani', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Bhiwani weekly Hindi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-faridabaddarshan-faridabad-212c', businessName: 'Faridabad Darshan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919891990785', city: 'Faridabad', district: 'Faridabad', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Faridabad weekly Hindi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-satyajay-faridabad-212d', businessName: 'Satyajay Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919811232533', city: 'Faridabad', district: 'Faridabad', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Faridabad Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
