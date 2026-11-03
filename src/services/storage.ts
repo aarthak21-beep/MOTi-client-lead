@@ -1944,6 +1944,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Shop No. 2, Narsingh Ward, near Vidhya Bhawan School, Lalitpur Colony, Lashkar. Explicitly listed as newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-gaurav-kolkata-238', businessName: 'Gaurav Enterprise — Newspaper Insertion', contactName: '',
+        businessType: 'Distributor', whatsapp: '919163635553', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Public business listing', notes: '41, Lenin Sarani Road, Esplanade, Taltala. Advertising agency focused on newspaper pamphlet/leaflet insertion and distribution campaigns.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-swadeshjyoti-bhopal-239', businessName: 'Swadesh Jyoti', contactName: '',
+        businessType: 'Distributor', whatsapp: '917554026506', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: '26-A, Indira Press Complex, Zone I, MP Nagar. Local Hindi newspaper publisher/media house with newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-expressmedia-bhopal-240', businessName: 'Express Media Service', contactName: '',
+        businessType: 'Distributor', whatsapp: '919229226532', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: 'Commercial Chittod Complex, 7, Zone I, MP Nagar. Newspaper publisher/media service associated with Express News and Jabalpur Express.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jailakshmi-noida-241', businessName: 'Jai Lakshmi Advertisers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919810707457', city: 'Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'Public business listing', notes: 'First Floor, Kaushik Tower, Sector 51. Advertising agency with newspaper advertising, publishing and newspaper distribution categories; verify circulation role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
