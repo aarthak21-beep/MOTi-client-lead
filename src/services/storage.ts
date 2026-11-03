@@ -1920,6 +1920,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: '55-B, Wazir Hasan Road, Gokhale Vihar, Butler Colony. News service/newspaper with local distribution and insert services; published contact is landline 0522-2206872, not WhatsApp.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ojas-chandigarh-234', businessName: 'OJAS News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919779855800', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Public business listing', notes: 'Near Government Model School, Sector 16A. Explicitly listed as newspaper distribution and home-delivery service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-walia-zirakpur-235', businessName: 'Walia Newspapers Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917814437595', city: 'Zirakpur', district: 'SAS Nagar', state: 'Punjab',
+        source: 'Public business listing', notes: 'MC Office Road, Panchsheel Enclave, Zirakpur. Newspaper distribution service; listings also mention pamphlet services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ram-bhopal-236', businessName: 'Ram Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918518069139', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: 'HN-67, Regal Kasturi Phase 2 Road, Regal Town, Awadhpuri. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-choudhary-gwalior-237', businessName: 'Choudhary Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919993428029', city: 'Gwalior', district: 'Gwalior', state: 'Madhya Pradesh',
+        source: 'Public business listing', notes: 'Shop No. 2, Narsingh Ward, near Vidhya Bhawan School, Lalitpur Colony, Lashkar. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
