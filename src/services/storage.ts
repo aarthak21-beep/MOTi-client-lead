@@ -2905,6 +2905,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: '33, Press Complex, Zone 1, MP Nagar. Official Jagran publishing centre; landline 0755-4292000.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-dehradun-399', businessName: 'Dainik Jagran — Dehradun Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01352723318', city: 'Dehradun', district: 'Dehradun', state: 'Uttarakhand',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Plot 918/922, Industrial Area, Patel Nagar. Official Jagran publishing centre; landline 0135-2723318.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-dhanbad-400', businessName: 'Dainik Jagran — Dhanbad Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '03263982700', city: 'Dhanbad', district: 'Dhanbad', state: 'Jharkhand',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Panchsheel Guest House, Dhaiya. Official Jagran publishing centre; landline 0326-3982700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-gorakhpur-401', businessName: 'Dainik Jagran — Gorakhpur Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05513060300', city: 'Gorakhpur', district: 'Gorakhpur', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '23, Civil Lines, Gorakhpur. Official Jagran publishing centre; landline 0551-3060300.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-hisar-402', businessName: 'Dainik Jagran — Hisar Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01662398400', city: 'Hisar', district: 'Hisar', state: 'Haryana',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Plot 15 and 21, Industrial Estate, Delhi Road. Official Jagran publishing centre; landline 01662-398400.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
