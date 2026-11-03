@@ -1638,6 +1638,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: 'Near Islander Inn Hotel, Phongy Chaung, Port Blair. Listed as existing Employment News agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-brijesh-meerut-187', businessName: 'Brijesh Gupta & Sons', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919720500422', city: 'Meerut', district: 'Meerut', state: 'Uttar Pradesh',
+        source: 'Employment News — official existing agents PDF', notes: '209, Arya Nagar, Suraj Kund Road, Meerut. Listed as existing agent; book/periodical supply role, newspaper circulation fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-wadhwa-rewari-188', businessName: 'Wadhwa News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919416302430', city: 'Rewari', district: 'Rewari', state: 'Haryana',
+        source: 'Employment News — official existing agents PDF', notes: 'G-53, Kamla Palace, near Dharuhera Chowk. Listed as News Agency in existing agent directory.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-swamy-trivandrum-189', businessName: 'Swamy Book Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919497006656', city: 'Thiruvananthapuram', district: 'Thiruvananthapuram', state: 'Kerala',
+        source: 'Employment News — official existing agents PDF', notes: 'Opposite Ayurveda College, Dharmalayam Road. Listed in existing agent directory; book/periodical distribution, newspaper agency fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-manmohan-yamunanagar-190', businessName: 'Manmohan Pustak Bhandar', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919416493282', city: 'Radaur', district: 'Yamunanagar', state: 'Haryana',
+        source: 'Employment News — official existing agents PDF', notes: 'Near Post Office, Main Bazar, Radaur. Listed in existing agent directory; book seller/periodical supplier, newspaper circulation fit to verify. Alternate mobile 9255481949 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
