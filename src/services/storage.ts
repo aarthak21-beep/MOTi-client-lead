@@ -4195,6 +4195,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents of Books directory', notes: '24, Ratna Business Square, Old Natraj Cinema, Ashram Road. Official agent sales emporium; book/periodical distribution scope to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dainikbhaskar-rohtak-143', businessName: 'Dainik Bhaskar — Rohtak Newspaper Vendor Listing', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '918762390453', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Vendors', notes: 'Gohana Road, near Sukhpura Chowk & Sadar Thana. Listed under Newspaper Vendors and Advertising Agencies; local distribution contact, confirm exact role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-honey-kalanaur-144', businessName: 'Honey News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919991516901', city: 'Kalanaur', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Vendors', notes: 'New Bus Stand, Kalanaur. Listed under News Agencies and Newspaper Vendors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ashoka-meham-145', businessName: 'Ashoka News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917700025002', city: 'Meham', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Vendors', notes: 'Meham. Listed under Newspaper Vendors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-narendra-meham-146', businessName: 'Narendra News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919034908832', city: 'Meham', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Vendors', notes: 'State Highway 16A, Kishangarh Maham, first street on Bahalba Road. Listed under Newspaper Vendors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
