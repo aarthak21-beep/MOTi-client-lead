@@ -834,6 +834,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Chandpole Bazar, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sharma-jaipur-052', businessName: 'Sharma News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918387938808', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Sharma Pustak Bhandar, Watika, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikprakash-jaipur-053', businessName: 'Dainik Prakash Kunj', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919828237134', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Mission Compound, Ajmer Road, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-todayprint-ludhiana-055', businessName: 'Today News Print', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917696968959', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Mera Ludhiana public newspaper-vendors directory', notes: 'Siddhu Complex, Yellow Road, Ludhiana. Listed in newspaper-vendor directory; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
