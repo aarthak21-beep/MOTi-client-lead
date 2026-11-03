@@ -2443,6 +2443,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine-distributor directory', notes: 'Shop No. 3, Anand Complex, Duraisamy Reddy Street, Tambaram. Magazine distributor and book centre; landline 044-65663877 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-harrison-chennai-322', businessName: 'Harrison Book Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '919841314247', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public magazine-distributor directory', notes: 'Shop No. 810, opposite LIC, Anna Salai. Magazine distributor and book centre; landline 044-28592761 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-swasam-chennai-323', businessName: 'Swasam Bookart', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919152180609', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public newspaper/book directory', notes: 'No. 5, Castle Valley, Vengadamangalam Main Road. Listed for English newspaper, magazines and books; newspaper supply role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-spbook-chennai-324', businessName: 'SP Book House', contactName: '',
+        businessType: 'Distributor', whatsapp: '919152185748', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public magazine/book directory', notes: 'No. 2178/20, Flat 1, SP Groups, Raj Parrys Karpagam, 12th Main Road, Anna Nagar. Magazine/book supplier.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kavinbook-chennai-325', businessName: 'Kavin Book House', contactName: '',
+        businessType: 'Distributor', whatsapp: '919152191337', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public magazine/book directory', notes: 'Shop G3, Redhills Road, 200 Feet Road, Kolathur. Magazine and book supplier; periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
