@@ -4363,6 +4363,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — List of Existing Agents PDF', notes: 'Near Gugaji Mandir, Chirawa. Explicitly listed as News Agency; mobile number published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-bala-delhi-165a', businessName: 'Bala Book Shop', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918800673334', city: 'Delhi', district: 'North East Delhi', state: 'Delhi',
+        source: 'Publications Division — Agents of Books directory', notes: 'C-23, Nehru Vihar, Delhi. Listed in the official book agents directory; newspaper/periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lovedev-delhi-165b', businessName: 'Love Dev and Sons', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919312210029', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Publications Division — Agents of Books directory', notes: '92-B, Ground Floor, Shyam Lal Road, opposite Hindi Park, Darya Ganj. Listed in official agent directory; book/periodical supply fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
