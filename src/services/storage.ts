@@ -3145,6 +3145,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: 'Indore. Daily Hindi newspaper publisher; mobile 9826558989 listed by CBC; landline 0731-4293647.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-indore-439', businessName: 'Nav Bharat — Indore', contactName: '',
+        businessType: 'Distributor', whatsapp: '919752650633', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: 'Indore daily Hindi newspaper publisher; mobile 9752650633 listed by CBC; landline 0731-24086553.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikbhaskar-indore-440', businessName: 'Dainik Bhaskar — Indore Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919981382813', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Vishwanath, Dainik Bhaskar Indore. Mobile listed for publication/media contact; confirm whether advertising, circulation or editorial.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nayiduniya-indore-441', businessName: 'Nayi Duniya — Indore', contactName: '',
+        businessType: 'Distributor', whatsapp: '919893699943', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Abhishek, Nayi Duniya Indore. Mobile listed for publication/media contact; confirm whether advertising, circulation or editorial.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-swadesh-indore-442', businessName: 'Indore Swadesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826031670', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Sandeep Nirkhiwale, Indore Swadesh. Mobile 9826031670 listed in media contacts; newspaper publisher contact, exact role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
