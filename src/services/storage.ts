@@ -4075,6 +4075,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Hanumangarh; mobile 9413536851 and landline 0154-225399 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kunjkiran-hanumangarh-594', businessName: 'Kunj Kiran', contactName: '',
+        businessType: 'Distributor', whatsapp: '919251427509', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Hanumangarh; mobile 9251427509 and landline 0154-268973 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahilaayog-hanumangarh-595', businessName: 'Mahila Ayog', contactName: '',
+        businessType: 'Distributor', whatsapp: '918005709435', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 8005709435 and landline 0154-225399 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-gauravjyoti-hanumangarh-596', businessName: 'Gaurav Jyoti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919983051949', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9983051949 and landline 0154-222765 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-brahmanupdesh-hanumangarh-597', businessName: 'Brahman Updesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919251741442', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9251741442 and landline 0154-268973 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
