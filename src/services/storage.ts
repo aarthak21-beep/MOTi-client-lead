@@ -1464,6 +1464,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Ajanta Commercial Centre, Ashram Road. Newspaper classified/display ad booking agency; advertising only, not a newspaper circulation vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jkstall-mumbai-158', businessName: 'J.K. Newspaper Stall', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919324682322', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Fastbase public newspaper-distribution directory', notes: 'Dharavi Village, Dharavi. Listed under newspaper distribution; local stall/vendor listing.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vision-nashik-159', businessName: 'Vision News', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917744923142', city: 'Nashik', district: 'Nashik', state: 'Maharashtra',
+        source: 'Fastbase public newspaper-distribution directory', notes: 'Flat No. 5, Bhakti Apartment, Nagji Signal, Wadala Road. Listed under newspaper distribution; exact delivery footprint to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hemant-wagholi-160', businessName: 'Hemant News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919923663834', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Fastbase public newspaper-distribution directory', notes: 'Wagholi/Charholi Budruk area. Newspaper agency listing with published mobile and website hnewspa.com.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prabhat-raipur-161', businessName: 'Prabhat News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919926135825', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Fastbase public newspaper-distribution directory', notes: 'Mana Camp area; directory city field was blank, location mapped to Raipur from Mana Camp locality. Confirm exact address before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
