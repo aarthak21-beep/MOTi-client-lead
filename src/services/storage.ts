@@ -5191,6 +5191,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Audit Bureau of Circulations — member publishers directory', notes: 'Pranab Dutta Goswami, Circulation Manager, Assam Tribune; official directory lists mobile 9854008535.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-bodosa-advertising-guwahati-204a', businessName: 'Bodosa Newspaper — Advertising Manager', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '917086656644', city: 'Kokrajhar', district: 'Kokrajhar', state: 'Assam',
+        source: 'Bodosa Newspaper official website', notes: 'Rupswrang Brahma, Advertising Manager. Official contact for newspaper advertising; additional contact 9101737198 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-asompravah-guwahati-204b', businessName: 'Asom Pravah', contactName: '',
+        businessType: 'Distributor', whatsapp: '919401856373', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Asom Pravah official website', notes: 'Kundil Nagar, Hirimbapur Road, Udalbakra. Newspaper publisher contact; additional mobile numbers 7002592810 and 7002569115 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-taasir-patna-204c', businessName: 'Taasir Urdu Daily — Patna Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919572340480', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Taasir Urdu Daily official Contact page', notes: '711, Jagat Trade Centre, Fraser Road. Official correspondent contact; additional Patna contacts 9835438345 and 9708887666 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
