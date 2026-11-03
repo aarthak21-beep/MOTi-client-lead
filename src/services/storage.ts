@@ -4435,6 +4435,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dharitri Newspaper — public regional contact directory', notes: '6/1, 2nd Floor, Sherdan Plaza, Rajaram Mohan Ray Road. Listed as Dharitri\'s Bengaluru regional contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hukmnama-jaipur-169a', businessName: 'Hukmnama Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '918824399949', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Hukmnama Samachar official website', notes: 'G1, F Block, Ganpati Enclave, near Civil Lines Metro Station, Ajmer Road. Newspaper publisher with Jaipur, Jodhpur and Ajmer operations; mobile office series 8824399949–59 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navjyoti-jaipur-169b', businessName: 'Dainik Navjyoti', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919413040281', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur — Newspaper Vendors directory', notes: '72, Kaisergung, Ajmer Road. Listed under Newspaper Vendors; publisher/vendor relationship to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amritrajasthan-jaipur-169c', businessName: 'Amrit Rajasthan Newspaper', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919828112314', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Shastri Nagar. Listed as Newspaper Agency; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nafanuksan-jaipur-169d', businessName: 'Nafa Nuksan Daily Newspaper', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829067000', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Malviya Nagar. Listed as Newspaper Agency; landline also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
