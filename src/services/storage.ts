@@ -3169,6 +3169,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public media contact directory', notes: 'Sandeep Nirkhiwale, Indore Swadesh. Mobile 9826031670 listed in media contacts; newspaper publisher contact, exact role to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-toi-indore-443', businessName: 'The Times of India — Indore Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919833738992', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Meenakshi, Times of India Indore. Mobile 9833738992 listed as media/publication contact; verify role before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indoremirror-indore-444', businessName: 'Indore Mirror', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826030974', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Sushil Tiwari, Indore Mirror. Mobile 9826030974 listed as publication contact; confirm current role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-patrika-indore-445', businessName: 'Rajasthan Patrika — Indore Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919301031607', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Hariom Panjwani, Patrika Indore. Mobile 9301031607 listed as media/publication contact; verify whether advertising or circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharatkranti-indore-446', businessName: 'Navbharat Indorkranti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826023921', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public media contact directory', notes: 'Indore newspaper/media contact. Mobile 9826023921 listed in publication contact list; confirm current role and publication affiliation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
