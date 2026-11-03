@@ -852,6 +852,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Ludhiana public newspaper-vendors directory', notes: 'Siddhu Complex, Yellow Road, Ludhiana. Listed in newspaper-vendor directory; WhatsApp not verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-mani-wadala-056', businessName: 'M.S. Mani Newspaper Vendor Service', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919167550141', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Bhakti Park, Wadala East. Listed as newspaper distribution service; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-siddhivinayak-mahim-057', businessName: 'Shree Siddhivinayak Newspaper & Leaflet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919833173080', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Mahim, Mumbai. Newspaper and leaflet distribution/advertising service; circulation vendor fit to verify; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rafter-borivali-058', businessName: 'Rafter — Newspaper Insert & Pamphlet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919619070553', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Google Maps public business listing', notes: 'Gorai, Borivali West. Newspaper insert/pamphlet distribution provider, not a confirmed daily newspaper vendor; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shiv-jaipur-059', businessName: 'Shiv News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918387901870', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public newspaper-vendors directory', notes: 'Agra Road, Green Park, Jaipur. Listed under Newspaper Vendors; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
