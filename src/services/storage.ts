@@ -5965,6 +5965,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Hisar Hindi daily edition listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-prapti-powai-239a', businessName: 'Prapti Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919167528102', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery directory / local business listing', notes: 'MHADA Colony, Chandivali, Powai. Listed as newspaper distribution service; phone published as +91 91675 28102. WhatsApp status not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-girish-bengaluru-239b', businessName: 'Girish Enterprises — Newspapers & Pamphlet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919483039168', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Public local business listing', notes: '7, 14/3B, Shanthivana, 2nd Cross Road, Sahakar Nagar. Categorized as newspaper distribution service and print shop; also handles pamphlet distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-srn-hyderabad-239c', businessName: 'SRN Pamphlet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919030393032', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Public local business listing', notes: 'Lig568, Road No. 03, KPHB Phase 1, Kukatpally. Advertising/distribution service focused on pamphlets, flyers and newspaper inserts; not a daily-paper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amrita-kolkata-239d', businessName: 'Amrita.Solution — Leaflet & Newspaper Insert Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919007321612', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Public local business listing', notes: '7th Cross Road, Mukundapur Colony, Mukundapur. Marketing agency focused on leaflet/pamphlet distribution and newspaper insert campaigns; not a daily-paper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
