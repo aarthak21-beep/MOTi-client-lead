@@ -956,8 +956,8 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-aknayak-bhubaneswar-073', businessName: 'M/S A.K. Nayak', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
-        source: 'Publications Division — Agents & Journals directory', notes: 'Bus Stand Book Stall, Old Bus Stand. Magazine & Newspaper Agent; published contacts are landlines 0674-2531702 / 2530810, so mobile/WhatsApp unavailable.',
+        businessType: 'Newspaper Agency', whatsapp: '919861046179', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Bus Stand Book Stall, Old Bus Stand. Magazine & Newspaper Agent; Employment News PDF also lists mobile contacts 9861046179 / 931012094 / 9861049987; government journal directory lists landlines 0674-2531702 / 2530810.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
@@ -1424,8 +1424,8 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-mukund-raipur-151', businessName: 'Mukund Parekh News Agency', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '917712225851', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
-        source: 'Public business listing', notes: 'Shop No. 1, Old Bus Stand, near Raj Talkies. Book/newsstand wholesaler with newspapers and magazines; newspaper agency/distribution fit.',
+        businessType: 'Newspaper Agency', whatsapp: '919827145302', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Public business listing', notes: 'Shop No. 1, Old Bus Stand, near Raj Talkies. Official Employment News agent PDF lists mobile 9827145302 and landlines 0771-2225851 / 4030851; public Maps listing also showed 7712225851. Book/newsstand wholesaler with newspapers and magazines.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
@@ -1670,7 +1670,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-jagdishpatel-ahmedabad-192', businessName: 'Jagdish I. Patel — Liberty Agencies', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919725062019', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        businessType: 'Newspaper Agency', whatsapp: '919727752019', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
         source: 'Employment News — official existing agents PDF', notes: 'C/o Liberty Agencies, Ravi Estate, Dudheshwar Road. Listed as an existing Employment News agent; published mobile alternatives 9825060848 and 9825108673.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
