@@ -69,7 +69,7 @@ export const NewspaperProspectsView: React.FC = () => {
     <div className="space-y-6">
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
-          <p className="text-xs font-semibold uppercase tracking-widest text-emerald-400">Prospecting • Maharashtra</p>
+          <p className="text-xs font-semibold uppercase tracking-widest text-emerald-400">Prospecting • India</p>
           <h1 className="mt-1 text-2xl font-bold text-white">Newspaper Business Leads</h1>
           <p className="mt-1 text-sm text-slate-400">Newspaper Vendors, Agencies, Distributors, Publishers आणि Printing Press contacts व्यवस्थापित करा.</p>
         </div>
@@ -131,7 +131,7 @@ export const NewspaperProspectsView: React.FC = () => {
             <label className="text-xs text-slate-300">Business / Agency Name *<input required value={form.businessName} onChange={e => update('businessName', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">Contact Person<input value={form.contactName} onChange={e => update('contactName', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">Business Type<select value={form.businessType} onChange={e => update('businessType', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white">{BUSINESS_TYPES.map(v => <option key={v}>{v}</option>)}</select></label>
-            <label className="text-xs text-slate-300">WhatsApp Number *<input required type="tel" value={form.whatsapp} onChange={e => update('whatsapp', e.target.value)} placeholder="91XXXXXXXXXX" className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
+            <label className="text-xs text-slate-300">WhatsApp Number (optional)<input type="tel" value={form.whatsapp} onChange={e => update('whatsapp', e.target.value)} placeholder="91XXXXXXXXXX" className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">WhatsApp Availability<select value={form.whatsappAvailability || 'Unknown'} onChange={e => update('whatsappAvailability', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white">{WHATSAPP_AVAILABILITY.map(v => <option key={v} value={v}>{v === 'Available' ? 'WhatsApp आहे' : v === 'Not Available' ? 'WhatsApp नाही' : 'तपासायचे आहे'}</option>)}</select></label>
             <label className="text-xs text-slate-300">City<input value={form.city} onChange={e => update('city', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
             <label className="text-xs text-slate-300">District<input value={form.district} onChange={e => update('district', e.target.value)} className="mt-1 w-full rounded-lg border border-slate-700 bg-slate-900 px-3 py-2.5 text-sm text-white" /></label>
