@@ -3811,6 +3811,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9024320920 and landline 0141-3254286 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-devotehindustan-jaipur-550', businessName: 'Devote Hindustan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919314018777', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9314018777 and landline 0141-2554855 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthangulab-jaipur-551', businessName: 'Rajasthan Gulab', contactName: '',
+        businessType: 'Distributor', whatsapp: '917597924551', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 7597924551 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aarohiuddgar-jaipur-552', businessName: 'Aarohi Uddgar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919928830222', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Jaipur; mobile 9928830222 and landline 0141-2283692 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-greatrajasthan-jaipur-553', businessName: 'Great Rajasthan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919610409010', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Daily Hindi publication, Jaipur; mobile 9610409010 and landline 0141-2319293 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
