@@ -2419,6 +2419,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine-publisher directory', notes: '303, 3rd Floor, Harmony Tower, Netaji Subhash Road, Court Naka, Thane West. Magazine publisher/media house; periodical publishing and distribution lead.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-agniban-chennai-318', businessName: 'Agniban — Chennai', contactName: '',
+        businessType: 'Distributor', whatsapp: '919176684818', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public newspaper-publisher directory', notes: 'Kalyan Owners Court, Perambur. Listed as newspaper publisher and newspaper advertising service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-foursquare-chennai-319', businessName: 'Four Square Media Pvt. Ltd. — Chennai', contactName: '',
+        businessType: 'Distributor', whatsapp: '919381872944', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public newspaper-publisher directory', notes: 'Old No. 70, New No. 18, Halls Road, Kilpauk. Newspaper/business newspaper publisher; mobile 9381872944 and landline 044-26448016 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-chennai-320', businessName: 'Dina Malar Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '919944309600', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public newspaper-publisher directory', notes: '39, Whites Road, Anna Salai. Tamil newspaper publisher; mobile 9944309600 and landline 044-28540001 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-victorria-chennai-321', businessName: 'Victorria Book Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '919282411419', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Grotal public magazine-distributor directory', notes: 'Shop No. 3, Anand Complex, Duraisamy Reddy Street, Tambaram. Magazine distributor and book centre; landline 044-65663877 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
