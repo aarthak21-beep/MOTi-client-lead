@@ -4519,6 +4519,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Jaipur — Newspaper Vendors directory', notes: '57/3, Pancholi Vihar, New Sanganer Road, Sodala, near Ram Nagar Metro Station. Listed as Newspaper Vendor; business scope to verify. Second mobile 9649918181 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dinamalar-puducherry-173a', businessName: 'Dinamalar — Puducherry Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919894009001', city: 'Puducherry', district: 'Puducherry', state: 'Puducherry',
+        source: 'Dinamalar Newspaper — public edition office directory', notes: 'TVR House, Thattanchavadi. Official edition office contact; circulation/distribution role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-madurai-173b', businessName: 'Dinamalar — Madurai Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919894009511', city: 'Madurai', district: 'Madurai', state: 'Tamil Nadu',
+        source: 'Dinamalar Newspaper — public edition office directory', notes: 'TVR House, Dinamalar Avenue. Official edition office contact; second sales number 9894009512 and ad contact 9894009467 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-coimbatore-173c', businessName: 'Dinamalar — Coimbatore Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '917358999481', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Dinamalar Newspaper — public edition office directory', notes: 'TVR House, Sunderapuram. Official edition office contact; second mobile 7358999482 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-ahmedabad-173d', businessName: 'Dinamalar — Ahmedabad Business Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919824066222', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Dinamalar Newspaper — public business office directory', notes: '14/168, Pooja Apartments, opposite IOB, Himatlal Park. Official business office contact; confirm distribution versus advertising responsibilities.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
