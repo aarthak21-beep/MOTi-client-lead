@@ -3907,6 +3907,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Churu; mobile 9460928610 listed by CBC. Publisher contact; verify current status.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jhanjhawat-bhilwara-566', businessName: 'Jhanjhawat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919214804864', city: 'Bhilwara', district: 'Bhilwara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bhilwara; mobile 9214804864 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pratapbhoomi-bhilwara-567', businessName: 'Pratap Bhoomi', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413271228', city: 'Bhilwara', district: 'Bhilwara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bhilwara; mobile 9413271228 and landline 01482-232228 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-menal-bhilwara-568', businessName: 'Menal', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414302483', city: 'Bhilwara', district: 'Bhilwara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bhilwara; mobile 9414302483 and landline 01482-234411 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhilwaraexpress-bhilwara-569', businessName: 'Bhilwara Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829028100', city: 'Bhilwara', district: 'Bhilwara', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Bhilwara; mobile 9829028100 and landline 01482-250700 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
