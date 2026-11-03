@@ -1446,6 +1446,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Ajay Nagar, Ambazari Road, Ram Nagar. Explicit newspaper leaflet insertion and pamphlet distribution service; advertising distribution segment.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-maheshwari-raipur-155', businessName: 'Maheshwari News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Maps of India public business directory', notes: 'Satti Bazar, Raipur. Listed under newspaper and magazine suppliers; published contact is landline 0771-2534302, not WhatsApp/mobile.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ankur-ahmedabad-156', businessName: 'Ankur Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919033876181', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Public business listing', notes: 'Gujarat Samachar Road, Khanpur. Newspaper advertisement/classified booking agency; advertising only, not a newspaper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jyoti-ahmedabad-157', businessName: 'Jyoti Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919173734848', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Public business listing', notes: 'Ajanta Commercial Centre, Ashram Road. Newspaper classified/display ad booking agency; advertising only, not a newspaper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
