@@ -5773,6 +5773,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Pratapgarh Hindi daily listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-amarindia-sawaimadhopur-229a', businessName: 'Amar India', contactName: '',
+        businessType: 'Distributor', whatsapp: '918696193300', city: 'Sawai Madhopur', district: 'Sawai Madhopur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sawai Madhopur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prabhatabhinandan-jaipur-229b', businessName: 'Prabhat Abhinandan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829410051', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-fighter-sriganganagar-229c', businessName: 'Fighter', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413934623', city: 'Sri Ganganagar', district: 'Sri Ganganagar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sri Ganganagar Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krishiraj-sriganganagar-229d', businessName: 'Krishi Raj', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829403684', city: 'Sri Ganganagar', district: 'Sri Ganganagar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sri Ganganagar fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
