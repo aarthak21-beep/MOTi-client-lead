@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useState } from 'react';
-import { MessageCircle, Plus, Search, Trash2, Edit2, MapPin, Building2, CheckCircle2, Clock3 } from 'lucide-react';
+import { MessageCircle, Plus, Search, Trash2, Edit2, MapPin, Building2 } from 'lucide-react';
 import { NewspaperProspect, ProspectBusinessType, ProspectStatus, ContactPermission } from '../types';
 import { deleteNewspaperProspect, getNewspaperProspects, saveNewspaperProspect, subscribeToStorage } from '../services/storage';
 
@@ -13,7 +13,7 @@ const emptyForm = (): NewspaperProspect => ({
   createdAt: '', updatedAt: '',
 });
 
-const cleanPhone = (value: string) => value.replace(/\\D/g, '');
+const cleanPhone = (value: string) => { const digits = value.replace(/\\D/g, ''); return digits.length === 10 ? `91${digits}` : digits; };
 const whatsappUrl = (prospect: NewspaperProspect) => {
   const phone = cleanPhone(prospect.whatsapp);
   if (!phone) return '#';
@@ -43,7 +43,7 @@ export const NewspaperProspectsView: React.FC = () => {
 
   const openNew = () => { setEditing(null); setForm(emptyForm()); setShowForm(true); };
   const openEdit = (p: NewspaperProspect) => { setEditing(p); setForm(p); setShowForm(true); };
-  const update = (key: keyof NewspaperProspect, value: string) => setForm((current) => ({ ...current, [key]: value }));
+  const update = (key: keyof NewspaperProspect, value: string) => setForm((current) => ({ ...current, [key]: value } as NewspaperProspect));
 
   const handleSave = (event: React.FormEvent) => {
     event.preventDefault();
