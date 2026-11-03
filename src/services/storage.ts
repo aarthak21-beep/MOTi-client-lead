@@ -3337,6 +3337,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 8210520511 and landline 0612-2670082 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-aawaminews-patna-471', businessName: 'Aawami News', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431170643', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9431170643 and landline 0612-2577643 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-awazebihar-patna-472', businessName: 'Awaz E Bihar', contactName: '',
+        businessType: 'Distributor', whatsapp: '918298678272', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 8298678272 and landline 0612-2670082 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-noorehind-patna-473', businessName: 'Noor-E-Hind', contactName: '',
+        businessType: 'Distributor', whatsapp: '919334721229', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9334721229 and landline 0612-2671130 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonvarshavani-aurangabad-474', businessName: 'Son Varsha Vani', contactName: '',
+        businessType: 'Distributor', whatsapp: '919934957121', city: 'Aurangabad', district: 'Aurangabad', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Aurangabad (Bihar); mobile 9934957121 and landline 0631-226116 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
