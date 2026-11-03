@@ -2304,6 +2304,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: '404, Abhisek Complex, near LIC Office, Railway Station. Advertising agency; newspaper placement and outdoor promotion services.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-adfield-surat-298', businessName: 'Ad Field Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919824108082', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '312, Mirambika Complex, opposite Gandhi Baug, Nanpura. Classified advertisement and newspaper ad booking agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hnmarketing-surat-299', businessName: 'HN Marketing', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918866793071', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Varachha Road. Advertising agency listed for newspaper advertising and classified ads.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shreepublicity-surat-300', businessName: 'Shree Publicity', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919879240110', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public publicity-directory listing', notes: '5, Gruh Swapna Society, opposite Ganga Sagar, Godadara. Publicity and advertising agency; newspaper advertising/distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajpublicity-surat-301', businessName: 'Raj Publicity', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919327939056', city: 'Surat', district: 'Surat', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '549, Poddar Arcade, Khan Bazar, Varachha Road. Newspaper advertising, radio and banner advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
