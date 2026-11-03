@@ -5941,6 +5941,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Sonipat fortnightly Hindi newspaper listed as Regular on the official government panel; same mobile also appears for Swarn Prastha.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-impressivetimes-faridabad-238a', businessName: 'The Impressive Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810367726', city: 'Faridabad', district: 'Faridabad', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Faridabad English daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-healthofbharat-gurugram-238b', businessName: 'Health of Bharat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810137048', city: 'Gurugram', district: 'Gurugram', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Gurgaon Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-humanindia-gurugram-238c', businessName: 'Human India', contactName: '',
+        businessType: 'Distributor', whatsapp: '919212356812', city: 'Gurugram', district: 'Gurugram', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Gurgaon Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amarujala-hisar-238d', businessName: 'Amar Ujala — Hisar Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919654353193', city: 'Hisar', district: 'Hisar', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Hisar Hindi daily edition listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
