@@ -283,7 +283,9 @@ export default function App() {
             />
           )}
 
-          {activeTab === 'newspaper-prospects' && <NewspaperProspectsView />}\n\n          {activeTab === 'whatsapp' && (
+          {activeTab === 'newspaper-prospects' && <NewspaperProspectsView />}
+
+          {activeTab === 'whatsapp' && (
             <WhatsAppCentreView
               leads={leads}
               projects={projects}
