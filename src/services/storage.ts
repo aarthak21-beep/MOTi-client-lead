@@ -762,6 +762,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Ansari Road, Darya Ganj. Listed as an agent; confirm newspaper distribution before outreach.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-bright-mumbai-036', businessName: 'Bright News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919870606536', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Opposite CST Station, Fort. Public mobile contact; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ashah-mumbai-037', businessName: 'A. Shah Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919004078746', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Kavasji Patel Street, Fort. Periodicals agent; newspaper circulation fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-universal-lucknow-038', businessName: 'Universal Book Sellers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919839020290', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Hazratganj, Lucknow. Listed as sales emporium; newspaper agency operations to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-studentscorner-patna-039', businessName: 'Students Corner', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919470641861', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'P.U. Gate, Patna. Listed among agents/sales emporiums; newspaper distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
