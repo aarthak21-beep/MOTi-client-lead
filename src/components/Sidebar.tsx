@@ -7,6 +7,7 @@ import React from 'react';
 import {
   LayoutDashboard,
   Users,
+  Newspaper,
   MessageSquare,
   FileSpreadsheet,
   Layers,
@@ -25,6 +26,7 @@ import {
 export type ActiveTab =
   | 'dashboard'
   | 'leads'
+  | 'newspaper-prospects'
   | 'whatsapp'
   | 'quotations'
   | 'demos'
@@ -67,6 +69,13 @@ export const Sidebar: React.FC<SidebarProps> = ({
       icon: Users,
       badge: overdueCount > 0 ? `${overdueCount} due` : null,
       badgeColor: 'bg-rose-500/20 text-rose-300 border border-rose-500/30',
+    },
+    {
+      id: 'newspaper-prospects' as ActiveTab,
+      label: 'Newspaper Leads',
+      icon: Newspaper,
+      badge: 'WhatsApp',
+      badgeColor: 'bg-emerald-500/20 text-emerald-300 border border-emerald-500/30',
     },
     {
       id: 'whatsapp' as ActiveTab,
