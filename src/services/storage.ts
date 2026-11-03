@@ -5749,6 +5749,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily except Sunday listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hindustanexpress-jaipur-228a', businessName: 'Hindustan Express — Jaipur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919770080488', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aajjaipur-jaipur-228b', businessName: 'Aaj Jaipur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829063147', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nohardarpan-nohar-228c', businessName: 'Nohar Darpan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828935766', city: 'Nohar', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Nohar fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kanthalkiawaz-pratapgarh-228d', businessName: 'Kanthal Ki Awaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919672138010', city: 'Pratapgarh', district: 'Pratapgarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Pratapgarh Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
