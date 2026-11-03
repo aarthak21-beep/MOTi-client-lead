@@ -3289,6 +3289,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 7301306584 and landline 0612-2671130 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hindustantimes-patna-463', businessName: 'Hindustan Times — Patna', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810904947', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily English newspaper, Patna edition; mobile 9810904947 and landline 0612-2223434 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-milanexpress-banka-464', businessName: 'The Milan Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '919430059511', city: 'Banka', district: 'Banka', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily English newspaper, Banka; mobile 9430059511 and landline 0642-2222022 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-safatimes-bettiah-465', businessName: 'Safa Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919958897948', city: 'Bettiah', district: 'West Champaran', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Bettiah; mobile 9958897948 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aziztanzim-patna-466', businessName: 'Aziz Tanzim', contactName: '',
+        businessType: 'Distributor', whatsapp: '918271692540', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 8271692540 and landline 0612-257342 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
