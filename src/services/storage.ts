@@ -5893,6 +5893,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-gurgaonimage-gurugram-236a', businessName: 'Gurgaon Image', contactName: '',
+        businessType: 'Distributor', whatsapp: '919873432744', city: 'Gurugram', district: 'Gurugram', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Gurgaon weekly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-karnaltimes-karnal-236b', businessName: 'Karnal Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919254000669', city: 'Karnal', district: 'Karnal', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Karnal weekly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagmarg-kurukshetra-236c', businessName: 'Jag Marg', contactName: '',
+        businessType: 'Distributor', whatsapp: '919830711683', city: 'Kurukshetra', district: 'Kurukshetra', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Kurukshetra Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-starsavera-kurukshetra-236d', businessName: 'Star Savera', contactName: '',
+        businessType: 'Distributor', whatsapp: '919871426666', city: 'Kurukshetra', district: 'Kurukshetra', state: 'Haryana',
+        source: 'Central Bureau of Communication — Haryana newspaper panel', notes: 'Kurukshetra Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
