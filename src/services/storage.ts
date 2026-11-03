@@ -7495,6 +7495,24 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03',
       },
+      {
+        id: 'web-mumbai-nerul-my-pets-world-064',
+        businessName: "My Pet's World Pets Clinic",
+        contactName: '',
+        businessType: 'Veterinary Clinic',
+        phone: '918980468104',
+        whatsapp: '918980468104',
+        city: 'Nerul East, Navi Mumbai',
+        district: 'Thane',
+        state: 'Maharashtra',
+        websiteStatus: 'Needs Verification',
+        source: 'https://sploot.space/vets/my-pets-world-pets-clinic',
+        notes: 'Sploot clinic profile lists Call and WhatsApp contact options. No independent official website was located during research; this does not prove that no website exists. Verify website and WhatsApp account before outreach.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
 
     ];
       const existing: WebsiteProspect[] = JSON.parse(raw);
