@@ -1092,6 +1092,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Under Bharat Bridge, near Bharat Talkies. Listed in government agent directory; newspaper agency fit.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-clgupta-haridwar-096', businessName: 'C.L. Gupta & Sons', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919897237811', city: 'Haridwar', district: 'Haridwar', state: 'Uttarakhand',
+        source: 'Employment News — published existing agents PDF', notes: 'Devpura Chowk. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-arjunsingh-ludhiana-097', businessName: 'Arjun Singh & Sons', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919815626785', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Employment News — published existing agents PDF', notes: 'Kidwai Nagar. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-naqvi-bareilly-098', businessName: 'Naqvi News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919897235665', city: 'Bareilly', district: 'Bareilly', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Kutub Khana, Ghantaghar. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prakash-jhansi-099', businessName: 'Prakash News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919415031651', city: 'Jhansi', district: 'Jhansi', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'Subhash Market, Sipri Bazar. Listed in government agent directory; newspaper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
