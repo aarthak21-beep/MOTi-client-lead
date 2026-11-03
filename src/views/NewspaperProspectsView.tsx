@@ -13,7 +13,7 @@ const emptyForm = (): NewspaperProspect => ({
   createdAt: '', updatedAt: '',
 });
 
-const cleanPhone = (value: string) => { const digits = value.replace(/\\D/g, ''); return digits.length === 10 ? `91${digits}` : digits; };
+const cleanPhone = (value: string) => { const digits = value.replace(/\D/g, ''); return digits.length === 10 ? `91${digits}` : digits; };
 const whatsappUrl = (prospect: NewspaperProspect) => {
   const phone = cleanPhone(prospect.whatsapp);
   if (!phone) return '#';
