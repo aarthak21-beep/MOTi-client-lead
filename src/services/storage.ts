@@ -786,6 +786,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'P.U. Gate, Patna. Listed among agents/sales emporiums; newspaper distribution fit to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-studentsbook-patna-040', businessName: 'Students Book Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919835263598', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'P.U. Road, Patna. Periodicals sales emporium; newspaper distribution fit to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-book-patna-041', businessName: 'India Book Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919431022986', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Ashoka Rajpath, Patna. Books/periodicals sales emporium; newspaper role to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mohanbook-kolkata-043', businessName: 'Mohan Book Supplier', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919830590078', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Deckers Lane, Esplanade East. Periodicals supplier; newspaper circulation role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bookmark-chennai-045', businessName: 'Book Mark', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919962486468', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Anna Nagar, Chennai. Books/periodicals agent; newspaper distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
