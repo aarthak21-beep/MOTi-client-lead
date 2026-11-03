@@ -2208,6 +2208,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-publisher directory', notes: '7, Chha-6, Jawahar Nagar. Gujarati newspaper publisher/distributor contact for Sandesh publications.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-goodday-jaipur-282', businessName: 'Good Day News Today', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919351300526', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Grotal public newspaper-advertising directory', notes: '511/513, Gaurav Tower, Malviya Nagar. Newspaper advertising agency and local news publication listing.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chetna-ahmedabad-283', businessName: 'Chetna Industrial News', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919825901751', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '2, Shah Chambers, CG Road/CTM Cross Road. Newspaper advertising and outdoor advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nutan-ahmedabad-284', businessName: 'Nutan Art Corporation', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919825030199', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-advertising directory', notes: '8/9, Harisiddha Chambers, 2nd Floor, Ashram Road. Newspaper advertising, hoardings and outdoor advertising agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-arun-jaipur-285', businessName: 'Arun News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '01412563701', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Grotal public news-agency directory', notes: '1569, Ghat Gate, Jaipur. Listed as Arun News Agency; published contact is landline 0141-2563701, newspaper distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
