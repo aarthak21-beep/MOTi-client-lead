@@ -2491,6 +2491,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public advertising directory', notes: '3-5-780/11/D, Sajid Majestic Height, King Koti. Digital and outdoor advertising agency; newspaper advertising scope to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-admedia-hyderabad-330', businessName: 'AD Media', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919849024904', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Near MCH Market, Ameerpet. Newspaper, magazine and TV advertising agency; landline 040-66822990 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-revathi-hyderabad-331', businessName: 'Revathi Creative Communication Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919440404675', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public advertising directory', notes: '301, 3rd Floor, Moghal Mansion, Khairatabad. Advertising and media agency; mobile 9440404675 and landline 040-23310670 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aditya-hyderabad-332', businessName: 'Aditya Communications', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919246363246', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public advertising directory', notes: 'Flat 402, 4th Floor, Everest Block, Aditya Enclave, Ameerpet. Advertising agency; mobile 9246363246 and landline 040-66614770 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dhankar-hyderabad-333', businessName: 'Dhankar Publications Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '918410005014', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Grotal public magazine-publisher directory', notes: '5-4-23/A, opposite RK Theater, Abids. Magazine and competition-book publisher; periodical distribution lead, newspaper circulation not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
