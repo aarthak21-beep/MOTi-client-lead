@@ -6314,6 +6314,35 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         notes: 'Distributionship No. 70; Joshiwara, inside Kote Gate, Bikaner 334005. Listed as a newspaper agency. No public mobile/WhatsApp number shown. The directory entry may be historical; verify current operations and newspaper-distribution scope before outreach.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       }
+,
+      {
+        id: 'news-india-agent-955', businessName: 'News Paper Agent — Koppa Building', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '9449480557', city: 'Gokak', district: 'Belagavi', state: 'Karnataka',
+        source: 'Publications Division, Government of India — Distributors & Agents of Journals (official)',
+        notes: 'Publications Division lists a News Paper Agent at Koppa Building, opposite Bus Stand, Gokak 597307. Public mobile availability/WhatsApp status not independently verified; confirm current operations before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-agent-956', businessName: 'News Paper Agent — KSRTC Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919449148658', city: 'Jamakhandi', district: 'Bagalkot', state: 'Karnataka',
+        source: 'Publications Division, Government of India — Distributors & Agents of Journals (official)',
+        notes: 'Publications Division lists a News Paper Agent at KSRTC Book Stall, Jamakhandi 587301. Public mobile availability/WhatsApp status not independently verified; confirm current operations before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-agent-957', businessName: 'Charminar News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Secunderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division, Government of India — Distributors & Agents of Journals (official)',
+        notes: 'Publications Division lists Charminar News Agencies at 1-6-176/1, M.J. Road, Secunderabad 500003. The published mobile appears incomplete, so it is not copied. Public mobile availability/WhatsApp status not independently verified; confirm current operations before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-india-agent-958', businessName: 'Manasa Beeda Stall — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Davanagere', district: 'Davanagere', state: 'Karnataka',
+        source: 'Publications Division, Government of India — Distributors & Agents of Journals (official)',
+        notes: 'Publications Division lists a newspaper agent at Manasa Beeda Stall, Gandhi Circle, P.B. Road, Davanagere. Published phone appears incomplete, so it is not copied. Public mobile availability/WhatsApp status not independently verified; confirm current operations before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      }
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
