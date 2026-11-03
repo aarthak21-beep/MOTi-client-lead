@@ -2761,6 +2761,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: 'Central support for newspaper ad booking and rate enquiries; published mobile 9311850250, Monday to Friday.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-jaipur-375', businessName: 'Dainik Jagran — Jaipur Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '01412221393', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'A-37, Bhagat Vatika, Raj Bhawan Civil Lines Road. Official Jagran office; published landline 0141-2221393.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bengaluru-376', businessName: 'Jagran Prakashan — Bengaluru Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '08030721700', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Phoenix Pinnacle, 2nd Floor, 46 Ulsoor Road. Official Jagran office; published landline 080-30721700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-bhubaneswar-377', businessName: 'Dainik Jagran — Bhubaneswar Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '06742575623', city: 'Bhubaneswar', district: 'Khordha', state: 'Odisha',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'EB-397, Stage II, Laxmisagar. Official Jagran office; published landline 0674-2575623.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-chennai-378', businessName: 'Dainik Jagran — Chennai Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '04428554047', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'No. 9, 2nd Floor, Sindur Plaza, Egmore, 42 Montieth Road. Official Jagran office; landlines 044-28554047 / 28554555.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
