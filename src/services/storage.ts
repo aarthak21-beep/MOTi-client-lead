@@ -11,6 +11,7 @@ import {
   LeadNote,
   NewspaperProspect,
   WebsiteProspect,
+  WebsiteProspect,
   MessageTemplate,
   PaymentRecord,
   PricingPlan,
@@ -43,6 +44,7 @@ const STORAGE_KEYS = {
   IS_INITIALIZED: 'moti_initialized_v1',
   OWNER_AUTH: 'moti_owner_auth_v1',
   NEWSPAPER_PROSPECTS: 'moti_newspaper_prospects_v1',
+  WEBSITE_PROSPECTS: 'moti_website_prospects_v1',
   WEBSITE_PROSPECTS: 'moti_website_prospects_v1',
 };
 
@@ -441,6 +443,7 @@ export function exportAllData(): string {
     settings: getSettings(),
     newspaperProspects: getNewspaperProspects(),
     websiteProspects: getWebsiteProspects(),
+    websiteProspects: getWebsiteProspects(),
   };
   return JSON.stringify(data, null, 2);
 }
@@ -460,6 +463,7 @@ export function importAllData(jsonString: string): boolean {
     if (Array.isArray(parsed.messageTemplates)) localStorage.setItem(STORAGE_KEYS.MESSAGE_TEMPLATES, JSON.stringify(parsed.messageTemplates));
     if (parsed.settings) localStorage.setItem(STORAGE_KEYS.SETTINGS, JSON.stringify(parsed.settings));
     if (Array.isArray(parsed.newspaperProspects)) localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(parsed.newspaperProspects));
+    if (Array.isArray(parsed.websiteProspects)) localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(parsed.websiteProspects));
     if (Array.isArray(parsed.websiteProspects)) localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(parsed.websiteProspects));
 
     notifyListeners();
@@ -6433,6 +6437,59 @@ export function saveWebsiteProspect(prospect: WebsiteProspect): void {
   } else {
     prospects.unshift({ ...prospect, createdAt: prospect.createdAt || today, updatedAt: today });
   }
+  localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(prospects));
+  notifyListeners();
+}
+
+export function deleteWebsiteProspect(id: string): void {
+  const prospects = getWebsiteProspects().filter((item) => item.id !== id);
+  localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(prospects));
+  notifyListeners();
+}
+
+
+// WEBSITE PROSPECTS CRUD
+export function getWebsiteProspects(): WebsiteProspect[] {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.WEBSITE_PROSPECTS);
+    const starterLeads: WebsiteProspect[] = [
+      {
+        id: 'web-nagpur-tiffin-citydhaba-001',
+        businessName: 'The Tiffin Services By The City Dhaba',
+        contactName: '',
+        businessType: 'Tiffin Service',
+        phone: '919730520966',
+        whatsapp: '919730520966',
+        city: 'Nagpur',
+        district: 'Nagpur',
+        state: 'Maharashtra',
+        websiteStatus: 'No Website',
+        source: 'KaroSearch business profile + CompanyInfo.in WhatsApp listing',
+        notes: 'KaroSearch profile explicitly says “No website”; CompanyInfo.in business profile provides a WhatsApp click-through for this same public number. Public listing says tiffin service. WhatsApp account response not tested; reconfirm website status before pitching.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+    ];
+    if (raw) {
+      const existing: WebsiteProspect[] = JSON.parse(raw);
+      const knownIds = new Set(existing.map((item) => item.id));
+      const merged = [...existing, ...starterLeads.filter((item) => !knownIds.has(item.id))];
+      if (merged.length !== existing.length) localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(merged));
+      return merged;
+    }
+    localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(starterLeads));
+    return starterLeads;
+  } catch { return []; }
+}
+
+export function saveWebsiteProspect(prospect: WebsiteProspect): void {
+  const prospects = getWebsiteProspects();
+  const index = prospects.findIndex((item) => item.id === prospect.id);
+  const today = new Date().toISOString().split('T')[0];
+  if (index >= 0) prospects[index] = { ...prospect, updatedAt: today };
+  else prospects.unshift({ ...prospect, createdAt: prospect.createdAt || today, updatedAt: today });
   localStorage.setItem(STORAGE_KEYS.WEBSITE_PROSPECTS, JSON.stringify(prospects));
   notifyListeners();
 }
