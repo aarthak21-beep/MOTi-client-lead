@@ -48,7 +48,7 @@ import { PaymentsView } from './views/PaymentsView';
 import { DeliveryView } from './views/DeliveryView';
 import { TasksView } from './views/TasksView';
 import { ReportsView } from './views/ReportsView';
-import { SettingsView } from './views/SettingsView';
+import { SettingsView } from './views/SettingsView';\nimport { NewspaperProspectsView } from './views/NewspaperProspectsView';
 
 export default function App() {
   const [activeTab, setActiveTab] = useState<ActiveTab>('dashboard');
@@ -282,7 +282,7 @@ export default function App() {
             />
           )}
 
-          {activeTab === 'whatsapp' && (
+          {activeTab === 'newspaper-prospects' && <NewspaperProspectsView />}\n\n          {activeTab === 'whatsapp' && (
             <WhatsAppCentreView
               leads={leads}
               projects={projects}
