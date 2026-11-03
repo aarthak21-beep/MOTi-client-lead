@@ -4219,6 +4219,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'RohtakDirectory — Newspaper Vendors', notes: 'State Highway 16A, Kishangarh Maham, first street on Bahalba Road. Listed under Newspaper Vendors.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-khushal-rohtak-147', businessName: 'Khushal TIMES', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919992549606', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Vendors', notes: '1021/12, Rohtak, Para Mohalla. Listed under News Agencies and Newspaper Vendors.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-munjal-rohtak-148', businessName: 'Munjal Newspaper and Advertisers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919034855292', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'BharatiBiz public business listing', notes: '250/24, Ram Nagar Colony, Jagdish Colony. Newspaper supplier/advertising listing; confirm whether it handles circulation or insert advertising.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-haribhoomi-rohtak-149', businessName: 'Hari Bhoomi Communications Pvt Ltd', contactName: '',
+        businessType: 'Distributor', whatsapp: '919253681013', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Publishers', notes: '330, Vinay Nagar, near Delhi Bypass. Listed as newspaper publisher; added as publisher/distribution prospect, vendor role not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-punjabkesari-rohtak-150', businessName: 'Punjab Kesari Group — Rohtak Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919996090000', city: 'Rohtak', district: 'Rohtak', state: 'Haryana',
+        source: 'RohtakDirectory — Newspaper Publishers', notes: 'Subhash Road, opposite Radio Station, above Canara Bank. Listed as Newspaper Publisher & Newspaper Vendor; contact is a published group contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
