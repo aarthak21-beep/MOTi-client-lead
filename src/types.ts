@@ -217,12 +217,15 @@ export type ProspectBusinessType = 'Newspaper Vendor' | 'Newspaper Agency' | 'Di
 export type ProspectStatus = 'New' | 'Contacted' | 'Interested' | 'Demo Given' | 'Converted' | 'Not Interested';
 export type ContactPermission = 'Not Asked' | 'Opted In' | 'Opted Out';
 
+export type WhatsAppAvailability = 'Unknown' | 'Available' | 'Not Available';
+
 export interface NewspaperProspect {
   id: string;
   businessName: string;
   contactName: string;
   businessType: ProspectBusinessType;
   whatsapp: string;
+  whatsappAvailability?: WhatsAppAvailability;
   city: string;
   district: string;
   state: string;
