@@ -5299,6 +5299,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar Punjabi daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ajit-punjab-209a', businessName: 'Ajit — Punjabi Daily', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818107137', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ajit newspaper listed for Bathinda and Jalandhar editions on the official government panel; common mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kuberkesari-jalalabad-209b', businessName: 'Kuber Kesari', contactName: '',
+        businessType: 'Distributor', whatsapp: '919872936747', city: 'Jalalabad', district: 'Fazilka', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalalabad West Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janjagran-jalandhar-209c', businessName: 'Jan Jagran', contactName: '',
+        businessType: 'Distributor', whatsapp: '919999889104', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-despardes-mansa-209d', businessName: 'Des Pardes', contactName: '',
+        businessType: 'Distributor', whatsapp: '919041048405', city: 'Mansa', district: 'Mansa', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Mansa Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
