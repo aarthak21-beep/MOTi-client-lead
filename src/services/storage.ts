@@ -1326,6 +1326,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: 'C/o Hyderabad Study Circle, Domalguda. Listed as Agents Sales Emporium; newspaper distribution not independently confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ashokbook-vijayawada-135', businessName: 'Ashok Book Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919849082096', city: 'Vijayawada', district: 'NTR', state: 'Andhra Pradesh',
+        source: 'Publications Division — Agents & Journals directory', notes: '59-6-15, opposite Maris Stella College. Official Agents Sales Emporium listing; newspaper/periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indianbook-tirupati-136', businessName: 'Indian Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919392255390', city: 'Tirupati', district: 'Tirupati', state: 'Andhra Pradesh',
+        source: 'Publications Division — Agents & Journals directory', notes: '249-A, Prakasam Road. Official Agents Sales Emporium listing; book/periodical supply, newspaper circulation to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-reddy-hyderabad-137', businessName: 'Reddy Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919247289302', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division — Agents & Journals directory', notes: '1-10-247, IAS Study Circle, Ashok Nagar. Official Agents Sales Emporium listing; newspaper supply not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-timesstationers-hyderabad-138', businessName: 'Times Book Stationers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919959599444', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division — Agents & Journals directory', notes: '1-10-233/1/3, Ashok Nagar. Official Agents Sales Emporium listing; newspaper/periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
