@@ -4147,6 +4147,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — List of Existing Agents PDF', notes: 'Anaj Mandi, Johari Bazar. Explicitly listed as Newspaper Agent.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-chhabra-sonipat-135', businessName: 'Chhabra News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829046454', city: 'Sonipat', district: 'Sonipat', state: 'Haryana',
+        source: 'Employment News — List of Existing Agents PDF', notes: '392, Fresh/Fesh Bazar, Sonipat. Listed as news agency; newspaper agent status indicated in directory.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nirmal-umaria-136', businessName: 'Nirmal Kumar Sahu — Gayatri News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919893837084', city: 'Umaria', district: 'Umaria', state: 'Madhya Pradesh',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Station Road, Camp Road. Listed in government agent directory as Gayatri News Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-triloki-bokaro-137', businessName: 'Triloki Singh — Newspaper Agent', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919334230591', city: 'Bokaro Steel City', district: 'Bokaro', state: 'Jharkhand',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Naya More Bus Stand, Rotary Bus Passenger Shed. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajendra-jamshedpur-138', businessName: 'Rajendra Prasad Book Sellers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Jamshedpur', district: 'East Singhbhum', state: 'Jharkhand',
+        source: 'Employment News — List of Existing Agents PDF', notes: '03, Sakchi Bazar, Tata Nagar. Listed as book seller in the agent directory; contact number missing/garbled, so no phone added.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
