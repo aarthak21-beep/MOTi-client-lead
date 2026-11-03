@@ -708,6 +708,60 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Mera Ludhiana public directory', notes: 'Rajpura Road, Ludhiana. Listed under news agencies. Public phone; WhatsApp not verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jaiprakash-delhi-027', businessName: 'Jai Prakash Newspaper & Magazine Supplier', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919313039246', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
+        source: 'Google Maps public business listing; FPBAI listing referenced in business profile', notes: 'Kalkaji/Alaknanda. Newspaper and magazine supply; distributor/stockist. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indirapuram-distribution-028', businessName: 'Newspaper/Pamphlet Distribution — Indirapuram', contactName: '',
+        businessType: 'Distributor', whatsapp: '919250960277', city: 'Ghaziabad', district: 'Ghaziabad', state: 'Uttar Pradesh',
+        source: 'Google Maps public business listing', notes: 'Indirapuram, Ghaziabad. Listed as newspaper distribution and pamphlet distribution service. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-flyersin-hyderabad-029', businessName: 'Flyersin — Newspaper Insert & Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '918801430009', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Google Maps public business listing', notes: 'Yousufguda, Hyderabad. Newspaper insert/flyer distribution company; not a regular newspaper hawker agency. Public phone; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-primebooks-guwahati-030', businessName: 'Prime Books & Periodicals', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919954126701', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Panbazar, Guwahati. Listed as Sales Emporium for journals/periodicals; confirm newspaper circulation role.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dipak-shillong-031', businessName: 'M/S Dipak Enterprise', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918794702782', city: 'Shillong', district: 'East Khasi Hills', state: 'Meghalaya',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Listed explicitly as newspaper agency, near R.K. Ashram Mission Dispensary, Shillong.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shyamal-agartala-032', businessName: 'M/S Shyamal Bhattacharjee', contactName: '',
+        businessType: 'Distributor', whatsapp: '919436460145', city: 'Agartala', district: 'West Tripura', state: 'Tripura',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Lenin Sarani, Akhaura Road. Listed as books and newspaper supplier.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kumarbook-delhi-033', businessName: 'Kumar Book Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918826403255', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Old Rajender Nagar, Delhi. Listed among agents/sales emporiums; newspaper-specific distribution needs confirmation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-premmagazine-delhi-034', businessName: 'Prem Magazine Distributor', contactName: '',
+        businessType: 'Distributor', whatsapp: '919212402505', city: 'New Delhi', district: 'North Delhi', state: 'Delhi',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Naya Bazar, Delhi. Magazine distributor; verify newspaper agency/circulation fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rdchawla-delhi-035', businessName: 'R.D. Chawla', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919810045752', city: 'New Delhi', district: 'Central Delhi', state: 'Delhi',
+        source: 'Publications Division, Government of India — Agents/Journals directory', notes: 'Ansari Road, Darya Ganj. Listed as an agent; confirm newspaper distribution before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
