@@ -5347,6 +5347,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana Punjabi daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-janchchaukot-ludhiana-211a', businessName: 'Janch Chaukot', contactName: '',
+        businessType: 'Distributor', whatsapp: '919417095007', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana weekly Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rupanasamachar-muktsar-211b', businessName: 'Rupana Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919464957016', city: 'Muktsar', district: 'Sri Muktsar Sahib', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Muktsar daily Punjabi newspaper listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bharatdesh-patiala-211c', businessName: 'Bharat Desh Hamara', contactName: '',
+        businessType: 'Distributor', whatsapp: '919216605500', city: 'Patiala', district: 'Patiala', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Patiala Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chardikala-patiala-211d', businessName: 'Chardikala', contactName: '',
+        businessType: 'Distributor', whatsapp: '919811039203', city: 'Patiala', district: 'Patiala', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Patiala Punjabi daily and monthly editions listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
