@@ -3955,6 +3955,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Bikaner; mobile 9414325179 and landline 0151-2240758 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-bunditiger-bundi-574', businessName: 'Bundi Tiger', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414927360', city: 'Bundi', district: 'Bundi', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Bundi; mobile 9414927360 and landline 0747-2444722 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahkatachuru-churu-575', businessName: 'Mahkata Hindustan', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413709813', city: 'Churu', district: 'Churu', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Churu; mobile 9413709813 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-muslimaawaz-churu-576', businessName: 'Muslim Aawaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414285718', city: 'Churu', district: 'Churu', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Churu; mobile 9414285718 listed by CBC. Publisher contact; verify current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-krishakmail-dausa-577', businessName: 'Krishak Mail — Dausa', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414771336', city: 'Dausa', district: 'Dausa', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Dausa; mobile 9414771336 and landline 01431-220797 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
