@@ -3577,6 +3577,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9334386881 and landline 0612-3252688 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pratakkiran-patna-511', businessName: 'Pratah Kiran — Patna', contactName: '',
+        businessType: 'Distributor', whatsapp: '919212228045', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9212228045 and landline 0612-43670323 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-yugnaisoch-patna-512', businessName: 'Yug Ki Nai Soch', contactName: '',
+        businessType: 'Distributor', whatsapp: '919472072441', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Monthly Hindi publication, Patna; mobile 9472072441 and landline 0612-2524441 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vivarantimes-patna-513', businessName: 'Vivaran Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919308243682', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Weekly Hindi newspaper, Patna; mobile 9308243682 and landline 0612-3318751 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tisariankh-patna-514', businessName: 'Tisari Ankh', contactName: '',
+        businessType: 'Distributor', whatsapp: '91919365342', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Monthly Hindi publication, Patna; mobile 9199365342 and landline 0612-3208042 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
