@@ -4669,6 +4669,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Cybo — Ranchi Newspapers directory', notes: 'Q. No./LS-48, 1st Floor, near Kartik Oraon Chowk, Harmu Housing Colony. Listed as newspaper publisher; distribution role to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kaumudi-tvm-180a', businessName: 'Kerala Kaumudi — Thiruvananthapuram Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919946103710', city: 'Thiruvananthapuram', district: 'Thiruvananthapuram', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; corporate office at Kaumudi Buildings, Pettah.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-kollam-180b', businessName: 'Kerala Kaumudi — Kollam Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919946108584', city: 'Kollam', district: 'Kollam', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-alappuzha-180c', businessName: 'Kerala Kaumudi — Alappuzha Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '918129880070', city: 'Alappuzha', district: 'Alappuzha', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kaumudi-pathanamthitta-180d', businessName: 'Kerala Kaumudi — Pathanamthitta Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919633441839', city: 'Pathanamthitta', district: 'Pathanamthitta', state: 'Kerala',
+        source: 'Kerala Kaumudi official Contact Us page', notes: 'Circulation Manager contact published by Kerala Kaumudi; local distribution contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
