@@ -4171,6 +4171,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — List of Existing Agents PDF', notes: '03, Sakchi Bazar, Tata Nagar. Listed as book seller in the agent directory; contact number missing/garbled, so no phone added.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-artsletters-hyderabad-139', businessName: 'Arts and Letters', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919492922764', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division — Agents of Books directory', notes: 'C/o Hyderabad Study Circle, Domalguda. Listed as an official agent sales emporium; newspaper distribution role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-liberty-ahmedabad-140', businessName: 'Liberty Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919727705066', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Publications Division — Agents of Books directory', notes: '67, Below Bridge, Gandhi Road. Listed as Headquarter Agent; book/periodical supply rather than confirmed newspaper delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sahityamandir-ahmedabad-141', businessName: 'Sahitya Mandir Book Shop', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919228590899', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Publications Division — Agents of Books directory', notes: '45, Om Tower, Satellite. Listed as Agent Sales Emporium; newspaper circulation fit not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vishvas-ahmedabad-142', businessName: 'Vishvas Books Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919924191307', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Publications Division — Agents of Books directory', notes: '24, Ratna Business Square, Old Natraj Cinema, Ashram Road. Official agent sales emporium; book/periodical distribution scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
