@@ -924,6 +924,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Ladikar Layout, Ayodhya Nagar. Newspaper distribution service with delivery reviews.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-tricel-patna-068', businessName: 'Tricel', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919334207665', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Fraser Road. Listed by Publications Division as an Agents Sales Emporium; newspaper vendor status not independently confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-novelty-patna-069', businessName: 'Novelty & Co.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919835038078', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Ashoka Rajpath. Official directory lists as Agents Sales Emporium; likely books/periodicals, newspaper circulation needs verification.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prakashbook-patna-070', businessName: 'Prakash Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919386253465', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Gandhi Market, Ashoka Rajpath. Listed as sales emporium agent; book/periodical supply rather than confirmed newspaper delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-minakshi-varanasi-071', businessName: 'Minakshi Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919918302131', city: 'Varanasi', district: 'Varanasi', state: 'Uttar Pradesh',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Sainpura, Chetganj. Official directory lists as Headquarter Agent; contact listing shows three adjacent mobile numbers, primary number entered.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
