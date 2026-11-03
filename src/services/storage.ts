@@ -1488,6 +1488,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Fastbase public newspaper-distribution directory', notes: 'Mana Camp area; directory city field was blank, location mapped to Raipur from Mana Camp locality. Confirm exact address before outreach.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kamal-pune-162', businessName: 'Kamal Newspapers', contactName: '',
+        businessType: 'Distributor', whatsapp: '919035078245', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Justdial public listing — pamphlet insertion services', notes: 'Pune. Justdial-verified listing with 30 years in business; pamphlet distributor and advertising agency, insertion campaigns.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bappa-pune-163', businessName: 'Bappa Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919972255004', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Justdial public listing — pamphlet insertion services', notes: 'Pune. Listed as advertising agency and newspaper advertising agency; ad booking/service, not confirmed circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bhise-pune-164', businessName: 'The Bhise Advertising', contactName: '',
+        businessType: 'Distributor', whatsapp: '919972815944', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Justdial public listing — pamphlet insertion services', notes: 'Pune. Listed under newspaper vendors and pamphlet distributors; newspaper leaflet distribution/insertion segment.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikbhaskar-indore-165', businessName: 'Dainik Bhaskar Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919926525700', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Bharatibiz public business listing', notes: '13, Mahu Naka Road, Swastik Nagar, Chhatribagh. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
