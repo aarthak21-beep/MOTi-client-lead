@@ -4927,6 +4927,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Ahmednagar.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-indore-191a', businessName: 'Navbharat Media — Indore Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '917999932628', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Indore.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-ahmedabad-191b', businessName: 'Navbharat Media — Ahmedabad Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919825006820', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Ahmedabad.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-hyderabad-191c', businessName: 'Navbharat Media — Hyderabad Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919010399817', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Hyderabad.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-raipur-191d', businessName: 'Navbharat Media — Raipur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425202097', city: 'Raipur', district: 'Raipur', state: 'Chhattisgarh',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Raipur.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
