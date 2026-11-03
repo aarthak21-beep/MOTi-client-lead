@@ -3457,6 +3457,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Bhagalpur edition; mobile 9818039099 and landline 0641-3988884 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-shubhamsandesh-patna-491', businessName: 'Shubham Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431090899', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9431090899 and landline 0612-2507242 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rashtriyasagar-patna-492', businessName: 'Rashtriya Sagar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919891227633', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 9891227633 listed by CBC. Publisher contact; verify current circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prabhatkhabar-patna-493', businessName: 'Prabhat Khabar — Patna', contactName: '',
+        businessType: 'Distributor', whatsapp: '919811572850', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna edition; mobile 9811572850 and landline 0612-2540550 listed by CBC. Same mobile also appears for its Bhagalpur/Muzaffarpur editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-toi-patna-494', businessName: 'The Times of India — Patna', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810419203', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily English newspaper, Patna edition; mobile 9810419203 and landline 0612-2216301 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
