@@ -1302,6 +1302,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Publications Division — Agents & Journals directory', notes: 'Durga Chambers, 39/1, Budhwar Peth, Appa Balwant Chowk. Official agent sales emporium listing; book/periodical distribution fit to verify.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-siddhivinayak-thane-131', businessName: 'Siddhivinayak Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919833584839', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Publications Division — Agents & Journals directory', notes: 'Near ST Bus Stand, opposite railway station, Thane West. Official agent directory; newspaper/periodical agency fit to verify. Different listing from Shree Siddhivinayak Leaflet Distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hariprasad-bengaluru-132', businessName: 'Hari Prasad Book House', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919731961999', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Publications Division — Agents & Journals directory', notes: '#1156, 1st Main, 3rd Cross, Vijaya Nagar. Official Agents Sales Emporium; book/periodical supply, newspaper circulation to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-subhas-bengaluru-133', businessName: 'Subhas Book Stores', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919945737745', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Publications Division — Agents & Journals directory', notes: 'No. 22/23, Krishna Building, Avenue Road. Official agent directory; book and periodical supply scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-artsletters-hyderabad-134', businessName: 'Arts and Letters', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919492922764', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Publications Division — Agents & Journals directory', notes: 'C/o Hyderabad Study Circle, Domalguda. Listed as Agents Sales Emporium; newspaper distribution not independently confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
