@@ -4027,6 +4027,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Weekly Hindi publication, Dholpur; mobile 9460182466 and landline 05642-220021 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-voltage-hanumangarh-586', businessName: 'Voltage', contactName: '',
+        businessType: 'Distributor', whatsapp: '919461567533', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9461567533 and landline 0154-222192 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pichhareaage-hanumangarh-587', businessName: 'Pichhare Aage Badhein', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414874987', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9414874987 and landline 0154-231441 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rawatsarjyoti-hanumangarh-588', businessName: 'Rawatsar Jyoti', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414580945', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9414580945 and landline 0154-231391 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vijaykiawaz-hanumangarh-589', businessName: 'Vijay Ki Awaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919460647602', city: 'Hanumangarh', district: 'Hanumangarh', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel (2021)', notes: 'Fortnightly Hindi publication, Hanumangarh; mobile 9460647602 and landline 0154-227335 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
