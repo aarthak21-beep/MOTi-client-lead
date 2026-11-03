@@ -5581,6 +5581,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hukmnama-ajmer-221a', businessName: 'Hukmnama Samachar — Ajmer Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919828011251', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer Hindi daily edition listed as Regular on the official government panel; separate local mobile contact from Jaipur publisher office.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-alfaztoday-ajmer-221b', businessName: 'Alfaz Today', contactName: '',
+        businessType: 'Distributor', whatsapp: '919461195786', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthantimes-alwar-221c', businessName: 'Rajasthan Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919414810648', city: 'Alwar', district: 'Alwar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Alwar Hindi daily listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-arunprabha-alwar-221d', businessName: 'Arun Prabha', contactName: '',
+        businessType: 'Distributor', whatsapp: '919829096788', city: 'Alwar', district: 'Alwar', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Alwar Hindi daily listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
