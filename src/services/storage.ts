@@ -4483,6 +4483,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'AskLaila — Jaipur Newspaper Agency directory', notes: 'Jawahar Lal Nehru Marg. Listed as Newspaper Agency; also appears as a newspaper publisher in public directories.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-nirala-jaipur-171a', businessName: 'Dainik Nirala Rajasthan', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829012787', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Jupiter Yellow Detail — Jaipur Newspaper Agency directory', notes: '28, Van Vihar, Dev Nagar, Tonk Road. Listed as Newspaper Agency; two mobile numbers are published, primary entered.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-gulabidinman-jaipur-171b', businessName: 'Dainik Gulabi Dinman', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919414067266', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Jupiter Yellow Detail — Jaipur Newspaper Agency directory', notes: '4-CHA-34, Housing Board, Shastri Nagar. Listed as Newspaper Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vijaysuppliers-jaipur-171c', businessName: 'Vijay Newspaper Suppliers', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '919929798895', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur public business listing', notes: '490, Sanjay Nagar, Ajmer Road DCM, Vidyut Nagar, near Bade Hanuma Ji Mandir. Listed as Newspaper Suppliers; directory also tags advertising agencies; second mobile 9799738137 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hellojaipur-171d', businessName: 'Hello Jaipur', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919414781495', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Mera Jaipur — Newspaper Vendors directory', notes: '318, Vijay Path, Raja Park, Tilak Nagar. Listed in Newspaper Vendors directory; exact newspaper service scope to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
