@@ -7459,9 +7459,44 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03',
       },
+      {
+        id: 'web-mumbai-malad-ajs-vet-062',
+        businessName: "AJ's Veterinary Clinic",
+        contactName: '',
+        businessType: 'Veterinary Clinic',
+        phone: '919967042677',
+        whatsapp: '919967042677',
+        city: 'Malad East, Mumbai',
+        district: 'Mumbai Suburban',
+        state: 'Maharashtra',
+        websiteStatus: 'Needs Verification',
+        source: 'https://www.gullydirectory.com/mumbai/malad/b/ajs-veterinary-clinic',
+        notes: 'GullyDirectory profile lists a public WhatsApp click-through and phone number; no website link is shown on the profile. DocZone profile marks website as not added. This is not proof that no website exists; verify independently before pitching. WhatsApp account not tested. GullyDirectory listing is unclaimed.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'web-mumbai-chembur-four-dreams-063',
+        businessName: 'Four Dreams The Live Cake Shop',
+        contactName: '',
+        businessType: 'Bakery / Cake Shop',
+        phone: '917021345297',
+        whatsapp: '917021345297',
+        city: 'Chembur Colony, Mumbai',
+        district: 'Mumbai Suburban',
+        state: 'Maharashtra',
+        websiteStatus: 'Needs Verification',
+        source: 'https://www.gullydirectory.com/mumbai/chembur/b/four-dreams-the-live-cake-shop',
+        notes: 'GullyDirectory profile lists a public WhatsApp click-through and phone number; no website link is shown on the profile. Independent website verification remains pending; no link on the profile is not proof that no website exists. WhatsApp account not tested. Listing is unclaimed.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
 
     ];
-    if (raw) {
       const existing: WebsiteProspect[] = JSON.parse(raw);
       const knownIds = new Set(existing.map((item) => item.id));
       const merged = [...existing, ...starterLeads.filter((item) => !knownIds.has(item.id))];
