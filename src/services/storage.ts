@@ -2629,6 +2629,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-publisher directory', notes: '301, 3rd Floor, Lalita Tower, near Hotel Rajpath, Alkapuri/Baroda. Newspaper/business publication and advertising company; mobile 9879550414.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-foursquare-ahmedabad-353', businessName: 'Four Square Media Pvt. Ltd. — Ahmedabad', contactName: '',
+        businessType: 'Distributor', whatsapp: '919815530924', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: '404, Chunilal Chambers, near Chice Restaurant, CG Road/Navrangpura. Advertising and book-publishing company; mobile 9815530924 and landline 079-40094190.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dhanraj-ahmedabad-354', businessName: 'Dhanraj News and Media Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '07926401310', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-agent directory', notes: '4th Floor, Anison Building, C.G. Road. Listed as newspaper agent, newspaper distributor and magazine dealer; published contact is landline 079-26401310.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sandesh-ahmedabad-355', businessName: 'The Sandesh Limited — Ahmedabad', contactName: '',
+        businessType: 'Distributor', whatsapp: '07940004000', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: 'Sandesh Bhavan, Lad Society Road, Vastrapur, Bodakdev. Gujarati newspaper publisher; published contact is landline 079-40004000.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amitymag-ahmedabad-356', businessName: 'Amity Magazine Publisher', contactName: '',
+        businessType: 'Distributor', whatsapp: '07925354847', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper/magazine distributor directory', notes: 'Shanti Sadan Estate, Mirzapur. Listed as newspaper agent, newspaper distributor and magazine dealer; published contact is landline 079-25354847.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
