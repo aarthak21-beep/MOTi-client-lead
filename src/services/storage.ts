@@ -3433,6 +3433,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9958274003 and landline 0612-2201707 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-masihulhind-patna-487', businessName: 'Masih Ul Hind', contactName: '',
+        businessType: 'Distributor', whatsapp: '919931688703', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9931688703 and landline 0612-2379795 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-divyarashmi-patna-488', businessName: 'Divya Rashmi', contactName: '',
+        businessType: 'Distributor', whatsapp: '918986043076', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Monthly Hindi publication, Patna; mobile 8986043076 and landline 0612-2214425 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonebhadra-patna-489', businessName: 'Sonebhadra Express', contactName: '',
+        businessType: 'Distributor', whatsapp: '918368008162', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Patna; mobile 8368008162 listed by CBC. Publisher contact; confirm current circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikbhaskar-bhagalpur-490', businessName: 'Dainik Bhaskar — Bhagalpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818039099', city: 'Bhagalpur', district: 'Bhagalpur', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Bhagalpur edition; mobile 9818039099 and landline 0641-3988884 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
