@@ -469,7 +469,6 @@ export function importAllData(jsonString: string): boolean {
 export function getNewspaperProspects(): NewspaperProspect[] {
   try {
     const raw = localStorage.getItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS);
-    if (raw) return JSON.parse(raw);
     const starterLeads: NewspaperProspect[] = [
       {
         id: 'news-santosh-mumbai-001',
@@ -480,14 +479,103 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         city: 'Mumbai',
         district: 'Mumbai Suburban',
         state: 'Maharashtra',
-        source: 'Justdial listing — WhatsApp option displayed',
-        notes: 'Directory listing shows a WhatsApp contact option. Confirm the account is active and business contact is correct before messaging.',
+        source: 'Justdial — WhatsApp option and public number displayed',
+        notes: 'Andheri East. Directory listing shows WhatsApp. Verify the account and business contact before messaging.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-ravindra-pune-002',
+        businessName: 'Ravindra Newspaper Agency',
+        contactName: '',
+        businessType: 'Newspaper Agency',
+        whatsapp: '919035122584',
+        city: 'Pune',
+        district: 'Pune',
+        state: 'Maharashtra',
+        source: 'Justdial — WhatsApp option and public number displayed',
+        notes: 'Yerawada, Pune. Listing also describes leaflet distribution.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pune-wadgaon-003',
+        businessName: 'Newspaper Agency — Wadgaon Sheri',
+        contactName: '',
+        businessType: 'Newspaper Agency',
+        whatsapp: '919763383678',
+        city: 'Pune',
+        district: 'Pune',
+        state: 'Maharashtra',
+        source: 'PinkBazaar — WhatsApp and public number displayed',
+        notes: 'Shop 09, opposite Moze School, Ganesh Nagar, Wadgaon Sheri. Listing labels service as Newspaper Agency / Newspaper Delivery.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-changes-mumbai-004',
+        businessName: 'Changes Advertising',
+        contactName: '',
+        businessType: 'Newspaper Agency',
+        whatsapp: '918904958725',
+        city: 'Mumbai',
+        district: 'Mumbai Suburban',
+        state: 'Maharashtra',
+        source: 'Justdial — WhatsApp option and public number displayed',
+        notes: 'Santacruz West. Advertising service; included as a newspaper-adjacent agency prospect, not a confirmed newspaper distributor.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samartha-palghar-005',
+        businessName: 'Samartha Vision Advertising',
+        contactName: '',
+        businessType: 'Newspaper Agency',
+        whatsapp: '919972329064',
+        city: 'Vasai East',
+        district: 'Palghar',
+        state: 'Maharashtra',
+        source: 'Justdial — WhatsApp option and public number displayed',
+        notes: 'Palghar district. Listing is for advertising; confirm newspaper-related work before pitching MOTi CRM.',
+        status: 'New',
+        contactPermission: 'Not Asked',
+        createdAt: '2026-11-03',
+        updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-harshita-aurangabad-006',
+        businessName: 'Harshita Advertisers',
+        contactName: '',
+        businessType: 'Newspaper Agency',
+        whatsapp: '918460307674',
+        city: 'Chhatrapati Sambhajinagar',
+        district: 'Chhatrapati Sambhajinagar',
+        state: 'Maharashtra',
+        source: 'Justdial — WhatsApp option and public number displayed',
+        notes: 'Newspaper advertising agency listing. Confirm its distribution/vendor operations before pitching circulation CRM.',
         status: 'New',
         contactPermission: 'Not Asked',
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03',
       },
     ];
+    if (raw) {
+      const existing: NewspaperProspect[] = JSON.parse(raw);
+      const knownIds = new Set(existing.map((item) => item.id));
+      const merged = [...existing, ...starterLeads.filter((item) => !knownIds.has(item.id))];
+      if (merged.length !== existing.length) {
+        localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(merged));
+      }
+      return merged;
+    }
     localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(starterLeads));
     return starterLeads;
   } catch {
