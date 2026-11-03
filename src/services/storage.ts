@@ -6000,7 +6000,79 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         businessType: 'Newspaper Agency', whatsapp: '919444482582', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
         source: 'Public local business listing', notes: '79, Arcot Road, Porur. Advertising agency focused on newspaper advertising and ad-release/booking support; not a daily newspaper distributor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },,
+      {
+        id: 'news-eastern-sentinel-itanagar-241', businessName: 'Eastern Sentinel', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919402772257', city: 'Itanagar', district: 'Papum Pare', state: 'Arunachal Pradesh',
+        source: 'Official Eastern Sentinel contact page', notes: 'Newspaper publisher and local media house. Public contact: 9402772257. Phone is publicly listed; WhatsApp availability not independently verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-arun-khabar-itanagar-242', businessName: 'Arun Khabar', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '918413872476', city: 'Itanagar', district: 'Papum Pare', state: 'Arunachal Pradesh',
+        source: 'Official Arun Khabar website', notes: 'Regional news publication. Official website lists this number as both phone and WhatsApp; verify business contact and permission before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aizawl-post-243', businessName: 'The Aizawl Post', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919862568033', city: 'Aizawl', district: 'Aizawl', state: 'Mizoram',
+        source: 'Official The Aizawl Post contact page', notes: 'Newspaper publisher. Official contact page lists +91 98625 68033 and +91 7005618572. WhatsApp availability not confirmed.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-aizawl-post-244', businessName: 'The Aizawl Post — Alternate Contact', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '917005618572', city: 'Aizawl', district: 'Aizawl', state: 'Mizoram',
+        source: 'Official The Aizawl Post contact page', notes: 'Alternate public contact number listed by the publisher; same organization as The Aizawl Post lead. Kept separately for contact tracking; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-vanglaini-245', businessName: 'Vanglaini', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919862705984', city: 'Aizawl', district: 'Aizawl', state: 'Mizoram',
+        source: 'Central Bureau of Communication Mizoram newspaper panel (2021)', notes: 'CBC panel listed public contact 9862705984. Source is historical (2021); confirm current number and publisher contact before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anugamini-gangtok-246', businessName: 'Anugamini Hindi Daily', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919474355832', city: 'Gangtok', district: 'Gangtok', state: 'Sikkim',
+        source: 'Public business listing / Gangtok business profile', notes: 'Hindi daily newspaper publisher in Gangtok. Public listing shows 94743 55832; independently confirm number and WhatsApp before messaging.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sikkim-mail-gangtok-247', businessName: 'Sikkim Mail', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919832524999', city: 'Gangtok', district: 'Gangtok', state: 'Sikkim',
+        source: 'Public business listing', notes: 'Gangtok newspaper/media office. Public listing shows +91 98325 24999; confirm current business role and WhatsApp before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rhenock-purba-press-248', businessName: 'Rhenock Purba Press & Publication', contactName: '',
+        businessType: 'Printing Press', whatsapp: '919434143265', city: 'Rhenock', district: 'Pakyong', state: 'Sikkim',
+        source: 'Public business listing', notes: 'Locally listed press and publication business, categorized as newspaper publisher. Public contact +91 94341 43265; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prince-silvassa-249', businessName: 'Prince News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919427002705', city: 'Silvassa', district: 'Dadra and Nagar Haveli', state: 'Dadra and Nagar Haveli and Daman and Diu',
+        source: 'BharatiBiz public business listing', notes: 'Shop 7 & 8, Zanda Chowk Shopping Centre, Silvassa. Listing identifies newspaper distribution and delivery; public phone 094270 02705. WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-press-post-silvassa-250', businessName: 'PRESS POST', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '919173243238', city: 'Silvassa', district: 'Dadra and Nagar Haveli', state: 'Dadra and Nagar Haveli and Daman and Diu',
+        source: 'Public business listing', notes: 'Silvassa-region digital news and media publisher; listing also categorizes it as advertising agency/classified newspaper publisher. Public contact +91 91732 43238; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-silvassa-news-line-251', businessName: 'Silvassa News Line', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '918140004048', city: 'Silvassa', district: 'Dadra and Nagar Haveli', state: 'Dadra and Nagar Haveli and Daman and Diu',
+        source: 'Public business listing', notes: 'Local/regional digital news service based in Silvassa. Public contact +91 81400 04048; WhatsApp not verified.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lakshadweep-printing-kavaratti-252', businessName: 'Department of Printing & Stationery — Lakshadweep Times', contactName: '',
+        businessType: 'Printing Press', whatsapp: '', city: 'Kavaratti', district: 'Kavaratti', state: 'Lakshadweep',
+        source: 'Official Lakshadweep Administration website', notes: 'Government printing department produces newspapers including Lakshadweep Times and accepts private printing jobs. Official landlines: 04896-262246 / 04896-262429. No mobile/WhatsApp number published; WhatsApp not available to verify. Treat as institutional printing prospect, not a newspaper distributor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      }
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
