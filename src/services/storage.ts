@@ -3385,6 +3385,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Hajipur; mobile 9431650916 and landline 06224-270644 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-aswat-katihar-479', businessName: 'Aswat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919140139050', city: 'Katihar', district: 'Katihar', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Katihar; mobile 9140139050 listed by CBC. Publisher contact; confirm current status.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-taasir-muzaffarpur-480', businessName: 'Taasir — Muzaffarpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431025219', city: 'Muzaffarpur', district: 'Muzaffarpur', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Muzaffarpur; mobile 9431025219 and landline 0621-2201707 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tasdeeque-patna-481', businessName: 'Tasdeeque', contactName: '',
+        businessType: 'Distributor', whatsapp: '919835403556', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 9835403556 and landline 0612-2370011 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sadaebihar-patna-482', businessName: 'Sada E Bihar', contactName: '',
+        businessType: 'Distributor', whatsapp: '917903175169', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Patna; mobile 7903175169 and landline 0612-2219074 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
