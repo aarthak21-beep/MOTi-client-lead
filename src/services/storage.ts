@@ -4855,6 +4855,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'O Heraldo official Contact Us page', notes: 'Herald Publications Pvt Ltd, Rua Sao Tome, behind Main Post Office, Panaji. Official advertising mobile contact; newspaper advertising, not confirmed circulation distribution.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-primeads-panaji-188a', businessName: 'Prime Advertising — Goa', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919822581384', city: 'Panaji', district: 'North Goa', state: 'Goa',
+        source: 'Prime Group Goa official website', notes: '403, Landscape Tower, St. Inez, Panaji. Explicitly offers newspaper advertising and bulk leaflet printing/distribution; advertising agency, not a confirmed daily newspaper vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-himdarshan-shimla-188b', businessName: 'Himdarshan Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919418900008', city: 'Shimla', district: 'Shimla', state: 'Himachal Pradesh',
+        source: 'Himdarshan Samachar official website', notes: 'Om Krishan Kutir, Daisy Bank, Lower Jakhu. Hindi weekly newspaper published from Shimla; official editor contact; additional mobiles 8262000006 and 9418004008 published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-goaprism-panaji-188c', businessName: 'Goa Prism', contactName: '',
+        businessType: 'Distributor', whatsapp: '918999085172', city: 'Panaji', district: 'North Goa', state: 'Goa',
+        source: 'Goa Prism official Contact Us page', notes: 'Panaji. Publication of GPDM; official public contact for business and partnership enquiries.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thenewsnow-jammu-188d', businessName: 'The News Now', contactName: '',
+        businessType: 'Distributor', whatsapp: '919107002244', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'The News Now official website', notes: '38, Phase III, Industrial Estate, Gangyal. English daily newspaper published from Jammu; official contact mobile published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
