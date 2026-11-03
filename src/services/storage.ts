@@ -5419,6 +5419,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum Kannada daily edition listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-swatantrapragati-belgaum-214a', businessName: 'Swatantra Pragati', contactName: '',
+        businessType: 'Distributor', whatsapp: '919342675231', city: 'Belagavi', district: 'Belagavi', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum Marathi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-shriranzunzar-belgaum-214b', businessName: 'Shri Ranzunzar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919342543349', city: 'Belagavi', district: 'Belagavi', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Belgaum Marathi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hosadiganta-bengaluru-214c', businessName: 'Hosadiganta', contactName: '',
+        businessType: 'Distributor', whatsapp: '919845438807', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Bengaluru Kannada daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-samyuktakarnataka-davangere-214d', businessName: 'Samyukta Karnataka — Davangere Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818201089', city: 'Davanagere', district: 'Davanagere', state: 'Karnataka',
+        source: 'Central Bureau of Communication — Karnataka newspaper panel', notes: 'Davangere Kannada daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
