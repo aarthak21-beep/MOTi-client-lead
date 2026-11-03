@@ -1566,6 +1566,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: 'Pt. Beli Ram and Sons Hall, Gate, near Jain Homeopathic, Ravidass Mandir. Separate Amritsar agent entry; additional published mobiles 9813676627 and 9518215751.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ebs-chandigarh-175', businessName: 'E.B.S. News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919814110136', city: 'Chandigarh', district: 'Chandigarh', state: 'Chandigarh',
+        source: 'Employment News — official existing agents PDF', notes: 'SCO 33, Sector 21-C, Chandigarh. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sujit-kohima-176', businessName: 'Sujit Bhattacharjee News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919774699147', city: 'Kohima', district: 'Kohima', state: 'Nagaland',
+        source: 'Employment News — official existing agents PDF', notes: 'Agency listing covers Kohima, Dimapur and Medziphema, Nagaland. Listed as existing Employment News agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rathis-jodhpur-177', businessName: 'Rathis Media Centre', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829023580', city: 'Jodhpur', district: 'Jodhpur', state: 'Rajasthan',
+        source: 'Employment News — official existing agents PDF', notes: 'Rathi Bhawan, Over Bridge, Mohan Pura. Listed in existing agents PDF; media/book/periodical supply fit, daily newspaper distribution to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pathak-nashik-178', businessName: 'Pathak Brothers', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918446660684', city: 'Nashik', district: 'Nashik', state: 'Maharashtra',
+        source: 'Employment News — official existing agents PDF', notes: 'Plot No. 15, Shreeniwas Basement, Sahakar Nagar, Ganjmal. Listed as an existing Employment News agent; newspaper agency fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
