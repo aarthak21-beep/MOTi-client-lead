@@ -5323,6 +5323,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Mansa Punjabi daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-punjabitribune-bathinda-210a', businessName: 'Punjabi Tribune — Bathinda Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814814006', city: 'Bathinda', district: 'Bathinda', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Bathinda Punjabi daily edition listed on the official government panel; mobile contact shared with other Punjabi Tribune editions.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainiksavera-jalandhar-210b', businessName: 'Dainik Savera Times — Jalandhar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919915013504', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Jalandhar Hindi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-suraj-ludhiana-210c', businessName: 'Suraj', contactName: '',
+        businessType: 'Distributor', whatsapp: '919814203079', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pehredar-ludhiana-210d', businessName: 'Pehredar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919688500050', city: 'Ludhiana', district: 'Ludhiana', state: 'Punjab',
+        source: 'Central Bureau of Communication — Punjab newspaper panel', notes: 'Ludhiana Punjabi daily listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
