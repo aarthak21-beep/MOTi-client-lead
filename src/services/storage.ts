@@ -2929,6 +2929,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'Plot 15 and 21, Industrial Estate, Delhi Road. Official Jagran publishing centre; landline 01662-398400.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-indore-403', businessName: 'Dainik Jagran — Indore Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '07313918186', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '302, Apollo Square, Narayan Kothi Chouraha. Official Jagran publishing centre; landlines 0731-3918186 / 3918189.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-jalandhar-404', businessName: 'Dainik Jagran — Jalandhar Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01813067500', city: 'Jalandhar', district: 'Jalandhar', state: 'Punjab',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '39, PUDA Complex, 3rd Floor, opposite DC Office, Ladowali Road. Official Jagran publishing centre; landline 0181-3067500.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-jamshedpur-405', businessName: 'Dainik Jagran — Jamshedpur Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '06573985200', city: 'Jamshedpur', district: 'East Singhbhum', state: 'Jharkhand',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Shailendra Singh Complex, Dimna Road, Mango, near Subhash Colony. Official Jagran publishing centre; landlines 0657-3985200 / 6611700.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-jammu-406', businessName: 'Dainik Jagran — Jammu City Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '01912457172', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: '77 A/D, opposite Police Lines, Gandhi Nagar, Jammu Tawi. Official Jagran city office; landline 0191-2457172.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
