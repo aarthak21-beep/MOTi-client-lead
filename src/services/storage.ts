@@ -4423,6 +4423,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dharitri Newspaper — public regional contact directory', notes: 'Office 306, 3rd Floor, INS Tower, Plot C-63, G Block, Bandra Kurla Complex. Listed as Dharitri\'s Mumbai regional contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dharitri-hyderabad-168a', businessName: 'Mohd. Ismail — Dharitri Hyderabad Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919848050061', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: 'Room 5, 4th Floor, Unity House Building, Abids. Listed as Dharitri\'s Hyderabad regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dharitri-bengaluru-168b', businessName: 'S. Lakshmi Narayanan — Dharitri Bengaluru Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919845026678', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Dharitri Newspaper — public regional contact directory', notes: '6/1, 2nd Floor, Sherdan Plaza, Rajaram Mohan Ray Road. Listed as Dharitri\'s Bengaluru regional contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
