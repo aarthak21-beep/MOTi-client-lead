@@ -686,7 +686,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-vikram-mulund-023', businessName: 'Vikram Newspaper Agency', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '91', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        businessType: 'Newspaper Agency', whatsapp: '', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
         source: 'Google Maps public business listing', notes: 'Mulund West. Listing identifies a newspaper distribution agency; phone number not available in returned listing.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
