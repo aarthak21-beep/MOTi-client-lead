@@ -5557,6 +5557,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam English daily edition listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-lokmailsamachar-ajmer-220a', businessName: 'Lok Mail Samachar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919660787073', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-azadnyaya-ajmer-220b', businessName: 'Azad Nyaya', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413743184', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-toofanitakkar-ajmer-220c', businessName: 'Toofani Takkar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919214803048', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-roshanbharat-ajmer-220d', businessName: 'Roshan Bharat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919214687706', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Ajmer fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
