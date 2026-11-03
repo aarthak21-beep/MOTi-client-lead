@@ -4609,6 +4609,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal — Coimbatore Newspaper Distributors directory', notes: 'No. 238, Ambal Lodge Building, 2nd Floor, 3rd Street, Gandhipuram. Explicitly listed as Newspaper Advertising.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-srirajamani-coimbatore-177a', businessName: 'Sri Rajamani Advertisements', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919944687232', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Grotal — Coimbatore Newspaper Distributors directory', notes: '4th Street, Gandhipuram. Listed in newspaper distributors directory; advertising/print placement role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-madrasads-coimbatore-177b', businessName: 'The Madras Advertising Company Pvt Ltd', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919842182359', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Grotal — Coimbatore Newspaper Distributors directory', notes: 'MR Complex, 51/28-F, 1st Floor, DB Road, RS Puram. Advertising agency; newspaper ad placements, not circulation distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-frontpage-coimbatore-177c', businessName: 'Front Page Communications', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919843011003', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'InfoMediaSearch — Newspaper Ads in Coimbatore directory', notes: 'No. 28, Somu Complex, Union High School Road, Town Hall. Listed under newspaper advertising services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-successspot-coimbatore-177d', businessName: 'Success Spot Media', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919600949709', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: '260A-6, Nethaji Road, behind Gandhi Mandapam, Pappanaickenpalayam. Paper Advertisement Agency; print advertising service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
