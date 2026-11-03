@@ -4585,6 +4585,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Reporter Post official website', notes: 'B/4 Mukul Kunj, near BSV School, Niwaranpur. English daily newspaper publisher; official publisher contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sribalajiads-coimbatore-176a', businessName: 'Sri Balaji Ads and Communications', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919843293434', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore / InfoMediaSearch public listings', notes: '612C, VKK Menon Road, opposite BJP Office, Siddhapudur. Paper Advertisement Agency; newspaper ad placement, not confirmed newspaper delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-saruads-coimbatore-176b', businessName: 'Saru Ads Communications', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919894271200', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: '564 D, Sabari Complex, 2nd Street Extension, 100 Feet Road, near Kalyan Silks, Gandhipuram. Advertising agency; newspaper ad placement scope to confirm.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-manchalaads-coimbatore-176c', businessName: 'Manchala Ads', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919894989094', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: '123Coimbatore — Newspaper Offices directory', notes: '574 A & B, Kumaran Nilayam, 1st Street, near GP Signal and RR Hotels, Gandhipuram. Paper Advertisement Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-himark-coimbatore-176d', businessName: 'Hi Mark Newspaper Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919843611555', city: 'Coimbatore', district: 'Coimbatore', state: 'Tamil Nadu',
+        source: 'Grotal — Coimbatore Newspaper Distributors directory', notes: 'No. 238, Ambal Lodge Building, 2nd Floor, 3rd Street, Gandhipuram. Explicitly listed as Newspaper Advertising.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
