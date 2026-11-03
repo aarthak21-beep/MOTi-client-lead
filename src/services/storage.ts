@@ -5725,6 +5725,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Sadulshahar fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-newindiaherald-jaipur-227a', businessName: 'New India Herald — Jaipur', contactName: '',
+        businessType: 'Distributor', whatsapp: '919899671611', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mridulpatrika-jaipur-227b', businessName: 'Mridul Patrika', contactName: '',
+        businessType: 'Distributor', whatsapp: '919413193990', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nutanprabhat-jaipur-227c', businessName: 'Nutan Prabhat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919785963533', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur weekly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jaipurtimes-jaipur-227d', businessName: 'Jaipur Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '917014217770', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily except Sunday listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
