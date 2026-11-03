@@ -4543,6 +4543,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Dinamalar Newspaper — public business office directory', notes: '14/168, Pooja Apartments, opposite IOB, Himatlal Park. Official business office contact; confirm distribution versus advertising responsibilities.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-dinamalar-kolkata-174a', businessName: 'Dinamalar — Kolkata Business Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '918420021885', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Dinamalar Newspaper — public business office directory', notes: 'Need Based Communication Pvt Ltd, Siddha Weston, Room 210, 9 Weston Street. Official business office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-cochin-174b', businessName: 'Dinamalar — Cochin Business Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919846080208', city: 'Kochi', district: 'Ernakulam', state: 'Kerala',
+        source: 'Dinamalar Newspaper — public business office directory', notes: '2F, Trinity World Neptune, Chittethukara, CSEZ Post Office, Kakkanad. Official business office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dinamalar-delhi-174c', businessName: 'Dinamalar — New Delhi Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '919818227151', city: 'New Delhi', district: 'New Delhi', state: 'Delhi',
+        source: 'Dinamalar Newspaper — public office directory', notes: '204, INS Building, Rafi Marg. Official New Delhi office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
