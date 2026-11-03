@@ -2605,6 +2605,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: '48, Room F/2, Gariahat Road. Communication/advertising agency listed in newspaper ad booking directory; landline 033-24640915.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sharma-meerut-349', businessName: 'Sharma News Agency — Meerut', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919837430821', city: 'Meerut', district: 'Meerut', state: 'Uttar Pradesh',
+        source: 'Grotal public newspaper-distributor directory', notes: 'J-56, Phase 1, Modipuram, Pallavpuram. Listed as Newspaper Distributor; also pamphlet and competition-book supplier.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-abp-ahmedabad-350', businessName: 'ABP Pvt. Ltd. — Ahmedabad', contactName: '',
+        businessType: 'Distributor', whatsapp: '919825733435', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: '304, Pratibha Complex, near Gandhigram Railway Station, Ashram Road. Anandabazar Patrika/The Telegraph publisher contact; mobile 9825733435 and landline 079-40320202.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sambhaav-ahmedabad-351', businessName: 'Sambhaav Metro', contactName: '',
+        businessType: 'Distributor', whatsapp: '919909967292', city: 'Ahmedabad', district: 'Ahmedabad', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: 'Sambhaav House, opposite Judges Bunglow, Bodakdev. Gujarati newspaper publisher; mobile 9909967292 and landline 079-26873914.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-foursquare-baroda-352', businessName: 'Four Square Media Pvt. Ltd. — Vadodara', contactName: '',
+        businessType: 'Distributor', whatsapp: '919879550414', city: 'Vadodara', district: 'Vadodara', state: 'Gujarat',
+        source: 'Grotal public newspaper-publisher directory', notes: '301, 3rd Floor, Lalita Tower, near Hotel Rajpath, Alkapuri/Baroda. Newspaper/business publication and advertising company; mobile 9879550414.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
