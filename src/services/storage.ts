@@ -2689,6 +2689,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Tribune India regional contact directory', notes: 'Regional Tribune contact: D-8/1, 9th Street, Rajendra Nagar, Lucknow. Published mobile 9936249866 and landline 0522-2693362; exact circulation vs advertising role to confirm.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-advertisementindia-noida-363', businessName: 'Advertisement India — Delhi NCR', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919810293243', city: 'Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'Official Advertisement India contact page', notes: '5th Floor, SB Tower, Sector 16A, Film City, Noida. Newspaper advertising/ad-booking agency; Delhi-NCR branch.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-advertisementindia-lucknow-364', businessName: 'Advertisement India — UP & Uttarakhand', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919935357575', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Official Advertisement India contact page', notes: '6/364, Vineet Khand, Gomti Nagar. Newspaper advertising/ad-booking agency; UP and Uttarakhand branch.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-advertisementindia-mumbai-365', businessName: 'Advertisement India — Mumbai', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919769875375', city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra',
+        source: 'Official Advertisement India contact page', notes: 'Flat 125, Chandrama Building, New Vasundhara CHS, Thakur Village, Kandivali East. Newspaper advertising/ad-booking agency; Mumbai branch.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-advertisementindia-bhopal-366', businessName: 'Advertisement India — Bhopal', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919981511889', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Official Advertisement India contact page', notes: '21-B, near Kwality Restaurant, New Market, TT Nagar. Newspaper advertising/ad-booking agency; Bhopal branch.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
