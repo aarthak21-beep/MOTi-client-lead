@@ -2977,6 +2977,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds publishing-centres directory', notes: 'BXX-630, Second Floor, Gurdev Nagar, Ferozpur Road, near Park Plaza Hotel. Official Jagran publishing centre; landline 0161-3066100.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-moradabad-411', businessName: 'Dainik Jagran — Moradabad Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '05916601591', city: 'Moradabad', district: 'Moradabad', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Kaanth Road, Harthala, Moradabad. Official Jagran publishing centre; landline 0591-6601591.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-muzaffarpur-412', businessName: 'Dainik Jagran — Muzaffarpur Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '06213041500', city: 'Muzaffarpur', district: 'Muzaffarpur', state: 'Bihar',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Pani Tanki Chowk, Mithanpura Road, Post-Ramna. Official Jagran publishing centre; landline 0621-3041500.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-haldwani-413', businessName: 'Dainik Jagran — Haldwani Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '059462235001', city: 'Haldwani', district: 'Nainital', state: 'Uttarakhand',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'Devalchaur, Rampur Road, Haldwani. Official Jagran publishing centre; landline 05946-2235001.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-noida-414', businessName: 'Dainik Jagran — Noida Publishing Centre', contactName: '',
+        businessType: 'Distributor', whatsapp: '01203915800', city: 'Noida', district: 'Gautam Buddha Nagar', state: 'Uttar Pradesh',
+        source: 'Official Jagran BookAds publishing-centres directory', notes: 'D-210/211, Sector 63, Noida. Official Jagran publishing centre; landline 0120-3915800.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
