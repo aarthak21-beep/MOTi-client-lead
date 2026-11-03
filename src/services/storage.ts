@@ -5539,6 +5539,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam Telugu daily listed on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-vijayabhanu-vizag-219a', businessName: 'Vijayabhanu', contactName: '',
+        businessType: 'Distributor', whatsapp: '919866549555', city: 'Visakhapatnam', district: 'Visakhapatnam', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam Telugu daily listed on the official government panel; published mobile contact. Panel marks regularity as blocked.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-deccanchronicle-vizag-219b', businessName: 'Deccan Chronicle — Visakhapatnam Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919849998030', city: 'Visakhapatnam', district: 'Visakhapatnam', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam English daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-thehindu-vizag-219c', businessName: 'The Hindu — Visakhapatnam Edition', contactName: '',
+        businessType: 'Distributor', whatsapp: '919840783604', city: 'Visakhapatnam', district: 'Visakhapatnam', state: 'Andhra Pradesh',
+        source: 'Central Bureau of Communication — Andhra Pradesh newspaper panel', notes: 'Visakhapatnam English daily edition listed on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
