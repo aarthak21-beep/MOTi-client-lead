@@ -5089,6 +5089,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Son Varsha Vani official website', notes: 'Ghar Aangan, Birju Ji Ka Hata, Choti Badalpura, Khagaul. Official Patna edition office contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-sonvarsha-delhi-199a', businessName: 'Son Varsha Vani — Delhi Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '917992406886', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
+        source: 'Son Varsha Vani official website', notes: 'Official Delhi edition office contact published by the newspaper.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sonvarsha-aara-199b', businessName: 'Son Varsha Vani — Aara Office', contactName: '',
+        businessType: 'Distributor', whatsapp: '918102110421', city: 'Ara', district: 'Bhojpur', state: 'Bihar',
+        source: 'Son Varsha Vani official website', notes: 'Jai Hindi Colony, Nalapar, Aara. Official Aara edition office contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
