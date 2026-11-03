@@ -2557,6 +2557,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public advertising directory', notes: 'Road No. 25, M-32, Sri Krishnapuri. Outdoor and media advertising service; alternate mobile 9431016421.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-oriental-kolkata-341', businessName: 'Oriental Communication', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03333015783', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Khashmallick, Baripur/Mallickpore, Kolkata. Listed in newspaper advertisement booking category; published contact is landline 033-33015783.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-signet-kolkata-342', businessName: 'Signet Media Service Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322267622', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '87, Ground Floor, Lenin Sarani. Media/ad agency listed in newspaper advertising booking directory; published contact is landline 033-22267622.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-tcp-kolkata-343', businessName: 'TCP Advertising Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322364076', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '6/2, Madan Street, Esplanade. Advertising agency listed in newspaper advertisement booking category; published contact is landline 033-22364076.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-universalads-kolkata-344', businessName: 'Universal Advertising Association', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322399692', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Grotal public newspaper-advertising directory', notes: '1, Nather Began Street, Beniatola. Advertising agency listed in newspaper ad booking directory; published contact is landline 033-22399692.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
