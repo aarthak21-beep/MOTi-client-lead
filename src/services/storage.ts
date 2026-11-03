@@ -4291,6 +4291,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'MyAhmednagar — Newspaper Vendors directory', notes: '19/21, Lodha Heights, Navi Peth, Neta Subhash Chowk. Listed as Newspaper Vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-ganeshagency-pune-159a', businessName: 'Ganesh News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919922399009', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Google Business public listing', notes: 'S.No. 42/2, near Dashbhuja Mandir, Karve Road / Paud Phata. Categorized as Newspaper Distribution Service; customer reviews describe regular newspaper agency service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-drdhamale-pune-159b', businessName: 'D R Dhamale News Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919850773252', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Google Business public listing', notes: 'NDA Pashan Road, Ram Nagar, Pashan. Listed as a local newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prakashagency-pune-159c', businessName: 'Prakash Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919011688708', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'Google Business public listing', notes: 'Shop No. 2, Sadashiv Peth Road, opposite Chitale Sweet Home. Listed as local newspaper agency; listing category is not fully aligned, so confirm before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-prakshpaper-wagholi-159d', businessName: 'Praksh Paper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919552188282', city: 'Wagholi', district: 'Pune', state: 'Maharashtra',
+        source: 'VasthuRengan public business listing', notes: 'Nagar Road, near Shivaji Statue, Wagholi. Listed as Newspaper & Magazine Delivery Services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
