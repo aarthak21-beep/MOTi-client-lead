@@ -1824,6 +1824,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'Jyoti Vihar, Plot No. 16, Mansarovar/Manyawas area. Listed as newspaper distribution service and classified ad publisher.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-shukla-lucknow-218', businessName: 'Shukla News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918299285945', city: 'Lucknow', district: 'Lucknow', state: 'Uttar Pradesh',
+        source: 'Public business listing', notes: 'IT Buildings, behind Hanumanji Temple, Hazratganj. Listed as wholesaler and newspaper distribution/counter-sales hub.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kings-hyderabad-219', businessName: 'Kings Pamphlet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '919849457821', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Public business listing', notes: '23/5, Bus Stand, Nayapul, Afzal Gunj. Listed as newspaper distribution service; primary service is pamphlet/leaflet distribution.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-localpaper-chennai-220', businessName: 'Local Newspaper — Chennai', contactName: '',
+        businessType: 'Distributor', whatsapp: '918428182676', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Public business listing', notes: '25, Vellala Street, Kodambakkam, Vadapalani. Local newspaper publisher/news service with free weekly circulation and advertising services.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-db-advertising-jaipur-221', businessName: 'Dainik Bhaskar Advertising Office — Jaipur', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919024227354', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Public business listing', notes: 'Niwaru Road, Nangal Jaisabohra. Newspaper classified/display advertising office; advertising service, not a circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
