@@ -1512,6 +1512,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Bharatibiz public business listing', notes: '13, Mahu Naka Road, Swastik Nagar, Chhatribagh. Explicitly listed as newspaper distribution service.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-andhrajyothi-hyderabad-166', businessName: 'Andhra Jyothi Newspaper Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919848518004', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Bharatibiz public business listing', notes: '10-3-12/1, Royal Colony, Humayun Nagar. Explicitly listed as newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jkm-delhi-167', businessName: 'JKM Pamphlet Distribution', contactName: '',
+        businessType: 'Distributor', whatsapp: '918105736395', city: 'New Delhi', district: 'South East Delhi', state: 'Delhi',
+        source: 'Justdial public listing — newspaper vendors', notes: 'Car Market, Lajpat Nagar. Justdial-verified pamphlet insertion service and advertising agency; insertion/distribution segment, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mitansh-delhi-168', businessName: 'Mitansh News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918123573199', city: 'New Delhi', district: 'South Delhi', state: 'Delhi',
+        source: 'Justdial public listing — newspaper vendors', notes: 'Nanak Chand Basti, Kotla Mubarakpur. Listed as pamphlet distributor and newspaper advertising agency; verify whether it also handles newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
