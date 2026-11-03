@@ -41,7 +41,7 @@ const STORAGE_KEYS = {
   MESSAGE_TEMPLATES: 'moti_msg_templates_v1',
   SETTINGS: 'moti_settings_v1',
   IS_INITIALIZED: 'moti_initialized_v1',
-  MAHARASHTRA_WHATSAPP_LEADS_IMPORTED: 'moti_mh_whatsapp_leads_imported_v1',
+  MAHARASHTRA_WHATSAPP_LEADS_IMPORTED: 'moti_mh_whatsapp_leads_imported_v2',
   OWNER_AUTH: 'moti_owner_auth_v1',
   NEWSPAPER_PROSPECTS: 'moti_newspaper_prospects_v1',
   WEBSITE_PROSPECTS: 'moti_website_prospects_v1',
