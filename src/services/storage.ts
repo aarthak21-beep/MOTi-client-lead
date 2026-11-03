@@ -3193,6 +3193,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public media contact directory', notes: 'Indore newspaper/media contact. Mobile 9826023921 listed in publication contact list; confirm current role and publication affiliation.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-nagpurtoday-nagpur-447', businessName: 'Nagpur Today News Paper', contactName: '',
+        businessType: 'Distributor', whatsapp: '918407908145', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Cybo public newspaper directory', notes: 'Ground Floor, 1 VRG House, 19 Great Nag Road, beside Dainik Bhaskar. Newspaper publisher/news service; listed mobile 8407908145.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mahasagar-nagpur-448', businessName: 'Dainik Mahasagar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919373117042', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Cybo public newspaper directory', notes: 'Sitabuldi, Nagpur. Newspaper publisher; mobile 9373117042 published in local newspaper directory.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rashtrapatrika-nagpur-449', businessName: 'Rashtra Patrika — Nagpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '07122737847', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Bharatibiz / Press Registrar General of India', notes: '2nd Floor, Brijbhumi Complex, Central Avenue Road, Telephone Exchange Chowk, Lakadganj. Registered weekly Hindi newspaper publisher; landlines 0712-2737847 / 3919113.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nationalsandesh-nagpur-450', businessName: 'National Sandesh Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '07122548000', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Cybo public newspaper directory', notes: 'Teen Nal Chowk, Gandhi Bagh. Newspaper publisher; published landline 0712-2548000.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
