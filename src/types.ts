@@ -238,3 +238,25 @@ export interface NewspaperProspect {
   createdAt: string;
   updatedAt: string;
 }
+
+
+export type WebsiteProspectStatus = 'New' | 'Contacted' | 'Interested' | 'Demo Given' | 'Converted' | 'Not Interested';
+export interface WebsiteProspect {
+  id: string;
+  businessName: string;
+  contactName: string;
+  businessType: string;
+  phone: string;
+  whatsapp: string;
+  city: string;
+  district: string;
+  state: string;
+  websiteStatus: 'No Website' | 'Needs Verification' | 'Website Found';
+  website?: string;
+  source: string;
+  notes: string;
+  status: WebsiteProspectStatus;
+  contactPermission: ContactPermission;
+  createdAt: string;
+  updatedAt: string;
+}
