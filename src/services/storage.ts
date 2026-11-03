@@ -5845,6 +5845,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily edition listed as Regular on the official government panel; published mobile contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-krishiprabhat-bikaner-232a', businessName: 'Krishi Prabhat', contactName: '',
+        businessType: 'Distributor', whatsapp: '919571283655', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Bikaner Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-amritindia-jaipur-232b', businessName: 'Amrit India', contactName: '',
+        businessType: 'Distributor', whatsapp: '919312746929', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur Hindi daily listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chamaktachandrama-jaipur-232c', businessName: 'Chamakta Chandrama', contactName: '',
+        businessType: 'Distributor', whatsapp: '917727070418', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-indiandhamaka-jaipur-232d', businessName: 'Indian Dhamaka', contactName: '',
+        businessType: 'Distributor', whatsapp: '919799396151', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; published mobile contact. Same phone also appears against Garibon Ka Sitara.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
