@@ -5167,6 +5167,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Assam newspaper panel', notes: 'Guwahati edition listed on the official newspaper panel; mobile contact published for newspaper office.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-hillstimes-guwahati-203a', businessName: 'The Hills Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '917002393659', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'BharatiBiz public business listing', notes: '2nd Floor, Rabha Complex, Rukminigaon, Guwahati. Newspaper publisher contact listed publicly.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bodosa-kokrajhar-203b', businessName: 'Bodosa Newspaper', contactName: '',
+        businessType: 'Distributor', whatsapp: '919678455328', city: 'Kokrajhar', district: 'Kokrajhar', state: 'Assam',
+        source: 'Bodosa Newspaper official website', notes: 'Kokrajhar head office. Official editor contact; advertising manager and Guwahati contact numbers also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-bodosa-guwahati-203c', businessName: 'Bodosa Newspaper — Guwahati Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919706928785', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Bodosa Newspaper official website', notes: 'Sanjib Sharma, Guwahati contact person listed by Bodosa Newspaper.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-assamtribune-dibrugarh-203d', businessName: 'Assam Tribune — Dibrugarh Circulation', contactName: '',
+        businessType: 'Distributor', whatsapp: '919854008535', city: 'Dibrugarh', district: 'Dibrugarh', state: 'Assam',
+        source: 'Audit Bureau of Circulations — member publishers directory', notes: 'Pranab Dutta Goswami, Circulation Manager, Assam Tribune; official directory lists mobile 9854008535.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
