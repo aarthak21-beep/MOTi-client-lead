@@ -4123,6 +4123,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — List of Existing Agents PDF', notes: 'Shadipur Junction, Port Blair. Listed in government agent directory; newspaper supply role not explicit.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-standard-pathankot-131', businessName: 'Standard Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919888786502', city: 'Pathankot', district: 'Pathankot', state: 'Punjab',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Railway Road, Pathankot. Explicitly listed as Newspaper Agent; also book depot.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sheila-jammu-132', businessName: 'Sheila Book Center', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919419146803', city: 'Jammu', district: 'Jammu', state: 'Jammu and Kashmir',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Kachi Chowni, Jammu. Explicitly listed as Newspaper Agent; book centre.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kamal-muzaffarnagar-133', businessName: 'Kamal Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919719245866', city: 'Muzaffarnagar', district: 'Muzaffarnagar', state: 'Uttar Pradesh',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'District Hospital Tiraha, Sarvat Road. Listed in government agent directory; newspaper supply fit.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajeshmanish-jaipur-134', businessName: 'Rajesh Manish Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919461070071', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Employment News — List of Existing Agents PDF', notes: 'Anaj Mandi, Johari Bazar. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
