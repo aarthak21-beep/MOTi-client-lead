@@ -4267,6 +4267,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'ApnaPanipat — Newspaper Vendors directory', notes: 'Office Room No. 40, Kisan Bhavan, Assandh Road. Listed as Newspaper Vendor.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-samachar-ahmednagar-155', businessName: 'Samachar', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919822370074', city: 'Ahmednagar', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'MyAhmednagar — Newspaper Vendors directory', notes: 'Vihir Aad, Anandi Bazar Road, near Water Karanja. Listed as Newspaper Vendor and Advertising Agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pudhari-ahmednagar-156', businessName: 'Pudhari Paper — Ahmednagar', contactName: '',
+        businessType: 'Distributor', whatsapp: '919921388377', city: 'Ahmednagar', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'MyAhmednagar — Newspaper Vendors directory', notes: 'Shop No. 2, Main Road, Ahmednagar Ho. Listed as Newspaper Vendor; publisher/distributor relationship to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sampada-ahmednagar-157', businessName: 'Sampada News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919689820598', city: 'Ahmednagar', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'MyAhmednagar — Newspaper Vendors directory', notes: 'Old Mangal Bazaar Road, near Dhanadhish Apartment, Shani Chowk. Listed as Book Shop and Newspaper Vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-lokyug-ahmednagar-158', businessName: 'Dainik Lokyug', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919822510669', city: 'Ahmednagar', district: 'Ahmednagar', state: 'Maharashtra',
+        source: 'MyAhmednagar — Newspaper Vendors directory', notes: '19/21, Lodha Heights, Navi Peth, Neta Subhash Chowk. Listed as Newspaper Vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
