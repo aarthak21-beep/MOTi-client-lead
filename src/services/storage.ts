@@ -1116,6 +1116,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — published existing agents PDF', notes: 'Subhash Market, Sipri Bazar. Listed in government agent directory; newspaper agency.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-chhajar-bikaner-100', businessName: 'Chhajar News Agencies', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919829218705', city: 'Bikaner', district: 'Bikaner', state: 'Rajasthan',
+        source: 'Employment News — published existing agents PDF', notes: 'Joshiwara, inside Kote Gate. Listed in government agent directory as news agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sangam-ajmer-101', businessName: 'Sangam News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918769632183', city: 'Ajmer', district: 'Ajmer', state: 'Rajasthan',
+        source: 'Employment News — published existing agents PDF', notes: '70, Kutchery Road. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-keshri-ranchi-102', businessName: 'Keshri Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919835163102', city: 'Ranchi', district: 'Ranchi', state: 'Jharkhand',
+        source: 'Employment News — published existing agents PDF', notes: 'Government Bus Stand, Station Road. Explicitly listed as Newspaper Agent; two mobile numbers are published, first entered.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-saraswati-hailakandi-103', businessName: 'Saraswati Book Stall', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919435078515', city: 'Hailakandi', district: 'Hailakandi', state: 'Assam',
+        source: 'Employment News — published existing agents PDF', notes: 'Kalibari Road. Explicitly listed as Booksellers & Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
