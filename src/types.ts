@@ -211,3 +211,27 @@ export interface MessageTemplate {
   englishText: string;
   marathiText: string;
 }
+
+
+export type ProspectBusinessType = 'Newspaper Vendor' | 'Newspaper Agency' | 'Distributor';
+export type ProspectStatus = 'New' | 'Contacted' | 'Interested' | 'Demo Given' | 'Converted' | 'Not Interested';
+export type ContactPermission = 'Not Asked' | 'Opted In' | 'Opted Out';
+
+export interface NewspaperProspect {
+  id: string;
+  businessName: string;
+  contactName: string;
+  businessType: ProspectBusinessType;
+  whatsapp: string;
+  city: string;
+  district: string;
+  state: string;
+  website?: string;
+  source?: string;
+  notes?: string;
+  status: ProspectStatus;
+  contactPermission: ContactPermission;
+  followUpDate?: string;
+  createdAt: string;
+  updatedAt: string;
+}
