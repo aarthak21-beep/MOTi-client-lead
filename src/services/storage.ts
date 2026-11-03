@@ -1398,6 +1398,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Public business listing', notes: 'TNHB Building, Anna Nagar West. Newspaper distribution and pamphlet/leaflet insertion service; advertising-distribution segment, not a daily paper agency.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-pamphlet-bengaluru-147', businessName: 'Pamphlet Distribution & Newspaper Inserts', contactName: '',
+        businessType: 'Distributor', whatsapp: '919743224774', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka',
+        source: 'Public business listing', notes: '1st Cross Road, Tavarekere, Bengaluru. Explicitly offers newspaper insertions and pamphlet/flyer distribution; advertising distribution business.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-adslagao-kolkata-148', businessName: 'Ads Lagao Media Solutions', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919073353325', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Public business listing', notes: 'Ahiripukur First Lane, Beck Bagan, Ballygunge. Newspaper advertising/classified booking agency; advertising only, not newspaper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nextgen-kolkata-149', businessName: 'NextGen Advertising', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919804715266', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Public business listing', notes: '6, Kiran Shankar Roy Road, B.B.D. Bagh. Newspaper, TV, radio and outdoor advertising agency; ad placement service, not newspaper delivery.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-releaseadnow-kolkata-150', businessName: 'ReleaseAdNow', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '916291130948', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Public business listing', notes: 'Jhowtala Road, Park Circus. Newspaper classified/display ad booking agency; advertising only, not newspaper circulation vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
