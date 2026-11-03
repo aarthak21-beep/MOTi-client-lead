@@ -4243,6 +4243,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'RohtakDirectory — Newspaper Publishers', notes: 'Subhash Road, opposite Radio Station, above Canara Bank. Listed as Newspaper Publisher & Newspaper Vendor; contact is a published group contact.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-uttamhindu-panipat-151', businessName: 'Dainik Uttam Hindu', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918529370741', city: 'Panipat', district: 'Panipat', state: 'Haryana',
+        source: 'ApnaPanipat — Newspaper Vendors directory', notes: 'Plot No. 2, near Panipat Head Office, Subhash Nagar. Listed as Newspaper Vendor; second mobile number 9416368765 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pehlikhabar-panipat-152', businessName: 'Pehli Khabar — First Newsmedia Pvt Ltd', contactName: '',
+        businessType: 'Distributor', whatsapp: '919355432001', city: 'Panipat', district: 'Panipat', state: 'Haryana',
+        source: 'ApnaPanipat — Newspaper Vendors directory', notes: '272-R, Model Town. Listed as Newspaper Vendor; newspaper publisher/media company, circulation role to verify.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pankaj-panipat-153', businessName: 'Pankaj News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919254814339', city: 'Panipat', district: 'Panipat', state: 'Haryana',
+        source: 'ApnaPanipat — Newspaper Vendors directory', notes: 'House No. 2, Ashok Nagar, Tehsil Camp, near Ganda Bharadur Gurudwara. Listed as Newspaper Vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-parashar-panipat-154', businessName: 'Parashar News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919255830164', city: 'Panipat', district: 'Panipat', state: 'Haryana',
+        source: 'ApnaPanipat — Newspaper Vendors directory', notes: 'Office Room No. 40, Kisan Bhavan, Assandh Road. Listed as Newspaper Vendor.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
