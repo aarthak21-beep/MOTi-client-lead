@@ -1,0 +1,6 @@
+{
+  "name": "MOTI Business OS",
+  "description": "All-in-one business management, CRM, quotation generator, WhatsApp automation, and project tracker for MOTI Technologies website agency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
