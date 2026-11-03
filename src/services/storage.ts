@@ -39,7 +39,7 @@ const STORAGE_KEYS = {
   MESSAGE_TEMPLATES: 'moti_msg_templates_v1',
   SETTINGS: 'moti_settings_v1',
   IS_INITIALIZED: 'moti_initialized_v1',
-  OWNER_AUTH: 'moti_owner_auth_v1',
+  OWNER_AUTH: 'moti_owner_auth_v1',\n  NEWSPAPER_PROSPECTS: 'moti_newspaper_prospects_v1',
 };
 
 type Listener = () => void;
@@ -460,4 +460,34 @@ export function importAllData(jsonString: string): boolean {
     console.error('Import failed:', e);
     return false;
   }
+}
+
+
+// NEWSPAPER PROSPECTS CRUD
+export function getNewspaperProspects(): NewspaperProspect[] {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS);
+    return raw ? JSON.parse(raw) : [];
+  } catch {
+    return [];
+  }
+}
+
+export function saveNewspaperProspect(prospect: NewspaperProspect): void {
+  const prospects = getNewspaperProspects();
+  const index = prospects.findIndex((item) => item.id === prospect.id);
+  const today = new Date().toISOString().split('T')[0];
+  if (index >= 0) {
+    prospects[index] = { ...prospect, updatedAt: today };
+  } else {
+    prospects.unshift({ ...prospect, createdAt: prospect.createdAt || today, updatedAt: today });
+  }
+  localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(prospects));
+  notifyListeners();
+}
+
+export function deleteNewspaperProspect(id: string): void {
+  const prospects = getNewspaperProspects().filter((item) => item.id !== id);
+  localStorage.setItem(STORAGE_KEYS.NEWSPAPER_PROSPECTS, JSON.stringify(prospects));
+  notifyListeners();
 }
