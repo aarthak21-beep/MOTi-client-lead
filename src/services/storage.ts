@@ -4999,6 +4999,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Kolkata.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbharat-kanpur-194a', businessName: 'Navbharat Media — Kanpur Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919415042959', city: 'Kanpur', district: 'Kanpur Nagar', state: 'Uttar Pradesh',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Kanpur.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-navbharat-bhopal-194b', businessName: 'Navbharat Media — Bhopal Contact', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826067567', city: 'Bhopal', district: 'Bhopal', state: 'Madhya Pradesh',
+        source: 'Navbharat Media official Contact Us page', notes: 'Official regional contact listed by Navbharat Media for Bhopal.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
