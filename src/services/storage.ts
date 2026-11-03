@@ -5653,6 +5653,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Dausa weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jaipurkiawaz-jaipur-224a', businessName: 'Jaipur Ki Awaz', contactName: '',
+        businessType: 'Distributor', whatsapp: '919929955515', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-janhira-jaipur-224b', businessName: 'Jan Hira', contactName: '',
+        businessType: 'Distributor', whatsapp: '919468768681', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pinkcitydotcom-jaipur-224c', businessName: 'Pinkcity Dot Com', contactName: '',
+        businessType: 'Distributor', whatsapp: '918003100100', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur fortnightly Hindi publication listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rajasthanjagatkesari-jaipur-224d', businessName: 'Rajasthan Jagat Kesari', contactName: '',
+        businessType: 'Distributor', whatsapp: '919351574072', city: 'Jaipur', district: 'Jaipur', state: 'Rajasthan',
+        source: 'Central Bureau of Communication — Rajasthan newspaper panel', notes: 'Jaipur weekly Hindi newspaper listed as Regular on the official government panel; mobile contact published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
