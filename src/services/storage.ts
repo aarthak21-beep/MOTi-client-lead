@@ -1614,6 +1614,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Employment News — official existing agents PDF', notes: 'Fajha Bazar, Sonipat. Listed as existing Employment News agent; landline numbers 0130-2241578 / 2250170 also published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-geeta-mukteshwar-183', businessName: 'Geeta News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919690566512', city: 'Mukteshwar', district: 'Nainital', state: 'Uttarakhand',
+        source: 'Employment News — official existing agents PDF', notes: 'Mukteshwar, Kumaon, Nainital district. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sharma-yamunanagar-184', businessName: 'Sharma News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919896923242', city: 'Yamunanagar', district: 'Yamunanagar', state: 'Haryana',
+        source: 'Employment News — official existing agents PDF', notes: 'House No. 110, Jawahar Nagar, Jagadhari. Listed as existing Employment News agent; newspaper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-katare-sagar-185', businessName: 'Katare Book Depot', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '918109251910', city: 'Deori Kalan', district: 'Sagar', state: 'Madhya Pradesh',
+        source: 'Employment News — official existing agents PDF', notes: 'Main Road, Deori Kalan, Sagar district. Explicitly listed as Newspaper Agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hema-portblair-186', businessName: 'Hema News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919476002726', city: 'Port Blair', district: 'South Andaman', state: 'Andaman and Nicobar Islands',
+        source: 'Employment News — official existing agents PDF', notes: 'Near Islander Inn Hotel, Phongy Chaung, Port Blair. Listed as existing Employment News agent.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
