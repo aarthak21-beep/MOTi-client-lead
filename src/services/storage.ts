@@ -723,7 +723,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       {
         id: 'news-flyersin-hyderabad-029', businessName: 'Flyersin — Newspaper Insert & Distribution', contactName: '',
         businessType: 'Distributor', whatsapp: '918801430009', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
-        source: 'Google Maps public business listing', notes: 'Yousufguda, Hyderabad. Newspaper insert/flyer distribution company; not a regular newspaper hawker agency. Public phone; WhatsApp not verified.',
+        source: 'Google Maps public business listing', notes: 'Yousufguda, Hyderabad. Newspaper insert/flyer distribution company; not a regular newspaper hawker agency. Public phone; Bharatibiz also lists 08686290009 for Flyersin, likely alternate contact; WhatsApp not verified.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
