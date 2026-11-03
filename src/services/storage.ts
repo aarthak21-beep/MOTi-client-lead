@@ -2809,6 +2809,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official Jagran BookAds booking-centres directory', notes: 'E/7, B.P. Railway Road, NIT Chowk. Official Jagran office; landlines 0129-2411681 / 3051000.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-jagran-goa-383', businessName: 'Dainik Jagran — Goa Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '08322437346', city: 'Panaji', district: 'North Goa', state: 'Goa',
+        source: 'Official Jagran BookAds booking-centres directory', notes: '111, Kamat Towers, Patto, Panjim. Official Jagran office; landline 0832-2437346.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-gurgaon-384', businessName: 'Dainik Jagran — Gurugram Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '01243914600', city: 'Gurugram', district: 'Gurugram', state: 'Haryana',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Old Judicial Complex, SCO-42, 2nd Floor, Civil Lines. Official Jagran office; landlines 0124-3914600 / 2315440.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-guwahati-385', businessName: 'Dainik Jagran — Guwahati Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03612528885', city: 'Guwahati', district: 'Kamrup Metropolitan', state: 'Assam',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'C/o Pulak Talukdar, Lachit Nagar, Bye-Lane 5. Official Jagran office; landline 0361-2528885.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-jagran-kolkata-386', businessName: 'Jagran Prakashan — Kolkata Office', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '03322838807', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Official Jagran BookAds booking-centres directory', notes: 'Unit 4A, 13 Lala Lajpat Rai Sarani. Official Jagran office; landlines 033-22838807 / 22838810.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
