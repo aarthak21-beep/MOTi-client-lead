@@ -3085,6 +3085,18 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'Desika Dharshan, 20-A, Hazur Road. Listed as news agency; landlines 0422-2301083 / 2301085; historical contact, verify current.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-kalyani-salem-429', businessName: 'Kalyani News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '04272262386', city: 'Salem', district: 'Salem', state: 'Tamil Nadu',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'No. 1, Town Bus Stand, Salem. Listed as news agency; landlines 0427-2262386 / 2261477; historical contact, verify current.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kailash-udaipur-430', businessName: 'Kailash News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '02942561145', city: 'Udaipur', district: 'Udaipur', state: 'Rajasthan',
+        source: 'Elets Digital Learning — historical publication availability directory (2012)', notes: 'Near Town Hall, Nagar Palika Link Road, Udaipur. Listed as news agency; landline 0294-2561145; historical contact, verify current.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
