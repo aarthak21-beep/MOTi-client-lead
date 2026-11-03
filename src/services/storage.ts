@@ -3361,6 +3361,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Aurangabad (Bihar); mobile 9934957121 and landline 0631-226116 listed by CBC.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-navbihartimes-aurangabad-475', businessName: 'Nav Bihar Times', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431223574', city: 'Aurangabad', district: 'Aurangabad', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Aurangabad (Bihar); mobile 9431223574 and landline 0631-226173 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-deshbidesh-bhagalpur-476', businessName: 'Desh Bidesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919137481069', city: 'Bhagalpur', district: 'Bhagalpur', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Urdu newspaper, Bhagalpur; mobile 9137481069 and landline 0641-2501803 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-pratahsandesh-darbhanga-477', businessName: 'Pratah Sandesh', contactName: '',
+        businessType: 'Distributor', whatsapp: '919810264755', city: 'Darbhanga', district: 'Darbhanga', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Darbhanga; mobile 9810264755 and landline 06272-25214542 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-anugamini-hajipur-478', businessName: 'Anugamini', contactName: '',
+        businessType: 'Distributor', whatsapp: '919431650916', city: 'Hajipur', district: 'Vaishali', state: 'Bihar',
+        source: 'Central Bureau of Communication — Bihar newspaper panel (2021)', notes: 'Daily Hindi newspaper, Hajipur; mobile 9431650916 and landline 06224-270644 listed by CBC.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
