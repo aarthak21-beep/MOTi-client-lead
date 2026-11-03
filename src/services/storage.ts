@@ -1872,6 +1872,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Official R.K. News Agency website', notes: 'No. 20, Narayana Dasari Street, Egmore, near Aradhana Hotel. Website identifies it as newspaper and magazine distributor; published telephone is landline 044-45552477.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-newsband-vashi-226', businessName: 'Newsband', contactName: '',
+        businessType: 'Distributor', whatsapp: '919967520006', city: 'Navi Mumbai', district: 'Thane', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: '1314, near Inorbit Mall, Sector 30A, Vashi. Newspaper publisher and local newspaper-delivery listing; confirm distribution/agency contact.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-punyanagari-nagpur-227', businessName: 'Punya Nagari', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Jupiter Yellow Pages / AskLaila public directory', notes: '5, Sundarlal Rai Path, VIP Road, Ramdaspeth. Listed as Newspaper Agency with home delivery available; published contact is landline 0712-2567418.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-hitavada-nagpur-228', businessName: 'The Hitavada — Nagpur', contactName: '',
+        businessType: 'Distributor', whatsapp: '', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: 'Wardha Road, near Gorakshan Temple, Dhantoli. Newspaper publisher with newspaper-delivery listing; published contact is landline 0712-2423155.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-dainikprabhat-pune-229', businessName: 'Dainik Prabhat — Pune', contactName: '',
+        businessType: 'Distributor', whatsapp: '917738641365', city: 'Pune', district: 'Pune', state: 'Maharashtra',
+        source: 'PinkBazaar public newspaper-delivery listing', notes: '303/304, Narayan Peth. Newspaper publisher and newspaper-delivery listing; official website also publishes head-office landlines 020-24455631 / 24456626.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
