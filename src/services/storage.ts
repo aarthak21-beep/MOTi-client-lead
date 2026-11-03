@@ -2539,6 +2539,24 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public newspaper-advertising directory', notes: 'Shop G-25, Abu Fakhruddin Plaza, Langertoli, Bari Path. Advertising service; mobile 9939432786 and 9122132786 published.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-expression-patna-338', businessName: 'Expression', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919334114000', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public advertising directory', notes: 'Shivahar Sadan, 2nd Floor, Fraser Road. Advertising agency; newspaper ad booking scope to verify. Alternate mobile 9334113880.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-eminent-patna-339', businessName: 'Eminent Advertising Events and Media Consultancy', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919470444431', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public newspaper-advertising directory', notes: 'Below Dhanush Setu Flyover, Rajendra Nagar. Advertising and media consultancy with newspaper advertisement services; alternate mobile 9334513911.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-landmark-patna-340', businessName: 'Landmark Outdoor Media Service Pvt. Ltd.', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919835091939', city: 'Patna', district: 'Patna', state: 'Bihar',
+        source: 'Grotal public advertising directory', notes: 'Road No. 25, M-32, Sri Krishnapuri. Outdoor and media advertising service; alternate mobile 9431016421.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
