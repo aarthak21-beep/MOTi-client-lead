@@ -2347,6 +2347,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Grotal public magazine/newspaper distributor directory', notes: '501, Lotus House, Sir Vithaldas Thackersey Road, Marine Lines. Listed as newspaper and magazine distributor/publisher; published contact is landline 022-22015692.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-anandbazaar-mumbai-306', businessName: 'Anand Bazaar Patrika', contactName: '',
+        businessType: 'Distributor', whatsapp: '02224962601', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public newspaper-distributor directory', notes: '2/B, Paragon Building, opposite Century Mills, Delisle Road. Listed as newspaper supplier/distributor and magazine advertiser; published contact is landline 022-24962601.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-newsprintcorp-mumbai-307', businessName: 'The Newsprint Trading and Distributing Corporation Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '02222617729', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public newspaper-distributor directory', notes: '203, Bora Bazar Street, First Floor, Fort. Listed as newspaper printer, publisher, distributor and supplier; published contact is landline 022-22617729.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-studentsagencies-mumbai-308', businessName: 'Students Agencies India Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '919821214775', city: 'Mumbai', district: 'Mumbai City', state: 'Maharashtra',
+        source: 'Grotal public magazine/newspaper distributor directory', notes: '102, Konark Shram, behind Everest Building, Tardeo Road. Listed as magazine distributor; periodical supply business.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kisanbale-thane-309', businessName: 'Kisan Bale Newspapers and Book Stall', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '02225407695', city: 'Thane', district: 'Thane', state: 'Maharashtra',
+        source: 'Grotal public newspaper directory', notes: 'Near Sahityik Naka, Dhanashri Building, Gokhale Road, Naupada. Listed as newspaper/book stall; published contact is landline 022-25407695.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
