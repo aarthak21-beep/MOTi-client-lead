@@ -1022,14 +1022,14 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       },
       {
         id: 'news-devshanker-agra-084', businessName: 'Dev Shanker — Newspaper Agent', contactName: '',
-        businessType: 'Newspaper Vendor', whatsapp: '919899568421', city: 'Agra', district: 'Agra', state: 'Uttar Pradesh',
-        source: 'Employment News — published existing agents PDF', notes: 'C/o Prakash News Agency, Kamla Nagar. Listed as Newspaper Agent; same published contact also appears against other Dev Shanker agency locations.',
+        businessType: 'Newspaper Vendor', whatsapp: '', city: 'Agra', district: 'Agra', state: 'Uttar Pradesh',
+        source: 'Employment News — published existing agents PDF', notes: 'C/o Prakash News Agency, Kamla Nagar. Listed as Newspaper Agent; Current Publications Division listing does not publish a mobile number; the older Employment News PDF has a separate New Delhi entry. Phone left blank rather than guessing.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
         id: 'news-timeagency-tirupati-085', businessName: 'The Time Agency', contactName: '',
-        businessType: 'Newspaper Agency', whatsapp: '919849116363', city: 'Tirupati', district: 'Tirupati', state: 'Andhra Pradesh',
-        source: 'Employment News — published existing agents PDF', notes: '271-A, Nethaji Road. Listed in government agent directory.',
+        businessType: 'Newspaper Agency', whatsapp: '919849116363', city: 'Hyderabad', district: 'Hyderabad', state: 'Telangana',
+        source: 'Employment News — published existing agents PDF', notes: '3-6-146/A1, Street No. 17, Himayat Nagar. Listed in Employment News agent PDF; a separate Tirupati listing exists without a phone.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
       {
@@ -1540,6 +1540,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         id: 'news-shubindia-pune-170', businessName: 'Shubindia Ad Works', contactName: '',
         businessType: 'Newspaper Agency', whatsapp: '919850219850', city: 'Pune', district: 'Pune', state: 'Maharashtra',
         source: 'Official business website — Shubindia Ad Works', notes: 'Shop No. 66, Vastushree Complex, Market Yard. Website publishes a dedicated mobile contact for newspaper ads; advertising only, not newspaper circulation.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-nagpuragency-nagpur-171', businessName: 'Nagpur News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919881308009', city: 'Nagpur', district: 'Nagpur', state: 'Maharashtra',
+        source: 'Employment News — official existing agents PDF', notes: 'Kakde Bhawan, Hanuman Gali, Sita Buldi. Explicitly listed as Newspaper Agent; additional mobile 9811077111 and landline 0712-2527695 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-sridevi-chennai-172', businessName: 'Sridevi News Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919790836909', city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu',
+        source: 'Employment News — official existing agents PDF', notes: 'No. 85/102, Raghavan Street, Perambur. Listed as an existing Employment News agent; newspaper agency.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-kkpuri-kolkata-173', businessName: 'K.K. Puri News Distributors', contactName: '',
+        businessType: 'Distributor', whatsapp: '919831012084', city: 'Kolkata', district: 'Kolkata', state: 'West Bengal',
+        source: 'Employment News — official existing agents PDF', notes: '9, Dacres Lane, Ground Floor, Flat 2. Listed as News Distributors Pvt. Ltd.; second mobile 9903012084 also published.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-mehta-amritsar-174', businessName: 'Mehta News Agency — Amritsar', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '919888384103', city: 'Amritsar', district: 'Amritsar', state: 'Punjab',
+        source: 'Employment News — official existing agents PDF', notes: 'Pt. Beli Ram and Sons Hall, Gate, near Jain Homeopathic, Ravidass Mandir. Separate Amritsar agent entry; additional published mobiles 9813676627 and 9518215751.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
     ];
