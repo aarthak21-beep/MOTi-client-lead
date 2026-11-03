@@ -3121,6 +3121,30 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: '127, Devi Ahilya Marg, Chiman Bagh Main Road. Daily Hindi newspaper publisher; mobile 9826667063 listed by CBC; landline 0731-2544776.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
       },
+      {
+        id: 'news-khulasa-indore-435', businessName: 'Khulasa First Pvt. Ltd.', contactName: '',
+        businessType: 'Distributor', whatsapp: '918818956789', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Public Google Maps / CBC newspaper directory', notes: 'DO-3, Shopping Complex, AB Road, opposite Dainik Bhaskar Press. Newspaper publisher; mobile 8818956789.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-chaitanyalok-indore-436', businessName: 'Chaitanya Lok', contactName: '',
+        businessType: 'Distributor', whatsapp: '919425902495', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: 'Indore. Daily Hindi newspaper publisher; mobile 9425902495 listed by CBC; landline 0731-2456129.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-rashtriyahindimail-indore-437', businessName: 'Rashtriya Hindi Mail', contactName: '',
+        businessType: 'Distributor', whatsapp: '919617565371', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: 'Indore. Daily Hindi newspaper publisher; mobile 9617565371 listed by CBC; landline 0731-4293988.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
+      {
+        id: 'news-apniduniya-indore-438', businessName: 'Apni Duniya', contactName: '',
+        businessType: 'Distributor', whatsapp: '919826558989', city: 'Indore', district: 'Indore', state: 'Madhya Pradesh',
+        source: 'Central Bureau of Communication — Madhya Pradesh newspaper partner directory', notes: 'Indore. Daily Hindi newspaper publisher; mobile 9826558989 listed by CBC; landline 0731-4293647.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-03', updatedAt: '2026-11-03',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
