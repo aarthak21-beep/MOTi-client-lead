@@ -20,6 +20,7 @@ const whatsappUrl = (p: WebsiteProspect) => {
 export const WebsiteProspectsView: React.FC = () => {
   const [prospects, setProspects] = useState<WebsiteProspect[]>([]);
   const [query, setQuery] = useState('');
+  const [websiteFilter, setWebsiteFilter] = useState<'All' | WebsiteProspect['websiteStatus']>('All');
   const [showForm, setShowForm] = useState(false);
   const [editing, setEditing] = useState<WebsiteProspect | null>(null);
   const [form, setForm] = useState<WebsiteProspect>(emptyForm());
@@ -30,8 +31,8 @@ export const WebsiteProspectsView: React.FC = () => {
   }, []);
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return prospects.filter(p => !q || [p.businessName,p.contactName,p.whatsapp,p.city,p.district,p.businessType].join(' ').toLowerCase().includes(q));
-  }, [prospects, query]);
+    return prospects.filter(p => (websiteFilter === 'All' || p.websiteStatus === websiteFilter) && (!q || [p.businessName,p.contactName,p.phone,p.whatsapp,p.city,p.district,p.businessType].join(' ').toLowerCase().includes(q)));
+  }, [prospects, query, websiteFilter]);
   const openNew = () => { setEditing(null); setForm(emptyForm()); setShowForm(true); };
   const openEdit = (p: WebsiteProspect) => { setEditing(p); setForm(p); setShowForm(true); };
   const update = (key: keyof WebsiteProspect, value: string) => setForm(current => ({ ...current, [key]: value } as WebsiteProspect));
@@ -54,13 +55,13 @@ export const WebsiteProspectsView: React.FC = () => {
       <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Interested</p><p className="mt-1 text-2xl font-bold text-cyan-300">{prospects.filter(p => p.status === 'Interested').length}</p></div>
       <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Converted</p><p className="mt-1 text-2xl font-bold text-white">{prospects.filter(p => p.status === 'Converted').length}</p></div>
     </div>
-    <div className="flex items-center gap-2 rounded-xl border border-slate-800 bg-slate-900/60 px-3"><Search className="h-4 w-4 text-slate-500" /><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search business, WhatsApp, city or category..." className="w-full bg-transparent py-3 text-sm text-white outline-none placeholder:text-slate-500" /></div>
+    <div className="flex flex-col gap-2 sm:flex-row"><div className="flex min-w-0 flex-1 items-center gap-2 rounded-xl border border-slate-800 bg-slate-900/60 px-3"><Search className="h-4 w-4 text-slate-500" /><input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search business, phone, WhatsApp, city or category..." className="w-full bg-transparent py-3 text-sm text-white outline-none placeholder:text-slate-500" /></div><select value={websiteFilter} onChange={e => setWebsiteFilter(e.target.value as typeof websiteFilter)} aria-label="Filter by website status" className="rounded-xl border border-slate-800 bg-slate-900/60 px-3 py-3 text-sm text-white"><option value="All">All website statuses</option><option value="No Website">No Website</option><option value="Needs Verification">Needs Verification</option><option value="Website Found">Website Found</option></select></div>
     <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50">
       {filtered.length === 0 ? <div className="px-6 py-14 text-center"><Globe className="mx-auto h-9 w-9 text-slate-600" /><h3 className="mt-3 text-sm font-semibold text-white">No website leads found</h3><p className="mt-1 text-xs text-slate-500">WhatsApp आणि website status source सह पडताळूनच नवीन lead add करा.</p></div> :
-      <div className="overflow-x-auto"><table className="w-full min-w-[1000px] text-left text-xs"><thead className="bg-slate-800/70 text-[10px] uppercase tracking-wider text-slate-400"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Category / Location</th><th className="px-4 py-3">WhatsApp</th><th className="px-4 py-3">Website Status</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Lead Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead><tbody className="divide-y divide-slate-800/80">{filtered.map(p => <tr key={p.id} className="hover:bg-slate-800/30">
+      <div className="overflow-x-auto"><table className="w-full min-w-[1000px] text-left text-xs"><thead className="bg-slate-800/70 text-[10px] uppercase tracking-wider text-slate-400"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Category / Location</th><th className="px-4 py-3">Phone / WhatsApp</th><th className="px-4 py-3">Website Status</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Lead Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead><tbody className="divide-y divide-slate-800/80">{filtered.map(p => <tr key={p.id} className="hover:bg-slate-800/30">
         <td className="px-4 py-3"><p className="font-semibold text-white">{p.businessName}</p><p className="mt-1 text-slate-500">{p.contactName || 'Contact name not added'}</p></td>
         <td className="px-4 py-3"><p className="text-slate-200">{p.businessType}</p><p className="mt-1 flex items-center gap-1 text-slate-500"><MapPin className="h-3 w-3" />{[p.city,p.district,p.state].filter(Boolean).join(', ')}</p></td>
-        <td className="px-4 py-3 font-mono text-slate-200">{p.whatsapp ? `+${p.whatsapp}` : 'Not provided'}</td>
+        <td className="px-4 py-3 font-mono text-slate-200"><p>Phone: {p.phone || 'Not provided'}</p><p className="mt-1 text-slate-400">WhatsApp: {p.whatsapp ? `+${p.whatsapp}` : 'Not provided'}</p></td>
         <td className="px-4 py-3"><select value={p.websiteStatus} onChange={e => saveWebsiteProspect({...p, websiteStatus: e.target.value as WebsiteProspect['websiteStatus']})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200"><option>No Website</option><option>Needs Verification</option><option>Website Found</option></select></td>
         <td className="px-4 py-3"><select value={p.contactPermission} onChange={e => saveWebsiteProspect({...p, contactPermission: e.target.value as ContactPermission})} className="rounded-lg border border-slate-700 bg-slate-800 px-2 py-1.5 text-xs text-slate-200">{PERMISSIONS.map(v => <option key={v}>{v}</option>)}</select></td>
         <td className="px-4 py-3"><select value={p.status} onChange={e => saveWebsiteProspect({...p, status: e.target.value as WebsiteProspectStatus})} className={`rounded-lg border-0 px-2 py-1.5 text-xs ${statusClass(p.status)}`}>{STATUSES.map(v => <option key={v}>{v}</option>)}</select></td>
