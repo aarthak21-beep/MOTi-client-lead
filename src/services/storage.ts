@@ -10116,6 +10116,39 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         notes: 'Dadas Pride, near Modern Driving School, Maya Nagar, N-2 CIDCO. Public directory phone; no standalone website confirmed.',
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
       },
+      {
+        id: 'web-sangli-maitrin-beauty-001', businessName: 'Maitrin Beauty Parlour', contactName: '',
+        businessType: 'Beauty Parlour', phone: '918488096182', whatsapp: '',
+        city: 'Sangli', district: 'Sangli', state: 'Maharashtra',
+        websiteStatus: 'Needs Verification', source: 'Justdial Sangli local business listing',
+        notes: 'Pathane Galli, Panchmukhi Maruti Road, Khan Baug, Sangli, Maharashtra 416416. Public directory phone number; standalone website status has not been independently confirmed. Verify website and contact details before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'web-sangli-manissha-beauty-002', businessName: 'Manissha Beauty Parlour and Hair Salon', contactName: '',
+        businessType: 'Beauty Parlour / Hair Salon', phone: '918296268358', whatsapp: '',
+        city: 'Vita', district: 'Sangli', state: 'Maharashtra',
+        websiteStatus: 'Needs Verification', source: 'Justdial Sangli local business listing',
+        notes: 'Vita-Karad Road, Vita, Sangli, Maharashtra 415311. Public directory phone number; standalone website status has not been independently confirmed. Verify website and contact details before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'web-sangli-ravis-hair-beauty-003', businessName: 'Ravis Hair & Beauty Saloon', contactName: '',
+        businessType: 'Hair Salon / Beauty Salon', phone: '918460417668', whatsapp: '',
+        city: 'Sangli', district: 'Sangli', state: 'Maharashtra',
+        websiteStatus: 'Needs Verification', source: 'Justdial Sangli local business listing',
+        notes: 'Shanti Vidya Apartment, Vakhar Bhag, Sangli, Maharashtra 416416. Public directory phone number; standalone website status has not been independently confirmed. Verify website and contact details before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'web-sangli-namratas-beauty-004', businessName: 'Namratas Professional Beauty Studio', contactName: '',
+        businessType: 'Beauty Studio', phone: '919845257463', whatsapp: '',
+        city: 'Kavathe Mahankal', district: 'Sangli', state: 'Maharashtra',
+        websiteStatus: 'Needs Verification', source: 'Justdial Sangli local business listing',
+        notes: 'N.T. Patil Nagar, near S.M. High School, Kavathe Mahankal, Sangli, Maharashtra 416405. Public directory phone number; standalone website status has not been independently confirmed. Verify website and contact details before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+
     ];
     if (raw) {
       const existing: WebsiteProspect[] = JSON.parse(raw);
