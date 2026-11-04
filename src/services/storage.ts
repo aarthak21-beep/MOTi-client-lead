@@ -6532,8 +6532,7 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         contactPermission: 'Not Asked',
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03'
-      }
-
+      },
       {
         id: 'news-sunrise-aurangabad-030',
         businessName: 'Sunrise News Paper & Magazines Distributors',
