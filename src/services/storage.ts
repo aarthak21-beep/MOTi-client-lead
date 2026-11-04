@@ -6533,6 +6533,46 @@ export function getNewspaperProspects(): NewspaperProspect[] {
         createdAt: '2026-11-03',
         updatedAt: '2026-11-03'
       }
+
+      {
+        id: 'news-sunrise-aurangabad-030',
+        businessName: 'Sunrise News Paper & Magazines Distributors',
+        contactName: 'Shaikh Kayyum Yaqub',
+        businessType: 'Distributor', whatsapp: '', whatsappAvailability: 'Unknown',
+        city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        source: 'Employment News — official existing agents list',
+        notes: 'Shop No. 43, Sant Gadge Maharaj Vaipari Sankul, near Railway Station, Bhaji Mandi Road. Public directory contains contact numbers; add after manual verification.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'news-aurangabad-book-depot-031',
+        businessName: 'Aurangabad Book Depot', contactName: '',
+        businessType: 'Newspaper Vendor', whatsapp: '', whatsappAvailability: 'Unknown',
+        city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        source: 'Cybo public business listing',
+        notes: 'Jethliya Towers, New Gulmandi, Shahgunj. Listed as book store/newsstand and newspaper distribution service.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'news-lasurkar-ads-033',
+        businessName: 'B.D. Lasurkar Advertising Agency', contactName: '',
+        businessType: 'Newspaper Agency', whatsapp: '', whatsappAvailability: 'Unknown',
+        city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        website: 'https://lasurkar.com/',
+        source: 'Official B.D. Lasurkar website',
+        notes: 'Plot No. 4, Shram Safalya, behind Telephone Bhawan, Ajab Nagar, near Kranti Chowk. Places advertisements in newspapers.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
+      {
+        id: 'news-sanjwarta-034',
+        businessName: 'Sanjwarta Newspaper', contactName: '',
+        businessType: 'Newspaper Publisher', whatsapp: '', whatsappAvailability: 'Unknown',
+        city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
+        website: 'https://www.sanjwarta.in/',
+        source: 'Sanjwarta official contact page',
+        notes: 'Sagar Trade Center, Akashwani, Jalna Road. Official contact page lists office and advertising department contacts.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
+      },
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
