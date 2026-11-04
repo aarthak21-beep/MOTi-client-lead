@@ -11269,7 +11269,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         contactPermission: 'Not Asked',
         createdAt: '2026-11-04',
         updatedAt: '2026-11-04',
-      }
+      },
       {
         id: 'web-mumbai-marol-mangala-diagnostic-centre-001',
         businessName: 'Mangala Diagnostic Centre',
