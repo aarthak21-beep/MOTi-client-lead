@@ -12304,7 +12304,6 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         createdAt: '2026-11-04',
         updatedAt: '2026-11-04',
       },
-      ,
       {
         "id": "web-virar-myturn-computer-solutions-001",
         "businessName": "MYTURN COMPUTER SOLUTIONS",
