@@ -9278,7 +9278,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-satara-shravani-beauty-parlour-167',
-        businessName: 'Shravani's Beauty Parlour & RS Makeup Artist',
+        businessName: "Shravani's Beauty Parlour & RS Makeup Artist",
         contactName: '',
         businessType: 'Beauty Parlour & Makeup Artist',
         phone: '918401843771',
