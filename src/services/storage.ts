@@ -14736,7 +14736,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         state: 'Maharashtra',
         websiteStatus: 'Needs Verification',
         source: 'AskLaila Vile Parle East tailor directory',
-        notes: 'Public listing categorizes Sonigra Ladies Tailor as a ladies' tailor in Vile Parle East and provides a mobile number. Website presence has not been independently confirmed.',
+        notes: 'Public listing categorizes Sonigra Ladies Tailor as a ladies tailor in Vile Parle East and provides a mobile number. Website presence has not been independently confirmed.',
         status: 'New',
         contactPermission: 'Not Asked',
         createdAt: '2026-11-04',
