@@ -112,7 +112,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
           className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition-all ${
             filter === 'all'
               ? 'bg-cyan-500 text-slate-950 font-bold'
-              : 'border border-slate-800 bg-[#0b1224] text-slate-400 hover:text-white'
+              : 'border border-white/10 bg-slate-900/65 backdrop-blur-xl text-slate-400 hover:text-white'
           }`}
         >
           All Tasks ({tasks.length})
@@ -122,7 +122,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
           className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition-all ${
             filter === 'today'
               ? 'bg-amber-500 text-slate-950 font-bold'
-              : 'border border-slate-800 bg-[#0b1224] text-slate-400 hover:text-white'
+              : 'border border-white/10 bg-slate-900/65 backdrop-blur-xl text-slate-400 hover:text-white'
           }`}
         >
           Due Today ({todayCount})
@@ -132,7 +132,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
           className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition-all ${
             filter === 'overdue'
               ? 'bg-rose-500 text-white font-bold'
-              : 'border border-slate-800 bg-[#0b1224] text-slate-400 hover:text-white'
+              : 'border border-white/10 bg-slate-900/65 backdrop-blur-xl text-slate-400 hover:text-white'
           }`}
         >
           Overdue ({overdueCount})
@@ -142,7 +142,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
           className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition-all ${
             filter === 'high'
               ? 'bg-purple-500 text-white font-bold'
-              : 'border border-slate-800 bg-[#0b1224] text-slate-400 hover:text-white'
+              : 'border border-white/10 bg-slate-900/65 backdrop-blur-xl text-slate-400 hover:text-white'
           }`}
         >
           High Priority
@@ -152,7 +152,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
           className={`rounded-xl px-3.5 py-1.5 text-xs font-semibold transition-all ${
             filter === 'completed'
               ? 'bg-emerald-500 text-slate-950 font-bold'
-              : 'border border-slate-800 bg-[#0b1224] text-slate-400 hover:text-white'
+              : 'border border-white/10 bg-slate-900/65 backdrop-blur-xl text-slate-400 hover:text-white'
           }`}
         >
           Completed ({tasks.filter((t) => t.status === 'Completed').length})
@@ -162,7 +162,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
       {/* Task List */}
       <div className="space-y-3">
         {filteredTasks.length === 0 ? (
-          <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-12 text-center text-xs text-slate-400">
+          <div className="rounded-3xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-12 text-center text-xs text-slate-400">
             <CheckCircle2 className="mx-auto h-10 w-10 text-emerald-400 opacity-50 mb-2" />
             No tasks found in this view.
           </div>
@@ -177,12 +177,12 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                 key={task.id}
                 className={`rounded-2xl border p-4 transition-all flex flex-col sm:flex-row sm:items-center justify-between gap-4 ${
                   isCompleted
-                    ? 'border-slate-800/60 bg-slate-900/30 opacity-75'
+                    ? 'border-white/10/60 bg-slate-900/30 opacity-75'
                     : isOverdue
                     ? 'border-rose-500/40 bg-[#160d16]'
                     : isToday
                     ? 'border-amber-500/30 bg-[#141209]'
-                    : 'border-slate-800 bg-[#0b1224]'
+                    : 'border-white/10 bg-slate-900/65 backdrop-blur-xl'
                 }`}
               >
                 <div className="flex items-start gap-3">
@@ -293,7 +293,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                 value={title}
                 onChange={(e) => setTitle(e.target.value)}
                 placeholder="e.g. Call Sachin Patil for advance confirmation"
-                className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                className="w-full rounded-xl border border-white/10 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
               />
             </div>
 
@@ -306,7 +306,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                 value={description}
                 onChange={(e) => setDescription(e.target.value)}
                 placeholder="Key points to discuss or specific action needed..."
-                className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
               />
             </div>
 
@@ -319,7 +319,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                   type="date"
                   value={dueDate}
                   onChange={(e) => setDueDate(e.target.value)}
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                 />
               </div>
 
@@ -332,7 +332,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                   value={dueTime}
                   onChange={(e) => setDueTime(e.target.value)}
                   placeholder="e.g. 04:00 PM"
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                 />
               </div>
 
@@ -343,7 +343,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
                 <select
                   value={priority}
                   onChange={(e) => setPriority(e.target.value as any)}
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                 >
                   <option value="High">High Priority</option>
                   <option value="Medium">Medium Priority</option>
@@ -359,7 +359,7 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
               <select
                 value={relatedClientName}
                 onChange={(e) => setRelatedClientName(e.target.value)}
-                className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
               >
                 <option value="">None / Internal Agency Task</option>
                 {leads.map((l) => (
@@ -370,11 +370,11 @@ export const TasksView: React.FC<TasksViewProps> = ({ tasks, leads, projects }) 
               </select>
             </div>
 
-            <div className="flex justify-end gap-3 pt-3 border-t border-slate-800">
+            <div className="flex justify-end gap-3 pt-3 border-t border-white/10">
               <button
                 type="button"
                 onClick={() => setIsAddOpen(false)}
-                className="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-slate-300 hover:text-white"
+                className="rounded-xl border border-white/10 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-slate-300 hover:text-white"
               >
                 Cancel
               </button>
