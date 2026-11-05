@@ -4,6 +4,7 @@
  */
 
 import React, { useState, useEffect } from 'react';
+import { CloudAccess } from './components/CloudAccess';
 import { ActiveTab, Sidebar } from './components/Sidebar';
 import { Header } from './components/Header';
 import { OwnerLockModal } from './components/OwnerLockModal';
@@ -222,6 +223,7 @@ export default function App() {
   const pendingPaymentsCount = projects.filter((p) => (p.remainingAmount || 0) > 0).length;
 
   return (
+    <CloudAccess>
     <div className="flex min-h-screen bg-transparent text-slate-100 font-sans selection:bg-cyan-500/30 selection:text-cyan-200">
       {/* Owner PIN Lock Screen */}
       <OwnerLockModal
@@ -384,5 +386,6 @@ export default function App() {
         </main>
       </div>
     </div>
+    </CloudAccess>
   );
 }
