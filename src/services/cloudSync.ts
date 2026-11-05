@@ -62,16 +62,16 @@ async function postForm(payload: unknown): Promise<void> {
     field.value = JSON.stringify(payload);
     form.appendChild(field);
     document.body.appendChild(form);
-    form.submit();
-    form.remove();
-
-    await new Promise<void>((resolve, reject) => {
+    const submitted = new Promise<void>((resolve, reject) => {
       const timer = window.setTimeout(() => reject(new Error('Google Sheet write timed out.')), 30000);
       frame.onload = () => {
         window.clearTimeout(timer);
         resolve();
       };
     });
+    form.submit();
+    form.remove();
+    await submitted;
   } finally {
     frame.remove();
   }
