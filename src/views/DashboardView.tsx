@@ -78,7 +78,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
   return (
     <div className="space-y-6 pb-12">
       {/* Top Banner / Welcome with Quick Actions */}
-      <div className="relative overflow-hidden rounded-3xl border border-slate-800 bg-gradient-to-r from-[#0d162d] via-[#091224] to-[#0d1b33] p-6 lg:p-8">
+      <div className="relative isolate overflow-hidden rounded-[28px] border border-cyan-400/15 bg-[radial-gradient(ellipse_at_top_right,rgba(34,211,238,0.12),transparent_38%),linear-gradient(120deg,#101d35_0%,#0b1428_55%,#0d1b33_100%)] p-6 shadow-2xl shadow-black/20 ring-1 ring-white/[0.03] lg:p-8">
         <div className="pointer-events-none absolute -right-12 -top-12 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
         <div className="pointer-events-none absolute left-1/3 -bottom-12 h-48 w-48 rounded-full bg-blue-600/10 blur-3xl" />
 
@@ -157,7 +157,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       )}
 
       {/* Primary 7 Key Metric Cards */}
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 lg:grid-cols-4">
         <StatCard
           title="Total Clients & Leads"
           value={totalClients}
@@ -192,7 +192,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         />
       </div>
 
-      <div className="grid grid-cols-1 gap-4 sm:grid-cols-3">
+      <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-3">
         <StatCard
           title="Completed Websites"
           value={completedWebsites}
@@ -223,7 +223,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       {/* Two Column Layout: Urgent Follow-ups & Active Projects */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {/* Urgent Follow-ups list */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6">
+        <div className="rounded-[22px] border border-slate-700/70 bg-gradient-to-br from-[#111d33] via-[#0d172b] to-[#0a1222] p-5 shadow-xl shadow-black/10 ring-1 ring-white/[0.025] sm:p-6">
           <div className="flex items-center justify-between border-b border-slate-800/80 pb-4">
             <div className="flex items-center gap-2">
               <Calendar className="h-5 w-5 text-amber-400" />
@@ -250,7 +250,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                 return (
                   <div
                     key={lead.id}
-                    className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-2xl border border-slate-800/70 bg-slate-900/50 p-4 hover:border-slate-700 transition-colors"
+                    className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 rounded-xl border border-slate-700/60 bg-slate-950/35 p-4 transition-all hover:border-cyan-500/25 hover:bg-slate-900/70"
                   >
                     <div>
                       <div className="flex items-center gap-2">
@@ -290,7 +290,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         </div>
 
         {/* Active Projects Status */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6">
+        <div className="rounded-[22px] border border-slate-700/70 bg-gradient-to-br from-[#111d33] via-[#0d172b] to-[#0a1222] p-5 shadow-xl shadow-black/10 ring-1 ring-white/[0.025] sm:p-6">
           <div className="flex items-center justify-between border-b border-slate-800/80 pb-4">
             <div className="flex items-center gap-2">
               <FolderKanban className="h-5 w-5 text-cyan-400" />
@@ -323,7 +323,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
                 return (
                   <div
                     key={proj.id}
-                    className="rounded-2xl border border-slate-800/70 bg-slate-900/50 p-4 hover:border-slate-700 transition-colors"
+                    className="rounded-xl border border-slate-700/60 bg-slate-950/35 p-4 transition-all hover:border-cyan-500/25 hover:bg-slate-900/70"
                   >
                     <div className="flex items-start justify-between">
                       <div>
@@ -367,7 +367,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
       {/* Recent Activity Feed & Daily Tasks */}
       <div className="grid grid-cols-1 gap-6 lg:grid-cols-2">
         {/* Recent Activity */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6">
+        <div className="rounded-[22px] border border-slate-700/70 bg-gradient-to-br from-[#111d33] via-[#0d172b] to-[#0a1222] p-5 shadow-xl shadow-black/10 ring-1 ring-white/[0.025] sm:p-6">
           <div className="flex items-center justify-between border-b border-slate-800/80 pb-4">
             <div className="flex items-center gap-2">
               <TrendingUp className="h-5 w-5 text-blue-400" />
@@ -417,7 +417,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
         </div>
 
         {/* Daily Priority Tasks */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6">
+        <div className="rounded-[22px] border border-slate-700/70 bg-gradient-to-br from-[#111d33] via-[#0d172b] to-[#0a1222] p-5 shadow-xl shadow-black/10 ring-1 ring-white/[0.025] sm:p-6">
           <div className="flex items-center justify-between border-b border-slate-800/80 pb-4">
             <div className="flex items-center gap-2">
               <CheckSquare className="h-5 w-5 text-emerald-400" />
