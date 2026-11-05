@@ -32,6 +32,51 @@ function readCloud(): Promise<CloudResponse> {
   });
 }
 
+// A normal fetch is blocked by Apps Script's cross-origin redirect.
+// A browser form POST avoids CORS; the following JSONP read verifies the write.
+async function postForm(payload: unknown): Promise<void> {
+  const frameName = 'motiq_cloud_frame_' + Date.now();
+  const frame = document.createElement('iframe');
+  frame.name = frameName;
+  frame.style.display = 'none';
+  document.body.appendChild(frame);
+
+  try {
+    await new Promise<void>((resolve, reject) => {
+      const timer = window.setTimeout(() => reject(new Error('Google sign-in required or cloud write timed out.')), 20000);
+      frame.onload = () => {
+        window.clearTimeout(timer);
+        resolve();
+      };
+    });
+
+    const form = document.createElement('form');
+    form.method = 'POST';
+    form.action = CLOUD_URL;
+    form.target = frameName;
+    form.style.display = 'none';
+
+    const field = document.createElement('input');
+    field.type = 'hidden';
+    field.name = 'payload';
+    field.value = JSON.stringify(payload);
+    form.appendChild(field);
+    document.body.appendChild(form);
+    form.submit();
+    form.remove();
+
+    await new Promise<void>((resolve, reject) => {
+      const timer = window.setTimeout(() => reject(new Error('Google Sheet write timed out.')), 30000);
+      frame.onload = () => {
+        window.clearTimeout(timer);
+        resolve();
+      };
+    });
+  } finally {
+    frame.remove();
+  }
+}
+
 export async function pullCloudData(): Promise<void> {
   const response = await readCloud();
   if (!response.ok || !response.data || typeof response.data !== 'object') {
@@ -47,21 +92,22 @@ export async function pullCloudData(): Promise<void> {
 }
 
 export async function testCloudWrite(): Promise<void> {
-  const payload = JSON.stringify({ data: { motiq_connection_test: true, tested_at: new Date().toISOString() } });
-  await fetch(CLOUD_URL, {
-    method: 'POST',
-    mode: 'no-cors',
-    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-    body: payload,
-  });
+  const marker = { motiq_connection_test: true, tested_at: new Date().toISOString() };
+  await postForm({ data: marker });
+
+  const response = await readCloud();
+  const saved = response.data as Record<string, unknown> | undefined;
+  if (!response.ok || saved?.motiq_connection_test !== true || saved?.tested_at !== marker.tested_at) {
+    throw new Error('Google Sheet मध्ये test save झाल्याची खात्री मिळाली नाही. Apps Script doPost तपासा.');
+  }
 }
 
 export async function pushCloudData(): Promise<void> {
-  const payload = JSON.stringify({ data: JSON.parse(exportAllData()) });
-  await fetch(CLOUD_URL, {
-    method: 'POST',
-    mode: 'no-cors',
-    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
-    body: payload,
-  });
+  const data = JSON.parse(exportAllData());
+  await postForm({ data });
+
+  const response = await readCloud();
+  if (!response.ok || JSON.stringify(response.data) !== JSON.stringify(data)) {
+    throw new Error('Cloud backup verify झाला नाही.');
+  }
 }
