@@ -60,7 +60,7 @@ export const Modal: React.FC<ModalProps> = ({
 
       {/* Modal Dialog */}
       <div
-        className={`relative w-full ${maxWidthClasses} my-6 rounded-2xl border border-slate-800 bg-[#0c1426] p-6 shadow-2xl transition-all max-h-[90vh] flex flex-col`}
+        className={`relative w-full ${maxWidthClasses} my-6 rounded-[26px] border border-slate-700/70 bg-gradient-to-br from-[#14223a] via-[#0d192d] to-[#091323] p-6 shadow-[0_30px_100px_rgba(0,0,0,.55)] ring-1 ring-white/[0.04] transition-all max-h-[90vh] flex flex-col`}
       >
         {/* Header */}
         <div className="flex items-start justify-between border-b border-slate-800/80 pb-4 shrink-0">
