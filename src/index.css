@@ -211,3 +211,61 @@ body { background: radial-gradient(ellipse at 10% 0%, rgba(109, 40, 217, .16), t
     overscroll-behavior: contain;
   }
 }
+
+/* Final compact mobile header override */
+@media (max-width: 640px) {
+  header.motiq-global-header {
+    height: 56px !important;
+    min-height: 56px !important;
+    max-height: 56px !important;
+    padding: 0 .65rem !important;
+    padding-top: env(safe-area-inset-top) !important;
+    gap: .35rem !important;
+  }
+  header.motiq-global-header .motiq-header-left {
+    flex: 1 1 auto !important;
+    min-width: 0 !important;
+    gap: .5rem !important;
+  }
+  header.motiq-global-header .motiq-header-left > button {
+    width: 36px;
+    height: 36px;
+    min-height: 36px !important;
+    flex: 0 0 36px;
+    display: grid;
+    place-items: center;
+    padding: 0 !important;
+    border-radius: 11px !important;
+  }
+  header.motiq-global-header .motiq-header-title {
+    max-width: calc(100vw - 190px) !important;
+    font-size: .82rem !important;
+    line-height: 1rem !important;
+    letter-spacing: -.02em;
+  }
+  header.motiq-global-header .motiq-header-left p { display: none !important; }
+  header.motiq-global-header .motiq-header-actions {
+    flex: 0 0 auto !important;
+    gap: .35rem !important;
+  }
+  header.motiq-global-header .motiq-header-icon {
+    width: 35px;
+    height: 35px;
+    min-height: 35px !important;
+    padding: 0 !important;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px !important;
+  }
+  header.motiq-global-header .motiq-header-quick {
+    width: 35px;
+    height: 35px;
+    min-height: 35px !important;
+    padding: 0 !important;
+    justify-content: center;
+    border-radius: 10px !important;
+  }
+  header.motiq-global-header .motiq-header-quick span { display: none !important; }
+  header.motiq-global-header .motiq-header-quick svg { width: 17px; height: 17px; }
+}
