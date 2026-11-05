@@ -122,3 +122,11 @@ a { text-underline-offset: 3px; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
 }
+
+
+/* MOTIQ signature theme: midnight navy, violet and electric blue */
+:root { --moti-accent: #a78bfa; --moti-cyan: #a78bfa; }
+::selection { background: rgba(139, 92, 246, .32); color: #f5f3ff; }
+button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline-color: rgba(167, 139, 250, .9); }
+input:not([type="checkbox"]):not([type="radio"]):focus, select:focus, textarea:focus { border-color: rgba(167, 139, 250, .72); box-shadow: 0 0 0 3px rgba(139, 92, 246, .12); }
+body { background: radial-gradient(ellipse at 10% 0%, rgba(109, 40, 217, .16), transparent 34%), radial-gradient(ellipse at 92% 5%, rgba(37, 99, 235, .15), transparent 32%), linear-gradient(145deg, #070a17 0%, #0b1022 50%, #080d1b 100%); }
