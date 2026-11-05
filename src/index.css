@@ -130,3 +130,84 @@ a { text-underline-offset: 3px; }
 button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible, textarea:focus-visible { outline-color: rgba(167, 139, 250, .9); }
 input:not([type="checkbox"]):not([type="radio"]):focus, select:focus, textarea:focus { border-color: rgba(167, 139, 250, .72); box-shadow: 0 0 0 3px rgba(139, 92, 246, .12); }
 body { background: radial-gradient(ellipse at 10% 0%, rgba(109, 40, 217, .16), transparent 34%), radial-gradient(ellipse at 92% 5%, rgba(37, 99, 235, .15), transparent 32%), linear-gradient(145deg, #070a17 0%, #0b1022 50%, #080d1b 100%); }
+
+/* MOBILE UX polish — comfortable touch targets, safe areas and compact layouts */
+@media (max-width: 640px) {
+  html, body, #root { min-height: 100%; }
+  body { -webkit-text-size-adjust: 100%; }
+  #root > * { min-height: 100dvh; }
+  main {
+    width: 100%;
+    min-width: 0;
+    padding-left: .85rem !important;
+    padding-right: .85rem !important;
+    padding-top: .9rem !important;
+    padding-bottom: calc(2rem + env(safe-area-inset-bottom)) !important;
+  }
+  header {
+    min-height: 62px !important;
+    height: auto !important;
+    gap: .5rem;
+    padding: .55rem .75rem !important;
+    padding-top: max(.55rem, env(safe-area-inset-top)) !important;
+  }
+  header > div:first-child { min-width: 0; flex: 1 1 auto; gap: .55rem; }
+  header h1 {
+    font-size: .9rem !important;
+    line-height: 1.2rem !important;
+    display: block !important;
+    max-width: min(48vw, 230px);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  header > div:last-child { flex: 0 0 auto; gap: .35rem !important; }
+  header > div:last-child > button,
+  header > div:last-child button { min-height: 40px; }
+  header button { touch-action: manipulation; }
+  aside {
+    width: min( min(19rem, 88vw), 340px) !important;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+  aside button { min-height: 44px; font-size: .78rem !important; }
+  main .rounded-\[22px\],
+  main .rounded-2xl,
+  main .rounded-3xl { border-radius: 16px !important; }
+  main .p-5 { padding: 1rem !important; }
+  main .sm\\:p-6 { padding: 1rem !important; }
+  main .gap-6 { gap: 1rem !important; }
+  main .text-2xl { font-size: 1.35rem !important; line-height: 1.8rem !important; }
+  main .text-3xl { font-size: 1.5rem !important; line-height: 1.9rem !important; }
+  main button, main a { touch-action: manipulation; }
+  main button { min-height: 40px; }
+  main input:not([type="checkbox"]):not([type="radio"]),
+  main select, main textarea {
+    font-size: 16px !important;
+    min-height: 44px;
+    max-width: 100%;
+  }
+  main textarea { min-height: 96px; }
+  main table {
+    display: block;
+    width: 100%;
+    max-width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+  main table th, main table td { white-space: nowrap; }
+  main .overflow-x-auto { -webkit-overflow-scrolling: touch; }
+  main .grid { min-width: 0; }
+  main .flex { min-width: 0; }
+  main .flex-wrap { row-gap: .55rem; }
+  main [class*="grid-cols-"] { min-width: 0; }
+  main .sticky { scroll-margin-top: 72px; }
+}
+
+/* Keep dialogs and dropdowns usable on short mobile screens */
+@media (max-width: 640px) {
+  [role="dialog"], [aria-modal="true"] {
+    max-height: calc(100dvh - 1.25rem - env(safe-area-inset-top) - env(safe-area-inset-bottom));
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+}
