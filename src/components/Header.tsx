@@ -68,9 +68,9 @@ export const Header: React.FC<HeaderProps> = ({
   const currentTabInfo = TAB_TITLES[activeTab] || { title: 'MOTIQ', subtitle: 'Agency Management' };
 
   return (
-    <header className="motiq-global-header sticky top-0 z-30 flex h-[76px] items-center justify-between border-b border-slate-700/60 bg-[#081222]/95 px-3 shadow-lg shadow-black/10 backdrop-blur-xl sm:px-6">
+    <header className="sticky top-0 z-30 flex h-[76px] items-center justify-between border-b border-slate-700/60 bg-[#081222]/90 px-4 shadow-lg shadow-black/10 backdrop-blur-xl sm:px-6">
       {/* Left: Mobile hamburger & Page Title */}
-      <div className="motiq-header-left flex min-w-0 items-center gap-2 sm:gap-3">
+      <div className="flex items-center gap-3">
         <button
           onClick={onOpenMobileSidebar}
           className="rounded-lg border border-slate-800 bg-slate-900/80 p-2 text-slate-300 hover:text-white lg:hidden"
@@ -80,7 +80,7 @@ export const Header: React.FC<HeaderProps> = ({
         </button>
 
         <div>
-          <h1 className="motiq-header-title max-w-[52vw] truncate text-sm font-bold text-white sm:max-w-none sm:text-lg flex items-center gap-2">
+          <h1 className="text-base font-bold text-white sm:text-lg flex items-center gap-2">
             {currentTabInfo.title}
           </h1>
           <p className="hidden text-xs text-slate-400 sm:block">{currentTabInfo.subtitle}</p>
@@ -108,11 +108,11 @@ export const Header: React.FC<HeaderProps> = ({
       </div>
 
       {/* Right Actions */}
-      <div className="motiq-header-actions flex shrink-0 items-center gap-1.5 sm:gap-3">
+      <div className="flex items-center gap-2 sm:gap-3">
         {/* Privacy Screen-Sharing Toggle */}
         <button
           onClick={onTogglePrivacyMode}
-          className={`motiq-header-icon flex items-center gap-1.5 rounded-xl border px-2.5 py-1.5 text-xs font-medium transition-colors ${
+          className={`flex items-center gap-1.5 rounded-xl border px-2.5 py-1.5 text-xs font-medium transition-colors ${
             privacyMode
               ? 'border-amber-500/40 bg-amber-500/20 text-amber-300'
               : 'border-slate-800 bg-slate-900/60 text-slate-400 hover:border-slate-700 hover:text-slate-200'
@@ -126,7 +126,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Notifications / Overdue alerts indicator */}
         <button
           onClick={() => setActiveTab('leads')}
-          className="motiq-header-icon relative rounded-xl border border-slate-800 bg-slate-900/60 p-2 text-slate-400 hover:border-slate-700 hover:text-slate-200"
+          className="relative rounded-xl border border-slate-800 bg-slate-900/60 p-2 text-slate-400 hover:border-slate-700 hover:text-slate-200"
           title={`${overdueCount} follow-ups due or overdue`}
         >
           <Bell className="h-4 w-4" />
@@ -141,7 +141,7 @@ export const Header: React.FC<HeaderProps> = ({
         {pinProtectionEnabled && onLockApp && (
           <button
             onClick={onLockApp}
-            className="motiq-header-icon rounded-xl border border-slate-800 bg-slate-900/60 p-2 text-slate-400 hover:border-slate-700 hover:text-slate-200"
+            className="rounded-xl border border-slate-800 bg-slate-900/60 p-2 text-slate-400 hover:border-slate-700 hover:text-slate-200"
             title="Lock Dashboard (Owner PIN)"
           >
             <Lock className="h-4 w-4" />
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="relative">
           <button
             onClick={() => setShowQuickMenu(!showQuickMenu)}
-            className="motiq-header-quick flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-500 to-blue-600 px-3 py-2 text-xs font-bold text-white shadow-lg shadow-violet-500/25 hover:from-violet-400 hover:to-blue-500 active:scale-95 transition-all"
+            className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-500 to-blue-600 px-3 py-2 text-xs font-bold text-white shadow-lg shadow-violet-500/25 hover:from-violet-400 hover:to-blue-500 active:scale-95 transition-all"
           >
             <Plus className="h-4 w-4" />
             <span className="hidden sm:inline">Quick Action</span>
