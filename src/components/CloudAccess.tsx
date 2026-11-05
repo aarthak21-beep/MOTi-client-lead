@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
-import { account, getCurrentCloudUser, restoreCloudBackup, signInToMotiq, signOutFromMotiq, uploadLocalBackup } from '../services/appwrite';
+import { getCurrentCloudUser, restoreCloudBackup, signInToMotiq, signOutFromMotiq, uploadLocalBackup } from '../services/appwrite';
 
 type CloudUser = { $id: string; name?: string; email?: string };
+type SyncDirection = 'upload' | 'restore';
 
 export function CloudAccess({ children }: { children: React.ReactNode }) {
   const [user, setUser] = useState<CloudUser | null>(null);
@@ -10,6 +11,9 @@ export function CloudAccess({ children }: { children: React.ReactNode }) {
   const [password, setPassword] = useState('');
   const [busy, setBusy] = useState(false);
   const [message, setMessage] = useState('');
+  const [syncDirection, setSyncDirection] = useState<SyncDirection | null>(null);
+  const [encryptionPassword, setEncryptionPassword] = useState('');
+  const [confirmEncryptionPassword, setConfirmEncryptionPassword] = useState('');
 
   useEffect(() => {
     getCurrentCloudUser().then((current) => {
@@ -33,25 +37,46 @@ export function CloudAccess({ children }: { children: React.ReactNode }) {
     }
   };
 
-  const runSync = async (direction: 'upload' | 'restore') => {
+  const runSync = (direction: SyncDirection) => {
     if (!user) return;
     const warning = direction === 'upload'
-      ? 'This will replace the cloud backup with the data on this device. Continue?'
-      : 'This will replace the data on this device with the cloud backup. A local export backup is recommended first. Continue?';
+      ? 'This will replace the cloud backup with encrypted data from this device. Continue?'
+      : 'This will replace the data on this device with the decrypted cloud backup. A local export backup is recommended first. Continue?';
     if (!window.confirm(warning)) return;
+    setMessage('');
+    setEncryptionPassword('');
+    setConfirmEncryptionPassword('');
+    setSyncDirection(direction);
+  };
+
+  const handleEncryptedSync = async (event: React.FormEvent) => {
+    event.preventDefault();
+    if (!user || !syncDirection) return;
+    if (encryptionPassword.length < 12) {
+      setMessage('Encryption password must be at least 12 characters.');
+      return;
+    }
+    if (syncDirection === 'upload' && encryptionPassword !== confirmEncryptionPassword) {
+      setMessage('The two encryption passwords do not match.');
+      return;
+    }
+
     setBusy(true);
     setMessage('');
     try {
-      if (direction === 'upload') {
-        await uploadLocalBackup(user.$id);
-        setMessage('Backup uploaded to Appwrite successfully.');
+      if (syncDirection === 'upload') {
+        await uploadLocalBackup(user.$id, encryptionPassword);
+        setMessage('Encrypted backup uploaded successfully. Appwrite stores encrypted backup content, not readable MOTIQ records.');
       } else {
-        await restoreCloudBackup(user.$id);
-        setMessage('Cloud backup restored. Reloading MOTIQ data…');
+        await restoreCloudBackup(user.$id, encryptionPassword);
+        setMessage('Encrypted cloud backup restored. Reloading MOTIQ data…');
         window.location.reload();
       }
+      setSyncDirection(null);
+      setEncryptionPassword('');
+      setConfirmEncryptionPassword('');
     } catch (error: any) {
-      setMessage(error?.message || 'Cloud sync failed. Check Appwrite table permissions and columns.');
+      setMessage(error?.message || 'Encrypted cloud sync failed. No local data was changed unless restore completed.');
     } finally {
       setBusy(false);
     }
@@ -100,8 +125,31 @@ export function CloudAccess({ children }: { children: React.ReactNode }) {
           <button disabled={busy} onClick={() => runSync('restore')} className="rounded-lg border border-violet-500/40 px-3 py-1.5 text-violet-300 hover:bg-violet-500/10 disabled:opacity-50">Restore from cloud</button>
           <button disabled={busy} onClick={handleSignOut} className="rounded-lg border border-white/10 px-3 py-1.5 hover:bg-white/5 disabled:opacity-50">Sign out</button>
         </div>
+        <div className="w-full text-amber-300">Encrypted backup: use the same separate encryption password on every device. Keep it safe; it cannot be reset.</div>
         {message && <div className="w-full text-cyan-300">{message}</div>}
       </div>
+
+      {syncDirection && (
+        <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/80 px-4 py-6">
+          <form onSubmit={handleEncryptedSync} className="w-full max-w-md rounded-2xl border border-white/10 bg-slate-900 p-6 text-slate-100 shadow-2xl">
+            <h2 className="mb-2 text-xl font-bold">{syncDirection === 'upload' ? 'Encrypt & upload backup' : 'Unlock cloud backup'}</h2>
+            <p className="mb-4 text-sm text-slate-300">Create a separate encryption password with at least 12 characters. Use this exact same password on every device. It is not sent to Appwrite and MOTIQ cannot recover it.</p>
+            <label className="mb-2 block text-sm text-slate-300">Encryption password</label>
+            <input autoFocus required minLength={12} type="password" autoComplete="new-password" value={encryptionPassword} onChange={(e) => setEncryptionPassword(e.target.value)} className="mb-4 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none focus:border-cyan-400" placeholder="At least 12 characters" />
+            {syncDirection === 'upload' && (
+              <>
+                <label className="mb-2 block text-sm text-slate-300">Confirm encryption password</label>
+                <input required minLength={12} type="password" autoComplete="new-password" value={confirmEncryptionPassword} onChange={(e) => setConfirmEncryptionPassword(e.target.value)} className="mb-4 w-full rounded-xl border border-white/10 bg-slate-950 px-4 py-3 text-white outline-none focus:border-cyan-400" placeholder="Enter it again" />
+              </>
+            )}
+            {message && <p className="mb-4 text-sm text-rose-300">{message}</p>}
+            <div className="flex gap-3">
+              <button type="button" disabled={busy} onClick={() => setSyncDirection(null)} className="flex-1 rounded-xl border border-white/15 px-4 py-3 text-slate-200 hover:bg-white/5">Cancel</button>
+              <button type="submit" disabled={busy} className="flex-1 rounded-xl bg-cyan-500 px-4 py-3 font-semibold text-slate-950 hover:bg-cyan-400 disabled:opacity-50">{busy ? 'Working…' : syncDirection === 'upload' ? 'Encrypt & upload' : 'Decrypt & restore'}</button>
+            </div>
+          </form>
+        </div>
+      )}
       {children}
     </>
   );
