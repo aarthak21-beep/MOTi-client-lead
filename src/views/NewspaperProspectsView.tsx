@@ -70,7 +70,7 @@ export const NewspaperProspectsView: React.FC = () => {
       <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
         <div>
           <p className="text-xs font-semibold uppercase tracking-widest text-emerald-400">Prospecting • India</p>
-          <h1 className="mt-1 text-2xl font-bold text-white">Newspaper Business Leads</h1>
+          <h1 className="mt-1 text-2xl font-extrabold tracking-tight text-white">Newspaper Business Leads</h1>
           <p className="mt-1 text-sm text-slate-400">Newspaper Vendors, Agencies, Distributors, Publishers आणि Printing Press contacts व्यवस्थापित करा.</p>
         </div>
         <button onClick={openNew} className="inline-flex items-center justify-center gap-2 rounded-xl bg-cyan-500 px-4 py-2.5 text-sm font-bold text-slate-950 hover:bg-cyan-400">
@@ -79,18 +79,18 @@ export const NewspaperProspectsView: React.FC = () => {
       </div>
 
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-4">
-        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Total Leads</p><p className="mt-1 text-2xl font-bold text-white">{prospects.length}</p></div>
-        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Interested</p><p className="mt-1 text-2xl font-bold text-cyan-300">{prospects.filter(p => p.status === 'Interested').length}</p></div>
-        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Opted In</p><p className="mt-1 text-2xl font-bold text-emerald-300">{prospects.filter(p => p.contactPermission === 'Opted In').length}</p></div>
-        <div className="rounded-xl border border-slate-800 bg-slate-900/60 p-4"><p className="text-xs text-slate-400">Converted</p><p className="mt-1 text-2xl font-bold text-white">{prospects.filter(p => p.status === 'Converted').length}</p></div>
+        <div className="rounded-2xl border border-slate-700/70 bg-gradient-to-br from-[#14233b] to-[#0d1729] p-4 shadow-lg shadow-black/10 ring-1 ring-white/[0.025]"><p className="text-xs text-slate-400">Total Leads</p><p className="mt-1 text-2xl font-bold text-white">{prospects.length}</p></div>
+        <div className="rounded-2xl border border-slate-700/70 bg-gradient-to-br from-[#14233b] to-[#0d1729] p-4 shadow-lg shadow-black/10 ring-1 ring-white/[0.025]"><p className="text-xs text-slate-400">Interested</p><p className="mt-1 text-2xl font-bold text-cyan-300">{prospects.filter(p => p.status === 'Interested').length}</p></div>
+        <div className="rounded-2xl border border-slate-700/70 bg-gradient-to-br from-[#14233b] to-[#0d1729] p-4 shadow-lg shadow-black/10 ring-1 ring-white/[0.025]"><p className="text-xs text-slate-400">Opted In</p><p className="mt-1 text-2xl font-bold text-emerald-300">{prospects.filter(p => p.contactPermission === 'Opted In').length}</p></div>
+        <div className="rounded-2xl border border-slate-700/70 bg-gradient-to-br from-[#14233b] to-[#0d1729] p-4 shadow-lg shadow-black/10 ring-1 ring-white/[0.025]"><p className="text-xs text-slate-400">Converted</p><p className="mt-1 text-2xl font-bold text-white">{prospects.filter(p => p.status === 'Converted').length}</p></div>
       </div>
 
-      <div className="flex items-center gap-2 rounded-xl border border-slate-800 bg-slate-900/60 px-3">
+      <div className="flex items-center gap-2 rounded-2xl border border-slate-700/70 bg-[#111d32] px-3 shadow-inner shadow-black/10">
         <Search className="h-4 w-4 text-slate-500" />
         <input value={query} onChange={e => setQuery(e.target.value)} placeholder="Search business, WhatsApp, city or district..." className="w-full bg-transparent py-3 text-sm text-white outline-none placeholder:text-slate-500" />
       </div>
 
-      <div className="overflow-hidden rounded-2xl border border-slate-800 bg-slate-900/50">
+      <div className="overflow-hidden rounded-[22px] border border-slate-700/70 bg-[#0b1528]/90 shadow-xl shadow-black/10 ring-1 ring-white/[0.025]">
         {filtered.length === 0 ? (
           <div className="px-6 py-14 text-center">
             <Building2 className="mx-auto h-9 w-9 text-slate-600" />
@@ -101,10 +101,10 @@ export const NewspaperProspectsView: React.FC = () => {
         ) : (
           <div className="overflow-x-auto">
             <table className="w-full min-w-[900px] text-left text-xs">
-              <thead className="bg-slate-800/70 text-[10px] uppercase tracking-wider text-slate-400"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Type / Location</th><th className="px-4 py-3">WhatsApp</th><th className="px-4 py-3">WhatsApp Check</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead>
-              <tbody className="divide-y divide-slate-800/80">
+              <thead className="bg-slate-800/80 text-[10px] font-bold uppercase tracking-[0.14em] text-slate-300"><tr><th className="px-4 py-3">Business</th><th className="px-4 py-3">Type / Location</th><th className="px-4 py-3">WhatsApp</th><th className="px-4 py-3">WhatsApp Check</th><th className="px-4 py-3">Permission</th><th className="px-4 py-3">Status</th><th className="px-4 py-3 text-right">Actions</th></tr></thead>
+              <tbody className="divide-y divide-slate-700/50">
                 {filtered.map(p => (
-                  <tr key={p.id} className="hover:bg-slate-800/30">
+                  <tr key={p.id} className="transition-colors hover:bg-cyan-400/[0.045]">
                     <td className="px-4 py-3"><p className="font-semibold text-white">{p.businessName}</p><p className="mt-1 text-slate-500">{p.contactName || 'Contact name not added'}</p></td>
                     <td className="px-4 py-3"><p className="text-slate-200">{p.businessType}</p><p className="mt-1 flex items-center gap-1 text-slate-500"><MapPin className="h-3 w-3" />{[p.city, p.district, p.state].filter(Boolean).join(', ')}</p></td>
                     <td className="px-4 py-3 font-mono text-slate-200">{p.whatsapp ? `+${p.whatsapp}` : 'Not provided'}</td>
