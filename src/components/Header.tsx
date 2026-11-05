@@ -95,7 +95,7 @@ export const Header: React.FC<HeaderProps> = ({
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           placeholder="Search leads, projects, clients..."
-          className="w-full rounded-xl border border-slate-800 bg-[#0d1527] py-2 pl-9 pr-3 text-xs text-slate-200 placeholder-slate-500 focus:border-cyan-500 focus:outline-hidden focus:ring-1 focus:ring-cyan-500/50"
+          className="w-full rounded-xl border border-slate-800 bg-[#0d1527] py-2 pl-9 pr-3 text-xs text-slate-200 placeholder-slate-500 focus:border-violet-400 focus:outline-hidden focus:ring-1 focus:ring-violet-500/50"
         />
         {searchQuery && (
           <button
@@ -152,7 +152,7 @@ export const Header: React.FC<HeaderProps> = ({
         <div className="relative">
           <button
             onClick={() => setShowQuickMenu(!showQuickMenu)}
-            className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-cyan-500 to-blue-600 px-3 py-2 text-xs font-bold text-white shadow-lg shadow-cyan-500/20 hover:from-cyan-400 hover:to-blue-500 active:scale-95 transition-all"
+            className="flex items-center gap-1.5 rounded-xl bg-gradient-to-r from-violet-500 to-blue-600 px-3 py-2 text-xs font-bold text-white shadow-lg shadow-violet-500/25 hover:from-violet-400 hover:to-blue-500 active:scale-95 transition-all"
           >
             <Plus className="h-4 w-4" />
             <span className="hidden sm:inline">Quick Action</span>
