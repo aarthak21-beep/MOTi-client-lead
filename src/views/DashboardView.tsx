@@ -78,18 +78,18 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
   return (
     <div className="space-y-6 pb-12">
       {/* Top Banner / Welcome with Quick Actions */}
-      <div className="relative isolate overflow-hidden rounded-[28px] border border-cyan-400/15 bg-[radial-gradient(ellipse_at_top_right,rgba(34,211,238,0.12),transparent_38%),linear-gradient(120deg,#101d35_0%,#0b1428_55%,#0d1b33_100%)] p-6 shadow-2xl shadow-black/20 ring-1 ring-white/[0.03] lg:p-8">
-        <div className="pointer-events-none absolute -right-12 -top-12 h-64 w-64 rounded-full bg-cyan-500/10 blur-3xl" />
-        <div className="pointer-events-none absolute left-1/3 -bottom-12 h-48 w-48 rounded-full bg-blue-600/10 blur-3xl" />
+      <div className="relative isolate overflow-hidden rounded-[28px] border border-violet-400/20 bg-[radial-gradient(ellipse_at_top_right,rgba(139,92,246,0.20),transparent_38%),radial-gradient(ellipse_at_bottom_left,rgba(37,99,235,0.12),transparent_42%),linear-gradient(120deg,#11152f_0%,#0b1428_55%,#101b38_100%)] p-6 shadow-2xl shadow-black/20 ring-1 ring-white/[0.03] lg:p-8">
+        <div className="pointer-events-none absolute -right-12 -top-12 h-64 w-64 rounded-full bg-violet-500/15 blur-3xl" />
+        <div className="pointer-events-none absolute left-1/3 -bottom-12 h-48 w-48 rounded-full bg-blue-600/15 blur-3xl" />
 
         <div className="relative flex flex-col gap-6 lg:flex-row lg:items-center lg:justify-between">
           <div>
-            <div className="inline-flex items-center gap-2 rounded-full border border-cyan-500/30 bg-cyan-500/10 px-3 py-1 text-xs font-semibold text-cyan-300">
+            <div className="inline-flex items-center gap-2 rounded-full border border-violet-400/30 bg-violet-500/15 px-3 py-1 text-xs font-semibold text-violet-200">
               <Sparkles className="h-3.5 w-3.5" />
-              <span>MOTI Technologies Agency OS</span>
+              <span>MOTIQ • PERSONAL BUSINESS CRM</span>
             </div>
             <h2 className="mt-3 text-2xl font-extrabold text-white sm:text-3xl tracking-tight">
-              Work Smarter. Grow Faster.
+              Think Smart. Manage Better. Grow Faster.
             </h2>
             <p className="mt-1 text-sm text-slate-400 max-w-xl">
               All website client inquiries, WhatsApp follow-ups, PDF quotations, live project stages, and payment collections in one unified workspace.
@@ -100,7 +100,7 @@ export const DashboardView: React.FC<DashboardViewProps> = ({
           <div className="flex flex-wrap gap-2.5">
             <button
               onClick={() => onOpenQuickAction('lead')}
-              className="flex items-center gap-2 rounded-xl bg-cyan-500 px-3.5 py-2.5 text-xs font-bold text-slate-950 shadow-lg shadow-cyan-500/25 hover:bg-cyan-400 active:scale-95 transition-all"
+              className="flex items-center gap-2 rounded-xl bg-gradient-to-r from-violet-500 to-blue-600 px-3.5 py-2.5 text-xs font-bold text-white shadow-lg shadow-violet-500/25 hover:from-violet-400 hover:to-blue-500 active:scale-95 transition-all"
             >
               <UserPlus className="h-4 w-4" />
               <span>New Enquiry</span>
