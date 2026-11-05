@@ -25733,7 +25733,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       { id: 'web-next-20261105-080', businessName: 'SIFMS Professional Cleaning Services', contactName: '', businessType: 'Cleaning Services', phone: '', whatsapp: '', city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka', websiteStatus: 'Needs Verification', source: 'GullyDirectory and OneTapListing public business listings', notes: 'Public business listing; verify website and contact details before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' }
 ,
       {
-        id: 'web-next-20261105-081',
+        id: 'web-next-20261105-181',
         businessName: 'Sri Vaidhya Hospital',
         contactName: '',
         businessType: 'Hospital',
@@ -25751,7 +25751,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-082',
+        id: 'web-next-20261105-182',
         businessName: 'DT7 Agency',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -25769,7 +25769,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-083',
+        id: 'web-next-20261105-183',
         businessName: 'Helios Hospitals',
         contactName: '',
         businessType: 'Hospital',
@@ -25787,7 +25787,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-084',
+        id: 'web-next-20261105-184',
         businessName: 'Kaamat Dental Academy',
         contactName: '',
         businessType: 'Education',
@@ -25805,7 +25805,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-085',
+        id: 'web-next-20261105-185',
         businessName: 'Kiya World School Pre Primary Campus',
         contactName: '',
         businessType: 'School',
@@ -25823,7 +25823,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-086',
+        id: 'web-next-20261105-186',
         businessName: 'Harish Neuro Centre',
         contactName: '',
         businessType: 'Hospital',
@@ -25841,7 +25841,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-087',
+        id: 'web-next-20261105-187',
         businessName: 'Sahasra Ortho and Neuro Centre',
         contactName: '',
         businessType: 'Hospital',
@@ -25859,7 +25859,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-088',
+        id: 'web-next-20261105-188',
         businessName: 'Dr Nathani Srikanth Interventional Cardiologist',
         contactName: '',
         businessType: 'Medical Professional',
@@ -25877,7 +25877,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-089',
+        id: 'web-next-20261105-189',
         businessName: 'Shekhawati Crafts',
         contactName: '',
         businessType: 'Furniture Manufacturer',
@@ -25895,7 +25895,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-090',
+        id: 'web-next-20261105-190',
         businessName: 'Inklink Marketing',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -25913,7 +25913,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-091',
+        id: 'web-next-20261105-191',
         businessName: 'Arjun Arts Marble Murti and Sculpture Manufacturer',
         contactName: '',
         businessType: 'Manufacturer',
@@ -25931,7 +25931,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-092',
+        id: 'web-next-20261105-192',
         businessName: 'Dr Abhishek Family Physician',
         contactName: '',
         businessType: 'Medical Professional',
@@ -25949,7 +25949,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-093',
+        id: 'web-next-20261105-193',
         businessName: 'Hotel Boheda Palace',
         contactName: '',
         businessType: 'Hotel',
@@ -25967,7 +25967,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-094',
+        id: 'web-next-20261105-194',
         businessName: 'The Gallery of Design',
         contactName: '',
         businessType: 'Interior Designer',
@@ -25985,7 +25985,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-095',
+        id: 'web-next-20261105-195',
         businessName: 'Browser Hotels',
         contactName: '',
         businessType: 'Hotel',
@@ -26003,7 +26003,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-096',
+        id: 'web-next-20261105-196',
         businessName: 'Yumway Foods',
         contactName: '',
         businessType: 'Food Manufacturer',
@@ -26021,7 +26021,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-097',
+        id: 'web-next-20261105-197',
         businessName: 'PowerUp Fitness Gym',
         contactName: '',
         businessType: 'Gym',
@@ -26039,7 +26039,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-098',
+        id: 'web-next-20261105-198',
         businessName: 'BlueBoard Energy Solar Energy and Solar Panel Services',
         contactName: '',
         businessType: 'Solar Services',
@@ -26057,7 +26057,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-099',
+        id: 'web-next-20261105-199',
         businessName: 'Academia Student Information Systems',
         contactName: '',
         businessType: 'Education Technology',
@@ -26075,7 +26075,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-100',
+        id: 'web-next-20261105-200',
         businessName: 'CodeLabz Institute',
         contactName: '',
         businessType: 'Training Institute',
@@ -26093,7 +26093,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-101',
+        id: 'web-next-20261105-201',
         businessName: 'Fantasy Bakery and Cafe',
         contactName: '',
         businessType: 'Bakery',
@@ -26111,7 +26111,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-102',
+        id: 'web-next-20261105-202',
         businessName: 'Techmakers Website Development Company',
         contactName: '',
         businessType: 'Software Company',
@@ -26129,7 +26129,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-103',
+        id: 'web-next-20261105-203',
         businessName: 'Veva Technology',
         contactName: '',
         businessType: 'Software Company',
@@ -26147,7 +26147,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-104',
+        id: 'web-next-20261105-204',
         businessName: 'Medicine Mart',
         contactName: '',
         businessType: 'Pharmacy',
@@ -26165,7 +26165,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-105',
+        id: 'web-next-20261105-205',
         businessName: 'Sonip Space',
         contactName: '',
         businessType: 'Corporate Office',
@@ -26183,7 +26183,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-106',
+        id: 'web-next-20261105-206',
         businessName: 'New Leaf Designs',
         contactName: '',
         businessType: 'Interior Designer',
@@ -26201,7 +26201,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-107',
+        id: 'web-next-20261105-207',
         businessName: 'Rachna and Niranjan Photography',
         contactName: '',
         businessType: 'Photographer',
@@ -26219,7 +26219,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-108',
+        id: 'web-next-20261105-208',
         businessName: 'Itdaksh Education',
         contactName: '',
         businessType: 'Training Institute',
@@ -26237,7 +26237,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-109',
+        id: 'web-next-20261105-209',
         businessName: 'IT Campus Guru',
         contactName: '',
         businessType: 'Training Institute',
@@ -26255,7 +26255,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-110',
+        id: 'web-next-20261105-210',
         businessName: '7 Vachann',
         contactName: '',
         businessType: 'Banquet Hall',
@@ -26273,7 +26273,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-111',
+        id: 'web-next-20261105-211',
         businessName: 'Ag Elements',
         contactName: '',
         businessType: 'Jewellery Store',
@@ -26291,7 +26291,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-112',
+        id: 'web-next-20261105-212',
         businessName: 'Brinns Retail LLP',
         contactName: '',
         businessType: 'Clothing Store',
@@ -26309,7 +26309,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-113',
+        id: 'web-next-20261105-213',
         businessName: 'Global Travel DMC',
         contactName: '',
         businessType: 'Travel Agency',
@@ -26327,7 +26327,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-114',
+        id: 'web-next-20261105-214',
         businessName: 'EZ Tuitions',
         contactName: '',
         businessType: 'Tuition Classes',
@@ -26345,7 +26345,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-115',
+        id: 'web-next-20261105-215',
         businessName: 'Zakmideos',
         contactName: '',
         businessType: 'Video Production Service',
@@ -26363,7 +26363,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-116',
+        id: 'web-next-20261105-216',
         businessName: 'Indian Talent Academy',
         contactName: '',
         businessType: 'Education Center',
@@ -26381,7 +26381,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-117',
+        id: 'web-next-20261105-217',
         businessName: 'Klaavee Luxe Salon and Laser Studio',
         contactName: '',
         businessType: 'Salon',
@@ -26399,7 +26399,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-118',
+        id: 'web-next-20261105-218',
         businessName: 'SLA Consultants',
         contactName: '',
         businessType: 'Training Center',
@@ -26417,7 +26417,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-119',
+        id: 'web-next-20261105-219',
         businessName: 'QicApp',
         contactName: '',
         businessType: 'Software Company',
@@ -26435,7 +26435,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-120',
+        id: 'web-next-20261105-220',
         businessName: 'Raj Associates',
         contactName: '',
         businessType: 'Property Dealer',
@@ -26453,7 +26453,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-121',
+        id: 'web-next-20261105-221',
         businessName: 'Best Care Dental Clinic',
         contactName: '',
         businessType: 'Dental Clinic',
@@ -26471,7 +26471,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-122',
+        id: 'web-next-20261105-222',
         businessName: 'Dr Aman Ayurvedic Clinic',
         contactName: '',
         businessType: 'Clinic',
@@ -26489,7 +26489,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-123',
+        id: 'web-next-20261105-223',
         businessName: 'Dr Sachin Jindal ENT Hospital',
         contactName: '',
         businessType: 'Hospital',
@@ -26507,7 +26507,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-124',
+        id: 'web-next-20261105-224',
         businessName: 'Pasco Automobiles',
         contactName: '',
         businessType: 'Car Dealer',
@@ -26525,7 +26525,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-125',
+        id: 'web-next-20261105-225',
         businessName: 'Kavya Prop',
         contactName: '',
         businessType: 'Real Estate Agency',
@@ -26543,7 +26543,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-126',
+        id: 'web-next-20261105-226',
         businessName: 'Alleviate Pain Management Clinic Sadashiva Nagar',
         contactName: '',
         businessType: 'Clinic',
@@ -26561,7 +26561,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-127',
+        id: 'web-next-20261105-227',
         businessName: 'Alleviate Pain Management Clinic Jayanagar',
         contactName: '',
         businessType: 'Clinic',
@@ -26579,7 +26579,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-128',
+        id: 'web-next-20261105-228',
         businessName: 'Zaryz Solutions LLP',
         contactName: '',
         businessType: 'Software Company',
@@ -26597,7 +26597,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-129',
+        id: 'web-next-20261105-229',
         businessName: 'Black Pebble Designs',
         contactName: '',
         businessType: 'Interior Designer',
@@ -26615,7 +26615,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-130',
+        id: 'web-next-20261105-230',
         businessName: 'Precise Dental Clinic',
         contactName: '',
         businessType: 'Dental Clinic',
@@ -26633,7 +26633,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-131',
+        id: 'web-next-20261105-231',
         businessName: 'Heart It Out',
         contactName: '',
         businessType: 'Psychology Services',
@@ -26651,7 +26651,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-132',
+        id: 'web-next-20261105-232',
         businessName: 'Loyltworks IT Private Limited',
         contactName: '',
         businessType: 'Software Company',
@@ -26669,7 +26669,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-133',
+        id: 'web-next-20261105-233',
         businessName: 'Paacha Chaalo',
         contactName: '',
         businessType: 'Gift Shop',
@@ -26687,7 +26687,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-134',
+        id: 'web-next-20261105-234',
         businessName: 'Inklidox Technologies Private Limited',
         contactName: '',
         businessType: 'Software Company',
@@ -26705,7 +26705,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-135',
+        id: 'web-next-20261105-235',
         businessName: 'Global Dentistry Ottiambakkam',
         contactName: '',
         businessType: 'Dental Clinic',
@@ -26723,7 +26723,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-136',
+        id: 'web-next-20261105-236',
         businessName: 'Design Digi',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -26741,7 +26741,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-137',
+        id: 'web-next-20261105-237',
         businessName: 'Next Steps Therapy Center',
         contactName: '',
         businessType: 'Rehabilitation Center',
@@ -26759,7 +26759,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-138',
+        id: 'web-next-20261105-238',
         businessName: 'Sameera Groups',
         contactName: '',
         businessType: 'Real Estate Developer',
@@ -26777,7 +26777,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-139',
+        id: 'web-next-20261105-239',
         businessName: 'Go Green Organic Store and Supermarket',
         contactName: '',
         businessType: 'Grocery Store',
@@ -26795,7 +26795,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-140',
+        id: 'web-next-20261105-240',
         businessName: 'Walrus Yes India Can',
         contactName: '',
         businessType: 'Fashion Store',
@@ -26813,7 +26813,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-141',
+        id: 'web-next-20261105-241',
         businessName: 'Vishal Banquet and Marriage Hall',
         contactName: '',
         businessType: 'Banquet Hall',
@@ -26831,7 +26831,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-142',
+        id: 'web-next-20261105-242',
         businessName: 'Astroclap Maha Jyotish and Vastu Kendra',
         contactName: '',
         businessType: 'Consultant',
@@ -26849,7 +26849,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-143',
+        id: 'web-next-20261105-243',
         businessName: 'JUDEX Tutorials',
         contactName: '',
         businessType: 'Coaching Classes',
@@ -26867,7 +26867,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-144',
+        id: 'web-next-20261105-244',
         businessName: 'My Home Designer',
         contactName: '',
         businessType: 'Interior Designer',
@@ -26885,7 +26885,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-145',
+        id: 'web-next-20261105-245',
         businessName: 'Jan Samaj Kalyan Nasha Mukti Kendra',
         contactName: '',
         businessType: 'Rehabilitation Center',
@@ -26903,7 +26903,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-146',
+        id: 'web-next-20261105-246',
         businessName: 'Soil Tech Engineers',
         contactName: '',
         businessType: 'Engineering Services',
@@ -26921,7 +26921,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-147',
+        id: 'web-next-20261105-247',
         businessName: 'Patna Packers Movers',
         contactName: '',
         businessType: 'Packers and Movers',
@@ -26939,7 +26939,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-148',
+        id: 'web-next-20261105-248',
         businessName: 'HiTech Library',
         contactName: '',
         businessType: 'Library',
@@ -26957,7 +26957,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-149',
+        id: 'web-next-20261105-249',
         businessName: 'SKsyntax',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -26975,7 +26975,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-150',
+        id: 'web-next-20261105-250',
         businessName: 'EDigiComfy OPC Pvt Ltd',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -26993,7 +26993,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-151',
+        id: 'web-next-20261105-251',
         businessName: 'Hotel and Resort A.K. International',
         contactName: '',
         businessType: 'Hotel',
@@ -27011,7 +27011,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-152',
+        id: 'web-next-20261105-252',
         businessName: 'Johar Digital Library',
         contactName: '',
         businessType: 'Library',
@@ -27029,7 +27029,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-153',
+        id: 'web-next-20261105-253',
         businessName: 'State Library',
         contactName: '',
         businessType: 'Library',
@@ -27047,7 +27047,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-154',
+        id: 'web-next-20261105-254',
         businessName: 'One Step Library',
         contactName: '',
         businessType: 'Library',
@@ -27065,7 +27065,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-155',
+        id: 'web-next-20261105-255',
         businessName: 'Prakash Library',
         contactName: '',
         businessType: 'Library',
@@ -27083,7 +27083,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-156',
+        id: 'web-next-20261105-256',
         businessName: 'Guru Nanak Trading Co.',
         contactName: '',
         businessType: 'Agriculture Supplier',
@@ -27101,7 +27101,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-157',
+        id: 'web-next-20261105-257',
         businessName: 'Softuvo Solutions',
         contactName: '',
         businessType: 'Software Company',
@@ -27119,7 +27119,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-158',
+        id: 'web-next-20261105-258',
         businessName: 'Devoptiv',
         contactName: '',
         businessType: 'Software Company',
@@ -27137,7 +27137,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-159',
+        id: 'web-next-20261105-259',
         businessName: 'Needle Ads Technologies',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -27155,7 +27155,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-160',
+        id: 'web-next-20261105-260',
         businessName: 'Dhiman Foods Pvt Ltd',
         contactName: '',
         businessType: 'Food Processing Company',
@@ -27173,7 +27173,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-161',
+        id: 'web-next-20261105-261',
         businessName: 'Sukhija Physiotherapy and Manipulation Clinic',
         contactName: '',
         businessType: 'Physiotherapy Clinic',
@@ -27191,7 +27191,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-162',
+        id: 'web-next-20261105-262',
         businessName: 'SPS Creations Digital Marketing Institute',
         contactName: '',
         businessType: 'Training Institute',
@@ -27209,7 +27209,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-163',
+        id: 'web-next-20261105-263',
         businessName: 'Smart Home Waterproofing Services',
         contactName: '',
         businessType: 'Waterproofing Service',
@@ -27227,7 +27227,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-164',
+        id: 'web-next-20261105-264',
         businessName: 'Garg Brothers',
         contactName: '',
         businessType: 'Furniture Manufacturer',
@@ -27245,7 +27245,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-165',
+        id: 'web-next-20261105-265',
         businessName: 'Target Defence Forces',
         contactName: '',
         businessType: 'Coaching Institute',
@@ -27263,7 +27263,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-166',
+        id: 'web-next-20261105-266',
         businessName: 'The Vanity Unisex Salon',
         contactName: '',
         businessType: 'Salon',
@@ -27281,7 +27281,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-167',
+        id: 'web-next-20261105-267',
         businessName: 'Digital Influencer',
         contactName: '',
         businessType: 'Marketing Agency',
@@ -27299,7 +27299,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-168',
+        id: 'web-next-20261105-268',
         businessName: 'Shivam Glass And Plywood',
         contactName: '',
         businessType: 'Furniture and Hardware',
@@ -27317,7 +27317,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-169',
+        id: 'web-next-20261105-269',
         businessName: 'Motion Education Coaching Center',
         contactName: '',
         businessType: 'Coaching Institute',
@@ -27335,7 +27335,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-170',
+        id: 'web-next-20261105-270',
         businessName: 'Motion Education Haldwani',
         contactName: '',
         businessType: 'Coaching Institute',
@@ -27353,7 +27353,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-171',
+        id: 'web-next-20261105-271',
         businessName: 'Tathya Architect',
         contactName: '',
         businessType: 'Architect',
@@ -27371,7 +27371,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-172',
+        id: 'web-next-20261105-272',
         businessName: 'Medicare Multi-Speciality Hospital',
         contactName: '',
         businessType: 'Hospital',
@@ -27389,7 +27389,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-173',
+        id: 'web-next-20261105-273',
         businessName: 'Rahul Jewellery',
         contactName: '',
         businessType: 'Jewellery Store',
@@ -27407,7 +27407,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-174',
+        id: 'web-next-20261105-274',
         businessName: 'Study with IB',
         contactName: '',
         businessType: 'Coaching Center',
@@ -27425,7 +27425,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-175',
+        id: 'web-next-20261105-275',
         businessName: 'Infinity Devcon',
         contactName: '',
         businessType: 'Construction Company',
@@ -27443,7 +27443,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-176',
+        id: 'web-next-20261105-276',
         businessName: 'Trim Designer',
         contactName: '',
         businessType: 'Window Blinds Manufacturer',
@@ -27461,7 +27461,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-177',
+        id: 'web-next-20261105-277',
         businessName: 'Dr Sanjoy Mandal',
         contactName: '',
         businessType: 'Medical Professional',
@@ -27479,7 +27479,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-178',
+        id: 'web-next-20261105-278',
         businessName: 'Ekayaa Swosti Premium',
         contactName: '',
         businessType: 'Salon',
@@ -27497,7 +27497,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-179',
+        id: 'web-next-20261105-279',
         businessName: 'Rabindra Kumar Library',
         contactName: '',
         businessType: 'Library',
@@ -27515,7 +27515,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         updatedAt: '2026-11-05',
       },
       {
-        id: 'web-next-20261105-180',
+        id: 'web-next-20261105-280',
         businessName: 'Bachpan Play School',
         contactName: '',
         businessType: 'School',
