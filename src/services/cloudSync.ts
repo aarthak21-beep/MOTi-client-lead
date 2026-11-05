@@ -46,6 +46,16 @@ export async function pullCloudData(): Promise<void> {
   }
 }
 
+export async function testCloudWrite(): Promise<void> {
+  const payload = JSON.stringify({ data: { motiq_connection_test: true, tested_at: new Date().toISOString() } });
+  await fetch(CLOUD_URL, {
+    method: 'POST',
+    mode: 'no-cors',
+    headers: { 'Content-Type': 'text/plain;charset=utf-8' },
+    body: payload,
+  });
+}
+
 export async function pushCloudData(): Promise<void> {
   const payload = JSON.stringify({ data: JSON.parse(exportAllData()) });
   await fetch(CLOUD_URL, {
