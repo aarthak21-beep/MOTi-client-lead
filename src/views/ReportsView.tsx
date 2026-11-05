@@ -94,7 +94,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
         </div>
 
         {/* Date Filter */}
-        <div className="flex items-center rounded-xl border border-slate-800 bg-[#0b1224] p-1">
+        <div className="flex items-center rounded-xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-1">
           <button
             onClick={() => setDateFilter('30days')}
             className={`rounded-lg px-3 py-1.5 text-xs font-semibold transition-colors ${
@@ -182,8 +182,8 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
       {/* Charts Grid */}
       <div className="grid grid-cols-1 lg:grid-cols-12 gap-6">
         {/* Monthly Revenue Bar Chart (7 Cols) */}
-        <div className="lg:col-span-7 rounded-3xl border border-slate-800 bg-[#0b1224] p-6 space-y-4">
-          <div className="flex items-center justify-between border-b border-slate-800/80 pb-4">
+        <div className="lg:col-span-7 rounded-3xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-6 space-y-4">
+          <div className="flex items-center justify-between border-b border-white/10/80 pb-4">
             <div>
               <h3 className="text-sm font-bold text-white flex items-center gap-2">
                 <TrendingUp className="h-4 w-4 text-cyan-400" />
@@ -227,8 +227,8 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
         </div>
 
         {/* Most Popular Packages Distribution (5 Cols) */}
-        <div className="lg:col-span-5 rounded-3xl border border-slate-800 bg-[#0b1224] p-6 space-y-4">
-          <div className="border-b border-slate-800/80 pb-4">
+        <div className="lg:col-span-5 rounded-3xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-6 space-y-4">
+          <div className="border-b border-white/10/80 pb-4">
             <h3 className="text-sm font-bold text-white flex items-center gap-2">
               <PieChart className="h-4 w-4 text-emerald-400" />
               Most Popular Packages
@@ -257,7 +257,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
             })}
           </div>
 
-          <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-3 mt-4 text-xs text-slate-400">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/40 p-3 mt-4 text-xs text-slate-400">
             💡 <strong>Agency Insight:</strong> The <strong>Business Website (₹4,999)</strong> is your highest margin and most requested package by local coaching institutes and clinics.
           </div>
         </div>
@@ -266,7 +266,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
       {/* Category Breakdown & Funnel */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {/* Industry Category Distribution */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6 space-y-4">
+        <div className="rounded-3xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-6 space-y-4">
           <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
             <Users className="h-4 w-4 text-blue-400" />
             Client Industries / Business Niches
@@ -276,7 +276,7 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
             {Object.entries(categoryCounts).map(([cat, cnt]) => (
               <div
                 key={cat}
-                className="rounded-xl border border-slate-800 bg-slate-900/60 p-3 flex items-center justify-between"
+                className="rounded-xl border border-white/10 bg-slate-900/60 p-3 flex items-center justify-between"
               >
                 <span className="text-xs text-slate-300 font-medium">{cat}</span>
                 <span className="rounded-full bg-cyan-500/20 px-2 py-0.5 text-xs font-mono font-bold text-cyan-300 border border-cyan-500/30">
@@ -288,14 +288,14 @@ export const ReportsView: React.FC<ReportsViewProps> = ({
         </div>
 
         {/* Lead-to-Delivery Funnel */}
-        <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6 space-y-4">
+        <div className="rounded-3xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-6 space-y-4">
           <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
             <Sparkles className="h-4 w-4 text-cyan-400" />
             Agency Conversion Funnel
           </h3>
 
           <div className="space-y-3 pt-2 text-xs">
-            <div className="p-3 rounded-xl bg-slate-900/80 border border-slate-800 flex justify-between items-center">
+            <div className="p-3 rounded-xl bg-slate-900/80 border border-white/10 flex justify-between items-center">
               <span className="font-semibold text-slate-300">1. Total Inquiries & Leads:</span>
               <span className="font-mono font-bold text-white text-sm">{totalLeads}</span>
             </div>
