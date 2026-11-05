@@ -22,6 +22,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 import { AgencySettings, MessageTemplate, PricingPlan } from '../types';
+import { testCloudWrite } from '../services/cloudSync';
 import {
   exportAllData,
   importAllData,
@@ -58,6 +59,17 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
   // Backup state
   const [importJsonText, setImportJsonText] = useState('');
   const [importStatus, setImportStatus] = useState<'idle' | 'success' | 'error'>('idle');
+  const [cloudTestStatus, setCloudTestStatus] = useState<'idle' | 'testing' | 'sent' | 'error'>('idle');
+
+  const handleCloudTest = async () => {
+    setCloudTestStatus('testing');
+    try {
+      await testCloudWrite();
+      setCloudTestStatus('sent');
+    } catch {
+      setCloudTestStatus('error');
+    }
+  };
 
   const handleSaveAgency = (e: React.FormEvent) => {
     e.preventDefault();
@@ -637,6 +649,32 @@ export const SettingsView: React.FC<SettingsViewProps> = ({
       {/* TAB 5: BACKUP & DATABASE RESTORE */}
       {activeTab === 'backup' && (
         <div className="space-y-6 max-w-3xl">
+          {/* Cloud connection test */}
+          <div className="rounded-3xl border border-violet-500/30 bg-violet-950/20 p-6 space-y-4">
+            <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
+              <Upload className="h-4 w-4 text-violet-400" />
+              MOTIQ Google Sheets Cloud Connection
+            </h3>
+            <p className="text-xs text-slate-300">
+              Send a small test record from this app to the linked Google Sheet. This test does not upload your CRM records.
+            </p>
+            <button
+              type="button"
+              onClick={handleCloudTest}
+              disabled={cloudTestStatus === 'testing'}
+              className="flex items-center gap-2 rounded-xl bg-violet-500 px-5 py-2.5 text-xs font-bold text-white hover:bg-violet-400 disabled:opacity-50"
+            >
+              <Upload className="h-4 w-4" />
+              <span>{cloudTestStatus === 'testing' ? 'Sending test…' : 'Test Cloud Connection'}</span>
+            </button>
+            {cloudTestStatus === 'sent' && (
+              <p className="text-xs text-emerald-300 font-bold">Test request sent. Open the Google Sheet and check cell A1 for “motiq_connection_test”.</p>
+            )}
+            {cloudTestStatus === 'error' && (
+              <p className="text-xs text-rose-300 font-bold">Could not send the test request. Check Google sign-in and Sheet access.</p>
+            )}
+          </div>
+
           {/* Export */}
           <div className="rounded-3xl border border-slate-800 bg-[#0b1224] p-6 space-y-4">
             <h3 className="text-sm font-bold text-white uppercase tracking-wider flex items-center gap-2">
