@@ -164,7 +164,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
         </div>
 
         {/* Language Switcher */}
-        <div className="flex items-center rounded-2xl border border-slate-800 bg-[#0b1224] p-1 self-start sm:self-auto">
+        <div className="flex items-center rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-1 self-start sm:self-auto">
           <button
             onClick={() => setLanguage('english')}
             className={`flex items-center gap-1.5 rounded-xl px-4 py-2 text-xs font-bold transition-all ${
@@ -192,7 +192,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
         {/* Left Column: Configuration & Selectors (5 Cols) */}
         <div className="lg:col-span-5 space-y-4">
           {/* Step 1: Select Customer */}
-          <div className="rounded-2xl border border-slate-800 bg-[#0b1224] p-4 space-y-3">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-4 space-y-3">
             <div className="flex items-center justify-between">
               <label className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
                 <User className="h-4 w-4 text-cyan-400" />
@@ -208,7 +208,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
             <select
               value={selectedLeadId}
               onChange={(e) => setSelectedLeadId(e.target.value)}
-              className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+              className="w-full rounded-xl border border-white/10 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
             >
               <optgroup label="Active Leads & Clients">
                 {leads.map((l) => (
@@ -221,34 +221,34 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
             </select>
 
             {selectedLeadId === 'custom' && (
-              <div className="space-y-2 pt-2 border-t border-slate-800">
+              <div className="space-y-2 pt-2 border-t border-white/10">
                 <input
                   type="text"
                   value={customName}
                   onChange={(e) => setCustomName(e.target.value)}
                   placeholder="Customer Name (e.g. Ramesh Kulkarni)"
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
                 />
                 <input
                   type="text"
                   value={customBusiness}
                   onChange={(e) => setCustomBusiness(e.target.value)}
                   placeholder="Business Name (e.g. Kulkarni Jewelers)"
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
                 />
                 <input
                   type="tel"
                   value={customPhone}
                   onChange={(e) => setCustomPhone(e.target.value)}
                   placeholder="WhatsApp Number (e.g. +91 98221 11223)"
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white font-mono focus:border-cyan-500 focus:outline-hidden"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white font-mono focus:border-cyan-500 focus:outline-hidden"
                 />
               </div>
             )}
           </div>
 
           {/* Step 2: Select Message Template */}
-          <div className="rounded-2xl border border-slate-800 bg-[#0b1224] p-4 space-y-3">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-4 space-y-3">
             <label className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
               <MessageSquare className="h-4 w-4 text-emerald-400" />
               Step 2: Choose Message Template
@@ -264,7 +264,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                     className={`flex w-full items-center justify-between rounded-xl px-3.5 py-2.5 text-xs text-left transition-all ${
                       isSelected
                         ? 'border border-emerald-500/40 bg-emerald-500/15 font-semibold text-emerald-300'
-                        : 'border border-slate-800/80 bg-slate-900/60 text-slate-300 hover:bg-slate-800/80'
+                        : 'border border-white/10/80 bg-slate-900/60 text-slate-300 hover:bg-slate-800/80'
                     }`}
                   >
                     <span>{template.title}</span>
@@ -276,7 +276,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
           </div>
 
           {/* Step 3: Dynamic Variables & Customization */}
-          <div className="rounded-2xl border border-slate-800 bg-[#0b1224] p-4 space-y-3">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-4 space-y-3">
             <label className="text-xs font-bold uppercase tracking-wider text-slate-300 flex items-center gap-1.5">
               <Sparkles className="h-4 w-4 text-blue-400" />
               Template Variables & Details
@@ -288,7 +288,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                 <select
                   value={selectedDemoId}
                   onChange={(e) => setSelectedDemoId(e.target.value)}
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
                 >
                   {demoTemplates.map((demo) => (
                     <option key={demo.id} value={demo.id}>
@@ -305,7 +305,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                 <select
                   value={selectedPackageName}
                   onChange={(e) => setSelectedPackageName(e.target.value)}
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
                 >
                   <option value="Starter Website (₹2,999)">Starter Website (₹2,999)</option>
                   <option value="Business Website (₹4,999)">Business Website (₹4,999)</option>
@@ -323,7 +323,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                     type="number"
                     value={totalAmount}
                     onChange={(e) => setTotalAmount(Number(e.target.value))}
-                    className="w-full rounded-xl border border-slate-800 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
+                    className="w-full rounded-xl border border-white/10 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
                   />
                 </div>
                 <div>
@@ -332,7 +332,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                     type="number"
                     value={dueAmount}
                     onChange={(e) => setDueAmount(Number(e.target.value))}
-                    className="w-full rounded-xl border border-slate-800 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
+                    className="w-full rounded-xl border border-white/10 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
                   />
                 </div>
               </div>
@@ -345,12 +345,12 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
                   type="text"
                   value={liveUrl}
                   onChange={(e) => setLiveUrl(e.target.value)}
-                  className="w-full rounded-xl border border-slate-800 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
+                  className="w-full rounded-xl border border-white/10 bg-slate-900 py-1.5 px-3 text-xs text-white font-mono"
                 />
               </div>
             )}
 
-            <div className="text-[11px] text-slate-400 pt-1 flex items-center justify-between border-t border-slate-800/60">
+            <div className="text-[11px] text-slate-400 pt-1 flex items-center justify-between border-t border-white/10/60">
               <span>Agency UPI: <strong className="text-slate-200">{settings.upiId}</strong></span>
               <span>Sender: <strong className="text-slate-200">{settings.whatsapp}</strong></span>
             </div>
@@ -359,9 +359,9 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
 
         {/* Right Column: WhatsApp Simulator & Actions (7 Cols) */}
         <div className="lg:col-span-7 space-y-4">
-          <div className="rounded-3xl border border-slate-800 bg-[#07131e] overflow-hidden shadow-2xl flex flex-col h-full">
+          <div className="rounded-3xl border border-white/10 bg-[#07131e] overflow-hidden shadow-2xl flex flex-col h-full">
             {/* WhatsApp Phone Mock Header */}
-            <div className="bg-[#121b22] px-5 py-3.5 border-b border-slate-800/80 flex items-center justify-between">
+            <div className="bg-[#121b22] px-5 py-3.5 border-b border-white/10/80 flex items-center justify-between">
               <div className="flex items-center gap-3">
                 <div className="flex h-10 w-10 items-center justify-center rounded-full bg-emerald-600/30 text-emerald-400 font-bold text-sm border border-emerald-500/40">
                   {customerName.charAt(0) || 'C'}
@@ -404,7 +404,7 @@ export const WhatsAppCentreView: React.FC<WhatsAppCentreViewProps> = ({
             </div>
 
             {/* Safety Confirmation & Send Bar */}
-            <div className="bg-[#121b22] p-4 border-t border-slate-800 space-y-3">
+            <div className="bg-[#121b22] p-4 border-t border-white/10 space-y-3">
               {/* Mandatory Safety Checkbox */}
               <label className="flex items-start gap-2.5 cursor-pointer select-none">
                 <input
