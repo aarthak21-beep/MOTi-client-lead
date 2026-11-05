@@ -6829,6 +6829,42 @@ export function getNewspaperProspects(): NewspaperProspect[] {
       {id:'news-pdf-next-035',businessName:'Anand Kumar Pathak News Paper Agent',contactName:'',businessType:'Newspaper Agency',whatsapp:'910545263383',city:'Jaunpur',district:'Jaunpur',state:'Uttar Pradesh',source:'Employment News existing agents directory (PDF)',notes:'Listed as a newspaper agent in the published directory. Verify current operation and contact details before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'news-pdf-next-036',businessName:'Shri Punu Lal News Paper Agent',contactName:'',businessType:'Newspaper Agency',whatsapp:'',city:'Mandi Dabwali',district:'Sirsa',state:'Haryana',source:'Employment News existing agents directory (PDF)',notes:'Listed as a newspaper agent in the published directory. Verify current operation and contact details before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'news-pdf-next-037',businessName:'News Agency - Gulaothi',contactName:'',businessType:'Newspaper Agency',whatsapp:'',city:'Gulaothi',district:'Bulandshahr',state:'Uttar Pradesh',source:'Employment News existing agents directory (PDF)',notes:'Listed as a newspaper agent in the published directory. Verify current operation and contact details before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'}
+      ,
+      {
+        id: 'news-ins-next-001', businessName: 'Mayura', contactName: 'K.T. Sowbhagyalakshmi', businessType: 'Newspaper Publisher', whatsapp: '',
+        city: 'Bengaluru', district: 'Bengaluru Urban', state: 'Karnataka', website: '',
+        source: 'Indian Newspaper Society — Executive Committee 2026-27',
+        notes: 'Publisher listed as The Printers (Mysore) Pvt. Ltd., No. 75, Mahatma Gandhi Road, Bengaluru 560001. Official committee listing names the publisher representative; no direct phone published in the listing. Verify contact route before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05',
+      },
+      {
+        id: 'news-ins-next-002', businessName: 'Kalki Weekly', contactName: 'Lakshmi Natarajan', businessType: 'Newspaper Publisher', whatsapp: '',
+        city: 'Chennai', district: 'Chennai', state: 'Tamil Nadu', website: 'https://www.kalkiweekly.com',
+        source: 'Association of Indian Magazines — AIM Members directory',
+        notes: 'Bharathan Publications; 47-NP Jawaharlal Nehru Road, Ekkaduthangal, Chennai. Published office telephone: 044-43438888. Office number is not confirmed as WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05',
+      },
+      {
+        id: 'news-ins-next-003', businessName: 'Chitralekha', contactName: 'Mitrajit Bhattacharya', businessType: 'Newspaper Publisher', whatsapp: '',
+        city: 'Mumbai', district: 'Mumbai Suburban', state: 'Maharashtra', website: 'https://www.chitralekha.com',
+        source: 'Association of Indian Magazines — AIM Members directory',
+        notes: 'Unit No. 25, Andheri Industrial Estate, Off Veera Desai Road, Andheri West, Mumbai. Published office telephone: 022-6921910/11. Office number is not confirmed as WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05',
+      },
+      {
+        id: 'news-ins-next-004', businessName: 'Krishi Jagran', contactName: 'MC Dominic', businessType: 'Newspaper Publisher', whatsapp: '',
+        city: 'New Delhi', district: 'New Delhi', state: 'Delhi', website: 'https://www.krishijagran.com',
+        source: 'Association of Indian Magazines — AIM Members directory',
+        notes: '60/4, Yusuf Sarai, Green Park Metro, New Delhi 110016. Published office telephone: 011-45578159. Office number is not confirmed as WhatsApp.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05',
+      },
+      {
+        id: 'news-ins-next-005', businessName: 'North East Sun', contactName: '', businessType: 'Newspaper Publisher', whatsapp: '',
+        city: 'New Delhi', district: 'New Delhi', state: 'Delhi', website: '',
+        source: 'Newspaper Association of India — Media Infoguide',
+        notes: 'Published print-media office telephone: 23711910. Directory does not identify a WhatsApp contact or current local office; verify publisher identity and current contact before outreach.',
+        status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05',
+      }
     ];
     if (raw) {
       const existing: NewspaperProspect[] = JSON.parse(raw);
