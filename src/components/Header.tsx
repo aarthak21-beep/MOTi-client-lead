@@ -38,6 +38,8 @@ interface HeaderProps {
 const TAB_TITLES: Record<ActiveTab, { title: string; subtitle: string }> = {
   dashboard: { title: 'Agency Dashboard', subtitle: 'Real-time overview of clients, pipeline & revenue' },
   leads: { title: 'Lead & Customer Management', subtitle: 'Capture enquiries, track follow-ups & log conversations' },
+  'newspaper-prospects': { title: 'Newspaper Business Leads', subtitle: 'Publishers, agencies, distributors & print media prospects' },
+  'website-prospects': { title: 'Website Development Leads', subtitle: 'Business prospects for website design & development' },
   whatsapp: { title: 'WhatsApp Message Centre', subtitle: 'Bilingual (English & Marathi) personalized client messaging' },
   quotations: { title: 'Plans & Quotations Generator', subtitle: 'Generate official proposals, itemized pricing & downloadable PDFs' },
   demos: { title: 'Demo Website Library', subtitle: 'Showcase ready-to-use industry templates & send preview links' },
@@ -66,7 +68,7 @@ export const Header: React.FC<HeaderProps> = ({
   const currentTabInfo = TAB_TITLES[activeTab] || { title: 'MOTI OS', subtitle: 'Agency Management' };
 
   return (
-    <header className="sticky top-0 z-30 flex h-20 items-center justify-between border-b border-slate-800/80 bg-[#080d1a]/95 px-4 backdrop-blur-md sm:px-6">
+    <header className="sticky top-0 z-30 flex h-[76px] items-center justify-between border-b border-slate-700/60 bg-[#081222]/90 px-4 shadow-lg shadow-black/10 backdrop-blur-xl sm:px-6">
       {/* Left: Mobile hamburger & Page Title */}
       <div className="flex items-center gap-3">
         <button
