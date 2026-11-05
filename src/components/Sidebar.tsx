@@ -158,12 +158,12 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Sidebar container */}
       <aside
-        className={`fixed top-0 bottom-0 left-0 z-50 flex w-72 flex-col border-r border-slate-800/80 bg-[#090f1e] transition-transform duration-300 lg:static lg:translate-x-0 ${
+        className={`fixed top-0 bottom-0 left-0 z-50 flex w-72 flex-col border-r border-slate-700/60 bg-[linear-gradient(180deg,#0d192d_0%,#080f1e_100%)] shadow-[18px_0_50px_rgba(0,0,0,.18)] transition-transform duration-300 lg:static lg:translate-x-0 ${
           isOpenMobile ? 'translate-x-0' : '-translate-x-full'
         }`}
       >
         {/* Brand Header */}
-        <div className="flex h-20 items-center justify-between border-b border-slate-800/80 px-6">
+        <div className="flex h-20 items-center justify-between border-b border-slate-700/60 bg-white/[0.015] px-6">
           <div className="flex items-center gap-3">
             <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-tr from-cyan-600 via-blue-600 to-indigo-500 shadow-lg shadow-cyan-500/20 ring-1 ring-cyan-400/30">
               <Sparkles className="h-5 w-5 text-white" />
@@ -182,7 +182,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
         {/* Agency Status Card */}
         <div className="px-4 pt-4 pb-2">
-          <div className="rounded-xl border border-cyan-900/30 bg-gradient-to-b from-cyan-950/30 to-blue-950/20 p-3">
+          <div className="rounded-2xl border border-cyan-400/15 bg-gradient-to-br from-cyan-400/[0.09] via-blue-500/[0.05] to-transparent p-3 shadow-lg shadow-cyan-950/20">
             <div className="flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <div className="h-2 w-2 rounded-full bg-emerald-400 shadow-[0_0_8px_#34d399]" />
@@ -211,7 +211,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
                   setActiveTab(item.id);
                   setIsOpenMobile(false);
                 }}
-                className={`group flex w-full items-center justify-between rounded-xl px-3.5 py-2.5 text-xs font-medium transition-all ${
+                className={`group flex w-full items-center justify-between rounded-xl px-3.5 py-3 text-xs font-medium transition-all duration-200 ${
                   isActive
                     ? 'bg-gradient-to-r from-cyan-600/25 via-blue-600/20 to-transparent text-cyan-300 shadow-xs border border-cyan-500/30 font-semibold'
                     : 'text-slate-400 hover:bg-slate-800/50 hover:text-slate-200'
