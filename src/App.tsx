@@ -81,7 +81,7 @@ export default function App() {
 
   // Initialize and subscribe
   useEffect(() => {
-    initializeStorageIfNeeded();
+    // Some Android in-app browsers block or quota-limit localStorage.\n    // Never let optional local persistence prevent the CRM UI from mounting.\n    try {\n      initializeStorageIfNeeded();\n    } catch (error) {\n      console.warn('CRM storage is unavailable; continuing with in-memory defaults.', error);\n    }
 
     const reloadData = () => {
       setLeads(getLeads());
