@@ -40,6 +40,31 @@ interface LeadsViewProps {
   searchQuery: string;
 }
 
+
+function parseLeadCsv(input: string): string[][] {
+  const rows: string[][] = [];
+  let row: string[] = [];
+  let cell = '';
+  let quoted = false;
+  for (let i = 0; i < input.length; i += 1) {
+    const ch = input[i];
+    if (quoted) {
+      if (ch === '"' && input[i + 1] === '"') { cell += '"'; i += 1; }
+      else if (ch === '"') quoted = false;
+      else cell += ch;
+    } else if (ch === '"' && cell.length === 0) quoted = true;
+    else if (ch === ',') { row.push(cell.trim()); cell = ''; }
+    else if (ch === '\n') { row.push(cell.trim().replace(/\r$/, '')); rows.push(row); row = []; cell = ''; }
+    else cell += ch;
+  }
+  if (cell.length || row.length) { row.push(cell.trim().replace(/\r$/, '')); rows.push(row); }
+  return rows.filter((values) => values.some((value) => value.length > 0));
+}
+
+function normalizeImportPhone(value: string): string {
+  return value.replace(/\D/g, '').replace(/^91(?=\d{10}$)/, '');
+}
+
 const CATEGORIES: BusinessCategory[] = [
   'Coaching Institute',
   'Restaurant & Cafe',
@@ -74,6 +99,8 @@ export const LeadsView: React.FC<LeadsViewProps> = ({
   const [statusFilter, setStatusFilter] = useState<string>('all');
   const [categoryFilter, setCategoryFilter] = useState<string>('all');
   const [internalSearch, setInternalSearch] = useState<string>('');
+  const [importing, setImporting] = useState(false);
+  const [importMessage, setImportMessage] = useState('');
 
   // Modals state
   const [isAddEditOpen, setIsAddEditOpen] = useState(false);
@@ -185,6 +212,92 @@ export const LeadsView: React.FC<LeadsViewProps> = ({
     // If viewing lead is the one being updated, refresh
     if (viewingLead && viewingLead.id === payload.id) {
       setViewingLead(payload);
+    }
+  };
+
+  const handleImportLeads = async (event: React.ChangeEvent<HTMLInputElement>) => {
+    const file = event.target.files?.[0];
+    if (!file) return;
+    setImportMessage('');
+    setImporting(true);
+    try {
+      if (!file.name.toLowerCase().endsWith('.csv')) {
+        throw new Error('Please upload a .csv file. For Excel, use Save As → CSV UTF-8.');
+      }
+      if (file.size > 5 * 1024 * 1024) throw new Error('File must be 5 MB or smaller.');
+      const rows = parseLeadCsv((await file.text()).replace(/^\uFEFF/, ''));
+      if (rows.length < 2) throw new Error('CSV needs a header row and at least one lead.');
+      if (rows.length > 1001) throw new Error('Import is limited to 1,000 leads per file.');
+
+      const headerKey = (value: string) => value.toLowerCase().trim().replace(/[\s_-]+/g, '');
+      const headers = rows[0].map(headerKey);
+      const aliases: Record<string, string[]> = {
+        name: ['name', 'customername', 'contactperson', 'owner', 'contactname'],
+        businessName: ['businessname', 'business', 'company', 'shopname'],
+        phone: ['phone', 'phonenumber', 'mobile', 'mobilenumber', 'telephone', 'contact'],
+        whatsapp: ['whatsapp', 'whatsappnumber', 'whatsappphone'],
+        email: ['email', 'emailaddress'],
+        address: ['address', 'city', 'location', 'area'],
+        category: ['category', 'businesscategory', 'type'],
+        status: ['status', 'leadstatus'],
+        followUpDate: ['followupdate', 'nextfollowup'],
+        followUpTime: ['followuptime'],
+        estimatedBudget: ['estimatedbudget', 'budget', 'value'],
+      };
+      const indexes: Record<string, number> = {};
+      Object.entries(aliases).forEach(([field, names]) => {
+        const index = headers.findIndex((header) => names.includes(header));
+        if (index >= 0) indexes[field] = index;
+      });
+      if (indexes.phone === undefined || (indexes.name === undefined && indexes.businessName === undefined)) {
+        throw new Error('Required columns: name or business_name, and phone. Download the template for the correct format.');
+      }
+      const get = (cells: string[], field: string) => indexes[field] === undefined ? '' : (cells[indexes[field]] || '').trim();
+      const known = new Set(leads.map((lead) => lead.businessName.trim().toLowerCase() + '|' + normalizeImportPhone(lead.phone)));
+      let imported = 0;
+      let skipped = 0;
+      const today = new Date().toISOString().split('T')[0];
+      const validStatuses: LeadStatus[] = ['New', 'Contacted', 'Interested', 'Follow-up', 'Converted', 'Not Interested'];
+      for (let index = 1; index < rows.length; index += 1) {
+        const cells = rows[index];
+        const name = get(cells, 'name') || get(cells, 'businessName');
+        const businessName = get(cells, 'businessName') || name;
+        const phone = get(cells, 'phone');
+        if (!name || !phone) { skipped += 1; continue; }
+        const duplicateKey = businessName.toLowerCase() + '|' + normalizeImportPhone(phone);
+        if (known.has(duplicateKey)) { skipped += 1; continue; }
+        const categoryText = get(cells, 'category') as BusinessCategory;
+        const category = CATEGORIES.includes(categoryText) ? categoryText : 'Other';
+        const statusText = get(cells, 'status') as LeadStatus;
+        const status = validStatuses.includes(statusText) ? statusText : 'New';
+        const budget = Number(get(cells, 'estimatedBudget'));
+        const lead: Lead = {
+          id: 'lead-import-' + Date.now() + '-' + index,
+          name,
+          businessName,
+          phone,
+          whatsapp: get(cells, 'whatsapp') || phone,
+          email: get(cells, 'email'),
+          address: get(cells, 'address'),
+          category,
+          status,
+          notesHistory: [],
+          followUpDate: get(cells, 'followUpDate') || undefined,
+          followUpTime: get(cells, 'followUpTime') || undefined,
+          estimatedBudget: Number.isFinite(budget) && budget > 0 ? budget : 4999,
+          createdAt: today,
+          updatedAt: today,
+        };
+        saveLead(lead);
+        known.add(duplicateKey);
+        imported += 1;
+      }
+      setImportMessage('Import complete: ' + imported + ' added, ' + skipped + ' skipped (missing details or duplicates). Existing leads were not deleted.');
+    } catch (error) {
+      setImportMessage(error instanceof Error ? error.message : 'Could not import this file.');
+    } finally {
+      setImporting(false);
+      event.target.value = '';
     }
   };
 
@@ -304,6 +417,23 @@ export const LeadsView: React.FC<LeadsViewProps> = ({
           </button>
         </div>
       </div>
+
+      <section className="rounded-2xl border border-slate-800 bg-[#0b1224] p-4 space-y-3">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <h3 className="text-sm font-bold text-white flex items-center gap-2"><FileSpreadsheet className="h-4 w-4 text-cyan-400" /> Import leads from CSV</h3>
+            <p className="text-[11px] text-slate-400 mt-1">Adds new leads only. Existing leads stay safe; duplicate business + phone rows are skipped. Up to 1,000 rows / 5 MB.</p>
+          </div>
+          <a
+            href={'data:text/csv;charset=utf-8,' + encodeURIComponent('name,business_name,phone,whatsapp,email,address,category,status,follow_up_date,follow_up_time,estimated_budget\\nAmit Patil,Patil Classes,9876543210,9876543210,amit@example.com,Pune,Coaching Institute,New,2026-11-10,11:30 AM,4999')}
+            download="moti-leads-import-template.csv"
+            className="text-xs font-semibold text-cyan-300 hover:text-cyan-200 underline"
+          >Download CSV template</a>
+        </div>
+        <input type="file" accept=".csv,text/csv" onChange={handleImportLeads} disabled={importing} className="block w-full text-xs text-slate-300 file:mr-3 file:rounded-lg file:border-0 file:bg-cyan-500 file:px-3 file:py-2 file:text-xs file:font-bold file:text-slate-950 hover:file:bg-cyan-400 disabled:opacity-50" />
+        {importing && <p className="text-xs text-cyan-300">Importing leads…</p>}
+        {importMessage && <p role="status" className="text-xs text-slate-200 rounded-lg bg-slate-900 p-3">{importMessage}</p>}
+      </section>
 
       {/* Leads Table / Grid */}
       {filteredLeads.length === 0 ? (
