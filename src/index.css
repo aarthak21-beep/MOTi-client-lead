@@ -79,3 +79,46 @@ table { border-collapse: separate; border-spacing: 0; }
 thead th { color: #94a3b8; font-size: 10px; letter-spacing: .09em; text-transform: uppercase; }
 tbody tr { transition: background-color .15s ease; }
 tbody tr:hover { background: rgba(30, 41, 59, .38); }
+
+
+/* MOTI PREMIUM SYSTEM — shared across every workspace */
+:root {
+  --moti-bg: #070d1a;
+  --moti-surface: #0d192c;
+  --moti-surface-raised: #12213a;
+  --moti-line: rgba(148, 163, 184, .16);
+  --moti-cyan: #67e8f9;
+  --moti-blue: #60a5fa;
+}
+html { scroll-behavior: smooth; }
+body {
+  background:
+    radial-gradient(ellipse at 8% 0%, rgba(14, 116, 144, .14), transparent 32%),
+    radial-gradient(ellipse at 92% 8%, rgba(37, 99, 235, .11), transparent 30%),
+    linear-gradient(145deg, #070d1a 0%, #091326 48%, #080f1e 100%);
+}
+#root { min-height: 100vh; }
+main { isolation: isolate; }
+div[class*="rounded-2xl"][class*="border"][class*="bg-"],
+div[class*="rounded-3xl"][class*="border"][class*="bg-"] {
+  box-shadow: 0 12px 34px rgba(0, 0, 0, .13), inset 0 1px 0 rgba(255,255,255,.018);
+}
+table { width: 100%; }
+thead th { padding-top: .9rem; padding-bottom: .9rem; white-space: nowrap; }
+tbody td { vertical-align: middle; }
+button:not(:disabled) { cursor: pointer; }
+button:disabled { cursor: not-allowed; opacity: .55; }
+input, select, textarea {
+  color-scheme: dark;
+  min-height: 38px;
+}
+textarea { min-height: 84px; }
+::placeholder { color: #64748b !important; opacity: 1; }
+a { text-underline-offset: 3px; }
+@media (max-width: 640px) {
+  main { padding-top: 1.1rem !important; padding-bottom: 2rem !important; }
+  header { min-height: 68px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
