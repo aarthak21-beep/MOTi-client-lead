@@ -61,7 +61,7 @@ export const StatCard: React.FC<StatCardProps> = ({
   return (
     <div
       onClick={onClick}
-      className={`group relative overflow-hidden rounded-2xl border bg-[#0b1224] p-5 transition-all duration-200 ${
+      className={`group relative overflow-hidden rounded-[22px] border bg-gradient-to-br from-[#14233b] via-[#0e1a30] to-[#0b1426] p-5 shadow-xl shadow-black/15 ring-1 ring-white/[0.025] transition-all duration-200 ${
         colorStyles.border
       } ${onClick ? 'cursor-pointer hover:-translate-y-0.5' : ''}`}
     >
@@ -86,7 +86,7 @@ export const StatCard: React.FC<StatCardProps> = ({
           )}
         </div>
 
-        <div className={`rounded-xl p-3 ${colorStyles.iconBg}`}>
+        <div className={`rounded-2xl p-3.5 ring-1 ring-white/[0.06] ${colorStyles.iconBg}`}>
           <Icon className="h-5 w-5" />
         </div>
       </div>
