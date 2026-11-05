@@ -170,7 +170,7 @@ export const Sidebar: React.FC<SidebarProps> = ({
             </div>
             <div>
               <div className="flex items-center gap-1.5">
-                <span className="font-extrabold tracking-tight text-white text-base">MOTI</span>
+                <span className="font-extrabold tracking-tight text-white text-base">MOTIQ</span>
                 <span className="rounded-sm bg-cyan-500/20 px-1.5 py-0.5 text-[10px] font-semibold text-cyan-300 border border-cyan-500/30">
                   OS
                 </span>
