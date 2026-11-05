@@ -222,7 +222,7 @@ export default function App() {
   const pendingPaymentsCount = projects.filter((p) => (p.remainingAmount || 0) > 0).length;
 
   return (
-    <div className="flex min-h-screen bg-[#080d1a] text-slate-100 font-sans selection:bg-cyan-500/30 selection:text-cyan-200">
+    <div className="flex min-h-screen bg-transparent text-slate-100 font-sans selection:bg-cyan-500/30 selection:text-cyan-200">
       {/* Owner PIN Lock Screen */}
       <OwnerLockModal
         isLocked={isLocked}
@@ -259,7 +259,7 @@ export default function App() {
         />
 
         {/* View Content Body */}
-        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8 2xl:px-10 max-w-[1600px] w-full mx-auto">
+        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8 2xl:px-10 max-w-[1720px] w-full mx-auto">
           {activeTab === 'dashboard' && (
             <DashboardView
               leads={leads}
