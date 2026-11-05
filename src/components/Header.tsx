@@ -65,7 +65,7 @@ export const Header: React.FC<HeaderProps> = ({
   setSearchQuery,
 }) => {
   const [showQuickMenu, setShowQuickMenu] = useState(false);
-  const currentTabInfo = TAB_TITLES[activeTab] || { title: 'MOTI OS', subtitle: 'Agency Management' };
+  const currentTabInfo = TAB_TITLES[activeTab] || { title: 'MOTIQ', subtitle: 'Agency Management' };
 
   return (
     <header className="sticky top-0 z-30 flex h-[76px] items-center justify-between border-b border-slate-700/60 bg-[#081222]/90 px-4 shadow-lg shadow-black/10 backdrop-blur-xl sm:px-6">
