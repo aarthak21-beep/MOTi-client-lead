@@ -259,7 +259,7 @@ export default function App() {
         />
 
         {/* View Content Body */}
-        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8 max-w-7xl w-full mx-auto">
+        <main className="flex-1 px-4 py-6 sm:px-6 lg:px-8 2xl:px-10 max-w-[1600px] w-full mx-auto">
           {activeTab === 'dashboard' && (
             <DashboardView
               leads={leads}
