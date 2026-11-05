@@ -112,7 +112,7 @@ export const Header: React.FC<HeaderProps> = ({
         {/* Privacy Screen-Sharing Toggle */}
         <button
           onClick={onTogglePrivacyMode}
-          className={`flex items-center gap-1.5 rounded-xl border px-2.5 py-1.5 text-xs font-medium transition-colors ${
+          className={`motiq-header-icon flex items-center gap-1.5 rounded-xl border px-2.5 py-1.5 text-xs font-medium transition-colors ${
             privacyMode
               ? 'border-amber-500/40 bg-amber-500/20 text-amber-300'
               : 'border-slate-800 bg-slate-900/60 text-slate-400 hover:border-slate-700 hover:text-slate-200'
