@@ -197,7 +197,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
             className={`rounded-2xl border p-5 flex flex-col justify-between transition-all ${
               plan.popular
                 ? 'border-cyan-500/50 bg-[#0c1930] shadow-xl shadow-cyan-500/10'
-                : 'border-slate-800 bg-[#0b1224]'
+                : 'border-white/10 bg-slate-900/65 backdrop-blur-xl'
             }`}
           >
             <div>
@@ -230,7 +230,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
               </ul>
             </div>
 
-            <div className="mt-5 pt-3 border-t border-slate-800/80 flex items-center justify-between text-xs text-slate-400">
+            <div className="mt-5 pt-3 border-t border-white/10/80 flex items-center justify-between text-xs text-slate-400">
               <span>Delivery: <strong className="text-slate-200">{plan.deliveryDays} Days</strong></span>
               <button
                 onClick={() => {
@@ -253,7 +253,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
         </h3>
 
         {quotations.length === 0 ? (
-          <div className="rounded-2xl border border-slate-800 bg-[#0b1224] p-8 text-center text-xs text-slate-400">
+          <div className="rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-8 text-center text-xs text-slate-400">
             No quotations created yet. Click "+ Create New Quotation" to generate your first proposal.
           </div>
         ) : (
@@ -261,7 +261,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
             {quotations.map((quote) => (
               <div
                 key={quote.id}
-                className="rounded-2xl border border-slate-800 bg-[#0b1224] p-5 hover:border-slate-700 transition-colors flex flex-col justify-between"
+                className="rounded-2xl border border-white/10 bg-slate-900/65 backdrop-blur-xl p-5 hover:border-slate-700 transition-colors flex flex-col justify-between"
               >
                 <div>
                   <div className="flex items-center justify-between text-xs">
@@ -274,7 +274,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                   <h4 className="mt-2 text-base font-bold text-white">{quote.clientBusiness}</h4>
                   <p className="text-xs text-slate-400">{quote.clientName} • {maskPhone(quote.clientPhone, privacyMode)}</p>
 
-                  <div className="mt-3 rounded-xl bg-slate-900/60 p-3 border border-slate-800/60 text-xs space-y-1">
+                  <div className="mt-3 rounded-xl bg-slate-900/60 p-3 border border-white/10/60 text-xs space-y-1">
                     <div className="flex justify-between text-slate-300">
                       <span>Package:</span>
                       <span className="font-semibold text-white">{quote.planName}</span>
@@ -285,14 +285,14 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                         {formatCurrency(quote.finalPrice, privacyMode)}
                       </span>
                     </div>
-                    <div className="flex justify-between text-slate-400 text-[11px] border-t border-slate-800 pt-1">
+                    <div className="flex justify-between text-slate-400 text-[11px] border-t border-white/10 pt-1">
                       <span>50% Advance: {formatCurrency(quote.advanceAmount, privacyMode)}</span>
                       <span>Balance: {formatCurrency(quote.remainingAmount, privacyMode)}</span>
                     </div>
                   </div>
                 </div>
 
-                <div className="mt-4 pt-3 border-t border-slate-800/80 flex items-center justify-between gap-2">
+                <div className="mt-4 pt-3 border-t border-white/10/80 flex items-center justify-between gap-2">
                   <span className="text-[10px] text-slate-500">Valid: {formatDate(quote.validUntil)}</span>
 
                   <div className="flex items-center gap-1.5">
@@ -337,7 +337,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
         >
           <div className="space-y-4">
             {/* Action Bar (hidden during print) */}
-            <div className="no-print flex items-center justify-between rounded-xl bg-slate-900 p-3 border border-slate-800">
+            <div className="no-print flex items-center justify-between rounded-xl bg-slate-900 p-3 border border-white/10">
               <span className="text-xs text-slate-300">
                 Click <strong>"Print / Save PDF"</strong> below. In the print dialog, select <strong>"Save as PDF"</strong>.
               </span>
@@ -561,7 +561,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
         >
           <form onSubmit={handleCreateQuotation} className="space-y-4">
             {/* Step 1: Client Selection */}
-            <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 space-y-3">
+            <div className="rounded-2xl border border-white/10 bg-slate-900/40 p-4 space-y-3">
               <div className="flex items-center justify-between">
                 <label className="text-xs font-bold uppercase tracking-wider text-slate-300">
                   Client Information
@@ -597,7 +597,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                   <select
                     value={selectedLeadId}
                     onChange={(e) => handleLeadChange(e.target.value)}
-                    className="w-full rounded-xl border border-slate-800 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
+                    className="w-full rounded-xl border border-white/10 bg-slate-900 py-2.5 px-3 text-xs text-white focus:border-cyan-500 focus:outline-hidden"
                   >
                     {leads.map((l) => (
                       <option key={l.id} value={l.id}>
@@ -614,7 +614,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                     value={clientBusiness}
                     onChange={(e) => setClientBusiness(e.target.value)}
                     placeholder="Business Name (e.g. Apex Hospital)"
-                    className="rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                    className="rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                   />
                   <input
                     type="text"
@@ -622,7 +622,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                     value={clientName}
                     onChange={(e) => setClientName(e.target.value)}
                     placeholder="Owner / Contact Person"
-                    className="rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                    className="rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                   />
                   <input
                     type="tel"
@@ -630,21 +630,21 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                     value={clientPhone}
                     onChange={(e) => setClientPhone(e.target.value)}
                     placeholder="Phone / WhatsApp (+91 ...)"
-                    className="rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white font-mono"
+                    className="rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white font-mono"
                   />
                   <input
                     type="email"
                     value={clientEmail}
                     onChange={(e) => setClientEmail(e.target.value)}
                     placeholder="Email Address"
-                    className="rounded-xl border border-slate-800 bg-slate-900 py-2 px-3 text-xs text-white"
+                    className="rounded-xl border border-white/10 bg-slate-900 py-2 px-3 text-xs text-white"
                   />
                 </div>
               )}
             </div>
 
             {/* Step 2: Package Selection */}
-            <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 space-y-3">
+            <div className="rounded-2xl border border-white/10 bg-slate-900/40 p-4 space-y-3">
               <label className="text-xs font-bold uppercase tracking-wider text-slate-300">
                 Choose Website Package
               </label>
@@ -660,7 +660,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                     className={`cursor-pointer rounded-xl border p-3 transition-all ${
                       selectedPlanId === plan.id
                         ? 'border-cyan-500 bg-cyan-950/40 text-white'
-                        : 'border-slate-800 bg-slate-900/60 text-slate-300 hover:border-slate-700'
+                        : 'border-white/10 bg-slate-900/60 text-slate-300 hover:border-slate-700'
                     }`}
                   >
                     <div className="flex justify-between items-center">
@@ -676,7 +676,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
             </div>
 
             {/* Step 3: Optional Addons */}
-            <div className="rounded-2xl border border-slate-800 bg-slate-900/40 p-4 space-y-3">
+            <div className="rounded-2xl border border-white/10 bg-slate-900/40 p-4 space-y-3">
               <label className="text-xs font-bold uppercase tracking-wider text-slate-300">
                 Additional Add-ons & Features
               </label>
@@ -690,7 +690,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
                       className={`flex items-center justify-between p-2.5 rounded-xl border cursor-pointer select-none text-xs transition-colors ${
                         isChecked
                           ? 'border-blue-500/50 bg-blue-950/40 text-blue-200'
-                          : 'border-slate-800 bg-slate-900/50 text-slate-400 hover:border-slate-700'
+                          : 'border-white/10 bg-slate-900/50 text-slate-400 hover:border-slate-700'
                       }`}
                     >
                       <div className="flex items-center gap-2">
@@ -739,13 +739,13 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
               </div>
 
               <div className="grid grid-cols-2 gap-3 pt-2 text-[11px]">
-                <div className="rounded-xl bg-slate-900/80 p-2.5 border border-slate-800">
+                <div className="rounded-xl bg-slate-900/80 p-2.5 border border-white/10">
                   <span className="text-slate-400 block">50% Advance Required:</span>
                   <strong className="text-emerald-400 font-mono text-sm">
                     ₹{advanceAmount.toLocaleString('en-IN')}
                   </strong>
                 </div>
-                <div className="rounded-xl bg-slate-900/80 p-2.5 border border-slate-800">
+                <div className="rounded-xl bg-slate-900/80 p-2.5 border border-white/10">
                   <span className="text-slate-400 block">50% Balance on Delivery:</span>
                   <strong className="text-amber-400 font-mono text-sm">
                     ₹{remainingAmount.toLocaleString('en-IN')}
@@ -759,7 +759,7 @@ export const QuotationsView: React.FC<QuotationsViewProps> = ({
               <button
                 type="button"
                 onClick={() => setIsBuilderOpen(false)}
-                className="rounded-xl border border-slate-800 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-slate-300 hover:text-white"
+                className="rounded-xl border border-white/10 bg-slate-900 px-4 py-2.5 text-xs font-semibold text-slate-300 hover:text-white"
               >
                 Cancel
               </button>
