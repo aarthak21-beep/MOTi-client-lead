@@ -86,7 +86,7 @@ export function initializeStorageIfNeeded(): void {
   }
 
   // One-time additive migration: add the new Maharashtra WhatsApp leads
-  // to existing browsers without overwriting or deleting the user's CRM data.
+  // to existing browsers without overwriting or deleting the user\'s CRM data.
   if (!localStorage.getItem(STORAGE_KEYS.MAHARASHTRA_WHATSAPP_LEADS_IMPORTED)) {
     const existingLeads = getLeads();
     const existingIds = new Set(existingLeads.map((lead) => lead.id));
@@ -7409,7 +7409,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-mumbai-dadar-jangada-dental-051',
-        businessName: "Dr. Jangada's Multispeciality Dental Clinic",
+        businessName: "Dr. Jangada\'s Multispeciality Dental Clinic",
         contactName: '',
         businessType: 'Dental Clinic',
         phone: '919820211718',
@@ -7427,7 +7427,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-mumbai-dadar-shinde-dental-052',
-        businessName: "Dr. Shinde's Dental Care Center",
+        businessName: "Dr. Shinde\'s Dental Care Center",
         contactName: '',
         businessType: 'Dental Clinic',
         phone: '919820693804',
@@ -7606,7 +7606,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-mumbai-malad-ajs-vet-062',
-        businessName: "AJ's Veterinary Clinic",
+        businessName: "AJ\'s Veterinary Clinic",
         contactName: '',
         businessType: 'Veterinary Clinic',
         phone: '919967042677',
@@ -7642,7 +7642,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-mumbai-nerul-my-pets-world-064',
-        businessName: "My Pet's World Pets Clinic",
+        businessName: "My Pet\'s World Pets Clinic",
         contactName: '',
         businessType: 'Veterinary Clinic',
         phone: '918980468104',
@@ -7769,9 +7769,9 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-navi-jjs-intimates-071',
-        businessName: "JJs Women's Intimates",
+        businessName: "JJs Women\'s Intimates",
         contactName: '',
-        businessType: "Women's Clothing & Intimates Store",
+        businessType: "Women\'s Clothing & Intimates Store",
         phone: '917738396533',
         whatsapp: '917738396533',
         city: 'Kamothe, Panvel',
@@ -7931,7 +7931,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-navi-neos-cafe-080',
-        businessName: "Neo's Cafe",
+        businessName: "Neo\'s Cafe",
         contactName: '',
         businessType: 'Cafe',
         phone: '918879403165',
@@ -7949,7 +7949,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-navi-andys-laundry-081',
-        businessName: "Andy's Laundry",
+        businessName: "Andy\'s Laundry",
         contactName: '',
         businessType: 'Dry Cleaning & Laundry',
         phone: '919004636791',
@@ -8093,7 +8093,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-kalamboli-dr-anushka-dental-hub-089',
-        businessName: "Dr. Anushka's Dental Hub",
+        businessName: "Dr. Anushka\'s Dental Hub",
         contactName: 'Dr Anushka',
         businessType: 'Dental Clinic',
         phone: '919833366202',
@@ -8129,7 +8129,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-vashi-gokhales-dental-clinic-091',
-        businessName: "Gokhale's Dental Clinic",
+        businessName: "Gokhale\'s Dental Clinic",
         contactName: 'Dr Gokhale',
         businessType: 'Dental Clinic',
         phone: '919321019134',
@@ -8508,7 +8508,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-sanpada-neos-cafe-114',
-        businessName: "Neo's Cafe",
+        businessName: "Neo\'s Cafe",
         contactName: "",
         businessType: "Cafe & Restaurant",
         phone: '918879403165',
@@ -9462,7 +9462,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-satara-shravani-beauty-parlour-167',
-        businessName: "Shravani's Beauty Parlour & RS Makeup Artist",
+        businessName: "Shravani\'s Beauty Parlour & RS Makeup Artist",
         contactName: '',
         businessType: 'Beauty Parlour & Makeup Artist',
         phone: '918401843771',
@@ -10206,7 +10206,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
       },
       {
-        id: 'web-cs-munira-modern-004', businessName: "Munira's Modern Beauty Salon", contactName: '',
+        id: 'web-cs-munira-modern-004', businessName: "Munira\'s Modern Beauty Salon", contactName: '',
         businessType: 'Beauty Salon', phone: '919422209072', whatsapp: '',
         city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
         websiteStatus: 'Needs Verification', source: 'Click A2Z local business directory',
@@ -10246,7 +10246,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-04', updatedAt: '2026-11-04',
       },
       {
-        id: 'web-cs-pearls-royal-009', businessName: "Pearl's Royal Beauty Salon", contactName: '',
+        id: 'web-cs-pearls-royal-009', businessName: "Pearl\'s Royal Beauty Salon", contactName: '',
         businessType: 'Beauty Salon', phone: '918308076222', whatsapp: '',
         city: 'Chhatrapati Sambhajinagar', district: 'Chhatrapati Sambhajinagar', state: 'Maharashtra',
         websiteStatus: 'Needs Verification', source: 'Click A2Z local business directory',
@@ -12133,7 +12133,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         websiteStatus: "Website Found",
         website: "https://icetouch.grexa.site/",
         source: "https://icetouch.grexa.site/",
-        notes: "Shop 17, Kingston Towers, Building 16, next to K Movie Star, Agarwal's, Vasai 401202. Public profile lists phone and repair/refurbished laptop/AMC services. WhatsApp not explicitly confirmed.",
+        notes: "Shop 17, Kingston Towers, Building 16, next to K Movie Star, Agarwal\'s, Vasai 401202. Public profile lists phone and repair/refurbished laptop/AMC services. WhatsApp not explicitly confirmed.",
         status: 'New',
         contactPermission: 'Not Asked',
         createdAt: '2026-11-04',
@@ -12296,7 +12296,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         state: 'Maharashtra',
         websiteStatus: "Needs Verification",
         source: "https://www.gharpedia.com/nearby-professional/aj-computers/",
-        notes: "Shop No. 01, Rashmi's Lakeview, opposite Vinayaka Hospital, Evershine City Road, Nallasopara East 401209. Listing says established 2010, computer/laptop/CCTV retail and repair; email info@ajcomputers.co.in. No verified website URL or WhatsApp action found.",
+        notes: "Shop No. 01, Rashmi\'s Lakeview, opposite Vinayaka Hospital, Evershine City Road, Nallasopara East 401209. Listing says established 2010, computer/laptop/CCTV retail and repair; email info@ajcomputers.co.in. No verified website URL or WhatsApp action found.",
         status: 'New',
         contactPermission: 'Not Asked',
         createdAt: '2026-11-04',
@@ -12707,7 +12707,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
 ,
       {
         "id": "web-borivali-kapils-salon-001",
-        "businessName": "Kapil's Salon - Borivali",
+        "businessName": "Kapil\'s Salon - Borivali",
         "contactName": "",
         "businessType": "Salon / Beauty Services",
         "phone": "8655775644",
@@ -12743,7 +12743,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-borivali-seemas-clinique-003",
-        "businessName": "Seema's Hair & Skin Clinique",
+        "businessName": "Seema\'s Hair & Skin Clinique",
         "contactName": "",
         "businessType": "Ladies Beauty Parlour / Hair & Skin Clinic",
         "phone": "9821512828",
@@ -12815,7 +12815,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-borivali-lokares-dental-007",
-        "businessName": "Lokare's Dental Clinic",
+        "businessName": "Lokare\'s Dental Clinic",
         "contactName": "",
         "businessType": "Dental Clinic / Cosmetic Dentistry",
         "phone": "9653636748",
@@ -12851,7 +12851,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-borivali-dentist-tree-009",
-        "businessName": "Dr Panchal's Dentist Tree Dental Clinic",
+        "businessName": "Dr Panchal\'s Dentist Tree Dental Clinic",
         "contactName": "",
         "businessType": "Dental Clinic / Cosmetic Dentistry",
         "phone": "9820086099",
@@ -13403,7 +13403,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         "state": "Maharashtra",
         "websiteStatus": "Needs Verification",
         "source": "All About Vasai Virar public business directory",
-        "notes": "Shop C, Building 1, Mariam Nagar, Naigaon West. Directory lists contact Ignatius D'Souza and alternate 7028623403. Website and WhatsApp not independently verified; reconfirm listing and phone before outreach.",
+        "notes": "Shop C, Building 1, Mariam Nagar, Naigaon West. Directory lists contact Ignatius D\'Souza and alternate 7028623403. Website and WhatsApp not independently verified; reconfirm listing and phone before outreach.",
         "status": "New",
         "contactPermission": "Not Asked",
         "createdAt": "2026-11-04",
@@ -14458,7 +14458,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-dahisar-smile360-012",
-        "businessName": "Dr Sonali Jain's Smile 360 Dental Clinic & Implant Centre",
+        "businessName": "Dr Sonali Jain\'s Smile 360 Dental Clinic & Implant Centre",
         "contactName": "",
         "businessType": "Dental Clinic / Implant Centre",
         "phone": "7304848360",
@@ -14494,7 +14494,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-dahisar-dr-pals-dental-014",
-        "businessName": "Dr Pal's Dental Clinic",
+        "businessName": "Dr Pal\'s Dental Clinic",
         "contactName": "",
         "businessType": "Dental Clinic",
         "phone": "7977159187",
@@ -14548,7 +14548,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         "id": "web-bhayandar-annas-gym-017",
-        "businessName": "Anna's Gym",
+        "businessName": "Anna\'s Gym",
         "contactName": "",
         "businessType": "Gym / Fitness Centre",
         "phone": "7506010161",
@@ -14681,7 +14681,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       {"id":"web-pd-dahanu-wealth","businessName":"Wealth Conscious Capital","contactName":"","businessType":"Financial Services","phone":"8421565276","whatsapp":"8421565276","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Irani Road; mutual fund advisor. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-mkfood","businessName":"MK Food Services","contactName":"","businessType":"Homemade Food","phone":"7776086014","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Main Road, Dahanu Fort. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-makeover","businessName":"Makeover by Appurva Tandel","contactName":"","businessType":"Makeup Artist","phone":"7498436152","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"62, 2nd Floor. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
-      {"id":"web-pd-dahanu-baig","businessName":"Baig's Kitchen Aroma by Zainab","contactName":"","businessType":"Homemade Food","phone":"7887661072","whatsapp":"","city":"Dahanu East","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Abhishek CHS, Patel Pada. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
+      {"id":"web-pd-dahanu-baig","businessName":"Baig\'s Kitchen Aroma by Zainab","contactName":"","businessType":"Homemade Food","phone":"7887661072","whatsapp":"","city":"Dahanu East","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Abhishek CHS, Patel Pada. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-bblussh","businessName":"Bblussh","contactName":"","businessType":"Skincare / Cosmetics","phone":"9665109906","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Kety Nagar. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-mruda","businessName":"Mruda Konkan Kitchen","contactName":"","businessType":"Restaurant","phone":"9920264433","whatsapp":"","city":"Asave","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Asave village, near Santoshi Naka. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-soulful","businessName":"SoulfulTripz","contactName":"","businessType":"Travel Agency","phone":"8806806201","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Flat 003, Surya Apartment. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
@@ -14689,13 +14689,13 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       {"id":"web-pd-dahanu-vibgyorr","businessName":"Vibgyorr Event Presents","contactName":"","businessType":"Event Management","phone":"8446305778","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Sai Srushti Apartment, A/103, Subhash Lane. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-purvi","businessName":"Interiors By Purvi","contactName":"","businessType":"Interior Design","phone":"8530035698","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Dahanu Gaon, near Hanuman Temple. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-fruitkatta","businessName":"Fruit Katta","contactName":"","businessType":"Cafe","phone":"9529557295","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Shop 2, Ground Floor. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
-      {"id":"web-pd-dahanu-thakkar","businessName":"Thakkar's Bakery","contactName":"","businessType":"Bakery / Sweets","phone":"8956775678","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Mithawala Building, Shop 3. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
+      {"id":"web-pd-dahanu-thakkar","businessName":"Thakkar\'s Bakery","contactName":"","businessType":"Bakery / Sweets","phone":"8956775678","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Mithawala Building, Shop 3. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-gurukul","businessName":"Gurukul Commerce Classes","contactName":"","businessType":"Education / Coaching","phone":"9226360622","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"36, Janardhan Arcade. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
-      {"id":"web-pd-dahanu-kaducakes","businessName":"Kadu's Cakes","contactName":"","businessType":"Bakery / Custom Cakes","phone":"9168710429","whatsapp":"","city":"Masoli","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Masoli, Pankhadi. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
+      {"id":"web-pd-dahanu-kaducakes","businessName":"Kadu\'s Cakes","contactName":"","businessType":"Bakery / Custom Cakes","phone":"9168710429","whatsapp":"","city":"Masoli","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Masoli, Pankhadi. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-creative","businessName":"Creative Castle Playschool & Activity Centre","contactName":"","businessType":"Playschool","phone":"9769112064","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"1st Floor, M/s Shamlal Ramji Pajwani. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-rajput","businessName":"Rajput Dental Clinic","contactName":"","businessType":"Dental Clinic","phone":"7709005671","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Saras Capital, near SBI Bank. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-mukul","businessName":"Mukul Rajan Mulay","contactName":"","businessType":"Freelance Data Entry","phone":"9226420729","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"26, V.M. Shah Chawl. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
-      {"id":"web-pd-dahanu-neha","businessName":"Neha's Closet","contactName":"","businessType":"Fashion Retail","phone":"9284039204","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Shop 8, Raj Avenue. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
+      {"id":"web-pd-dahanu-neha","businessName":"Neha\'s Closet","contactName":"","businessType":"Fashion Retail","phone":"9284039204","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Shop 8, Raj Avenue. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-adidx","businessName":"Dr Adidx Glow & Smile Clinic","contactName":"","businessType":"Dental / Skin / Hair Clinic","phone":"8668854063","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Shop 4, Avantika Apartment, MSEB Road, Masoli. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-swapna","businessName":"Swapnanadhaga","contactName":"","businessType":"Clothing / Boutique","phone":"8208341746","whatsapp":"","city":"Dahanu Road","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Masoli Bariwada, near Malhar Building. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
       {"id":"web-pd-dahanu-artaza","businessName":"ARTAZA","contactName":"","businessType":"Arts & Crafts","phone":"7976995261","whatsapp":"","city":"Dahanu","district":"Palghar","state":"Maharashtra","websiteStatus":"Needs Verification","source":"OurDahanu public business directory","notes":"Vasant Sarita, Irani Road. Website not independently verified. WhatsApp entered only where FindDahanu explicitly shows a WhatsApp contact.","status":"New","contactPermission":"Not Asked","createdAt":"2026-11-04","updatedAt":"2026-11-04"},
@@ -18376,7 +18376,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-india-chennai-dhaaranisdivinesmiles-092',
-        businessName: "Dhaarani's Divine Smiles",
+        businessName: "Dhaarani\'s Divine Smiles",
         contactName: '',
         businessType: "Dental Clinic",
         phone: '916381804443',
@@ -19258,7 +19258,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       },
       {
         id: 'web-india-ahmedabad-helmettheridersshop-041',
-        businessName: "Helmet The Rider's Shop",
+        businessName: "Helmet The Rider\'s Shop",
         contactName: '',
         businessType: "Automotive Accessories Store",
         phone: '07926730584',
@@ -29431,7 +29431,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       { id: 'web-india-looks-salon-select-citywalk-5', businessName: "Looks Salon Select Citywalk", contactName: '', businessType: "Salon / Beauty Services", phone: "01141662600", whatsapp: '', city: "New Delhi", district: "South Delhi", state: "Delhi", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-noi-tre-salon-basant-lok-6', businessName: "Noi Tre Salon Basant Lok", contactName: '', businessType: "Salon / Beauty Services", phone: "9311011682", whatsapp: '', city: "New Delhi", district: "South West Delhi", state: "Delhi", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-headlocks-salon-7', businessName: "Headlocks Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "01147561033", whatsapp: '', city: "New Delhi", district: "West Delhi", state: "Delhi", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
-      { id: 'web-india-siddhi-s-coaching-classes-8', businessName: "Siddhi's Coaching Classes", contactName: '', businessType: "Coaching / Training", phone: "9594345743", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
+      { id: 'web-india-siddhi-s-coaching-classes-8', businessName: "Siddhi\'s Coaching Classes", contactName: '', businessType: "Coaching / Training", phone: "9594345743", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-toni-guy-rr-nagar-9', businessName: "Toni&Guy RR Nagar", contactName: '', businessType: "Salon / Beauty Services", phone: "9962233227", whatsapp: '', city: "Bengaluru", district: "Bengaluru Urban", state: "Karnataka", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-profile-the-chain-of-salons-kasturi-naga-10', businessName: "Profile The Chain of Salons - Kasturi Nagar", contactName: '', businessType: "Salon / Beauty Services", phone: "9535366378", whatsapp: '', city: "Bengaluru", district: "Bengaluru Urban", state: "Karnataka", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-profile-the-chain-of-salons-aecs-layout-11', businessName: "Profile The Chain of Salons - AECS Layout", contactName: '', businessType: "Salon / Beauty Services", phone: "6366066527", whatsapp: '', city: "Bengaluru", district: "Bengaluru Urban", state: "Karnataka", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
@@ -29468,9 +29468,9 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       { id: 'web-india-jawed-habib-hair-salon-maninagar-42', businessName: "Jawed Habib Hair Salon Maninagar", contactName: '', businessType: "Salon / Beauty Services", phone: "9662237091", whatsapp: '', city: "Ahmedabad", district: "Ahmedabad", state: "Gujarat", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-trends-and-techniques-family-salon-43', businessName: "Trends and Techniques Family Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "8638391114", whatsapp: '', city: "Ahmedabad", district: "Ahmedabad", state: "Gujarat", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-everest-coaching-point-44', businessName: "Everest Coaching Point", contactName: '', businessType: "Coaching / Training", phone: "9030030185", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
-      { id: 'web-india-sreedhar-s-cce-dilsukhnagar-45', businessName: "Sreedhar's CCE Dilsukhnagar", contactName: '', businessType: "Salon / Beauty Services", phone: "7680887722", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
+      { id: 'web-india-sreedhar-s-cce-dilsukhnagar-45', businessName: "Sreedhar\'s CCE Dilsukhnagar", contactName: '', businessType: "Salon / Beauty Services", phone: "7680887722", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-career-power-ameerpet-46', businessName: "Career Power Ameerpet", contactName: '', businessType: "Salon / Beauty Services", phone: "8500733033", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
-      { id: 'web-india-sreedhar-s-cce-ameerpet-47', businessName: "Sreedhar's CCE Ameerpet", contactName: '', businessType: "Salon / Beauty Services", phone: "7799249999", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
+      { id: 'web-india-sreedhar-s-cce-ameerpet-47', businessName: "Sreedhar\'s CCE Ameerpet", contactName: '', businessType: "Salon / Beauty Services", phone: "7799249999", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-define-salons-48', businessName: "Define Salons", contactName: '', businessType: "Salon / Beauty Services", phone: "8886599993", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-n-salons-49', businessName: "N Salons", contactName: '', businessType: "Salon / Beauty Services", phone: "8790666095", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-india-mirrors-luxury-salons-madhapur-50', businessName: "Mirrors Luxury Salons Madhapur", contactName: '', businessType: "Salon / Beauty Services", phone: "04040201818", whatsapp: '', city: "Hyderabad", district: "Hyderabad", state: "Telangana", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
@@ -29499,7 +29499,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       { id: 'web-india-protalent-ahmedabad-73', businessName: "ProTalent Ahmedabad", contactName: '', businessType: "Salon / Beauty Services", phone: "9724022444", whatsapp: '', city: "Ahmedabad", district: "Ahmedabad", state: "Gujarat", websiteStatus: 'Needs Verification', source: 'Public local business listing; phone published where supplied', notes: 'Business listing found; website status not independently confirmed. Verify current contact and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-next-reema-beauty-parlour-1', businessName: "Reema Beauty Parlour", contactName: '', businessType: "Salon / Beauty Services", phone: "9619718021", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-next-the-beauty-studio-unisex-salon-2', businessName: "The Beauty Studio - Unisex Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "9920088886", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
-      { id: 'web-next-ritu-s-hair-and-beauty-salon-3', businessName: "Ritu's Hair And Beauty Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "9833241114", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
+      { id: 'web-next-ritu-s-hair-and-beauty-salon-3', businessName: "Ritu\'s Hair And Beauty Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "9833241114", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-next-erica-beauty-parlour-institute-4', businessName: "Erica Beauty Parlour & Institute", contactName: '', businessType: "Coaching / Training", phone: "8767006831", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-next-maya-beauty-nail-hair-lounge-5', businessName: "Maya Beauty Nail & Hair Lounge", contactName: '', businessType: "Salon / Beauty Services", phone: "9821158413", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
       { id: 'web-next-perk-up-hair-beauty-salon-6', businessName: "Perk Up Hair & Beauty Salon", contactName: '', businessType: "Salon / Beauty Services", phone: "9969392800", whatsapp: '', city: "Mumbai", district: "Mumbai Suburban", state: "Maharashtra", websiteStatus: 'Needs Verification', source: "Public local business listing: Google business listing", notes: 'Business listing located; website status not independently confirmed. Verify current contact details and website before outreach.', status: 'New', contactPermission: 'Not Asked', createdAt: '2026-11-05', updatedAt: '2026-11-05' },
@@ -29538,7 +29538,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
       {id:'web-public-india-restaurant',businessName:'India Restaurant',contactName:'',businessType:'Restaurant',phone:'918481848484',whatsapp:'918481848484',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'web-public-calcutta-bistro',businessName:'Calcutta Bistro',contactName:'',businessType:'Restaurant',phone:'918336899349',whatsapp:'918336899349',city:'Kolkata',district:'South 24 Parganas',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'web-public-kolkata-rajbari',businessName:'Kolkata Rajbari',contactName:'',businessType:'Restaurant',phone:'919831622556',whatsapp:'919831622556',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
-      {id:'web-public-chittoda',businessName:'Chittoda's Suruchee Restaurant',contactName:'',businessType:'Restaurant',phone:'919830719486',whatsapp:'919830719486',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
+      {id:'web-public-chittoda',businessName:'Chittoda\'s Suruchee Restaurant',contactName:'',businessType:'Restaurant',phone:'919830719486',whatsapp:'919830719486',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'web-public-mainland-china',businessName:'Mainland China - Ballygunge',contactName:'',businessType:'Restaurant',phone:'919330627506',whatsapp:'919330627506',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'web-public-oasis-kolkata',businessName:'Oasis Restaurant and Bar',contactName:'',businessType:'Restaurant',phone:'913322299033',whatsapp:'913322299033',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
       {id:'web-public-roots-calcutta',businessName:'Roots of Calcutta',contactName:'',businessType:'Restaurant',phone:'916289648529',whatsapp:'916289648529',city:'Kolkata',district:'Kolkata',state:'West Bengal',websiteStatus:'Needs Verification',source:'Public business listing (Google business search / Fresha / Enrich public locator)',notes:'Public business listing; website presence not confirmed. Verify before outreach.',status:'New',contactPermission:'Not Asked',createdAt:'2026-11-05',updatedAt:'2026-11-05'},
