@@ -1,0 +1,14 @@
+{
+  "id": "/MOTi-client-lead/",
+  "name": "MOTIQ - Personal Business CRM",
+  "short_name": "MOTIQ",
+  "description": "Manage business leads, quotations, follow-ups, projects and payments.",
+  "start_url": "/MOTi-client-lead/",
+  "scope": "/MOTi-client-lead/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f8fafc",
+  "theme_color": "#1d4ed8",
+  "categories": ["business", "productivity"],
+  "icons": [{"src": "/MOTi-client-lead/pwa-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable"}]
+}
