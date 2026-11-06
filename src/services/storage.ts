@@ -9811,7 +9811,7 @@ export function getWebsiteProspects(): WebsiteProspect[] {
         state: 'Maharashtra',
         websiteStatus: 'Needs Verification',
         source: 'https://jainbiz.org/directory/profile_details.php?city=AURANGABAD',
-        notes: 'JBO directory lists a direct WhatsApp link (9423450593) and phone 7020152570. Website field is explicitly shown as 'No'; still verify current website and WhatsApp before outreach. Legacy directory city label: Aurangabad.',
+        notes: "JBO directory lists a direct WhatsApp link (9423450593) and phone 7020152570. Website field is explicitly shown as 'No'; still verify current website and WhatsApp before outreach. Legacy directory city label: Aurangabad.",
         status: 'New',
         contactPermission: 'Not Asked',
         createdAt: '2026-11-05',
