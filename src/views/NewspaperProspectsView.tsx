@@ -39,7 +39,7 @@ export const NewspaperProspectsView: React.FC = () => {
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return prospects.filter((p) => !q || [p.businessName, p.contactName, p.whatsapp, p.city, p.district, p.businessType].join(' ').toLowerCase().includes(q)).sort((a,b) => Number((a.whatsappAvailability || 'Unknown') === 'Unknown') - Number((b.whatsappAvailability || 'Unknown') === 'Unknown'));
+    return prospects.filter((p) => !q || [p.businessName, p.contactName, p.whatsapp, p.city, p.district, p.businessType].join(' ').toLowerCase().includes(q));
   }, [prospects, query]);
 
   const openNew = () => { setEditing(null); setForm(emptyForm()); setShowForm(true); };
