@@ -13,7 +13,7 @@ const emptyForm = (): WebsiteProspect => ({
 const cleanPhone = (value: string) => { const digits = value.replace(/\D/g, ''); return digits.length === 10 ? `91${digits}` : digits; };
 const whatsappUrl = (p: WebsiteProspect) => {
   const phone = cleanPhone(p.whatsapp);
-  const message = 'Namaskar! तुमच्या व्यवसायासाठी एक professional website तयार करून देण्याबद्दल माहिती share करू का? नको असल्यास कृपया कळवा.';
+  const message = 'नमस्कार!\n\nआजच्या डिजिटल युगात तुमच्या व्यवसायाची ऑनलाइन ओळख असणे ही काळाची गरज आहे.\n\nआम्ही MOTi Technologies तर्फे व्यवसायांसाठी आधुनिक, आकर्षक आणि Professional Websites तयार करतो.\n\nतुमच्या व्यवसायाला एक वेगळी डिजिटल ओळख देण्यासाठी आम्ही मदत करू शकतो.\n\nतुमच्या व्यवसायासाठी वेबसाइट कशी फायदेशीर ठरू शकते, याची थोडक्यात माहिती शेअर करू का?\n\nतुमची परवानगी असल्यास अधिक माहिती WhatsApp वर पाठवू.\n\nधन्यवाद!\nTeam MOTi Technologies\nhttps://moti-technologies.onrender.com/';
   return phone ? `https://wa.me/${phone}?text=${encodeURIComponent(message)}` : '#';
 };
 
