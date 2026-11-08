@@ -32,7 +32,7 @@ export const WebsiteProspectsView: React.FC = () => {
   }, []);
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
-    return prospects.filter(p => (websiteFilter === 'All' || p.websiteStatus === websiteFilter) && (!q || [p.businessName,p.contactName,p.phone,p.whatsapp,p.city,p.district,p.businessType].join(' ').toLowerCase().includes(q))).sort((a,b) => Number((a.whatsappAvailability || 'Unknown') === 'Unknown') - Number((b.whatsappAvailability || 'Unknown') === 'Unknown'));
+    return prospects.filter(p => (websiteFilter === 'All' || p.websiteStatus === websiteFilter) && (!q || [p.businessName,p.contactName,p.phone,p.whatsapp,p.city,p.district,p.businessType].join(' ').toLowerCase().includes(q)));
   }, [prospects, query, websiteFilter]);
   const openNew = () => { setEditing(null); setForm(emptyForm()); setShowForm(true); };
   const openEdit = (p: WebsiteProspect) => { setEditing(p); setForm(p); setShowForm(true); };
