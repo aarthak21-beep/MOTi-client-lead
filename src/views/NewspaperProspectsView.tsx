@@ -19,8 +19,8 @@ const whatsappUrl = (prospect: NewspaperProspect) => {
   const phone = cleanPhone(prospect.whatsapp);
   if (!phone) return '#';
   const message = prospect.contactPermission === 'Opted In'
-    ? 'Namaskar! MOTi Newspaper CRM बद्दल माहिती आणि छोटा demo share करायचा आहे. आपण कधी बोलू शकतो?'
-    : 'Namaskar! आम्ही MOTi Newspaper CRM तयार केले आहे. व्यवसायासाठी उपयुक्त software ची माहिती WhatsApp वर पाठवू का? नको असल्यास कृपया कळवा.';
+    ? 'नमस्कार! 🙏\\n\\nआम्ही MOTi Technologies या कंपनीतर्फे व्यवसायांसाठी उपयुक्त डिजिटल सॉफ्टवेअर आणि CRM सोल्यूशन्स तयार करतो.\\n\\nआपल्या व्यवसायाचे कामकाज अधिक सोपे, जलद आणि व्यवस्थित करण्यासाठी आम्ही विविध सॉफ्टवेअर सोल्यूशन्स उपलब्ध करून देतो.\\n\\nआमच्या कंपनीची आणि सेवांची अधिक माहिती जाणून घेण्यासाठी वेबसाइटला भेट द्या: https://moti-technologies.onrender.com/\\n\\nआपल्याला आपल्या व्यवसायासाठी उपयुक्त सॉफ्टवेअरचा छोटा डेमो पाहायला आवडेल का? आपण कधी बोलू शकतो?\\n\\nधन्यवाद!\\nTeam MOTi Technologies'
+    : 'नमस्कार! 🙏\\n\\nआम्ही MOTi Technologies या कंपनीतर्फे व्यवसायांसाठी उपयुक्त डिजिटल सॉफ्टवेअर आणि CRM सोल्यूशन्स तयार करतो.\\n\\nआपल्या व्यवसायाचे कामकाज अधिक सोपे, जलद आणि व्यवस्थित करण्यासाठी आम्ही विविध सॉफ्टवेअर सोल्यूशन्स उपलब्ध करून देतो.\\n\\nआमच्या कंपनीची आणि सेवांची अधिक माहिती: https://moti-technologies.onrender.com/\\n\\nआपल्याला आपल्या व्यवसायासाठी उपयुक्त सॉफ्टवेअरची माहिती WhatsApp वर पाठवू का? नको असल्यास कृपया कळवा.\\n\\nधन्यवाद!\\nTeam MOTi Technologies';
   return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
 };
 
