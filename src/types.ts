@@ -248,6 +248,7 @@ export interface WebsiteProspect {
   businessType: string;
   phone: string;
   whatsapp: string;
+  whatsappAvailability?: WhatsAppAvailability;
   city: string;
   district: string;
   state: string;
