@@ -14,7 +14,11 @@ const emptyForm = (): WebsiteProspect => ({
 const cleanPhone = (value: string) => { const digits = value.replace(/\D/g, ''); return digits.length === 10 ? `91${digits}` : digits; };
 const whatsappUrl = (p: WebsiteProspect) => {
   const phone = cleanPhone(p.whatsapp);
-  const message = 'नमस्कार!\n\nआजच्या डिजिटल युगात तुमच्या व्यवसायाची ऑनलाइन ओळख असणे ही काळाची गरज आहे.\n\nआम्ही MOTi Technologies तर्फे व्यवसायांसाठी आधुनिक, आकर्षक आणि Professional Websites तयार करतो.\n\nतुमच्या व्यवसायाला एक वेगळी डिजिटल ओळख देण्यासाठी आम्ही मदत करू शकतो.\n\nतुमच्या व्यवसायासाठी वेबसाइट कशी फायदेशीर ठरू शकते, याची थोडक्यात माहिती शेअर करू का?\n\nतुमची परवानगी असल्यास अधिक माहिती WhatsApp वर पाठवू.\n\nधन्यवाद!\nTeam MOTi Technologies\nhttps://moti-technologies.onrender.com/';
+  const locationText = [p.city, p.district, p.state].filter(Boolean).join(' ').toLowerCase();
+  const isMaharashtra = /maharashtra|महाराष्ट्र|\bmh\b/.test(locationText);
+  const message = isMaharashtra
+    ? 'नमस्कार!\n\nआजच्या डिजिटल युगात तुमच्या व्यवसायाची ऑनलाइन ओळख असणे ही काळाची गरज आहे.\n\nआम्ही MOTi Technologies तर्फे व्यवसायांसाठी आधुनिक, आकर्षक आणि Professional Websites तयार करतो.\n\nतुमच्या व्यवसायाला एक वेगळी डिजिटल ओळख देण्यासाठी आम्ही मदत करू शकतो.\n\nतुमच्या व्यवसायासाठी वेबसाइट कशी फायदेशीर ठरू शकते, याची थोडक्यात माहिती शेअर करू का?\n\nतुमची परवानगी असल्यास अधिक माहिती WhatsApp वर पाठवू.\n\nधन्यवाद!\nTeam MOTi Technologies\nhttps://moti-technologies.onrender.com/'
+    : 'Hello!\n\nIn today’s digital world, having a professional online presence is essential for every business.\n\nAt MOTi Technologies, we create modern, attractive and professional websites for businesses.\n\nWe would be happy to help your business build a strong digital presence.\n\nMay we share a little information about how a website can help your business?\n\nWith your permission, we can share the details with you on WhatsApp.\n\nThank you!\nTeam MOTi Technologies\nhttps://moti-technologies.onrender.com/';
   return phone ? `https://wa.me/${phone}?text=${encodeURIComponent(message)}` : '#';
 };
 
